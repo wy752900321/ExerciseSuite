@@ -1,0 +1,43 @@
+1.Log4j.jar工具包
+  该工具包主要用于记录日志信息.hibernate,spring都使用该工具进行日志记录.
+  1)主要有以下3个重要组成部分
+   a.Logger组件:日志器,用于往外输出日志
+   b.Appender组件:用于指定信息输出方式,例如控制台输出,文件输出等
+   c.Layout组件:用于指定信息输出格式
+  2)log4j将消息分成以下级别,可以通过配置文件规定输出消息的级别
+    debug级别:logger.debug()
+    info级别:logger.info()
+    warn级别:logger.warn()
+    error级别:logger.error()
+    fatal级别:logger.fatal()
+2.Spring框架有什么用及优势
+  利用Spring框架进行整合开发.好处是实现组件之间的解耦,提高程序灵活性.
+  Spring提供了一个容器,该容器可以管理Bean组件,此外容器还提供了IOC和AOP特性.基于这些特性实现程序组件之间的解耦.
+3.Spring容器基本应用(等价于工厂功能)
+  1)容器实例化
+     容器类型可以为BeanFactory和ApplicationContext(推荐使用)
+    ApplicationContext -->ClassPathXmlApplicationContext(推荐)
+                         -->FileSystemXmlApplicationContext
+  2)如何将Bean组件纳入到Spring容器
+<bean id="helloBean" class="com.tarena.demo1.EnHelloBean"
+	scope="prototype">
+</bean>
+    id属性:组件的在容器中的标识符.
+    name属性:功能与id属性一样,区别在于name可以使用特殊字符;id不允许
+    class属性:指定组件类型
+    scope属性:指定组件对象创建模式.支持singleton和prototype,如果用于Web开发,还可以使用request,session.需要特殊配置
+    singleton:指的是bean组件对象采用单例模式创建.容器中只有一个Bean对象.
+    prototype:指的是每次调用ac.getBean(),都会创建一个新的Bean对象返回.
+    3)Bean组件在容器中的创建和销毁
+     a.如果bean定义scope采用非单例模式,该对象在调用ac.getBean()创建,使用完毕后,由垃圾回收器负责销毁
+     b.如果bean定义scope采用singleton(默认)
+       创建时机:在容器实例化时创建(默认)
+       销毁时机:在容器销毁时销毁,调用AbstractApplicationContext的close()方法.
+       可以在<bean>元素定义中,使用init-method指定对象初始化方法;
+使用destroy-method指定对象销毁方法.
+       如果<bean>元素指定lazy-init="true",对象创建延迟到调用ac.getBean("")方法.如果需要将容器中所有scope="singleton"组件都采用延迟创建,可以在<beans default-lazy-init="true">
+       
+
+
+
+

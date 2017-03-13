@@ -1,0 +1,61 @@
+--------必须掌握的技能----------
+1.Struts2工作主要流程
+请求发送-->Struts控制器Filter(web.xml)--(/login.action,/login)
+-->拦截器组件(默认调用defaultStack)
+-->Action组件execute方法(struts.xml) --string-->Result组件
+-->生成响应输出
+2.Action基本配置(struts.xml)
+3.Action组件的使用
+  a)使用request,session等对象的方法(ActionContext,Aware接口)
+  b)学习下一个Action如何处理多个请求(动态方法调用的请求格式)
+4.JSP如何获取request,action,session等对象的数据
+  a)常用标签+OGNL表达式(ValueStack结构参考valuestack.jpg)
+  b)EL表达式(request,action,session,application)
+   ${projects}
+  c)UI标签
+5.常用Result的使用
+  a)dispatcher
+  b)redirect
+  c)redirectAction
+  d)stream
+  e)json
+6.拦截器组件的使用
+   a)自定义登录检查
+   b)自定义事务管理
+   c)fileUpload使用
+7.-----------
+  综合练习Project的增删改查功能
+
+
+1.项目点评
+	1）作品完成情况
+		a.个人简介
+		b,功能展示
+		c,介绍一个功能，如何实现（经验交流）
+2.问题总结
+
+
+3.编辑推荐（随机获取两条记录）
+	1）将数据产品全部得到（24）－＞list1
+	2)生成随机数ran.nextInt(list1.size());
+	3)将随机值对应的记录放入list2，并从list1移除
+	4)将list2数据显示到页面
+	
+	节省资源：
+	//随机选两条,mysql独有的函数rand()
+	select * 
+	from d_product dp,d_book db 
+	where dp.id=db.id 
+	order by rand() limit 2;
+	
+	//收货地址，要为空不再发送ajax的post请求
+	if($('#)){
+	}else{
+	}
+
+
+
+
+
+
+  

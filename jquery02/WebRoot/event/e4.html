@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//$('#a1').click(function(){
+			//alert('你点我了');
+		//});
+		//$('#a1').trigger('click');
+		//$('#a1').click();
+		
+		//也可以这样写,因为click()方法执行完之后，
+		//返回的仍然是$('#a1')那个对象，所以可以
+		//写成这样的一种结构: $(选择器).click().click()
+		$('#a1').click(function(){
+			alert('你点我了');
+		}).click();
+		
+	});
+</script>
+</head>
+<body style="font-size:30px;">
+	<a href="javascript:;" id="a1">点我吧</a>
+</body>
+</html>

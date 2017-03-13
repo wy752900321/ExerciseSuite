@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>padding_CSS参考手册_web前端开发参考手册系列</title>
+		<style>
+		/*作用于：上 右  下  左*/
+.test1 {
+	float: left;
+	padding: 40px 30px 20px 10px;
+	border: 1px solid #CFFCCC;
+}
+		/*第一个作用于上下 ，第二个作用于  左右*/
+.test2 {
+	float: left;
+	padding: 40px 10px;
+	border: 1px solid #CCCCFC;
+}
+			/*第一个作用于上，第二个作用于左右，第三个作用于下*/
+.test3 {
+	float: left;
+	padding:80px 40px 10px;
+	border: 1px solid #CCCCCC;
+}
+</style>
+	</head>
+	<body>
+		
+		<div class="test1">
+			注意：上 右  下  左
+		</div>
+		<br/><br/><br/><br/><br/><br/>
+		<div class="test2">
+			注意：上下     左右
+		</div>
+		<br/><br/><br/><br/><br/><br/>
+		<div class="test3">
+			注意：上    左右     下
+		</div>
+	</body>
+</html>

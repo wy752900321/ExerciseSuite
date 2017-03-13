@@ -1,0 +1,153 @@
+1.Spring对数据库访问技术的整合：
+	Spring框架提供了对JDBC，Hibernate等其他数据库访问技术的整合。
+Spring框架提供了一些整合API.
+	a.统一的异常处理类型DataAccessException,将这些异常在底层进行了处理。
+	b.提供了一些集成组件，
+		Template组件JdbcTemplate,HibernateTemplate,
+		DaoSupport组件JdbcDaoSupport,HibernateDaoSupport
+2.Spring对JDBC技术的整合
+	1）引入开发包
+		spring核心jar.dbcp连接池三个jar
+			commons-dbcp-1.2.2.jar,commons-pool.jar,commons-collections-3.1.jar
+		数据库驱动jar
+					spring.jar
+					commons-logging.jar
+					junit-4.8.2.jar
+					log4j-1.2.11.jar
+		
+	2编写实体类User
+	3)编写UserDAO和JdbcUserDAO
+	4)编写applicationContext.xml，配置dataSource,userDao,
+		将dataSource注入到userDao
+		
+		JdbcTemplate的使用
+			update():执行添加，删除，更新
+			query():执行查询，返回多行结果
+			queryForObject:执行查询，最多返回一行结果
+			queryForInt:执行查询，返回一行一列(单个值)
+			execute():执行DDL语句，例如创建表，删除表语句
+		
+3.Spring对hibernate技术的整合
+   1)引入开发包
+    spring核心jar(aop包不需要),
+    dbcp连接池jar,数据库驱动jar
+    hibernate开发包
+    2)编写实体类User
+    3)编写映射描述文件User.hbm.xml
+    4)编写applicationContext.xml,配置dataSource,sessionFactory,
+userDao.将dataSource注入给sessionFactory,将sessionFactory注入给userDao.
+
+     HibernateTemplate的使用
+       save():添加
+       update():更新
+       delete():删除
+       get()/load():按主键值查询
+       find():执行hql查询
+提示：在Spring整合Hibernate后，DAO如何获取和使用Session对象
+	//分页查询示例
+   List<User> list = (List)template.execute(
+	new HibernateCallback(){
+	    public Object doInHibernate(Session session) 
+		throws HibernateException, SQLException {
+		//在回调方法中使用Session对象
+		String hql = "from User";
+		Query query = session.createQuery(hql);
+		int begin = (page-1)*pageSize;
+		query.setFirstResult(begin);
+		query.setMaxResults(pageSize);
+		return query.list();
+	       }
+	});
+	
+4.Spring框架与Struts2的整合
+
+		面试官：在Spring与Struts2整合中Action是由谁负责创建的？
+  					方法一的 Action是由Spring容器负责创建
+  					方法二的 Action是由StrutsSpringObjectFactory负责创建
+
+  1)整合方法一(整合结构图参考ssh2-2.jpg)      
+    特点:将Action,Service,DAO组件都交给Spring容器管理，
+    		客户发请求后，由StrutsSpringObjectFactory去容器获取 Action对象处理，
+    		默认按<action class="id属性值">原则查找
+    	
+    a.在web.xml中配置ContextLoaderListener
+			     <!-- 指定spring容器配置文件所在位置 -->
+			     <context-param>
+			        <param-name>contextConfigLocation</param-name>
+			        <param-value>classpath:applicationContext.xml
+			        </param-value>
+			      </context-param>
+			  <!-- 为了启动服务器时,创建spring容器对象 -->
+			  <listener>
+			  	<listener-class>
+			  	org.springframework.web.context.ContextLoaderListener
+			  	</listener-class>
+			  </listener>
+    b.引入了Struts2和Spring整合的开发包.
+       struts2-spring-plugin-2.1.8.jar   
+			      该插件包提供一个StrutsSpringObjectFactory组件,该组件可以访问Spring容器.
+			      该插件包在struts-plugin.xml配置中,将default.properties文件中struts.objectFactory
+			      参数指定为StrutsSpringObjectFactory组件.这样,当客户发出action请求时,
+      	action对象由StrutsSpringObjectFactory负责从容器取出.
+
+    c.修改struts.xml中<action>元素的class属性配置.class属性指定Spring容器中Action对象对应的id值.
+       <action name="list" class="listAction">
+							<result>/list.jsp</result>
+       </action>
+     
+  2)整合方法二(整合结构图参考ssh2-1.jpg)        
+  	特点：将Service,DAO组件都交给Spring容器管理.Action交给StrutsSpringObjectFactory创建，
+  				并且利用容器中Bean对象给Action属性注入。默认按名称匹配原则注入
+  		 a.在web.xml中配置ContextLoaderListener(参考整合方法一)
+  		 b.引入了Struts2和Spring整合的开发包.
+  		 
+  		 注意：在编写Action组件时，如果某个属性需要使用Spring容器Bean对象，该属性名要与
+  		 		 Spring容器中<bean>元素的id值保持一致，因为默认是按名称匹配原则注入。
+  		 		
+  		 				如果名称不一致，可以修改struts2-core-2.1.8.jar里面的org.apache.struts2文件
+  		 				里的default.properties中struts.objectFactory.spring.autoWire = name的
+  		 				参数设置，改为按类型匹配注入，设置更改方式如下：
+  		 				在struts.xml中添加以下定义
+			  		 		<constant value="type" 
+			  		 				name="struts.objectFactory.spring.autoWire" value="type"/>
+  
+----------------练习--------------------
+1.利用ssh2完成对d_user的列表显示和增删改查功能
+	
+	学习回顾：
+	a.struts拦截器web.xml：/struts2-core-2.1.8.jar
+		<filter-class>路径:
+			org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+	b.struts与spring整合：spring.jar
+		<listener-class>路径：
+			org.springframework.web.context.ContextLoaderListener
+	c.struts.xml中的声明在struts2-core-2.1.8.jar下的struts-default.xml中：
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+	d.如何将Bean组件纳入到Spring容器
+			<bean id="helloBean" class="com.tarena.demo1.EnHelloBean" scope="prototype">
+			</bean>
+    id属性:组件的在容器中的标识符.
+    name属性:功能与id属性一样,区别在于name可以使用特殊字符;id不允许
+    class属性:指定组件类型
+    scope属性:指定组件对象创建模式.支持singleton和prototype,如果用于Web开发,
+    							还可以使用request,session.需要特殊配置
+    singleton:指的是bean组件对象采用单例模式创建.容器中只有一个Bean对象.(默认)
+    prototype:指的是每次调用ac.getBean(),都会创建一个新的Bean对象返回.
+    3)Bean组件在容器中的创建和销毁
+     a.如果bean定义scope采用非单例模式,该对象在调用ac.getBean()创建,使用完毕后,由垃圾回收器负责销毁
+     b.如果bean定义scope采用singleton(默认)
+       		创建时机:在容器实例化时创建(默认)
+       		销毁时机:在容器销毁时销毁,调用AbstractApplicationContext的close()方法.
+      		 可以在<bean>元素定义中,使用init-method指定对象初始化方法;
+		使用destroy-method指定对象销毁方法.
+       	如果<bean>元素指定lazy-init="true",对象创建延迟到调用ac.getBean("")方法.
+     	 如果需要将容器中所有scope="singleton"组件都采用延迟创建,可以在<beans default-lazy-init="true">
+	
+	
+	
+	
+	
+	

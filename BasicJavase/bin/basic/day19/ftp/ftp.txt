@@ -1,0 +1,6 @@
+
+
+模拟FTP服务器
+协议： type ,length ,value   TLV格式
+文本：text,5\nline1\nline2\nline3\nline4\nline5\n
+文件：file,filename,4\n 41 42 43 44 

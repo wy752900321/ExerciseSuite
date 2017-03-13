@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="dang-order" extends="dang-default" namespace="/order">
+		<action name="orderAction" class="com.tarena.web.action.OrderAction">
+			<result name="address_form" type="dispatcher">
+				/WEB-INF/jsp/order/address_form.jsp
+			</result>
+			<result name="order_ok" type="dispatcher">
+				/WEB-INF/jsp/order/order_ok.jsp
+			</result>
+		</action>
+	</package>
+</struts>

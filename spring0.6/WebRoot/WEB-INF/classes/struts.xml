@@ -1,0 +1,22 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+<!-- 
+		 注意：在编写Action组件时，如果某个属性需要使用Spring容器Bean对象，该属性名要与
+  		 		 Spring容器中<bean>元素的id值保持一致，因为默认是按名称匹配原则注入。
+
+  		 				如果名称不一致，可以修改struts2-core-2.1.8.jar里面的org.apache.struts2文件
+  		 				里的default.properties中struts.objectFactory.spring.autoWire = name的
+  		 				参数设置，改为按类型匹配注入，设置更改方式如下：
+  		 				在struts.xml中添加以下定义
+  		 					<constant value="type" 
+			  		 				name="struts.objectFactory.spring.autoWire" value="type"/>
+ -->
+	<constant name="struts.objectFactory.spring.autoWire" value="type"></constant>
+	<package name="ssh2" extends="struts-default">
+		<action name="list" class="com.tarena.action.ListAction">
+			<result>/list.jsp</result>
+		</action>
+	</package>
+</struts>

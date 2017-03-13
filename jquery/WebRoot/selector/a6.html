@@ -1,0 +1,24 @@
+<html>
+<head>
+<!-- 属性过滤选择器 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		$('div[id]').html('hello');
+	}
+	
+	function f2(){
+		$('div[id!=d2]').html('hello');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<div id="d1">hello kitty</div>
+	<div>hello java</div>
+	<div id="d2">hello jQuery</div>
+	<input type="button" value="Click"
+	onclick="f2();"/>
+</body>
+</html>

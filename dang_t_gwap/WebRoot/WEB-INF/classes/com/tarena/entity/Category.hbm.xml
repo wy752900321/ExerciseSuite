@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tarena.entity.Category" table="d_category">
+		<id column="id" name="id" type="integer">
+			<!-- generator用来指明主键的生成方式 -->
+			<generator class="native" />
+		</id>
+		<property column="turn" name="turn" type="integer" />
+		<property column="en_name" name="enName" type="string" />
+		<property column="name" name="name" type="string" />
+		<property column="description" name="description" type="string" />
+		<property column="parent_id" name="parentId" type="integer" />
+	</class>
+</hibernate-mapping>

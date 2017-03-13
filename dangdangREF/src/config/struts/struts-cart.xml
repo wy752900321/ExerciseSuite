@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="dang-cart" extends="dang-default" namespace="/cart">
+		<action name="cartAction" class="com.tarena.web.action.CartAction">
+			<result name="cart_list" type="dispatcher">
+       /WEB-INF/jsp/cart/cart_list.jsp
+			</result>
+			<result name="showCart" type="redirectAction">
+       cartAction!showCart
+			</result>
+			<result name="order_info" type="dispatcher">
+       /WEB-INF/jsp/order/order_info.jsp
+			</result>
+			<result name="login_form" type="dispatcher">
+       /WEB-INF/jsp/user/login_form.jsp
+			</result>
+		</action>
+	</package>
+</struts>

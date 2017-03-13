@@ -1,0 +1,54 @@
+1.如何使用MyEclipse生成Entity类和hbm.xml映射文件
+  1)先进入DB Browser创建一个dangdang数据库连接
+  2)工程右键,选MyEclipse-->Add Hibernate Capabilitity
+添加Hibernate框架jar包,hibernate.cfg.xml,HibernateSessionFactory
+  3)创建一个com.tarena.entity包,用于存放实体类和映射文件
+  4)进入DB Browser选中数据表,右键选择Hibernate Reverse Engineeing
+创建hbm.xml和pojo(实体类),选择type映射类型,设置映射实体类名和主键生成方式等.
+2.多对多关系
+           <!-- category到product多对多 -->
+        <set order-by="id" name="pros" table="d_category_product">
+        	<!-- 指定关系表的外键与当前表的主键关联 -->
+        	<key column="cat_id"></key>
+        	<!-- column指定关系表外键与class表的主键关联 -->
+        	<many-to-many class="com.tarena.entity.Product"
+        		 column="product_id">
+        	</many-to-many>
+        </set>
+3.继承映射
+   1)修改实体类,将Book继承Product
+   2)在Product.hbm.xml中添加<joined-subclass>定义
+   <class name="父类类型" table="父类表">
+       ......//id主键映射,父类其他属性的映射
+       <joined-subclass name="子类类型" table="子类表">
+           <key column="id"></key>
+           ......//子类其他属性的映射<property/>
+       </joined-subclass>
+       
+   </class>
+   ----继承关系的操作------
+    a.添加Book对象
+       向d_book表和d_product表写入记录
+    b.删除Book对象
+       从d_book表和d_product表删除记录
+    c.查询Book对象 session.load(Book.class,1)
+       将d_book和d_product表连接查询,获取Book信息
+    d.查询Product对象 session.load(Product.class,1)
+       将d_book和d_product表连接查询子类对象
+    e.只查询d_product表
+  "select pro.id,pro.productName,pro.productPic from Product pro"
+  注意上面语句执行后,返回时是使用Object[]格式封装一条记录
+  "select new Product(pro.id,pro.productName,pro.productPic)
+   from Product pro"  
+  注意上面语句执行后,返回时是使用Product对象封装一条记录,Product需要提供相应的构造方法.
+   f.执行"from Book" 
+      查询所有的book图书信息,从d_product和d_book联合查询
+   g.执行"from Product"
+      查询所有子类对象信息.将d_product与d_book,d_computer联合取出book和computer对象
+
+
+
+
+
+
+

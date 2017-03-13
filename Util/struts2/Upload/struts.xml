@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<include file="struts-project.xml"></include>
+	<package name="p-default" extends="json-default">
+		<interceptors>
+			<interceptor name="checkLogin" class="com.wangxin.interceptor.CheckLoginInterceptor"></interceptor>
+			<interceptor-stack name="demoStack">
+				<interceptor-ref name="checkLogin"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<action name="upload" class="com.wangxin.action.UploadAction">
+			<interceptor-ref name="fileUpload">
+				<!--上传文件的最大值-->
+				<param name="maxmumSize">1024000000</param>
+				<!--上传文件的类型-->
+				<param name="allowedTypes">image/jpeg</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success">jsp/image.jsp</result>
+			<result name="input">error.jsp</result>
+		</action> 
+	</package>
+</struts>

@@ -1,0 +1,58 @@
+<html>
+<head>
+<!-- 表格展开与收缩 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+	<style>
+		thead{
+			background-color:#cccccc;
+		}
+		.p{
+			background-color:#FFE7BA;
+		}
+		
+		.selected{
+			background-color:#FFFF00;
+		}
+	</style>
+	<script type="text/javascript" src="../js/jquery-1.4.3.js">
+		</script>
+	<script type="text/javascript">
+		$(function(){
+			$('.p').toggle(function(){
+				$(this).addClass('selected');
+				$(this).siblings('.c_' + this.id);
+			},function(){
+				$(this).removeClass('selected');
+				$(this).siblings('.c_' + this.id);
+			});
+		});
+	</script>
+</head>
+<body>
+	<table width="50%" border="1" cellpadding="0"
+	cellspacing="0">
+		<caption style="font-weight:800;">员工信息</caption>
+		<thead>
+			<tr><th>姓名</th><th>薪水</th><th>年龄</th></tr>
+		</thead>
+		<tbody>
+			<tr class="p" id="p1"><td colspan="3">部门一</td></tr>
+			<tr class="c_p1"><td>张三</td><td>20000</td><td>23</td></tr>
+			<tr class="c_p1"><td>李四</td><td>22000</td><td>22</td></tr>
+			<tr class="c_p1"><td>王五</td><td>14000</td><td>26</td></tr>
+			<tr class="c_p1"><td>马六</td><td>15000</td><td>21</td></tr>
+			<tr class="p" id="p2"><td colspan="3">部门二</td></tr>
+			<tr class="c_p2"><td>张三</td><td>20000</td><td>23</td></tr>
+			<tr class="c_p2"><td>李四</td><td>22000</td><td>22</td></tr>
+			<tr class="c_p2"><td>王五</td><td>14000</td><td>26</td></tr>
+			<tr class="c_p2"><td>马六</td><td>15000</td><td>21</td></tr>
+			<tr class="p" id="p3"><td colspan="3">部门三</td></tr>
+			<tr class="c_p3"><td>张三</td><td>20000</td><td>23</td></tr>
+			<tr class="c_p3"><td>李四</td><td>22000</td><td>22</td></tr>
+			<tr class="c_p3"><td>王五</td><td>14000</td><td>26</td></tr>
+			<tr class="c_p3"><td>马六</td><td>15000</td><td>21</td></tr>
+		</tbody>
+	</table>
+</body>
+</html>

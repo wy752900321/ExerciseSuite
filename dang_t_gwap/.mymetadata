@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dang_t_gwap"
+  id="myeclipse.1334997902511"
+  context-root="/dang_t_gwap"
+  j2ee-spec="1.4"
+  archive="dang_t_gwap.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

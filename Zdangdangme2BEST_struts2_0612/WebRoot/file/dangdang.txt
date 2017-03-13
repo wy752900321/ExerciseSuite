@@ -1,0 +1,168 @@
+findBookById
+	select * from d_book,d_product 
+	where d_book.id=d_product.id and d_book.id=?;
+	
+	select * from d_book,d_product 
+	where d_book.id=d_product.id and d_product.id=?;
+
+改字段类型：
+	alter table d_book 
+modify print_time bigint;//改表类型
+
+1.项目简介
+  模拟当当网图书销售的部分功能.(电子商务系统)
+  a.用户管理
+    登录,注册
+  b.产品浏览
+    主界面,类别浏览界面
+  c.购物车
+    购买,删除,恢复,修改数量,列表显示等
+  d.创建订单
+    购买确认,填写送货地址
+2.技术应用
+  技术:jQuery,JDBC,Struts2
+  数据库:MySQL
+  开发工具:MyEclipse
+  服务器:Tomcat
+  
+  基于MVC和分层思想搭建程序结构
+  1)分层如下:
+  表现层(V) : JSP(jQuery,Struts2标签,EL)
+  控制层(C) : Struts2控制器 Filter主控制器+(若干个Action业务控制器)
+  业务层(M) : Service(JavaBean)
+  数据访问层(持久层)(M) : DAO,Entity(JDBC)
+
+  2)工程结构
+    a.首先引入jar包,js文件
+       mysql驱动
+       dbcp连接池:commons-dbcp.jar,commons-pool.jar,commons-collection.jar
+       连接池好处:避免重复创建和销毁connection.将connection数量控制在安全有效范围,避免数据库访问发生阻塞.
+       struts2框架:5个核心+struts-json-plugin.jar+commons-io.jar
+    b.工程配置文件
+       web.xml: 配置struts2控制器
+       dbcp连接池参数配置:dbcp.properties
+       struts2配置文件:struts.xml(主)加载4个模块的配置文件
+                  struts-user.xml:管理模块
+                  struts-cart.xml:购物车
+                  struts-order.xml:订单
+                  struts-main.xml:产品浏览
+    c.工程src文件
+      org.tarena.dang.action:Action组件
+      org.tarena.dang.action.user:用户管理模块Action
+      org.tarena.dang.action.order:订单管理模块Action
+      org.tarena.dang.action.cart:购物车管理模块Action
+      org.tarena.dang.action.main:产品浏览管理模块Action
+      org.tarena.dang.service:Service业务组件(部分复杂请求使用)
+      org.tarena.dang.dao:DAO组件
+      org.tarena.dang.entity:实体类
+      org.tarena.dang.util:工具类
+     d.工程JSP文件
+       /WebRoot/user : 用户管理JSP
+       /WebRoot/main : 产品浏览管理JSP
+       /WebRoot/order : 订单管理JSP
+       /WebRoot/cart : 购物车管理JSP
+       /WebRoot/common : 页眉页脚JSP
+       /WebRoot/css : css样式文件
+       /WebRoot/images : images图片
+       /WebRoot/js : js文件
+3.数据库设计
+   d_user:用户信息表
+   d_receive_address:收货地址表
+   d_category:类别信息表
+   d_product:产品信息表(各种类型产品所共同的属性)
+   d_category_product:类别和产品关系表
+   d_book:图书信息表(图书属性)
+   d_order:订单信息表
+   d_item:订单明细信息表
+
+---------练习-------------
+1.搭建当当工程及其结构
+2.实现用户管理的注册
+3.尝试完成用户登录注册的其他功能
+
+如何实现某个功能--(以注册为例)
+1)明确具体需求
+   例如点击"注册",
+   a.将表单信息写入数据库(测试)
+   b.追加数据表其他字段的设置,例如ip,logintime等
+   c.实现密码加密问题(MD5)
+   d.实现邮箱验证问题
+      采用UUID生成一个code,之后给用户邮箱发送code+userId
+   e.跳转到验证邮箱页面
+2)验证邮箱具体需求
+  a.获取用户邮箱验证码,解析出userId和uuid
+  b.去数据库查询是否匹配,select * from d_user where id=? and uuid=?.如果验证码不正确,回到邮箱验证页面
+  c.将d_user表的is_email_verify设置成通过验证状态
+  d.跳转到注册成功页面
+3)登录具体需求
+  a.判断邮箱和密码是否正确.如果不正确返回登录页面
+  b.判断邮箱是否通过验证.如果未通过,跳转到验证邮箱页面
+  c.更新d_user中的last_login_time和last_login_ip字段
+  d.需要将user信息写入session
+  e.登录成功进入/main/main.jsp
+
+-------------------------
+1.相对路径 
+   首先相对页面中的<base href="#">,没有则相对浏览器地址
+2.寻找Action的次序
+   首先寻找/namespace/action请求,找不到寻找action请求,去掉namespace.
+
+
+http://localhost:8080/dang/user/register_form.jsp
+http://localhost:8080/dang/user/register.action
+
+action=register.action namesapce="/user"
+http://localhost:8080/dang/user/register.action
+
+------------产品浏览模块--------------------
+1.编辑推荐显示
+  随机获取两条记录显示.-->d_product,d_book
+2.热销图书显示
+   需要根据d_item表统计product_num,
+     d_product
+     
+ select dp.*
+ from d_item item 
+ join d_product dp on(item.product_id=dp.id)
+ group by item.product_id
+ order by sum(item.product_num) desc
+ limit 3;
+     
+3.新书热卖榜
+   显示最近一个月上架的,销量最高的前5个产品
+=========结构改造================
+1.Action中业务逻辑复杂,可以提取一个Service组件
+  之后Action调用Service方法
+2.添加一个拦截器,用于事务管理和connection释放
+  a.Action的execute方法,不要加try...catch
+   使用throws形式抛给拦截器
+  b.追加 <global-results>定义
+  c.DAO方法去掉DbUtil.closeConnection();
+3.购物车模块的实现(参考示例代码)
+  先定义CartItem,
+  再定义CartService,实现CartServiceImpl
+  之后写Action实现购买,删除等请求的处理
+4.订单模块的实现
+  --填写送货地址页面,"下一步"按钮的处理逻辑
+    1)向d_order写入一条记录
+    2)向d_item写入若干记录,
+       (记录条数与购买商品种类有关系)
+    3)如果使用的是新地址,需要向d_receive_address
+    写入记录保存
+      "选择地址"项如果是"填写新地址",
+   则认为是使用新地址
+   --地址下拉单相关功能
+   <s:select/>根据查询d_receive_address记录的集合
+   动态生成option选项.
+  下拉单选项发生改变后,发送ajax请求,
+   返回地址信息,填充表单
+   
+
+
+
+
+
+
+
+
+

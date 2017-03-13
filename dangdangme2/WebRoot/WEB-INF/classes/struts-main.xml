@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!-- 主界面新书上架的显示 -->
+	<package name="main" extends="dang-default" namespace="/main">
+		<action name="index">
+			<result>/main/main.jsp</result>
+		</action>
+		<action name="newBook" class="org.tarena.dang.action.main.NewProductAction">
+			<param name="size">8</param>
+			<result name="success">/main/new.jsp</result>
+		</action>
+
+		<!-- 主界面左侧类别显示区域 -->
+		<action name="category" class="org.tarena.dang.action.main.CategoryAction">
+			<result>/main/category.jsp</result>
+		</action>
+		<!-- 浏览类别中的产品 -->
+		<action name="booklist" class="org.tarena.dang.action.main.BookListAction">
+			<result>/main/book_list.jsp</result>
+		</action>
+		<!-- 热销图书显示 -->
+		<action name="hotBook" class="org.tarena.dang.action.main.HotAction">
+			<result>/main/hot.jsp</result>
+		</action>
+		 
+		<!-- 编辑推荐 显示 -->
+		<action name="recommend" class="org.tarena.dang.action.main.Recommend">
+			<result name="success">/main/recommend.jsp</result>
+		</action>
+		<!-- redirect dispatcher -->
+		<action name="bookDiscription" class="org.tarena.dang.action.main.ShowBookDiscription">
+			<result name="success" type="dispatcher">/main/book_info.jsp</result>
+		</action>
+		
+		<!-- 更多热销图书 -->
+		<action name="moreHotBooks" method="moreHotBooks" class="org.tarena.dang.action.main.MoreOtherBooks">
+			<result name="success">/main/moreOtherBooks.jsp</result>
+		</action>
+		<!-- 更多最新热销图书 -->
+		<action name="moreNewHotBooks" method="moreNewHotBooks" class="org.tarena.dang.action.main.MoreOtherBooks">
+			<result name="success" type="dispatcher">/main/moreOtherBooks.jsp</result>
+		</action>
+		<!-- 用于分页 -->
+		<action name="selectOrder" class="org.tarena.dang.action.main.SelectOrderAction">
+			<result name="success">/main/book_list.jsp</result>
+		</action>
+	</package>
+</struts>

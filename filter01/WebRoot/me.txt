@@ -1,0 +1,49 @@
+在javaWEB中如何定义一个Filter
+   * 创建一个类实现Filter(javax.servlet.Filter)
+       public class TestFilter01 implements Filter{
+     
+        public void init(FilterConfig fiterConfig) throws ServletException {
+		   System.out.println("TestFilter01 init方法");
+	    }
+	
+     	public void doFilter(ServletRequest req, ServletResponse res,
+			FilterChain chain) throws IOException, ServletException {
+	    }
+
+    	public void destroy() {
+		   System.out.println("TestFilter01 destroy方法");
+	    }
+      }
+      
+    * 要在web.xml文件注册
+        <!-- 配置过滤器 -->
+		  <filter>
+		    <!-- 注册的过滤器的名称,在后面配置过滤器的映射中要使用该名称 -->
+		    <filter-name>TestFilter01</filter-name>
+		    <!-- 配置过滤器的完整的路径名-->
+		    <filter-class>cn.itcast.filter.TestFilter01</filter-class>
+		    <init-param>
+		       <param-name>book</param-name>
+		       <param-value>笑傲江湖</param-value>
+		    </init-param>
+		    <init-param>
+		       <param-name>image</param-name>
+		       <param-value>美女图</param-value>
+		    </init-param>
+		  </filter>
+		  
+		  <!-- 配置过滤器的映射 -->
+		  <filter-mapping>
+		    <!-- 使用上面配置好注册的过滤器的名称 -->
+		    <filter-name>TestFilter01</filter-name>
+		    <!-- 配置该过滤器拦截器的资源,这里拦截器所有的资源-->
+		    <url-pattern>/*</url-pattern>
+		  </filter-mapping>
+		  <servlet>
+		    <servlet-name>LoginServlet</servlet-name>
+		    <servlet-class>cn.itcast.web.LoginServlet</servlet-class>
+		  </servlet>  
+
+		  
+		  <!-- 串联过滤器的执行按照,过滤器在web.xml文件配置的映射顺序执行,
+          按照配置的映射顺序从前往后执行 -->

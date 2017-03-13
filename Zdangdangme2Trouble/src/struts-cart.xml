@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="cartInfo" namespace="/cart" extends="json-default">
+		<action name="cartAction" class="org.tarena.dang.action.cart.CartAction">
+			<result name="addSuccess" type="json">
+				<param name="root">ok</param>
+			</result>
+			<result name="showSuccess" type="dispatcher">
+				/cart/cart_list.jsp
+			</result>
+			<result name="deleteSuccess" type="redirectAction">
+				<param name="actionName">cartAction!showCart</param>
+			</result>
+			<result name="updateSuccess" type="redirectAction">
+				<param name="actionName">cartAction!showCart</param>
+			</result>
+			<result name="recoverySuccess">
+				/cart/cart_list.jsp
+			</result>
+			<result name="cartNull" type="dispatcher">
+				/cart/cart_list.jsp
+			</result>
+			<result name="showCartSuccess" type="dispatcher">
+				/order/order_info.jsp
+			</result>
+		</action>
+	</package>
+</struts>

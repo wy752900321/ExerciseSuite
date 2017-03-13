@@ -1,0 +1,6 @@
+drop table emp;
+CREATE TABLE `emp`
+(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  NAME VARCHAR(12)
+)

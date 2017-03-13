@@ -1,0 +1,116 @@
+1.Hibernate查询
+  *1)HQL查询
+     Hibernate Query Language.
+     HQL属于面向对象的查询语言,语句中使用Hibernate映射的类和属性名,不能使用表名和字段名.类和属性大小写敏感.关键字不区分大小写
+     HQL语句的结构与SQL相似.
+     a.支持select,from,group by,order by,having
+     b.支持各种运算符和表达式,例如+,-,>,<等
+     c.支持分组函数,max,min,avg,sum,count
+       支持like,in,between...and,and ,or
+     e.HQL不能使用 select *
+     f.HQL不能使用 join ... on语句.on语句不支持
+   使用示例:单表基本操作
+     a. "select nickname from User where nickname<>''";
+       返回的是一个List<String>结果
+     b."select id,nickname from User where nickname<>''";
+       返回的是一个List<Object[]>结果
+     c."select new User(id,nickname) from User where nickname<>''";
+       返回的是一个List<User>结果
+     d."from User where nickname<>''";
+       返回的是一个List<User>结果
+     e."select count(*) from User";
+       返回的是List<Integer|Long>,list中只有一个值
+     f."from User where nickname like ?";
+       query.setString(0,"&s%");
+       query.list();
+     g."from User where nickname like :name";
+       query.setString("name","&s%");
+       query.list();
+     h.将hql写入到hbm.xml
+       在hbm.xml中定义hql
+       <class>
+         ......映射信息
+       </class>
+       <query name="findById">
+          <![CDATA[
+    		from User where id=:id
+    		]]>
+       </query>
+        在程序中使用下面代码获取Query对象
+      Query query = session.getNamedQuery("findById");
+      i.HQL分页查询
+		        //设置分页查询参数
+		        //设置抓取记录的起始位置,从0开始
+        query.setFirstResult(0);
+        			//设置最多抓取5个
+        query.setMaxResults(5);
+        List<User> list = query.list();
+      
+      
+ j.对象关联查询
+        等值连接1
+         from 
+							Address address,
+							User user
+         where 
+							address.userId = user.id;
+        等值连接2
+         from Address address 
+         inner join address.user user
+        左外连接
+         from Address address 
+         left outer join address.user user
+  2)Criteria条件查询(了解)
+     Criteria c = session.createCriteria(User.class);
+  3)SQL原生查询(了解)
+     SQLQuery sqlQuery = session.createSQLQuery(sql);
+     //默认情况下,执行结果,一行记录用一个Object[]封装
+     sqlQuery.addEntity(User.class);//指定使用User封装一行记录
+     List list = sqlQuery.list();
+---------HQL练习-----------
+//显示收货地址id,收货人,用户id,用户昵称
+//显示用户id,用户昵称,收货地址数量
+
+2.Hibernate高级特性(了解)
+   1)二级缓存
+    默认关闭.属于SessionFactory级别,多个不同Session对象共享的一块存储区.
+    二级缓存使用步骤:
+       a.导入ehcache.jar二级缓存包,在src下添加ehcache.xml配置
+       b.在hibernate.cfg.xml中启用二级缓存
+     <property name="hibernate.cache.use_second_level_cache">
+						true
+     </property>
+     <property name="hibernate.cache.provider_class">
+						net.sf.ehcache.hibernate.EhCacheProvider
+     </property>
+       c.指定使用二级缓存缓存哪种类型的对象
+       				 在hbm.xml中添加
+      <cache region="sampleCache1" usage="read-only"/>
+      usage用于指定对象是只读,还可以设置成read-write
+      region用于指定ehcache.xml中配置的缓存的一组参数
+    -------二级缓存哪些对象--------
+       a.该对象可以被不同用户访问
+       b.该对象使用频率越高越好
+      当当网产品对象可以使用二级缓存存储.
+     二级缓存管理的方法:sessionFactory.evict();
+
+   2)查询缓存
+   二级缓存只能缓存查询出的对象,不能缓存一个查询结果集.如果需要缓存查询结果,可使用查询缓存.使用查询缓存之前,先打开二级缓存.
+   查询缓存使用步骤:
+    a.在hibernate.cfg.xml中启用查询缓存
+	<property name="hibernate.cache.use_query_cache">
+    	    true
+	</property>
+    b.在执行query.list()之前使用query.setCacheable(true);指定当前查询利用查询缓存
+    当当网主页中的左侧类别栏可以使用查询缓存.
+
+    
+    显示收货地址id,收货人,用户id,用户昵称
+    SELECT
+    				address.id,address.receiveName,address.user.id,user.nickname
+   FROM 
+   			Address address,User user
+   WHERE
+   			address.user.id=user.id
+   			
+   			

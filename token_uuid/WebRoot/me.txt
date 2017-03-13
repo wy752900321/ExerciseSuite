@@ -1,0 +1,30 @@
+javaWEB中如何控制表单重复提交:
+   * 在jsp页面
+      *  增加一个隐藏域,隐藏域的值是永不重复的随机号
+           <input type="hidden" name="html.token" value="djdiikduhwlw7999wkui">
+           
+      *  同时,还要把生成的永不重复的随机号放置到session中一份
+           session.setAttribute("session.token","djdiikduhwlw7999wkui");
+   
+   
+   * 提交jsp页面的信息到servlet
+      
+      * 获取隐藏域的值
+         <input type="hidden" name="html.token" value="djdiikduhwlw7999wkui">
+      
+      * 获取session的值
+           session.getAttribute("session.token");
+           
+      * 隐藏域的值和session的值做比对
+          * 如果相等
+              * 保存数据到数据库中
+              * 从session中删除 session.token
+          
+          * 如果不相等
+              * 表单重复提交了    
+              
+                
+          
+  
+   
+

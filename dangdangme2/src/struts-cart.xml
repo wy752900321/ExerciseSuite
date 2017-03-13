@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="cartInfo" namespace="/cart" extends="dang-default">
+
+		<interceptors>
+			<interceptor name="checkuser"
+				class="org.tarena.dang.interceptor.CheckUserLoginInterceptor" />
+				
+			<interceptor-stack name="cartStack">
+				<interceptor-ref name="checkuser" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<action name="AddCart" method="addCart"
+			class="org.tarena.dang.action.cart.CartAction">
+			<result name="addSuccess" type="json">
+				<!-- <param name="includeProperties">属性1,属性2,属性3</param>返回某些属性的值的情况-->
+				<param name="root">ok</param>
+			</result>
+		</action>
+
+		<action name="DeleteCart" method="deleteCart"
+			class="org.tarena.dang.action.cart.CartAction">
+			<result name="deleteSuccess" type="redirectAction">
+				<param name="actionName">ShowCart</param>
+			</result>
+		</action>
+
+		<action name="UpdateCart" method="updateCart"
+			class="org.tarena.dang.action.cart.CartAction">
+			<result name="updateSuccess" type="redirectAction">
+				<param name="actionName">ShowCart</param>
+			</result>
+		</action>
+
+		<action name="RecoveryCart" method="recoveryCart"
+			class="org.tarena.dang.action.cart.CartAction">
+			<result name="recoverySuccess" type="redirectAction">
+				<param name="actionName">ShowCart</param>
+			</result>
+		</action>
+
+		<action name="ShowCart" method="showCart"
+			class="org.tarena.dang.action.cart.CartAction">
+			<result name="showSuccess" type="dispatcher">
+				/cart/cart_list.jsp
+			</result>
+		</action>
+
+		<action name="ShowOrderInfo" method="showOrderInfo"
+			class="org.tarena.dang.action.cart.CartAction">
+			<interceptor-ref name="cartStack" />
+			<result name="cart" type="dispatcher">/cart/cart_list.jsp</result>
+			<result name="showCartSuccess" type="dispatcher">/order/order_info.jsp
+			</result>
+			<result name="login" type="redirect">/user/login_form.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,28 @@
+<html>
+<head>
+<!-- dom查找 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		//text() : 相当于 innerText属性
+		//alert($('#d1').text());
+		//html(): 相当于 innerHTML属性
+		alert($('#d1').html());
+		
+		//$('#d1').html('hello java');
+	}
+	
+	function f2(){
+		$(':text').val('zs');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+		<div id="d1"><span>hello jQuery</span></div>
+		username:<input name="username"/>
+		<input type="button" value="Click"
+	onclick="f2();"/>
+</body>
+</html>

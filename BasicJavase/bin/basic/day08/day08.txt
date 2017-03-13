@@ -1,0 +1,4 @@
+public 类内 包内 子类 任意
+protected  类内 包内 子类
+default 类内 包内 
+private 类内

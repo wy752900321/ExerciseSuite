@@ -1,0 +1,118 @@
+1/什么是javascript:嵌入html页面中的脚本代码,页面的动态效果
+2/常用于:动态效果/页面验证
+
+3/特点:基于对象和事件驱动的解释性语言
+
+4/组成:基本语法/D(document)OM/B(Browser)OM
+
+5/脚本代码的书写:
+	内联:onclick="alert('dd');"
+	<script>块:页面的<head>区域中的<script>
+	js文件:
+
+6/基本语法
+	变量名/方法名:字母/数字_$组成,不能以数字开头
+	注释://   /**/
+	声明变量:var name = value;类型由值决定
+	js是一种类型松散的语言
+	隐式转换
+		string+number--string
+		string+bool--string(true/false)
+		number+bool(1/0)--number
+	显式转换
+		toString()
+		parseInt()
+		parseFloat()
+	测试类型
+		typeof(s)--number/string/boolean/object
+	相等或者严格相等
+		== 只是比较值
+		===  比较值和类型
+	isNaN
+
+变量类型:
+	string
+	number
+	boolean
+	null
+	undefined
+	object
+
+常用操作:
+	字符串操作:string对象方法
+		.length
+		substring(start,end)--不包含end,end是真实结束位置加1
+		substr(start,length)--从strart开始,取length个数
+		split
+		charAt
+		indexOf
+		toLowerCase/toUpperCase
+
+		search(返回匹配索引)/replace/match(匹配的结果)
+
+	数组操作:
+		声明定义
+		为数组赋值
+		toString()/join()--输出数组内容
+		concat()---数组的相加
+		slice(start,end)
+		reverse/sort
+	数学操作:Math.round/random(0=< <1)/floor/ceil
+	函数:function name(n1,n2){}
+		返回值:return 
+		不可以重载:方法同名,覆盖
+		arguments:记载当前方法的所有参数,常用于实现类似于方法的重载
+
+DOM(document object modal)操作:
+	什么是DOM:标记作为节点树上的节点
+	将HTML标记对象化
+		元素标记作为一个节点对象
+		属性标记作为对象的属性存在
+			style属性:每个样式属性作为style.属性存在:font-size-----fontSize
+			className
+		元素标记中间的内容作为
+search/find--找到元素
+	方法一:document.getElementById--通过id精确查询
+	方法二:document.getElementsByTagName--通过标记(元素名称)查询,可以被其他可以包含子元素的元素调用
+		onmouseover/onmouseout	
+		this关键字---引发事件的当前元素对象
+	方法三:parentNode/nextSilbing
+
+读取元素的信息:
+	.value----<input
+	.innerHTML(设置标记中间的文本)----span/div/p/h1
+	.style/className
+
+修改元素的信息:var a = op.value;
+		op.value = "";	
+
+string.search/match/replace---字符串的匹配操作
+
+正则表达式---验证
+	var reg = /\d{3}/;--reg变量代表一个正则表达式对象
+	reg.test(string);---bool
+取消事件
+	onclick="return false;"
+
+添加新元素
+	document.createElement("h4")
+	appendChild--追加子元素(作为最后一个子元素)--父元素的位置
+	insertBefore/insertAfter---找到参照物的父元素,调用父元素.insrtXX方法(new,参照物)
+
+删除
+	removeChild
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

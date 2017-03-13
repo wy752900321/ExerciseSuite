@@ -1,0 +1,80 @@
+<html>
+<head>
+	<!--网页选项卡-->
+		<meta http-equiv="content=type" content="text/html;charset=gbk"/>
+		<style>
+			body,ul,li,img{
+				margin:0px;
+				padding:0px;
+				font-size:12px;
+			}
+			
+			#d1{
+				margin-left:30px;
+				margin-top:30px;
+				width:200px;
+				height:30px;
+			}
+			ul{
+				list-style-type:none;
+			}
+			
+			ul li{
+				border:1px solid black;
+				text-align:center;
+				line-height:29px;
+				float:left;
+				width:60px;
+				height:29px;
+				background-color:#C1CDCD;
+				cursor:pointer;
+				margin-right:3px;
+			}
+			.d2{
+				border:1px solid black;
+				margin-left:30px;
+				width:200px;
+				height:100px;
+			}
+			
+			.hide{
+				display:none;
+			}
+			
+			.select{
+				background-color:#B23AEE;
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery-1.4.3.js">
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$('#u1 li').click(function(){
+					$(this).addClass('select')
+					.siblings().removeClass('select');
+					//获得点击的li的下标
+					var index = $('#u1 li').index(this);
+					//找到所有的div
+					var $div = $('#d2 div');
+					$div.eq(index)
+					.removeClass('hide').siblings().addClass('hide');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="d1">
+			<ul id="u1">
+				<li class="select" id="l1" >选项一</li>
+				<li id="l2">选项二</li>
+				<li id="l3">选项三</li>
+			</ul>
+		</div>
+		<div id="d2" class="d2">
+			<div id="a1">选项一内容</div>
+			<div id="a2" class="hide">选项二内容</div>
+			<div id="a3" class="hide">选项三内容</div>
+		</div>
+	
+	</body>
+</html>

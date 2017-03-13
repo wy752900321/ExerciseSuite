@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<package name="user" extends="struts-default" namespace="/user">
+		<action name="doUploadAction"
+			class="com.tarena.web.action.FileUploadAction" method="doUpload">
+			<result name="doUpload" type="dispatcher">
+				/WEB-INF/jsp/upload.jsp
+			</result>
+		</action>
+		<action name="toUploadAction"
+			class="com.tarena.web.action.FileUploadAction" method="toUpload">
+			<result name="toUpload" type="dispatcher">
+				/WEB-INF/jsp/upload.jsp
+			</result>
+			<result name="input" type="dispatcher">
+				/WEB-INF/jsp/error.jsp
+			</result>
+		</action>
+	</package>
+
+</struts>

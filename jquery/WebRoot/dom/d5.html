@@ -1,0 +1,32 @@
+<html>
+<head>
+<!-- 属性操作 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+	.s1{
+		font-size:60px;
+	}
+</style>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#a1').click(function(){
+			//alert($('#d1').attr('id'));
+			//$('#d1').attr('style','font-style:italic;color:red;');
+			
+			$('#d1').attr({"style":"font-style:italic;","class":"s1"});
+			$('#d1').removeAttr('class');
+			
+		});
+	});
+</script>
+</head>
+<body style="font-size:30px;">
+	<div id="d1">hello jQuery</div>
+	<a id="a1" href="javascript:;">Click me</a>
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,37 @@
+--------必须掌握的技能----------
+1.Struts2工作主要流程
+请求发送-->Struts控制器Filter(web.xml)--(/login.action,/login)
+-->拦截器组件(默认调用defaultStack)
+-->Action组件execute方法(struts.xml) --string-->Result组件
+-->生成响应输出
+2.Action基本配置(struts.xml)
+3.Action组件的使用
+  a)使用request,session等对象的方法(ActionContext,Aware接口)
+  b)学习下一个Action如何处理多个请求(动态方法调用的请求格式)
+4.JSP如何获取request,action,session等对象的数据
+  a)常用标签+OGNL表达式(ValueStack结构参考valuestack.jpg)
+  b)EL表达式(request,action,session,application)
+   ${projects}
+  c)UI标签
+5.常用Result的使用
+  a)dispatcher
+  b)redirect
+  c)redirectAction
+  d)stream
+  e)json
+6.拦截器组件的使用
+   a)自定义登录检查
+   b)自定义事务管理
+   c)fileUpload使用
+7.-----------
+  综合练习Project的增删改查功能
+
+
+
+
+
+
+
+
+
+  

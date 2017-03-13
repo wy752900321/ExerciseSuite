@@ -1,0 +1,38 @@
+<html>
+<head>
+<!-- 内容过滤选择器 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	function f1(){
+		$('div:contains(你好)').css('font-style','italic');
+	}
+	
+	function f2(){
+		$('div:empty').html('haha');
+	}
+	
+	function f3(){
+		$('div:has(p)').css('font-size','60px');
+	}
+	
+	function f4(){
+		$('div:parent').css('font-size','60px');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+	<div id="d1">你好</div>
+	<div></div>
+	<div>
+		<p>hello</p>
+	</div>
+	<input type="button" value="Click"
+	onclick="f4();"/>
+	
+	
+	
+	
+</body>
+</html>

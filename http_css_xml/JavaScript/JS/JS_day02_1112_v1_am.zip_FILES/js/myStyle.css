@@ -1,0 +1,29 @@
+div.s1
+{
+	border:1px solid gray;
+	background-image:url();
+	padding:40px;
+	font-size:20pt;
+	color:pink;
+}
+
+#allTabs div
+{
+	width:100px;
+	height:50px;
+	border:1px solid red;
+	float:left;
+	background-color:#ccc;
+}
+
+div.tab_on
+{
+	background-color:blue !important;//设置优先级别
+	font-size:20pt;
+	font-weight:bold;
+}
+
+div.tab_off
+{
+	background-color:#ccc;
+}

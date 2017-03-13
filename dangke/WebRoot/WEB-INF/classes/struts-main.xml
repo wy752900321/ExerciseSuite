@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="main" namespace="/main" 
+			extends="dang-default">
+			<action name="cateGory" class="com.tarena.action.main.CategoryAction">
+					<result name="success">../main/category.jsp</result>
+			</action>
+			
+			<action name="newBook" class="com.tarena.action.main.NewAction">
+					<result name="success">../main/new.jsp</result>
+			</action>
+			
+			<action name="recommend" class="com.tarena.action.main.Recommend">
+				<result name="success" >../main/recommend.jsp</result> 
+			</action>
+			
+			<action name="bookList" class="com.tarena.action.main.BookListAction">
+					<result name="success">../main/book_list.jsp</result>
+			</action>
+			
+			<action name="hotBook" class="com.tarena.action.main.HotAction">
+					<result name="success">../main/hot.jsp</result>
+			</action>
+			
+			<action name="newHotBooks"  class="com.tarena.action.main.NewHotSalColumn">
+					<result name="success" type="json">
+					<param name="root">newHotBooks</param>
+			  	</result>
+			</action>
+			
+			<!-- 更多最新图书 -->
+			<action name="moreNewBooks" method="moreNewBooks" class="com.tarena.action.main.MoreOtherBooks">
+					<result name="success">../main/moreOtherBooks.jsp</result>
+			</action>
+			<!-- 更多热销图书 -->
+				<action name="moreHotBooks" method="moreHotBooks" class="com.tarena.action.main.MoreOtherBooks">
+					<result name="success">../main/moreOtherBooks.jsp</result>
+			</action>
+			<!-- 更多最新热销图书 -->
+			<action name="moreNewHotBooks" method="moreNewHotBooks" class="com.tarena.action.main.MoreOtherBooks">
+			   <result name="success">../main/moreOtherBooks.jsp</result>
+			</action>
+			
+			<action name="bookDiscription" class="com.tarena.action.main.ShowBookDiscription">
+					<result name="success">../main/book_info.jsp</result>
+			</action>
+			<action name="main">
+					<result name="success">../main/main.jsp</result>
+			</action>
+			
+			<action name="selectOrder"  class="com.tarena.action.main.SelectOrderAction">
+					<result name="success">../main/book_list.jsp</result>
+			</action>
+			
+			<action name="moreNewBooks" method="moreNewBooks" class="com.tarena.action.main.MoreOtherBooks">
+						<result name="success">../main/moreOtherBooks.jsp</result>
+			</action>
+			<action name="moreNewHotBooks" method="moreNewHotBooks" class="com.tarena.action.main.MoreOtherBooks">
+						<result name="success">../main/moreOtherBooks.jsp</result>
+			</action>
+			
+	</package>
+</struts>
+

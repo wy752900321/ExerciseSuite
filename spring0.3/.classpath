@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/aopalliance.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/asm-util-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/aspectjlib.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/spring-agent.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/spring-aop.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/spring-aspects.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/spring_2.5_aop/spring-tomcat-weaver.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/junit/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/dang/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

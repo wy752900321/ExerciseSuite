@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="dang-book" extends="dang-default" namespace="/book">
+		<action name="bookAction" class="com.tarena.web.action.BookAction">
+			<result name="category" type="dispatcher">
+				/WEB-INF/jsp/main/category.jsp
+			</result>
+			<result name="book_list" type="dispatcher">
+				/WEB-INF/jsp/main/book_list.jsp
+			</result>
+			<result name="product" type="dispatcher">
+				/WEB-INF/jsp/main/product.jsp
+			</result>
+			<result name="new" type="dispatcher">
+				/WEB-INF/jsp/main/new.jsp
+			</result>
+			<result name="hot" type="dispatcher">
+				/WEB-INF/jsp/main/hot.jsp
+			</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+	#d1{
+		width:200px;
+		height:40px;
+		background-color:#fff8dc;
+	}
+</style>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#a1').toggle(function(){
+			//$('#d1').css('display','block');
+			$('#d1').show(900,function(){
+				alert('hello');
+			});
+		},function(){
+			//$('#d1').css('display','none');
+			$('#d1').hide(800);
+		});
+	});
+</script>
+</head>
+<body style="font-size:30px;">
+	<a href="javascript:;" id="a1">如何才能学好java?</a>
+	<div id="d1" style="display:none;">使劲学就行了</div>
+	
+	
+</body>
+</html>

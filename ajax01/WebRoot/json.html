@@ -1,0 +1,26 @@
+<html>
+	<head>
+	<!-- 如何将一个json字符串转换成js对象 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="js/prototype-1.6.0.3.js"></script>
+		<script type="text/javascript">
+	function test1() {
+		var obj = {'name' : 'zs','age' : 22};
+		//alert(obj.name);
+			var arr = [{'name':'zs','age':22},{'name':'ww','age':32}];
+			alert(arr[1].name);
+	}
+	function test2(){
+		var str = "{'name':'zs','age':22}";
+		var obj = str.evalJSON();
+		//alert(obj.name);
+		var str2 = "[{'name':'zs','age':22},{'name':'ww','age':32}]";
+		alert(obj2[1].name);
+	}
+</script>
+		<title>Insert title here</title>
+	</head>
+	<body style="font-size: 30px;" onload="f1();">
+		<a href="javascript:;" onclick="test2();">test</a>
+	</body>
+</html>

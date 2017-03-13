@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+ <struts>
+	<include file="struts-user.xml"/>
+	<include file="struts-order.xml"/>
+	<include file="struts-main.xml"/>
+	<include file="struts-cart.xml"/>
+	<package name="dang-default" extends="json-default">
+		<interceptors>
+			<interceptor name="transaction" 
+			class="org.tarena.dang.interceptor.TransactionInterceptor"/>
+			<interceptor-stack name="transactionStack">
+				<interceptor-ref name="transaction"/>
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="transactionStack"/>
+		<global-results>
+			<result name="error">/errro.jsp</result>
+			<result name="login">/user/login_form.jsp</result>
+		</global-results>
+		
+	</package>
+ </struts>

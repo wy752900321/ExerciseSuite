@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+	<package name="order" namespace="/order" 
+			extends="dang-default">
+		
+		<action name="getNewOrder" method="getNewOrder" class="com.tarena.action.order.OrderAction">
+						<result name="success" type="json">
+									<param name="root">order</param>
+						</result>
+		</action>
+		
+		<action name="orderInfo" method="findOrderByUserId" class="com.tarena.action.order.OrderAction">
+					<result name="success">../order/address_form.jsp</result>
+		</action>
+		
+		<action name="orderOk" class="com.tarena.action.order.SubmitAddress">
+						<result name="success">../order/order_ok.jsp</result>
+		</action>
+	</package>
+</struts>
+

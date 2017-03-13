@@ -1,0 +1,81 @@
+javaWEB中表单重复提交的原理
+     * 指定jsp页面
+         * 生成一个隐藏域,产生一个唯一的永不重复的字符串
+            <input name="token.html" type="hidden" value="xxx123" >
+         * 同时,把该字符串放入到session中一份
+             session.setAttribute("token.key","xxx123");
+                  
+             
+      * 点击按钮提交时,
+          * 获取隐藏域的值
+              <input name="token.html" type="hidden" value="xxx123" >
+              String token.html=request.getParameter("token.html");
+          * 获取session中存放的值
+              String saved= session.getAttribute("token.key");
+          
+          *  比对隐藏域的值和session中存放的值    
+                 * 如果相等,保存数据
+                 * 如果不相等,表单重复提交
+                 
+                 
+ struts2中如何实现表单重复提交
+     
+     * 在add.jsp页面
+         * 使用 <s:token></s:token>,会产生一个隐藏域,同时放置永不重复的字符串到session中
+         * 注意:该标签必须放置到 <s:form>
+         
+     * 在struts_model.xml文件action中增加
+         *  <!-- 当表单重复提交时,转到给页面 -->
+            <result name="invalid.token">/model/error.jsp</result>  
+         
+         * 配置令牌拦截器到默认栈中         
+           <!-- 配置新的拦截器栈,放置令牌拦截器到默认栈的最后 -->
+		     <interceptors>
+		       <interceptor-stack name="tokenStack">
+		          <interceptor-ref name="defaultStack"/>
+		          <interceptor-ref name="token">
+		             <!-- 配置令牌拦截器拦截哪些方法,如果有多个方法,中间用","隔开 -->
+		             <param name="includeMethods">save</param>
+		          </interceptor-ref>
+		       </interceptor-stack>
+		     </interceptors>
+		     
+		     <default-interceptor-ref name="tokenStack"/>
+		     
+    * 测试
+    
+    * 处理错误信息		
+       * 在error.jsp页面使用<s:actionerror/>标签显示错误信息      
+       
+       *  默认的错误信息英文的
+          * 该信息文件在struts2-core-2.1.8.1.jar\org\apache\struts2\struts-messages.properties下
+          * 内容如下:
+            struts.messages.invalid.token=The form has already been processed or no token was supplied, please try again.
+        
+        * 修改为中文
+          * 在cn.itcast.model目录下创建token.properties文件
+          * 在该文件中增加如下内容
+            struts.messages.invalid.token=您的表单已经重复提交,请后退到添加页面,刷新添加页面重试 
+            
+          * 在struts.xml文件中增加如下配置   
+		       <!-- 配置加载国际化的资源文件, .properties不用加,如果有多个资源文件,用","隔开
+		        * cn.itcast.upload.fileupload:加载的是fileupload.properties资源文件
+		        * cn.itcast.i18n.resource:加载的resource系列的资源文件 
+		        * cn.itcast.model.token:加载表单重复提交的资源文件 
+			   -->
+			   <constant name="struts.custom.i18n.resources" 
+			             value="cn.itcast.upload.fileupload,
+			                    cn.itcast.i18n.resource,
+			                    cn.itcast.model.token">
+			                    
+		   * 测试	                    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                          

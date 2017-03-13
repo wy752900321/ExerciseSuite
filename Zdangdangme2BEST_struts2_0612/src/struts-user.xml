@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="demo1" extends="dang-default">
+		<!-- 注册 -->
+		<action name="register" class="org.tarena.dang.action.user.RegisterAction">
+			<result name="success">
+				/user/verify_form.jsp
+			</result>
+			<result name="error">/error.jsp</result>
+		</action>
+
+		<!-- 图片验证码 -->
+		<action name="image" class="org.tarena.dang.action.user.ImageAction">
+			<result name="success" type="stream">
+				<param name="inputName">
+					imageStream
+							</param>
+			</result>
+		</action>
+		<!-- 登陆验证 -->
+		<action name="login" class="org.tarena.dang.action.user.LoginAction">
+			<result name="verify">/user/verify_form.jsp</result>
+			<result name="login">/user/login_form.jsp</result>
+			<result name="main" type="redirect">/main/main.jsp</result>
+			<result name="cart">/cart/cart_list.jsp
+			</result>
+		</action>
+		<!-- 配置邮箱验证码Action -->
+		<action name="verify" class="org.tarena.dang.action.user.VerifyEmailAction">
+			<result name="success">/user/register_ok.jsp</result>
+			<result name="fail">/user/verify_form.jsp</result>
+		</action>
+	</package>
+
+	<!-- json使用示例 -->
+	<package name="demo2" extends="json-default">
+		<!-- 检查邮箱的action的配置 -->
+		<action name="validEmail" class="org.tarena.dang.action.user.ValidEmailAction">
+			<result name="success" type="json">
+				<param name="root">ok</param>
+			</result>
+			<result name="error">
+				/user/verify_form.jsp
+				</result>
+		</action>
+		<!-- 妮称唯一性验证 -->
+		<action name="validNickName" class="org.tarena.dang.action.user.ValidNickNameAction">
+			<result name="success" type="json">
+				<param name="root">go</param>
+			</result>
+			<result name="error">
+				error.jsp
+				</result>
+		</action>
+		<!-- ajax方式验证码校验 -->
+		<action name="validImage" class="org.tarena.dang.action.user.ImageValidAction">
+			<result name="success" type="json">
+				<param name="root">se</param>
+			</result>
+		</action>
+		<action name="exit" class="org.tarena.dang.action.user.ExitAction">
+			<result name="success">/main/main.jsp</result>
+		</action>
+	</package>
+</struts>

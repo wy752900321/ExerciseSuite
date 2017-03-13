@@ -1,0 +1,90 @@
+1。问题一
+		从register_form.js中，发送请求时，验证码这一项出现乱码。
+		$.post("validImage.action", {
+				"code" : code
+			}, function(se) {
+				if (se) {
+					$("#number\\.info").html("验证码正确");
+				} else {
+					$("#number\\.info").html("验证码错误");
+					//$("#noSee").click();
+				}
+			});
+		解决方法：还改回用$.post方法。
+		$.ajax({
+						url:"validImage.action",
+						async:false,
+						data:{"code":code},
+						success:function(se){
+							if (se) {
+									$("#number\\.info").html("验证码正确");
+								} else {
+									$("#number\\.info").html("验证码错误");
+									//$("#noSee").click();
+								}
+						}
+					});
+2,类别流程：
+			main/main.jsp->
+			根据$("#left").load("category.action")解发aciton->
+			/main/category.jsp->
+			<a href='booklist.action?cid=${c2.id }&pid=${c1.id }'>${c2.name }</a>
+			->/main/book_list.jsp
+3,写好逻辑后，类别加载不上：
+		struts-user.xml中：	
+			<action name="login" class="org.tarena.dang.action.user.LoginAction">
+			<result name="success" type="redirect">
+				/main/main.jsp
+			</result>
+			必须加上type="redirect",因为在main/main.jsp中，如下代码：
+			<script type="text/javascript">
+			$(function(){
+				$("#left").load("category.action");
+			});
+			</script>
+			必须在页面加载完成后，再执行。而在main/mian.jsp中有如下代码：
+			<s:action name="findnew" namespace="/main" executeResult="true">
+				</s:action>
+				在它执行完毕后，关闭了数据库Connection,页面加载后，用默认的转发是一个请求之间，
+				所以就得不到数据。改为重定向，就可以解决了。
+			
+	3 问题：CartServiceImpl.java引发的购物车不能删除或全删问题	
+				必须通过引入，不能在迭代时删除,然后在循环外边删除。
+				 不然有java.util.ConcurrentModificationException
+					public boolean delete(int pid) {
+						CartItem c = null;
+					for(CartItem cart : items){
+						if(cart.getPro().getId()==pid){
+							dItem.add(cart);
+							cart.setBuy(false);
+							//boolean b = items.remove(cart);//动态删除有异常ConcurrentModificationException
+							c = cart;//引入，能过从外部删除可以解决上句异常
+						}
+					}
+						items.remove(c);
+						return true;
+					}
+			
+			
+	4问题：！）Cookie，关闭浏览器后，再打开浏览器时，showCart()不能显示以前的定单，
+					而在order_info.jsp中	确能显示以前放入Cookie里的信息。
+					2）删除后，定单转入恢复栏后，关闭浏览器后。恢复里的东西不能回显。
+					3）使用删除或恢复后出现 递增删除，递增恢复的情况
+					4）打开浏览器后，回显以前的数据，回显得到的确是上次更改前的定单数据。
+			解决：1）把订单中删除的和没删除的都放在一个集合里面。用isBuy这个属性来控制是否是购买的
+						2）把service/impl/CartServiceImpl类中的analyze()和revert(String content)方法
+							改成控制三个参数的字符串，分别为：定单ID，定单数量，是否购买1或0；
+						3）在service/impl/CartServiceImpl类的delete(int pid)中不能有删除方法，不然被删除的就不能通过
+						if (item.isBuy()) {
+					sb.append(item.getPro().getId() + "," + item.getQty() + ","+"1"+";");
+					}else{
+						sb.append(item.getPro().getId() + "," + item.getQty() + ","+"0"+";");
+					}
+					这里边的else{}了，会导致删除区不能回显。
+					4)递增问题是开始时定义两个集合，一个放购买的，一个放删除的，然后又加了个isBuy的判断的放购买
+						的那个集合里存入了isBuy为false的元素，导致混乱。
+					5）定单数据问题：是因为在删除或更新数量时，没有及时更新Cookie里的数据，
+						我们在删除或更新等操作中，也要改Cookie的。不然更改的数据不能回显。
+			
+			
+			

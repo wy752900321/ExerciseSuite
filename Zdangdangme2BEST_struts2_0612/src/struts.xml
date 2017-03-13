@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>  
+	
+	   <!-- 
+      * 配置struts的模式是开发模式还是生产模,默认是false
+        * false:生产模式
+        * true:开发模式,能打印出更加详细的调试信息.
+    -->
+   <constant name="struts.devMode" value="true"/>
+	
+   <!-- 配置加载国际化的资源文件, .properties不用加,如果有多个资源文件,用","隔开
+        * org.tarena.dang.action.order.token:加载表单重复提交的资源文件 
+   -->
+   <constant name="struts.custom.i18n.resources" 
+             value="org.tarena.dang.action.order.token">
+   </constant>
+
+	<include file="struts-user.xml" />
+	<include file="struts-order.xml" />
+	<include file="struts-main.xml" />
+	<include file="struts-cart.xml" />
+	<package name="dang-default" extends="json-default">
+		<interceptors>
+			<interceptor name="transaction"
+				class="org.tarena.dang.interceptor.TransactionInterceptor" />
+			<interceptor-stack name="transactionStack">
+				<interceptor-ref name="transaction" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<default-interceptor-ref name="transactionStack" />
+
+		<!-- 设置默认响应的Action -->
+		<default-action-ref name="index" />
+
+		<global-results>
+			<result name="error">/errro.jsp</result>
+			<result name="login">/user/login_form.jsp</result>
+		</global-results>
+
+		<action name="index">
+			<result type="redirect">/main/main.jsp</result>
+		</action>
+	</package>
+</struts>

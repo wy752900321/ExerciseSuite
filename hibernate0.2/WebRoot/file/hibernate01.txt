@@ -1,0 +1,81 @@
+1.Hibernate基本概念
+  1)Hibernate有什么作用
+    a.Hibernate框架主要用于对数据库操作,是对JDBC的封装.在应用程序中实现数据访问层.
+    b.Hibernate好处
+     a.避免程序员写大量复杂SQL
+     b.SQL移植性较差,Hibernate可以自动生成SQL,移植性强
+     c.自动完成数据记录与Java对象之间的映射
+
+  2)了解Hibernate基本原理--ORM
+    Hibernate基于ORM思想的实现. Object Relation Mapping对象关系.
+映射.
+    Hibernate可以完成java对象和数据表记录之间的映射,这样程序员在业务层只要对这些对象操作,就可以实现对数据库的操作.
+    Hibernate主要构成:
+    a.hibernate主配置(数据库连接参数)
+    b.实体类<--映射文件-->数据表
+
+*2.Hibernate基本使用
+   1)主要使用步骤
+     a.引入hibernate开发包jar
+     b.在src下添加hibernate.cfg.xml主配置文件(1个)
+        用于定义数据库连接参数
+     c.定义实体类User(n个)
+     d.定义映射描述文件User.hbm.xml(n个)
+     e.利用Hibernate API完成增删改查操作 
+
+hibernate.cfg.xml--<mapping>-->User.hbm.xml--<class>-->User类
+修改了hbm.xml的名称和所在位置,要修改hibernate.cfg.xml的<mapping>
+修改了实体类User的名称和包路径,要修改hbm.xml文件的<class>的name属性
+修改了hibernate.cfg.xml的名称和位置,要修改conf.configural("指定路径");
+
+   2)基本操作(必须掌握)
+    添加 : session.save()
+    删除 : session.delete()
+    更新 : session.update()
+    findById查询  session.load()
+    findAll查询 Query query = session.createQuery("from User");
+                 List<User> list = query.list();
+
+   3)Hibernate提供的映射类型
+     在hbm.xml映射文件中,利用type="映射类型"使用.
+主要作用是指定属性和字段之间的如何进行类型转换
+    *整数:integer,long
+    *浮点数:double
+    *字符串:string
+    *日期时间:date(仅包含年月日),timestamp(包含年月日时分秒)
+    *布尔:true_false 完成布尔属性和T,F字符之间的转换
+          yes_no  完成布尔属性和Y,N字符之间的转换
+    其他: big_decimal,big_integer,blob,clob
+   4)Hibernate提供的主键生成方式
+  仅对添加操作有意义,在添加时,利用指定的主键生成方式获取主键值,写入数据表.
+   *a. identity 
+    Hibernate利用数据库自动增长功能,设置主键值.要求数据库得支持,在设计表时,设置自动增长功能.例如MySQL,SQLServer
+   *b. sequence
+    Hibernate利用指定的sequence对象,获取nextval,将该值作为主键值.
+适用于Oracle
+  <id name="id" column="id" type="integer">
+	<generator class="sequence">
+              <param name="sequence">user_seq</param>
+           </generator>
+  </id>
+   *c. native
+     Hibernate会根据方言类型不同,自动选择主键生成方式.如果是MySQLDialect会选择identity;如果是OracleDialect会选择sequence
+
+   *d. increment
+     Hibernate会先执行select max(id) from table ,之后将最大值+1作为主键值.
+   
+   *e. assigned
+     Hibernate忽略主键的管理,需要程序员在程序中指定设置id值.
+   f. 其他
+     hilo:基于高低位算法生成id值
+     uuid:基于uuid算法生成id值
+
+
+
+
+
+
+
+
+
+

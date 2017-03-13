@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/jdbc/mysql-connector-java-5.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/dang/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/dang/lib/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/dang/lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/dang/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/asm.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/freemarker.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/jta.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate_spring/spring.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/struts2_core_jar/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/struts2_core_jar/freemarker-2.3.15.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/struts2_core_jar/ognl-2.7.3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/struts2_core_jar/struts2-core-2.1.8.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/struts2_core_jar/xwork-core-2.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/spring2.5/struts2-spring-plugin-2.1.8.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

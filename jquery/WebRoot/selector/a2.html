@@ -1,0 +1,44 @@
+<html>
+<head>
+<!-- 层级选择器 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery-1.4.3.js"></script>
+<script type="text/javascript">
+	//查找所有后代
+	function f1(){
+		$('#d0 div').css('font-size','60px');
+	}
+	
+	// > 只处理子节点
+	function f2(){
+		//$('#d0>div').css('font-size','60px');
+		$('#d0>div').css('background-color','#ffeedc');
+	}
+	
+	// +只找第一个
+	function f3(){
+		$('#d4+p').css('font-size','60px');
+	}
+	// ~ 该节点之后的其它兄弟
+	function f4(){
+		$('#d4~p').css('font-size','60px');
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+<div id="d0">	
+	<div id="d1">hello1
+	</div>
+	<div id="d2" style="background-color:green;">
+		<div id="d3" style="background-color:red;">hello3</div>
+		<p>hellocba</p>
+		<div id="d4" style="background-color:yellow;">hello4</div>
+		<p>hello</p>
+		<p>helloabc</p>
+	</div>
+ </div>
+	<input type="button" value="Click"
+	onclick="f3();"/>
+</body>
+</html>

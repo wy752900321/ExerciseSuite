@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<script src="MyJs.js" language="javascript"></script>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+	</head>
+	<body onload="addEventToBtn();">
+		<form id="form1">
+			<input type="button" value="使用Object对象实现数据的封装" onclick="useObject();">
+			<br>
+			<input type="button" value="使用自定义对象实现数据的封装" onclick="useMyObject();">
+			<br>
+			<input type="button" value="使用json实现数据的封装" onclick="useJson();">
+			<br><br>
+			<input id="btn1" type="button" value="...">
+			<br>
+			模拟简单计算器:
+			<div style="width:300px;border:1px solid red;" onclick="myCalculater(event);">
+				<input type="button" value="1" >
+				<input type="button" value="2" >
+				<input type="button" value="3" >
+				<input type="button" value="4" >
+				<input type="button" value="5" >
+				<span>aaa</span>
+			</div>
+
+			<input type="button" value="测试event对象" onclick="testEvent(event);">
+			<br>	
+			<input type="button" value="查看navigator对象的所有属性" onclick="testNavigator();">
+			<br>
+			<textarea id="tData" cols="50" rows="15">
+			</textarea>
+			<br>
+			<input type="button" value="页面url的跳转" onclick="testLocation();">
+			<br>
+			<input type="button" value="5s后自动跳转" onclick="hrefChange();">
+			<a href="javascript:cancelChange();">取消自动跳转请点击这里</a>
+			<br>
+
+			<input type="button" value="显示当前时间" onclick="showTime();">
+			<input type="button" value="启动时钟" onclick="startTime();">
+			<input type="button" value="停止时钟" onclick="stopTime();">
+			<br>
+			<span id="spanTime"></span><br>
+			倒计时效果(点击3后打开一个新窗口):
+			<input type="button" value="3s后打开" onclick="openWait();">
+
+			<input type="submit" value="Delete" onclick="return deleteData();"><br><br>
+			<input type="button" value="OpenWindow" onclick="openNewWin();">
+
+			<table id="table1" border="1">
+				<tr>
+					<td>Name</td>
+					<td>Age</td>
+				</tr>
+			</table>
+			录入名称:<input type="text" id="txtName"><br>
+			录入年龄:<input type="text" id="txtAge"><br>
+			<input type="button" value="Save" onclick="operateTable();">
+			<br><br>
+		</form>
+	</body>
+</html>
+
+

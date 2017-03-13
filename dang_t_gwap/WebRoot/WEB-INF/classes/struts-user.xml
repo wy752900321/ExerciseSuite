@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!-- 用户模块 -->
+	<package name="user" namespace="/user" extends="dang-default">
+		<!-- 用户注册 -->
+		<action name="register" class="com.tarena.action.user.RegisterAction">
+			<result name="success">/user/verify_form.jsp</result>
+		</action>
+		<!-- 邮箱合法性 -->
+		<action name="validEmail" class="com.tarena.action.user.ValidEmailAction">
+			<result name="success" type="json">
+				<param name="root">ok</param>
+			</result>
+		</action>
+		<!-- 昵称合法性 -->
+		<action name="validNickName" class="com.tarena.action.user.ValidNickNameAction">
+			<result name="success" type="json">
+				<param name="root">ok</param>
+			</result>
+		</action>
+		<!-- 图片验证码 -->
+		<action name="imagecode" class="com.tarena.action.user.ImageAction">
+			<result name="success" type="stream">
+				<param name="inputName">imageStream</param>
+			</result>
+		</action>
+		<!-- 图片验证码合法性 -->
+		<action name="validCode" class="com.tarena.action.user.ValidImageAction">
+			<result name="success" type="json">
+				<param name="root">ok</param>
+			</result>
+		</action>
+		<!-- emailCode验证 -->
+		<action name="verifyEmailCode" class="com.tarena.action.user.VerifyEmailAction">
+			<result name="main" type="redirect">/main/main.jsp</result>
+			<result name="success">/user/register_ok.jsp</result>
+			<result name="verify">/user/verify_form.jsp</result>
+		</action>
+		<!-- 登录逻辑 -->
+		<action name="login" class="com.tarena.action.user.LoginAction">
+			<result name="success" type="redirect">/main/main.jsp</result>
+			<result name="login">/user/login_form.jsp</result>
+			<result name="verify">/user/verify_form.jsp</result>
+		</action>
+		<!-- 登出逻辑 -->
+		<action name="login_out" class="com.tarena.action.user.LoginAction"
+			method="logout">
+			<result name="success" type="redirect">/main/main.jsp</result>
+		</action>
+	</package>
+</struts>

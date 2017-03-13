@@ -1,0 +1,250 @@
+OOP Day01
+2012/1/13
+====================
+Linux 常见命令
+Java环境配置与编译
+
+
+1. 命令控制台
+ 1) Linux / Unix 命令格式
+ command [-选项...] [参数...]
+ 如:  ls -a ~
+      mkdir .demo  //创建隐藏目录
+      ls 
+      ls -a
+
+ 2)标准输出: 就是在控制台(终端, 命令行)的默认输出
+  ls pwd cat 等命令的默认输出都是标准输出
+  ">" 输出重定向, 可以将标准输出重新定向到一个文件上.
+  如: ls > abc.txt //将 ls 默认的标准输出结果定向到abc.txt
+     cat abc.txt  //查看abc.txt文件内容
+     
+ 3) "|" 是管道符号, 可以连接两个命令, 将前一个命令
+ 的输出作为后一个命令的输入
+ 	
+ 4) grep 是过滤输入信息 留下指定的行
+
+2. 目录 与文件操作
+
+  / 根目录
+  ~ 用户主目录(user home)
+  . 当前目录
+  .. 当前目录的父目录
+
+  list.txt  相对路径, 相当于: ./list.txt
+  /home/soft01/list.txt 绝对路径名
+  ~/list.txt 用户主目录下的一个文件
+  
+  ls />list.txt
+  ls />./list.txt
+  ls />~/list.txt
+  ls />/home/soft01/list.txt
+
+ 1)cd 改变当前工作目录
+  默认的cd 相当于 cd ~ : 返回"主目录"
+  . 表示当前目录
+  .. 表示上级目录(父目录)
+  ~ 代表"主目录"
+  以"/" 开始的目录路径表示: 绝对路径, 反之: 相对路径
+  相对路径: 是相对于当前目录. ".", ".." 都是相对路径
+  以"." 为开头的文件/目录是隐藏的
+ 2) ls 列目录命令
+  如:
+  ls /
+  ls /etc
+  ls /opt
+  ls ~
+  ls workspace
+  ls -a ~ 显示全部的内容(包括隐藏文件和目录)
+   
+   
+ 3) 创建目录 
+ 	mkdir .photo 创建隐藏文件夹 ".photo"
+ 4) mv 移动/改名文件夹/文件
+   mv .photo photo //改名
+   mkdir mm
+   mv mm photo //移动
+   ls photo
+   mv passwd passwd.bak
+   
+ 5) rm 删除文件/目录
+   删除文件: rm file1 file2 file3 ...
+   删除目录: rm -rf dir1 dir2 ...
+   选项: -r 递归删除所有子目录和文件
+        -f 强制删除, 不进行任何的交互确认(linux 默认 -f)
+ 
+ 6) cp 复制文件/目录, 注意第二个参数
+   复制文件 cp /etc/passwd ~
+   赋值文件夹 cp -r workspace workspace.bak
+   mkdir demo
+   cp -r workspace demo
+   
+   选项-r 表示递归赋值所有的子目录和文件内容
+   
+ 7) 文件的授权
+  ls -al 查看长格式结果
+  d rwx rwx rwx  liucs liucs com
+  -rwxrwx---  liucs liucs Hi.java
+  
+  chmod 660 test.txt
+        rw- rw- ---
+        rwx
+  421   421
+  000 0 ---   
+  001 1 --x
+  010 2 -w-
+  011 3 -wx
+  100 4 r--
+  101 5 r-x
+  110 6 rw-
+  111 7 rwx
+ 
+  女朋友的授权: 744
+  
+ 
+   
+ 8) windows 命令
+  dir == ls
+  mkdir == mkdir
+  cd == cd
+  del == rm
+  cls = clear
+  more = more
+  type == cat
+  move = mv
+  copy, xcopy = cp
+  
+  help == man
+
+   
+3 文件的创建 与 修改
+ 1) echo 回显命令
+    echo abc 将abc回显到控制台   
+ 2) ">" 输出重定向, 将命令的"标准输出" 结果重新定向到
+   新的目标.
+      ">>" 表示追加输出 
+    ls />rootlist.txt
+    echo abc>test.txt  
+    echo abc>>test.txt
+ 3) cat 查看文件内容
+ 4) touch 创建新空白文件, 修改文件访问时间
+  
+4 创建和修改文本文件 vi 
+  1 打开 vi [filename] -> 命令状态
+    命令状态: 任何键盘输入都是命令
+    命令状态: [esc] 总是回到命令状态
+    编辑状态: 对文本进行编辑, 任何的输入都是编辑内容
+        vi [filename] ->        i o a ->
+   命令行                  命令状态            编辑状态
+         <- :q 退出命令           <- [esc]
+         <- :q!强制退出命令   
+         <- :wq保存退出命令                
+                          :w保存
+                          :w [filename]
+                          :w! [filename]
+  / ? n 查找
+ 
+5 打包备份与恢复(相当于winrar)
+ 1) tar打包: 
+    tar -cf workspace.tar workspace .... 
+    gzip workspace.tar
+    或:
+    tar -czf workspace.tar.gz workspace .... 
+  
+  释放到当前文件夹: 
+    tar -xzf workspace.tar.gz  (Linux)
+    或:
+    gzip -d workspace.tar.gz
+    tar -xf workspace.tar 
+ 
+ 2) zip 打包与释放:
+   zip -r file.zip file1 file2 file3 ...
+   unzip file.zip
+    
+    
+6 系统环境变量PATH
+  1) 环境变量PATH: 操作系统可执行命令的搜索路径.
+  2) 可以使用$PATH引用变量的值.
+  3) 查看环境变量: echo $PATH
+  4) 设置环境变量: export PATH=$PATH:/sbin
+    
+7 Java的安装与环境的配置
+  1) Oracle下载JDK, http://java.sun.com
+    linux 版本的JDK是自释放压缩包
+  2) 安装JDK 以Java1.5 为例:
+    chmod +x jdk-1_5_0_09-linux-i586.bin  (增加执行授权)
+    ./jdk-1_5_0_09-linux-i586.bin (执行释放)
+    
+    自动释放安装到 ~/jdk1.5.0_09 
+ 
+  3) 配置JDK, 以JDK安装到 /opt/jdk为例:
+    /opt/jdk
+     |- bin 开发工具(命令: javac, java, jar, rmic, jps...)
+     |- lib 开发工具实现类tools.jar
+     |- jre (Java运行环境) 
+     |   |- bin (JVM)
+     |   |- lib (Java API 类库)
+     |       |- rt.jar ( 核心类库, zip压缩,
+     |                 包含java.util.Random)  
+     |- src.zip (Java API 类库的源文件) 
+   
+     
+    A 配置PATH, 使PATH包含JDK安装目录下的bin目录
+      目的: 将JDK带来的开发工具(命令)扩展到OS中.
+      如: export PATH=/opt/jdk/bin:$PATH
+
+
+    B 配置JAVA_HOME, JAVA_HOME指向JDK的安装目录
+     JAVA_HOME 的作用: 是指导"某些Java软件"找到JDK
+     如: tomcat 服务器 就使用 JAVA_HOME
+     实例: export JAVA_HOME=/opt/jdk
+     
+    C 配置CLASSPATH, 指向Java类的部署目录或者Jar文件
+    用来为JVM 指明Java类的搜索路径, Java在执行类的时候
+    在CLASSPATH指示的路径下查找类文件.
+     实例: export CLASSPATH=.
+     
+	Windows 参考 Java配置命令:
+	set JAVA_HOME=C:\Program Files\Java\jdk1.6.0_01
+	set CLASSPATH=.
+	set PATH=C:\Program Files\Java\jdk1.6.0_01\bin;%PATH%
+
+8 package 与 CLASSPATH: 
+  1) 是java中对类进行分类的
+  2) 包映射为系统的文件夹
+  3) java的类的全名: 全限定名=包名+类名  
+  4) 使用Java执行类时候要指定到 "全限定名"
+ 
+  5)Java 的 编辑 与编译实例:
+	cd demo
+	vi HelloWorld.java   (编辑(edit)Java源文件)
+	mkdir bin            (创建输出目录bin)
+	javac -d bin HelloWorld.java (编译(Compile) 源文
+		              件到bin文件夹, 在bin中生成包)
+	(下面设置 Java的类文件搜索路径, java执行时候利用这个
+	路径搜索Java的包和类文件)
+	export CLASSPATH=/home/liucs/demo/bin
+	java corejava.day01.HelloWorld (执行java类, Java命令会
+	         到CLASSPATH指定的系列路径中寻找包corejava.day01
+		 寻找包中HelloWorld.class 的字节码文件 )
+ 
+9 系统初始化脚本  
+  1) 初始化脚本 是指在开机过程中自动执行的系统脚本文件
+    一般用来初始化系统环境
+  2) 系统级初始化脚本文件: /etc/profile 所有当前系统的用户
+  登录时候都执行
+ 作业: 
+    1 复习所有的Linux命令
+    2 使用VI编辑, 几个java 源文件
+	3 目录浏览 jdk 目录, 找到文件: java javac rt.jar src.zip
+	4 创建目录src在src目录中释放src.zip, 找到其中的Random.java
+	  Scanner.java 等
+	4 创建目录bin在bin目录中释放rt.jar, 找到其中的Random.class
+	  Scanner.class 等
+	
+    5 实现Java代码:  
+      a 在一幅扑克牌中随机取出一张牌uu
+      b 在一幅扑克牌中随机取出5张牌
+    
+预习: java 面向对象知识: 类, 对象, 引用
+  

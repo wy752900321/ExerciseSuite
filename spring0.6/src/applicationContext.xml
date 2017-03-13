@@ -1,0 +1,96 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	<!--myDataSource 默认单例的 -->
+	<bean id="myDataSource" destroy-method="close"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://localhost:3306/dangdang</value>
+		</property>
+		<property name="username">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>root</value>
+		</property>
+		<property name="initialSize">
+			<value>2</value>
+		</property>
+		<property name="maxActive">
+			<value>20</value>
+		</property>
+	</bean>
+	<!-- 定义sessionFactory 默认单例的-->
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource">
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/tarena/entity/User.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!--不使用daosupport实现dao -->
+	<bean id="userDao" scope="prototype" class="com.tarena.dao.impl.HibernateUserDAO">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	
+		<!-- -基于daosupport实现dao -->
+		<!--
+		<bean id="userDao2" scope="prototype" class="com.tarena.dao.impl.HibernateUserDAO2">
+			 这个值一定要写的，不然空指针异常 
+			<property name="sessionFactory" ref="mySessionFactory"></property>
+		</bean>
+		-->
+		<!--
+		 JDBC访问数据库的事务管理 bean	
+		<bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> 
+		-->
+	<!-- 声明式事务管理 -->
+	<bean id="txManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	<!-- 定义事务管理通知 -->
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+			<tx:attributes>
+			<!-- 指定什么样的方法，怎么管理事务   REQUIRED有这个事务就使用它，没有就创建一个使用-->
+				<tx:method name="save*" propagation="REQUIRED"/>
+				<tx:method name="update*" propagation="REQUIRED"/>
+				<tx:method name="delete*" propagation="REQUIRED"/>
+				<!-- 没有增删改没必要使用事务 里加read-only="true"效率高   "NOT_SUPPORTED"指不使用事务管理 -->
+				<tx:method name="find*" read-only="true" propagation="NOT_SUPPORTED"/>
+			</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="daocut" expression="within(com.tarena.dao.impl.*)" />
+		<!-- advisor是通知切入点的结合体 -->
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="daocut" />
+	</aop:config>
+
+	<!-- struts2与spring整合 action类的配置 -->
+	<bean id="listAction" scope="prototype" class="com.tarena.action.ListAction">
+		<property name="userDao" ref="userDao2"></property>
+	</bean>
+
+</beans>

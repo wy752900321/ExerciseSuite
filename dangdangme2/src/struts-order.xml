@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package name="order" namespace="/order" extends="dang-default">
+
+		<!-- 配置新的拦截器栈，放置令牌拦截器到默认栈的最后 -->
+		<interceptors>
+			<interceptor-stack name="tokenStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="token">
+					<!-- 配置令牌拦截器拦截哪些方法，如果有多个方法，中间用“，”隔开 -->
+					<param name="includeMethods">addressOk</param>
+				</interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+
+		<default-interceptor-ref name="tokenStack" />
+
+
+		<action name="getNewOrder" method="getNewOrder"
+			class="org.tarena.dang.action.order.OrderAction">
+			<result name="getNewOrderSuccess" type="json">
+				<param name="root">order</param>
+			</result>
+		</action>
+		<action name="findOrder" method="findOrderByUserId"
+			class="org.tarena.dang.action.order.OrderAction">
+			<result name="findOrderSuccess" type="dispatcher">
+				/order/address_form.jsp
+			</result>
+		</action>
+		<!-- redirect  dispatcher redirectAction-->
+		<action name="orderOk" method="addressOk"
+			class="org.tarena.dang.action.order.SubmitAddress">
+			<result name="success">/order/order_ok.jsp</result>
+			<!-- 第二步：当表单重复提交时，转到给页面 -->
+			<result name="invalid.token" type="dispatcher">
+				/order/order_ok.jsp
+			</result>
+			<!--
+				<result name="formToken" type="redirect">/order/error.jsp</result>
+			-->
+		</action>
+	</package>
+</struts>

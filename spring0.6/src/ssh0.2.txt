@@ -1,0 +1,107 @@
+spring与Hibernate整合异常：异常处理：
+		org.springframework.beans.factory.BeanCreationException: 
+		Error creating bean with name 'mySessionFactory' defined in class path resource
+	 [applicationContext.xml]: Invocation of init method failed; 
+	 nested exception is java.lang.NoClassDefFoundError: org/objectweb/asm/CodeVisitor
+	在使用spring的AOP编程时，会用到这三个lib:
+		spring_2.5_asm_2.2.3/asm-2.2.3.jar
+		spring_2.5_asm_2.2.3/asm-commons-2.2.3.jar
+		spring_2.5_asm_2.2.3/asm-util-2.2.3.jar
+	在Hibernate中使用以下lib:
+		Hibernate_jar/asm.jar
+		Hibernate_jar/asm-attrs.jar
+		其中asm-2.2.3.jar与asm.jar存在类上的冲突。使用其中之一或两者都使用，可能会出现以上错误
+		解决方法：
+			1去掉类路径上的关于Hibernate的三个lib
+				asm.jar
+				asm-attrs.jar
+				cglib-2.1.3.jar
+			2.加入Spring中的以下4个lib
+				asm-2.2.3.jar
+				asm-commons-2.2.3.jar
+				asm-util-2.2.3.jar
+				cglib-nodep-2.1.3.jar
+			
+		
+
+Spring框架与Struts2的整合
+
+		面试官：在Spring与Struts2整合中Action是由谁负责创建的？
+  					方法一的 Action是由Spring容器负责创建
+  					方法二的 Action是由StrutsSpringObjectFactory负责创建
+
+  2)整合方法二(整合结构图参考ssh2-1.jpg)        
+  	特点：将Service,DAO组件都交给Spring容器管理.Action交给StrutsSpringObjectFactory创建，
+  				并且利用spring容器中Bean对象给Action属性注入。默认按名称匹配原则注入
+  		 a.在web.xml中配置ContextLoaderListener(参考整合方法一)
+  		 b.引入了Struts2和Spring整合的开发包.
+  		 
+  		 注意：在编写Action组件时，如果某个属性需要使用Spring容器Bean对象，该属性名要与
+  		 		 Spring容器中<bean>元素的id值保持一致，因为默认是按名称匹配原则注入。
+
+  		 				如果名称不一致，可以修改struts2-core-2.1.8.jar里面的org.apache.struts2文件
+  		 				里的default.properties中struts.objectFactory.spring.autoWire = name的
+  		 				参数设置，改为按类型匹配注入，设置更改方式如下：
+  		 				在struts.xml中添加以下定义
+			  		 		<constant value="type" 
+			  		 				name="struts.objectFactory.spring.autoWire" value="type"/>
+
+	asm.jar与asm-attrs.jar可能会有冲突，可以删除了其中一个，然后把WEB-INF\lib里也要删
+	
+	
+事务：
+	 1)编程式事务管理方式(基于编码实现,了解)
+public Object someServiceMethod() {
+    return transactionTemplate.execute(
+      new TransactionCallback() {
+      // the code in this method executes in a transactional context
+      public Object doInTransaction(TransactionStatus status) {
+        updateOperation1();
+        return resultOfUpdateOperation2();
+      }
+    });
+  }
+   2)声明式事务管理方式(基于配置实现,推荐使用)
+   a.首先定义一个事务管理bean
+     jdbc访问数据库的事务管理bean,(需要注入dataSource):
+     	org.springframework.jdbc.datasource.DataSourceTransactionManager
+     hibernate访问数据库的事务管理bean(需要注入sessionFactory):
+   		org.springframework.orm.hibernate3.HibernateTransactionManager
+   b.引入tx命名空间,定义事务管理通知
+   		<tx:advice id="txAdvice" transaction-manager="txManager">
+       <tx:attributes>
+ 				<tx:method name="save*" propagation="REQUIRED"/>
+         			   ......
+        <tx:attributes>
+   		</tx:advice>
+   c.添加aop配置,将事务通知切入到目标对象
+	   	<aop:config>
+				 	<aop:pointcut id="daocut" 
+				                    expression="within(com.tarena.dao.impl.*)"/>
+				 	<!-- advisor是通知和切入点的结合体 -->
+				 	<aop:advisor advice-ref="txAdvice" 
+				 		pointcut-ref="daocut"/>
+				</aop:config>
+   
+   Spring中常用事务类型：
+			REQUIRED--支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。
+			SUPPORTS--支持当前事务，如果当前没有事务，就以非事务方式执行。
+			MANDATORY--支持当前事务，如果当前没有事务，就抛出异常。
+			REQUIRES_NEW--新建事务，如果当前存在事务，把当前事务挂起。
+			NOT_SUPPORTED--以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+			NEVER--以非事务方式执行，如果当前存在事务，则抛出异常。
+			NESTED--如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与REQUIRED类似的操作。
+			拥有多个可以回滚的保存点，内部回滚不会对外部事务产生影响。只对DataSourceTransactionManager有效
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

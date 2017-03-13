@@ -1,0 +1,34 @@
+select dp.* product_id,coutn(product_num)
+from d_item item 
+join d_product dp on(item.product_id=dp.id)
+group by item.product_id
+order by count(item.product_num) desc
+limit 3;
+
+按id分组,按sum排序
+select dp.* 
+from d_item item 
+join d_product dp on(item.product_id=dp.id)
+group by item.product_id
+order by sum(item.product_num) desc
+limit 3;
+如何实现某个功能--(以注册为例)
+1)明确具体需求
+   例如点击"注册",
+   a.将表单信息写入数据库(测试)
+   b.追加数据表其他字段的设置,例如ip,logintime等
+   c.实现密码加密问题(MD5)
+   d.实现邮箱验证问题
+      采用UUID生成一个code,之后给用户邮箱发送code+userId
+   e.跳转到验证邮箱页面
+2)验证邮箱具体需求
+  a.获取用户邮箱验证码,解析出userId和uuid
+  b.去数据库查询是否匹配,select * from d_user where id=? and uuid=?.如果验证码不正确,回到邮箱验证页面
+  c.将d_user表的is_email_verify设置成通过验证状态
+  d.跳转到注册成功页面
+3)登录具体需求
+  a.判断邮箱和密码是否正确.如果不正确返回登录页面
+  b.判断邮箱是否通过验证.如果未通过,跳转到验证邮箱页面
+  c.更新d_user中的last_login_time和last_login_ip字段
+  d.需要将user信息写入session
+  e.登录成功进入/main/main.jsp

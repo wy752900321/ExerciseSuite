@@ -1,0 +1,231 @@
+mysql中：
+		查询表MyClass中前2行数据
+		mysql>select * from MyClass order by id limit 0,2;
+		删除表中数据:delete from 表名 where 表达式
+		删除表drop table 表名
+		删除数据库drop database 数据库名
+		修改表中数据：update 表名 set 字段＝新值，....where 条件 
+				如：mysql>update MyClass set name='Mary' where id =1;
+	在表中增加字段：
+			命令：alter table 表名 add字段  类弄  其它；
+			例如：在表MyClass中添加一个字段passtest,类型为int(4),默认为0
+			mysql>alter table MyClass add passtest int(4) default '0'
+	更改表名：
+			命令：rename table 原表名 to 新表名
+			例如：在表MyClass 名字更改为YouClass
+			mysql>rename table MyClass to YouClass;
+			更新字段内容：
+			update 表名  set 字段名 ＝ 新内容
+			update 表名  set 字段名＝replace(字段名,‘旧内容'  ,  ' 新内容 ');
+			
+	导出整个数据库
+			mysqldump -u 用户名  -p --default-character-set=latin1  数据库名>导出的文件名(数据库默认编码是latin1)
+			如：mysqldump -u wcnc -p smgp_apps_wcnc>wcnc.sql
+	导出一个表
+			mysqldump -u 用户名  -p 数据库名   表名＞导出的文件名
+			如：mywqldump -u wcnc -p smgp_apps_wcnc users>wcnc_users.sql
+	导出一个数据库结构
+			mysqldump -u  wcnc -p -d -add-drop-table  smgp_apps_wcnc>d:wcnc_db.sql
+			-d没有数据    -add-drop-table在每个create语句之前增加一个drop table
+	导入数据库
+			常用source命令
+				进入mysql数据库控制台，如mysql -u root -p 
+				mysql>use 数据库
+				然后使用source命令，后面参数为脚本文件（如这里用到的.sql）
+				mysql>source d:wcnc_db.sql
+				
+				
+
+1、dom操作
+	1)、查询
+		a,html():
+			用法
+				html(): 返回节点的html内容
+				html(string): 设置节点的html内容
+		b,text():
+			用法:
+				text():返回节点的文本
+				text(string):	设置节点的文本
+		c,val():
+			用法:
+				val():返回节点的值
+				val(string):设置节点的值
+		d,attr():
+			用法:
+				attr(属性名): 返回节点的某个属性值。
+				attr(属性名,属性值):设置节点的某个属性值。
+				attr({"":"","":""});一次设置多个属性值。
+	2)、创建
+			$(html片断);
+	3)、插入节点
+		append():向每个匹配的元素内部追加内容
+		prepend():向每个匹配的元素内部前置内容
+		after():在每个匹配的元素之后插入内容
+		before():在每个匹配的元素之前插入内容
+	4)、删除节点
+		remove()
+		remove(selector)
+		empty():清空节点
+
+	5)、复制节点
+		clone():
+		clone(true):使复制的节点也具有行为(绑订的
+		事件处理代码)
+
+	6)、属性操作
+		读取：attr('');
+		设置：	attr('','') 或者一次设置多个 
+		attr({"":"","":""});
+		删除：removeAttr('')
+	7)、样式操作
+		获取和设置: attr("class","s1")	attr("style","color:red;");
+		追加:addClass('')
+		移除:removeClass('s1') 
+		或者removeClass('s1 s2') 
+		或者removeClass()//会删除所有样式
+		切换样式：toggleClass
+		是否有某个样式 hasClass('')
+		读取css('')
+		设置css('','')或者
+		css({'':'','':''})//设置多个样式
+	8)、遍历节点
+		children():只考虑子元素，不考虑其它后代元素。
+		next():
+		prev():
+		siblings():
+		find(selector):
+	jQuery建议将js代码与html代码分离，方便代码的维护。
+	可以采用如下结构：
+	$(function(){
+		//此处的代码会在整个html文件都加载完毕之后
+		//才会执行。
+	});
+2、事件处理
+	1)、事件绑订
+		bind(type,fn)
+	2)、绑订方式的简写形式
+		click(function(){
+		});
+	3)、合成事件
+		hover(enter,leave) : 模拟光标悬停事件
+		toggle(fn1,fn2,...)：模拟鼠标连续单击事件
+			toggle(fn, fn2, [fn3, fn4, ...])
+			每次点击后依次调用函数。
+			如果点击了一个匹配的元素，则触发指定的第一个函数，当再次点击同一元素时，
+			则触发指定的第二个函数，如果有更多函数，则再次触发，直到最后一个。
+				随后的每次点击都重复对这几个函数的轮番调用。
+			可以使用unbind("click")来删除。
+	4)、事件冒泡
+		a,获得事件对象
+		//event实际上是一个jQuery对象
+		//该对象封装了原始的event对象。
+		click(function(event){
+			
+		});
+		b,停止冒泡
+			event.stopPropagation()
+		c,停止默认行为
+			event.preventDefault()
+	5)、事件对象的属性
+			event.type
+			event.target:返回事件源(是dom对象)
+			event.pageX/pageY:返回鼠标点击的x,y坐标
+3、动画
+	show/hide:显示/隐藏
+		show('slow'/'normal'/'fast')
+		show(900)
+		show('slow',fn);  
+		fn:在动画执行完成之后执行的函数
+	slideDown/slideUp: 展开/收缩
+		slideDown(speed, [callback])
+						通过高度变化（向下增大）来动态地显示所有匹配的元素，在显示完成后可选地触发一个回调函数。
+						
+						这个动画效果只调整元素的高度，可以使匹配的元素以“滑动”的方式显示出来。
+						在jQuery 1.3中，上下的padding和margin也会有动画，效果更流畅。参数
+						
+						三种预定速度之一的字符串("slow", "normal", or "fast")或表示动画时长的毫秒数值(如：1000)
+						callback (可选)FunctionFunction
+						
+						用200毫秒快速将段落滑下，之后弹出一个对话框
+						jQuery 代码:
+						$("p").slideDown("fast",function(){
+						   alert("Animation Done.");
+						 });
+		同show用法一样。
+	fadeIn/fadeOut:淡入/淡出
+		同show用法一样。
+	animate:
+		animate({},number,[fn]);
+		比如:
+			animate({"left":"300px","top":"500px"},3000);
+			fn是一个回调函数
+4、类数组的操作
+	$(selector)执行完之后，有可能返回多个节点，会将这些
+	节点封装成一个类数组。
+		each(fn(i)):循环遍历每一个元素,
+			this代表被迭代的dom对象，
+			$(this)代表被迭代的jquery对象。
+			i表示遍历的节点的下标，从0开始。
+		eq(index)：返回index+1位置处的jquery对象
+		index(obj)：返回下标，其中obj可以是
+		dom对象或者jquery对象。
+		length：个数
+		get()：返回dom对象组成的数组
+		get(index)：返回index+1个dom对象。
+		
+5、ajax的支持
+	1)、load(url),将服务器响应插入当前
+	jQuery对象匹配的dom元素之内。
+		采用get方式向服务器发送请求。
+		如果有请求参数要发送，可以采用两种形式:
+			$obj.load(url,{"参数名":"参数值","参数名":"参数值"})
+			或者
+			$obj.load(url,"参数名=参数值&参数名2=参数值2");
+	2)、$.get(url,[data],[callback],[type]):
+	$.post()格式同上。
+			url:请求地址
+			data:请求参数，可以是一个string,object,跟
+					load方法一样。
+			callback:回调函数
+			 	function(data,statusText):
+			 	data:服务器返回的数据
+			 	statausText: 状态
+			type: 服务器返回的数据类型
+					text
+					html
+					xml
+					script
+					json 
+	3)、$.ajax(options):options是一个形如
+	{key1:value1,key2,value2...}的js对象，用于指定
+	发送请求的选项。
+	选项参数如下：
+		url(string):请求地址
+		type(string):GET/POST
+		data(object/string):发送到服务器的数据 (这儿可以使用serialize()或者serializeArray()方法)
+		dataType(string) :预期服务器返回的数据类型，一般有：
+							 xml:返回XmlDocument对象（如果要处理，最好先将其包装成jQuery对象，
+							 然后使用其相应的属性或者方法来处理，参见ajax_lab）。
+							 html:
+							 script:
+							 json:
+							 text:
+		success(function):请求成功后调用的回调函数，有两个参数：
+							function(data,textStatus),其中，
+							data是服务器返回的数据，可以是html,text,jsonObj,xmlDoc
+							textStatus 描述状态的字符串。
+		error(function):请求失败时调用的函数，有三个参数
+							function(
+							xhr,
+							textStatus,
+							errorThrown)
+					xhr: XmlHttpRequest对象	
+					textStatus,errorThrown其中有一个可以
+					获得异常信息。
+	4)、序列化元素：
+		serialize():将jquery对象包含的
+		表单或者表单控件转换成查询字符串
+		serializeArray()：转换为一个数组，每个数组元素形如{name:fieldName,value:fieldVal}的对象。
+	序列化元素的作用，主要是用于ajax请求中，给data赋值。
+
+		

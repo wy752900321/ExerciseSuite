@@ -1,0 +1,77 @@
+Hibernate
+ 1、Hibernate
+    (a)2001-2003 jboss
+    (b)Hibernate是一个对象持久化框架
+ 2、Hibernate作用
+OOP 、OOA、OOD 
+   V         C             M                                 DB(关系形数据库)
+  jsp     servlet       JavaBean                  
+------------------   -------------------                     -----------------
+        |                        |                                   |
+      表示层               业务层     数据层                    oracle、mysql 
+   （struts2                          JDBC
+     jsf                            Ibatis(半持久框架)   
+     struts1                       Hibernate(一站式持久框架) 
+     webwork                        JDO        
+                                    Apatch OBJ 
+    ）                             oracle topLink
+                                   EJB --(CMP实体Bean)
+                                   EJB3.x(CMP--JPA)  
+--------------------------------Object--------------------   Mapping    -------Relactional-------
+ 3、Hibernate优势(JDBC)
+    1、代码编写简单，节省了90%代码，让开发者专心与业务层
+    2、数据库可移植性比较强
+    3、一站式处理,开发简单
+ 	4、Hibernate 使用一级缓存、二级缓存处理
+4、ORM(ORMapping) 
+    对象关系映射
+    在编程时候以对象的方式处理数据，
+    在保存是是以关系型的方式保存数据  
+
+    JDBC完成数据持久化
+
+4、完成简单Hibernate程序
+    (a)创建Java Project
+   （b）添加基本类库hibernate类库
+        hibernate3.3.2/hibernate3.jar 
+        hibernate-3.3.2.GA/lib/required/*.jar
+        hibernate-3.3.2.GA/lib/bytecode/cglib/*.jar
+    (c)制作用户自定类库
+       (1)把hibernate类库放入到指定目录
+       (2)制作类库
+         window-->prefer--->java--->Build path
+          -->user lib-->new(类库名字) ---add jar 
+       (3)添加用户自定义类库      
+          工程右键---》build path--add lib--->user lib
+    (d)创建Hibernate配置文件（*.properties *.xml）
+       (1)、数据库连接 hibernate.cfg.xml(1个)
+       (2)、存放对象关系映射文件 *.hbm.xml(可以有多个)
+       (3)添加数据库驱动包
+      （4）创建表
+           create database mydb;
+           use mydb;
+           create table t_user(
+               userid int primary key auto_increment,
+               username varchar(20),
+               password varchar(20)
+           );
+       (5)创建实体类(Pojo)entity
+       (6)创建对象模型与关系模型映射 User.hbm.xml
+       (7)在hibernate.cfg.xml文件中引入User.hbm.xml
+           <mapping resource="com/tarena/entity/ext/User.hbm.xml"/>
+
+   insert 
+    into
+        t_user
+        (username, password) 
+    values
+        ('c','2');
+ 
+
+
+
+
+
+
+
+

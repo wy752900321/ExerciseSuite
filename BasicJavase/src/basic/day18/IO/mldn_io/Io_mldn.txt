@@ -1,0 +1,86 @@
+BufferedReader类：
+	用于从缓冲区中读取内容，所有的输入字节数据都将放在缓冲区中：
+方法:public BufferedReader(Reader in)  构造  接收一个Reader类的实例
+	public String readLine() throws IOException 普通  一次性从缓冲区中将内容全部读取进来
+	BufferedReader中定义的构造方法只能接收字符输入流的实例，所以必须使用字符输入流和
+	字节输入流的转换类InputStreamReader将字节输入流System.in变为字符流。如：
+	//BufferedReader实例化过程
+	BufferedReader buf = null;
+	buf=new BufferedReader (new InputStreamReader(System.in));
+	System.in批字节输入流，InputStreamReader()是将字节变为字符流，
+	BrfferedReader是将字符流放到字符流缓冲区之中。
+	
+	BufferedReader只能接收字符流的缓冲区，因为每一个中文要占两个字节，所以需要将
+					System.in这个字节的输入流变为字符的输入流。
+数据操作流：
+	DataOutputStream类是OutputStream的子类，此类定义如下；
+	public class DataOutputStream extends FileterOutputStream implements DataOutput
+	此类继承自FileterOutputStream类（FilterOutputStream是OutputStream的子类），同时实现了DataOutput接口，
+	在DataOutput接口定义了一系列的写入各种数据的方法：
+	提示：DataOutput是数据的输出接口，其中定义了各种数据的输出操作方法，例如，在DataOutputStream类中和各种writeXxx()
+	方法就是此接口定义的，但是在数据输出时一般都会直接使用DataOutputStream，中有在对象序列才可能无止境操作此接口
+合并流：主要功能是将两个文件的内容合并成一个文件，
+	  如果要实现合并流，则必须使用SequenceInputStream类，此类的常用方法如下：
+	  public class SequenceInputStream  extends InputStream
+
+	  SequenceInputStream 表示其他输入流的逻辑串联。它从输入流的有序集合开始，
+				并从第一个输入流开始读取，直到到达文件末尾，接着从第二个输入流读取，
+				依次类推，直到到达包含的最后一个输入流的文件末尾为止。 
+	  SequenceInputStream(InputStream s1, InputStream s2)
+          通过记住这两个参数来初始化新创建的 SequenceInputStream（将按顺序读取这两个参数，先读取 s1，然后读取 s2），
+          以提供从此 SequenceInputStream 读取的字节。
+      public int available() throws IOException  返回文件大小 
+ 压缩流：java中可将文件压缩成ZIP,JAR,GZIP等形式
+ 	ZIP是一种常用的压缩形式，在java中要实现ZIP的压缩需要导入java.util.zip包。可以使用此包中
+ 	ZipFile,ZipOutputStream,ZipInputStream和ZipEntry几个类来实现操作。
+ 	JAR压缩的支持类保存在java.util.jar包中，常用类如下：
+ 	JAR压缩输出流：JarOutputStream
+ 	JAR压缩输入流：JarInputStream
+ 	JAR文件：JARFile
+ 	JAR实体：JAREntry
+ 	GZIP是用于UNIX系统的文件压缩，在Linux中经常会使用到*.gz的文件，就是GZIP格式，
+ 	GZIP压缩的支持类保存在java.util.zip包中，常用类如下：
+ 	GZIP压缩输出流:GZIPOutputStream
+ 	GZIP压缩输入流：GZIPInputStream
+ 	
+ 	在每一个压缩文件中都会存在多个子文件，那么每一个子文件在java中使用ZipEntry表示。ZipEntry常用方法如下：
+ 	public ZipEntry(string name)	构造		创建对象并指定要创建的ZipEnty名称
+ 	public boolean isDirectory()	普通		判断此ZipEnty是否是目录
+ 	
+ 	注：压缩的输入／输出类定义在java.util.zip包中。
+ 		压缩的输入／输出也属于inputStream或OutputStream的子类，但却没有定义在java.io包中，而是以一种
+ 		工具类的形式提供的。
+ 		
+ 		ZipOutputStream类的常用方法：
+ 			public ZipOutputStream(OutputStream out)	构造	创建新的ZIP输出流
+ 			public void putNextEntry(ZipEnty e)throw IOEception 设置每一个ZipEntry对象
+ 			pulic void setConment(string connment)		设置ZIP文件的注释
+ ZipFile类：ZipFile类实例化时需要File指定的路径
+ 	在java中，每一个压缩文件都可以使用ZipFile表示，还可以使用ZipFile根据压缩后的文件名称找
+ 	到每一个压缩文件中的ZipEntry并将其进行解压缩操作，ZipFile类的常用方法如下：
+ 	public ZipFile(File file)throws ZipException,IOException 构造  根据File类实例化ZipFile对象
+ 	public ZipEntry getEntry(String name) 普通 根据名称找到其对应的ZipEntry
+ 	public InputStream getInputStream(ZipEntry entry)throws IOexception 根据ZipEntry取得InputStream实例
+ 	public String getName()	得到压缩文件的路径名称。
+ 
+ ZipInputStream类：是InputStream的子类，通过此类可以方便读取zip格式的文件，常用方法如下：
+ 	public ZipInputStream(InputStream in)	构造	实例化ZipInputStream对象
+ 	public ZipEntry getEntry()throws IOException 取得下一个ZipEntry
+ 	可以像ZipFile一样取得ZIP压缩文件中的每个ZipEntry.
+ 	
+ 	在java中提供了一种回退输入流(PushbackInputStream/PushbackReader),可以把读取进来的某些数据重新退回到
+ 	输入流的缓冲区中。
+ 	在回退流中，对于不需要的数据可以使用unread()方法将内容重新送回输入流的缓冲区中，下面以PushbackInputStream为例：
+ 	PushbackInputStream常用方法：
+ 	public PushbackInputStream(InputStream in)  构造  将输入流放入到回退流中
+ 	public int read() throws IOException   普通   读取数据
+ 	public int read(tyte[] b,int off,int len) throws IOException  读取指定范围的数据
+ 	回退一个：public void unread(int b)throws IOException    回退一个数据到缓冲区前面
+ 	回退一组：public void unread(tyte[] b)throws IOException  回退一组数据到缓冲区前面
+ 	回退部分：public void unread(tyte[] b,int off,int len)throws IOException   回退指定范围的一组数据到缓冲区前面
+ 	
+ 	上边的方法与InputStream(PushbackInputStream是InputStream的子类)类的三个read()方法相对应，所以回退完全是
+ 	针对于输入流进行操作的；
+ 	读取一个：public abstract int read()throws IOExceptin 
+ 	读取一组：public int read(byte[] b)throws IOException
+ 	读取部分：public int read(byte[] b,int off,int len)throws IOException

@@ -1,0 +1,50 @@
+1.继承映射(2) <subclass>(参考示例Question.hbm.xml)
+<class name="父类" table="表">
+  <discriminator column="t_type"></discriminator>
+  <subclass name="子类1" discriminator-value="区分标识值1"> 
+     //子类1属性映射
+  </subclass>
+  <subclass name="子类2" discriminator-value="区分标识值2"> 
+    //子类1属性映射
+  </subclass>
+</class>
+注意:继承映射的使用判断
+  a.如果将子类和父类映射到一张表,使用<subclass>方式
+  b.如果将子类和父类分别映射到不同数据表,使用<joined-subclass>
+2.组件映射(参考示例Order.hbm.xml,Person.hbm.xml)
+  主要基于面向对象组件重复利用思想,简化实体类定义.在业务操作时,对组件属性执行操作.
+   <component name="组件属性" class="组件类型">
+     <property name="组件子属性" ..../>
+     ........
+   </component>
+3.联合主键映射(参考示例Emp.hbm.xml)
+<composite-id name="key" class="EmpKey">
+   <key-property name="firstName" type="string">
+   	<column name="first_name"></column>
+   </key-property>
+   <key-property name="lastName" type="string">
+           <column name="last_name"></column>
+   </key-property>
+</composite-id>
+ 提示:利用MyEclipse生成hbm.xml时,数据库表设计时要加主键定义.如果不加默认将所有字段联合充当主键.
+4.List集合映射
+  List:有序,可重复
+  Set:无序,不可重复
+        <list name="listCats">
+        	<key column="parent_id"></key>
+	
+        	<list-index column="turn" base="1"></list-index>
+        	<one-to-many class="com.tarena.entity.Category"/>
+        </list>
+---------练习-----------
+首先完成课上练习,复习下前面讲过的各种关系映射
+之后尝试将当当项目数据库的映射搭建起来.
+  
+
+
+
+
+
+
+
+

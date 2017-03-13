@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tarena.entity.Order" table="d_order">
+		<id name="id" type="integer" column="id">
+			<!-- generator用来指明主键的生成方式 -->
+			<generator class="native"></generator>
+		</id>
+		<property name="userId" column="user_id" type="integer" />
+		<property name="status" column="status" type="integer" />
+		<property name="orderTime" column="order_time" type="long" />
+		<property name="orderDesc" column="order_desc" type="string" />
+		<property name="totalPrice" column="total_price" type="double" />
+		<property name="receiveName" column="receive_name" type="string" />
+		<property name="fullAddress" column="full_address" type="string" />
+		<property name="postalCode" column="postal_code" type="string" />
+		<property name="mobile" column="mobile" type="string" />
+		<property name="phone" column="phone" type="string" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,73 @@
+1.Struts2 UI标签
+  *form
+  *textfield
+   password
+   hidden
+   textarea
+  *checkbox
+   checkboxlist
+   radio
+  *select--option
+
+2.Intercetpor拦截器组件的使用
+   Struts框架提供很多的内置拦截器,开发者也可以自定义.
+   拦截器封装的功能具有:通用性强,可以多次重复利用.
+
+ params:将请求携带的数据给Action属性设置
+ fileUpload:调用commons-fileupload.jar组件将客户端文件上传到服务器
+   1)了解拦截器组件的规范
+      拦截器组件实现类必须实现Interceptor接口,实现interceptor方法
+   2)拦截器组件的声明配置
+     <package>
+      <interceptors>
+         <!--声明一个拦截器-->
+         <interceptor name="名称" class="实现类">
+         <!--声明一个拦截器栈-->
+         <interceptor-stack name="拦截器栈名">
+            <interceptor-ref name="拦截器1"/>
+            <interceptor-ref name="拦截器2"/>
+         </interceptor-stack>
+      </interceptors>
+     </package>
+
+   3)拦截器组件的使用     
+      a.为Action显示引用
+        <action name="" class="">
+           <interceptor-ref name="拦截器名或栈名"/>
+           <result></result>
+        </action>
+      b.为Action设置默认引用,(如果没有给action指定拦截器,调用默认)
+       如果<package>元素继承struts-default,默认调用defaultStack      
+            <default-interceptor-ref name="defaultStack"/>
+        
+      注意:defaultStack是在<action>元素没有指定拦截器的情况下执行,
+如果为<action>元素指定了拦截器,defaultStack不再执行.
+
+   4)拦截器使用示例
+      a.自定义一个登录检查的拦截器
+        1.编写LoginInterceptor拦截器组件
+        2.在<package>声明LoginInterceptor组件
+        3.在<action>元素中使用
+
+      b.利用内置的fileUpload拦截器实现文件上传
+ -----fileUpload拦截器实现的主要逻辑如下------
+   fileUpload首先调用commons-fileupload.jar组件,将文件上传到服务器临时目录下.然后将临时文件给Action的属性赋值.
+   接着通过ActionInvocation.invoke()调用UploadAction的execute方法,Result组件方法
+   最后fileUpload将临时文件清除.
+         1.引入commons-io.jar,添加upload.jsp页面
+         2.编写UploadAction,根据需要可以添加3个属性.
+          File xxx;//获取临时文件对象
+          String xxxFileName;//获取原文件名
+          String xxxContentType;//获取原文件类型
+        注意:xxx是jsp表单中file组件的name属性
+         3.在UploadAction的execute方法中,将xxx临时文件复制到目标目录中.
+         4.添加<action>元素配置
+         5.测试
+   
+  
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="main" location="0,0" size="0,0">
+    <action name="main" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+    </action>
+    <action name="newProduct" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="new.jsp" />
+      </result>
+    </action>
+    <action name="category" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="category.jsp" />
+      </result>
+    </action>
+    <action name="book_list" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="book_list.jsp" />
+      </result>
+    </action>
+    <action name="recommend" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="recommend.jsp" />
+      </result>
+    </action>
+    <action name="hotProduct" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="hot.jsp" />
+      </result>
+    </action>
+    <action name="newHotProduct" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="newhot.jsp" />
+      </result>
+    </action>
+    <action name="detail" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="book_info.jsp" />
+      </result>
+    </action>
+    <action name="sort" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="main.jsp" path="/WEB-INF/main/main.jsp" location="0,0" size="0,0" />
+  <webResource name="new.jsp" path="/WEB-INF/main/new.jsp" location="0,0" size="0,0" />
+  <webResource name="category.jsp" path="/WEB-INF/main/category.jsp" location="0,0" size="0,0" />
+  <webResource name="book_list.jsp" path="/WEB-INF/main/book_list.jsp" location="0,0" size="0,0" />
+  <webResource name="recommend.jsp" path="/WEB-INF/main/recommend.jsp" location="0,0" size="0,0" />
+  <webResource name="hot.jsp" path="/WEB-INF/main/hot.jsp" location="0,0" size="0,0" />
+  <webResource name="newhot.jsp" path="/WEB-INF/main/newhot.jsp" location="0,0" size="0,0" />
+  <webResource name="book_info.jsp" path="/WEB-INF/main/book_info.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

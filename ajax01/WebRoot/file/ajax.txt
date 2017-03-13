@@ -1,0 +1,213 @@
+ajax:
+		asynchronous javascript and xml(异步的javascript和xml)
+				1.为解决传统(没有使用ajax技术)的web应用当中,当用户点击提交按钮，提交了某个页面，此时，浏览器会，
+		将表单中的数据打包之后发送给服务器，同时，浏览器会将整个页面销毁。用户只能等待服务器返回一个新的页面，
+		不能做其它任何事情。
+				为了解决传统的web应用当中 的“等待－响应－等待”的弊端，需要浏览器可以通过异步的方式向服务器发请求。
+		ajax技术可以让浏览器异步地向服务器发请求 ：其本质是通过浏览器内置的一个对象（XmlHttpRequest）异步
+		地向服务器发请求（发送请求的同时，浏览器不会销毁之前的页面，此时，用户仍然可以对之前的页面做其它的操作，
+		也就是说不打断用户的操作）。服务器返回一些数据（不是一个新的页面，是部分的数据）给XmlHttpRequest对象，
+		接下来，通过dom操作，来更新页面。整个过程，页面无刷新。
+
+		ajax编程：
+				1) XmlHttpRequest对象：
+					a,如何获得XmlHttpRequest对象
+								因为XmlHttpRequest没有标准化，所以区分浏览器来获得该对象。
+								function getXhr(){
+									var xhr = null;
+									if(window.XMLHttpRequest){
+									//非ie浏览器
+									xhr = new XMLHttpRequest();
+									}else{
+									//ie浏览器
+									xhr = new ActioveXObject("Microoft.XMLhttp");
+									return xhr;
+									}
+								}
+								
+					b,常用的属性
+						onreadystatechange:注册监听器(即给XmlHttpRequest对象绑定事件处理代码)
+						responseText：获得服务器返回的文本数据
+						responseXML：获得服务器返回的xml数据
+						status：获得服务器给浏览器的状态码
+						readyState：XmlHttpRequest对象与服务器通讯过程当中 的状态，其值 是一个整数(1,2,3,4)
+																			比如当值为4时，表示该对象已接收到了，服务器返回的所有数据。
+				2）编程步骤：
+						step1,获得XmlHttpRequest对象
+						step2,发送请求
+										a,发送get请求
+										//open方法有三个参数，
+										//第一个参数：请求方式get,post
+										//第二个参数：请求地址
+										//参数要加在请求地址后面。
+										//第三个个参数，true表示异步请求，false同步请求。
+												xhr.open('get','check_name.do?name=zs',true);
+											xhr.send(null);
+												function f1(){
+													//只有状态为4进，才能正确地接收服务器返回的数据
+													if(xhr.readyState ==4){
+														//获得服务器返回的文本数据
+														var txt = xhr.resonseText
+														//通过dom,更新页面
+													}
+												}
+										b,发送post请求
+												xhr.open('post');
+						step3,服务器端编写处理请求
+						step4在监听器当中，处理服务器返回的数据，一般是通过XmlHttpServlce获得数据之后
+		缓存问题：
+			当采用get方式向服务器请求时，ie浏览器会先尝试从缓存当中查找数据，如果找到，不再向服务器发送请求：
+			解决方式：
+					在地址 后面添加一个随机数
+					采用post方式向服务器发请求，也可以解决。
+			编码问题：	
+				1）如果连接地址包含了中文，如何处理？
+						浏览器都 会对连接地址中的中文进行编码（一定会采用utf-8进行编码）				
+						解决方式:可以通过修改tomcat_home/conf/server.xml文件，添加"URIEncoding="utf-8"
+						如：
+							<Connector port="8080" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               redirectPort="8443" URIEncoding="utf-8"/>
+						
+				2) 如果连接地址包含了中文参数，如何处理？
+					浏览器会对中文参数进行编码，具体采用何种编码，要看打开这个页面的编码是什么。
+					解决方式：
+					最佳方案：step1:修改tomcat_home/conf/server.xml文件，添加"URIEncoding="uft-8"
+										step2:在jsp文件当中，添加
+											<%@page pageEncoding="utf-8" contentType="text/html;charset=utf-8"%>
+					方案二(个人喜好某个编码时)：单一指定编码
+									URLEncoder需要导包：<%@page import="java.net.*"%>
+									加参数URLEncoder.encoder("小张","utf-8")
+				3)   在ajax应用当中，当使用get方式向服务器发送请求时，ie使用gbk编码对请求数据进行编码，
+						firefox,chrome使用utf-8进行编码
+						解决方式：
+							step1,修改tomcat_home/conf/server.xml文件，添加"URIEncoding="uft-8"
+							step2, 对请求地址使用encodeURI函数进行处理，该函数会对地址中的中文进行编码（采用utf-8）.
+				4)   在ajax应用当中，当使用post方式向服务器发送请求时,浏览器统一采用utf-8编码。
+						解决方案：
+						解码时不一致，在jsp中加入
+										request.setCharacterEncoding("utf-8");//只对post起作用
+				日期处理：date01.jsp
+							step1,先写一个日期转换器类，必须实现JsonValueProcessor接口
+											
+							step2,注册这个转换器类
+								JsonConfig config = new JsonConfig();//创建JsonConfig对象
+								//告诉Json，用什么格式
+								config.registerJsonValueProcessor(Date.class,new DateProcessor);//注册一个转换器
+								JSONObject obj =JSONObject.fromObject(p,config)
+								
+							step3					
+						
+						
+				mysql语句：
+					查询销量前三的产品
+					select * form t_sale order by qty desc limit 3 ;
+				-0
+				
+		ajax模式:      file/.png分析：
+			1)Ajax引擎（即XmlHttpRequest对象），首先为该对象注册一个监听器（该监听器是一个
+				事件处理函数，对状态改变事件（readyStatechange）进行监听）。
+			2）当用户对GUI做了某种操作（将产生对应的事件，如焦点失去事件等 ）
+			3）一但产生对应的事件，将触发事件处理代码
+			4）在执行事件处理代码时，会调用Ajax引擎（XmlHttpRequest对象）
+			5）发送请求：Ajax引擎被调用后，将独自向服务器发送请求（独立于浏览器之外）
+				继续期货操作：在Ajax引擎发送请求的同时，用户在浏览器还可以对GUI继续做其他操作
+											该请求是异步请求（Ajax引擎发送请求时，没有打断用户的操作）
+			6）服务器的web组件对请求进行处理
+			7）服务器可能会调用到数据库或者处理业务逻辑的java类
+			8）服务器将处理结果响应给（只返回部分数据，可以是xml或者文本）Ajax引擎
+			9）监听器通过 Ajax引擎获取响应数据（xml或者文本）
+			10）监听器对GUI中的数据进行更新（局部更新，不是整个页面刷新）
+		在整个过程中大部分是通过JS实现的，响应数据可能是xml，所以Ajax可以看成是多种技术的融合。			
+				
+	ajax编程：
+			step1,获得XmlHttpRequest对象
+							该对象由浏览器提供，但是该类型并没有标准化，ie和其它浏览器不同
+							其它浏览器都支持该类型，而ie不支持。
+			
+				function getXmlHttpRequest() {
+								var xhr = null;
+								if ((typeof XMLHttpRequest) != 'undefined') {
+									xhr = new XMLHttpRequest();
+								} else {
+									xhr = new ActiveXObject('Microsoft.XMLHttp')
+								}
+								return xhr;
+						}
+				step2,使用XmlHttpRequest向服务器发送请求
+						a,发送get请求
+								var xhr = getXmlHttpRequest();
+								/*
+									open(请求方式，请求地址，同步／异步)
+									请求方法：get/post
+									请求地址：如果是get请求，请求参数添加到地址之后。
+									比如：check_user.do?username=zs
+									同步／异步：true表示异步
+								*/
+							xhr.open('get',check_user.do',true);
+							
+							/*
+									注册一个监听器（即当xhr的状态发生改变产生了readystatechange事件，
+									该对象会由f1函数来处理。我们需要在f1函数里面获得服务器返回的数据，然后更新页面）
+							*/
+						xhr.onreadystatechange=f1;
+						
+						/*只有调用send方法之后，请求才会真正发送*/
+						xhr.send(null);
+						b,发送post请求
+								var xhr = getXmlHttpRequest();
+								xhr.open('post','chechk_username.do',true);
+								//在默认情况下，xhr对象生成的http请求数据包不会包含content-type消息头。
+								//setRequestHeader的作用是，在生成的http请求数据包当中，添加conten-type消息头
+								/*必须添加一个消息头content-type*/
+								xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+								xhr.onreadystatechange=f1;
+								xhr.send('username=zs');
+				step3,有服务器端，处理请求
+				step4,在监听器当中，处理服务器返回的响应。
+				xhr.onreadystatechange=f1;
+							function f1(){
+								//编写相应的处理代码
+							}
+				或者：
+						xhr.onreadystatechange=function(){
+							//编写相应的处理代码
+							if(xhr.readyState==4){
+								//只有readyState等于4，xhr才完整地接收到了服务器返回的数据。
+								//获得文本数据
+								var txt = xhr.responseText;
+								//获得一个xml dom对象
+								var xml = xhr.responseXML;
+								//dom 操作，更新页面
+							}
+						};
+				
+		XmlHttpRequest对象的重要属性：
+				1)onreadystatechange:注册一个监听器（也就是，绑订一个事件处理函数）	
+				2）readyState:返回该对象与服务器通讯的状态
+											返回值是一个number类型的值，不同的值表示的含义如下：
+											0（未初始化）对象已建立，但是尚未初始化（尚未调用open方法）。
+											1（初始化）对象已经建立，尚未调用send方法
+											2（发送数据）send方法已调用
+											3（数据传送中）已接收部分数据
+											4（响应结束）接收了所有的数据
+			 3）responseText:获得服务器返回的文本
+			 4）responseXML:获得服务器返回的XML dom对象
+			 5）status:获得状态码
+				
+				   缓存问题 ：
+								  在使用 ie 浏览器时，如果使用 get 方式发送请求，浏览器会将数据缓存起来。这样，当再次发送请
+								求时，如果请求地址不变，ie 不会真正地向服务器发请求，而是将之前缓存的数据显示给用户。
+								  解决方式：
+												方式一：使用post方式
+												方式二：在请求地址后面添加一个随机数
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				09

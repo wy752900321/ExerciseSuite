@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="/home/soft01/root/JAR/hibernate-3.3.2.GA_jar/slf4j-nop-1.5.8.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

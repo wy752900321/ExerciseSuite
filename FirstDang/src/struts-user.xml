@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="dang-user" extends="dang-default" namespace="/user">
+		<action name="register" class="org.colin.dang.action.user.RegisterAction">
+			<result>verify_form.jsp</result>
+		</action>
+		
+		<action name="image" class="org.colin.dang.action.user.ImageAction">
+			<result type="stream">
+				<param name="inputName">imageStream</param>
+			</result>
+		</action>
+	
+		<action name="validImage" class="org.colin.dang.action.user.ValidImageAction">
+			<result type="json">
+				<param name="root">ok</param>
+			</result>
+		</action>
+
+<action name="validEmail" class="org.colin.dang.action.user.CheckEmail">
+  <result type="json">
+     <param name="root">ok</param>
+  </result>
+</action>
+		
+		<action name="login" class="org.colin.dang.action.user.CheckLogin">
+		 <result>/main/main.jsp</result>
+		 <result name="error">login_form.jsp</result>
+		</action>
+		
+		<action name="verifyCode" class="org.colin.dang.action.user.EmailVerifyCode">
+		 <result type="json">
+		   <param name="root">ok</param>
+		 </result>
+		</action>
+		
+	</package>
+
+</struts>

@@ -1,0 +1,135 @@
+<c:out default="" escapeXml="">
+	输出el表达式的值。
+	default:指定一个缺省值，当找不到对应的值时
+	使用该值来输出。
+	escapeXml: 当值为true,将>,<等用相应的实体来替换。
+<c:set var="rs" value="${1+1}" scope="request"/>:
+	相当于request.setAttribute("rs",2);
+<c:remove var="rs" scope="request"/>:
+	相当于request.removeAttribute("rs");
+<c:catch var="msg">
+	处理异常
+	相当于pageContext.setAttribute("msg",描述错误
+	信息的字符串)。
+<c:url value="">
+	作用1：当用户禁止cookie以后，会在地址后添加
+	sessionId。value属性指定一个地址。
+	作用2：在使用绝对路径时，会自动在路径前
+	添加应用名。
+		<a href="<c:url value='/a.jsp'/>"></a>
+		<form action="<c:url value='/abc.do'/>">
+<c:import url="">
+<c:redirect url="" >
+	重定向，url指定重写向的地址。如果用户禁止
+cookie，会自动在地址后添加sessionId,如果使用
+绝对路径，会自动添加应用名。
+
+2、自定义标签
+	step1 写一个java类，继承SimpleTagSupport。
+	step2 override doTag方法，在该方法里，编写
+	处理逻辑。
+	step3 描述标签。在.tld文件当中描述。这个文件
+	实际上是一个xml文件，需要放到WEB-INF下或者
+	放到META-INF下。可以参考c.tld文件。
+		<body-content>值可以是:
+		empty:不能够有标签体。
+		scriptless:可以有标签体，但是标签体的内容不能
+		够出现java代码，即不能够出现以下三种形式:
+					<%  %>
+					<%= %>
+					<%!  %>
+		JSP:可以有标签体，而且标签体的内容可以出现
+		java代码。要求使用复杂标签技术来开发，简单
+		标签技术只支持empty,scriptless。
+
+练习：
+	写一个标签 <c1:date/>,输出当前的系统日期
+	2012-05-07
+	
+3、el函数
+	1)el函数是如何执行的。
+	${fn:length(str)}
+	容器先查找str(依次从pageContext,
+	request,session,application进行查找),找到后，
+	调用length函数(其实就是一个方法)，
+	进行计算，最后输出计算的结果。
+	2)自定义el函数
+		step1 写一个java类，要求提供public static
+		还要求有返回值的方法。
+		step2 将函数的处理逻辑写在对应的public static
+		方法里面。
+		step3 写一个.tld文件，描述函数。
+		(参考 fn.tld)
+		练习： ${fn1:toUpperCase(str)}
+		${fn1:concat(str1,str2)}
+
+4、javaee5.0(servlet2.5)如何使用jstl和el表达式。
+	 a, 在jsp文件当中添加 <%@page isELIgnored="false"%>
+	 作用是：告诉容器不要忽略el表达式。
+	 b,将jstl1.2.jar文件拷贝到WEB-INF\lib下。
+	 
+	 
+5、mvc
+	1)什么是mvc?
+	model,view,controller(模型、视图、控制器)。
+	是一种软件架构思想，将一个软件的组成部分
+	划分成三种不同类型的模块，分别是模型、
+	视图、控制器。
+		其中，模型用来封装业务逻辑，封装指的是
+	模型在实现的时候不用考虑谁来调用(比如，
+	模型开发完了以后，可以使用一个java程序去调用，
+	也可以通过浏览器向服务器发请求，服务器端通过
+	servlet来调用模型，都可以)。
+		业务逻辑，包括两个方面，一个是为了保证
+	业务逻辑能够正常执行的基础服务(事务、安全、
+	日志等等),另外一个是业务逻辑本身，即按照一定
+	的业务规则，对业务数据进行加工和处理。
+		视图实现表示逻辑，将模型处理的结果以合适的
+	方式展现给用户，另外，视图还要提供合适的
+	操作界面方便用户输入相应的请求参数。
+		控制器用来协调模型和视图，即视图将请求发送
+	给控制器，控制器依据请求的不同调用合适的模型来
+	处理；另外，模型将处理的结果返回给控制器，控制
+	器要选择合适的视图将处理结果展示给用户。
+	2)在web应用当中，如何使用mvc?
+		模型：使用java类来实现(或者是容器管理的
+		java类，比如ejb,spring javabean等等,容器会
+		提供一些基础服务，这样模型所需要的一些基础
+		服务就不用写了)。
+		视图：使用jsp来实现(还可以使用模板技术,比如
+		freemarker,或者jsf,flex等等)。
+		控制器: 使用servlet来实现控制器(还可以使用
+		filter)。
+	3)mvc的优点
+		a、实现模型的复用：
+			模型只负责提供数据，不关心数据以何种
+		方式展现给用户(即模型返回的数据可以用
+		不同的界面(视图)展现给用户);用户也可以使用
+		不同的操作界面来访问同一个模型。
+		b, 模型可以单独测试：
+			比如：将业务逻辑写在一个单独的java类里面，可以
+		很容易进行测试。如果将业务逻辑写在servlet
+		里面，需要部署之后才能测试。
+		c, 方便分工协作，代码也容易维护。
+		   依据mvc思想，可以将整个系统分层。
+		 表示层(v,c)、业务层(m),持久层(m中的数据访问
+		 部分)。
+		 	代码容易维护：
+		 		下一层的实现发生了改变，只要接口不变，
+		 不会影响到上一层的代码。
+	4)mvc的缺点？
+		使用mvc思想开发，会增加代码量，增加开发的
+	成本，当然，也会增加设计的难度。
+	
+	ajax
+		
+		
+		
+			
+			
+		
+		
+		
+		
+		
+		

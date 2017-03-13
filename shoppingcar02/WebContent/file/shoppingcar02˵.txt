@@ -1,0 +1,11 @@
+1,购物车的第二个版本，使用Cookie机制解决如下问题：
+	 用户购物信息保存于Session中，当关闭浏览器，用户购物数据即刻消失。
+	  在今后的开发过程中，最好使用本版本。
+	  
+版本二更改：
+	1，修改Cart.java 增加2个方法store()和load()
+	2，测试 TestCart.java
+	3，拷贝CookieUtil.java到项目中
+	4，修改ActionServlet多处，已经标记 " //版本二更改 " 
+	5，修改"购物车"功能 修改cart.jsp
+	6，

@@ -1,0 +1,27 @@
+											动态代理
+之前曾为读者讲解过代理机制的操作，但是所讲解的代理设计属于静态代理，
+因为每一个代理类只能为一个接口服务，这样一来程序开发中必然会产生过多的代理。
+最好的做法是可以通过一个代理类完成全部的代理功能，那么此时必须使用动态代理完成。
+	在java中要想实现动态代理机制，则需要java.lang.reflect.InvocationHandler接口和
+java.lang.reflect.Proxy类的支持。
+	InvocationHandler接口的定义如下：
+	public Object invoke(Object proxy,Method method,Object[] args) throws Throwable{}
+	在此接口中只定义了一个invoke()方法，此方法中有3个参数，意义如下：
+	Object proxy:被代理的对象
+	Method method:要调用的方法
+	Object args[]:方法调用时所需要的参数
+	Proxy类是专门完成代理的操作类，可以通过此类为一个或多个接口动态地生成实现类。Proxy类提供了如下的操作方法：
+	public static Object newProxyInstance(ClassLoader loader,
+			Class<?>[] interfaces,InvocationHandler h) throws IllegaArgumentException
+	通过newProxyInstance()方法可以动态地生成实现类，此方法中的参数意义如下：
+	ClassLoader loader:类加载器
+	Class<?>[] interfaces:得到全部的接口
+	InvocationHandler h :得到InvocationHandler接口的子类实例
+	
+提示：类加载器
+	在Proxy类的newProxyInstance()方法中需要一个ClassLoader类的实例，ClassLoader实际上对应的是类加载器，
+	在java中主要有以下3种类加载器。
+	BootStrap ClassLoader:此加载器采用C++编写，一般开发中是看不到的。
+	Extension ClassLoader:用来进行扩展类的加载，一般对应的是jre\lib\ext目录中的类。
+	AppClassLoader:加载classpath指定的类，是最常使用的一种加载器。
+	
