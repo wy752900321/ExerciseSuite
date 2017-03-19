@@ -5,12 +5,9 @@ package com.cenrise.proxy.dynamicproxy.section1;
  * I'm glad to share my knowledge with you all.
  */
 public class Client {
-
-	
 	public static void main(String[] args) {
 		DynamicProxy proxy = new DynamicProxy(new RealSubject());
 		String[] str = {"1111"};
 		proxy.exec("doSomething",str);
-			
 	}
 }

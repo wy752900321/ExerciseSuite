@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\struts2_lesson6.2_upload"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\ssh0.1"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.6"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.5"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.3"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
