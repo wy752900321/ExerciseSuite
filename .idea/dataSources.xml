@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1144384371">
+    <data-source source="LOCAL" name="WebRoot:WEB-INF:classes:hibernate.cfg.xml" uuid="547c5081-40e3-4cdb-8f6d-7a9012aebecd">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/dangdang?useUnicode=true&amp;characterEncoding=utf8</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries>
+        <library>
+          <url>file://D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\hibernate0.4\WebRoot\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="531ca471-dc08-4d9f-a590-bf28418f4058">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/mydb</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>file://D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\hibernate0.4\WebRoot\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="bin:hibernate.cfg.xml" uuid="9e63d421-8d2c-410c-a372-fd03687265b9">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/mydb</jdbc-url>
+      <user-name>root</user-name>
+      <libraries>
+        <library>
+          <url>file://D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\hibernate0.4\WebRoot\WEB-INF\lib\mysql-connector-java-5.1.7-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

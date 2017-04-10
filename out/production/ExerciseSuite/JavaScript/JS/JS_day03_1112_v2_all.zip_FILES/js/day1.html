@@ -1,0 +1,53 @@
+<html>
+	<head>
+<script language="javascript">
+	function MethodName()
+	{
+		alert("My first method!");
+	}
+</script>
+<script src="MyJs.js" language="javascript"></script>
+	</head>
+	<body>
+<form>
+	<input type="button" value="first button" onclick="alert('button');">
+	<input type="button" value="second button" onclick="MethodName();">
+	<input type="button" value="third button" onclick="fileFunction();">
+	<br>
+	<input type="button" value="测试变量类型" onclick="testDataType();">
+	<br>
+	<input id="txt1" type="text" value="1">
+	<input id="txt2" type="text" value="2">
+	<input type="button" value="add" onclick="add();">
+	<br>
+	<input type="button" value="测试方法" onclick="addMethod('aaa','2');">
+	<input type="button" value="测试相等和严格相等" onclick="testEqual();">
+	<br>
+	<input id="txt3" type="text" value="2">
+	<input type="button" value="计算平方" onclick="calculateSq();">
+	<br>
+	<input type="button" value="测试字符串的属性和方法" onclick="testString();">
+	<br>
+	<input id="txt4" type="text" onblur="verifyString();">
+	<br>
+	<input type="button" value="测试数组的用法" onclick="testArray();">
+	<br>
+	录入逗号分隔的数字
+	<input id="txt5" type="text">
+	<input type="button" value="翻转数组" onclick="operateArray(1);">
+	<input type="button" value="排序数组(字符)" onclick="operateArray(2);">
+	<input type="button" value="排序数组(数值)" onclick="operateArray(3);">
+	<br>
+	<input type="button" value="Math的用法" onclick="testMath();">
+	<br>
+	<input type="button" value="方法的重载" onclick="useArguments();">
+	<span id="spanInfo">span text</span>
+	<br>
+	随机出7个1到36之间的整数(包含1和36),7个数字不能重复,数字的结果排序,用逗号连接显示在页面:
+	<input type="button" value="机选一注" onclick="createWin();">
+	<h3>5,8,12,23,24,34,35</h3>
+</form>
+	</body>
+</html>
+
+

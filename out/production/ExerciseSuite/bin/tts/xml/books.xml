@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<name>java</name>
+		<price>50</price>
+	</book>
+	<book>
+		<name>JSP</name>
+		<price>68</price>
+	</book>
+</book>

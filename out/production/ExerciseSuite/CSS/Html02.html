@@ -1,0 +1,37 @@
+<html>
+	<head>
+			<style>
+						/*position属性*/
+			#d1{
+				width:200px;
+				height:200px;
+				background-color:red;
+			}
+			#d1_1{
+				left:30px;
+				top:50px;
+				width:80px;
+				height:80px;
+				background-color:yellow;
+				/*absolute相对于父标记偏移*/
+				position:absolute;
+			}
+			#d2{
+				left:30px;
+					top:50px;
+					width:100px;
+					height:100px;
+					background-color:blue;
+					/*先按照默认的方式摆放，然后再偏移*/
+					position:relative;
+			}
+			</style>
+	</head>
+	<body>
+			<div id="d1">
+						<div id="d1_1"></div>
+				</div>
+				<div id="d2">
+				</div>
+	</body>
+</html>

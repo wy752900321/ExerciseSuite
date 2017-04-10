@@ -1,0 +1,44 @@
+<html>
+		<!-- 背景相关的属性 -->
+	<head>
+			<style>
+					#d1{
+						width:200px;
+						height:500px;
+						border:10px solid black;
+						/*背景图片*/
+						background-image:url(logo.gif);
+						/*平铺方式*/
+						background-repeat:no-repeat;
+						/*相对位置*/
+						background-position:60px 40px;
+						/*依附方式，类似于水印*/
+						background-attachment:fixed;
+					}			
+					#d2{
+						width:200px;
+						height:500px;
+						border-left:10px dotted black;
+						border-right:10px solid red;
+						border-bottom:10px solid yellow;
+						border-top:10px solid blue;
+						background:#cccccc url(logo.gif) 
+									no-repeat fixed 60px 40px;
+					}
+					ul{
+						list-style-type:none;
+					}
+			</style>
+	</head>
+	<body>
+			<div id="d1">
+			</div>
+			<div id="d2"></div>
+			<ul>
+					<li>item1</li>
+					<li>item1</li>
+					<li>item1</li>
+					<li>item1</li>
+			</ul>
+	</body>
+</html>

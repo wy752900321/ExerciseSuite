@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="104" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="ExternalProjectImportWizard">
-		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\struts2_lesson6.2_upload"/>
-			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\ssh0.1"/>
-			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.6"/>
-			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.5"/>
-			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\spring0.3"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\JMS_2ed_spring_wmq"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\JMS_2ed_spring_activemq"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\JMS_2ed_non_spring"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\JMS_2ed_ActiveMQStudy"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\webworktest"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\Zdangdangme2Trouble"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\Zdangdangme2BEST_struts2_0612"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\tts_test"/>
+			<item value="D:\Workspaces\GithubSpacesJiadongpo\ExerciseSuite\token_uuid"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

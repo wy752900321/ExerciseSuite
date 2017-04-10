@@ -1,0 +1,46 @@
+<html>
+	<head>
+<script src="MyJs.js" language="javascript"></script>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+	</head>
+	<body>
+<ul>
+	<li onmouseover="showMenu(this,true);" onmouseout="showMenu(this,false);">
+		我的帐户
+		<ul style="display:none;">
+			<li>修改密码</li>
+			<li>基本资料</li>
+		</ul>
+	</li>
+	<li onmouseover="showMenu(this,true);" onmouseout="showMenu(this,false);">
+		消息
+		<ul style="display:none;">
+			<li>系统消息</li>
+			<li>个人消息</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<div id="allTabs">
+	<div onclick="changeTabs(0);">页签1</div>
+	<div onclick="changeTabs(1);">页签2</div>
+	<div onclick="changeTabs(2);">页签3</div>
+	<div onclick="changeTabs(3);">页签4</div>
+</div>
+
+
+
+
+<form>
+	<input type="button" value="修改页面的元素" onclick="modifyElement();">
+	<input type="button" value="查找元素们" onclick="findElements();">		
+	<p id="firstP" style="color:red;">段落的初始文本</p>
+	<p>段落2</p>
+	<div id="firstDiv">div text</div>
+</form>
+	</body>
+</html>
+
+

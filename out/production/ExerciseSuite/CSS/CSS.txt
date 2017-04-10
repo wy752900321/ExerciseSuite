@@ -1,0 +1,141 @@
+ display属性：none/block/inline
+	块级block元素：独占一行 ，比如div/p/table/hn/ol
+	内联（行内）inline元素:对页面的布局没有影响,spana/label/input 
+	对于inline元素无法设置大小
+	div和span:对页面元素实现分组 
+ position属性：static/relative/absolute默认的流模式]
+ 			相对定位：relative,相对于原有位置偏移
+ 			绝对定位：absolute,相对于父元素偏移
+ 
+ 偏移属性：top/left/bottom/right
+ 文本样式属性；
+ 		font-family:"new times" 
+ 		font-weight:normal/bold/100-700
+ 		font-style:italic;   
+ 		text-decoration:none/underline;下划线
+ 		font-size
+ 		color
+ 		cursor:default/pointer/help/wait
+ 		text-align:center/left/right;
+ 		text-indent:缩进的尺寸
+ 		背景样式：
+ 				background-color
+ 				background-image:url("a.jpg");
+ 				background-repeat:repeat/no-repeat/repeat-x/repeat-y固定
+ 				background-attachment:fixed/scroll ; 背景图形的附着方式 类似于水印
+				background-position:x y
+				简写方式：
+				background:red url() repeat fixed x y;
+				
+				box模型：可以页面之间的间距
+				margin：外间距
+				padding:内间距
+							margin-top/left/bottom/right
+							padding-top/left/bottom/right
+							简写方式：padding:top right bottom left 顺时针
+			浮动：
+					float:left/right
+					clear:left/rigt/both:清除页面周围浮动元素可能带来的影响
+				list-style-type:none/circle/disc/square/....
+				
+1/什么是CSS:级联（层叠）样式表
+
+2/CSS的基础语法：
+	样式属性的名称:值;----仅限于使用在元素的style属性里
+	样式选择器{样式属性的名称:值;}---单独定义样式
+
+3/CSS的作用：实现内容和表现分离，提高可维护度
+
+一：样式的三种声明方式
+	内联样式：元素的style属性中，只能被当前元素使用
+
+	内部样式表：写在<head>元素里的<style>元素中，只能被当前页面使用
+
+	外部样式表:css文件：后缀为.css的文本文件，只能包含样式规则
+		在html页面上使用<link>元素引入样式表
+
+	优先级：就近原则
+		内联样式>内部或者外部（位置）>浏览器的默认设置
+		优先级相同的情况下，后定义的优先，覆盖原有的定义
+
+	比较优先级：内联和内部，内联和外部
+			内部和外部
+			交换位置
+
+二：选择器
+	元素选择器：  元素名称{}---统一控制某类元素
+
+	分类选择器:   元素名称.ClassName  --某类元素中样式的细分
+			使用：设置元素的class="ClassName"
+			类名称：不能由数字开头
+	类选择器：    .ClassName----可应用于所有的元素
+			使用：设置任何元素的class="ClassName"
+			
+	元素ID选择器： #idValue {}
+			使用: <p id=""
+
+	群组选择器:    选择器以逗号隔开,实现统一的样式声明,如 p,h1,h3,h4  {}
+
+	派生选择器:    按照元素的包含的位置,使用空格表示层次关系
+				td a {}---包含在td元素中的a元素
+
+	伪类:	元素选择器:状态的名称 {}
+		a:link---针对于链接
+		a:visited---针对于链接
+		a:hover
+		a:active:激活
+
+三：常用的样式属性
+	边框:border/border-width/style/color
+		单个边框:border-left/right/top/bottom
+			border-left-color:red;
+
+	display属性:none/block/inline
+		块级block元素：独占一行，比如div/p/table/hn/ul/ol
+		内联(行内)inline元素：对页面的布局没有影响，span/a/label/input
+			对于inline元素而言，无法设置大小
+			div和span：对页面元素实现分组
+
+	position属性：
+		默认的流模式:static
+		相对定位:relative,相对于原有位置偏移
+		绝对定位:absolute，相对于父元素偏移
+
+	偏移属性:top/left/bottom/right
+	堆叠:z-index
+
+	长度单位：px像素/pt磅/cm/mm/in/5%
+	
+	文本样式属性：
+		color
+		font-size
+		font-family:"new times"
+		font-weight:normal/bold/100-700
+		font-style:italic;
+		text-decoration:none/underline;
+		cursor:default/pointer/help/wait
+		text-align:center/left/right;
+		text-indent:缩进的尺寸
+
+	背景样式
+		background-color
+		background-image:url("a.jpg")
+		background-repeat:repeat/no-repeat/repeat-x/repeat-y
+		background-attachment:fixed/scroll 背景图形的附着方式
+				类似于水印fixed--固定背景
+		background-position:x y
+		简写方式:
+background:red url() repeat fixed x y;
+
+	box模型:设置元素之间的内外间距
+		margin:外间距
+		padding:内间距
+			margin-top/left/bottom/right
+			padding-top/left/bottom/right
+		简写方式:padding:top right bottom left
+
+	浮动
+		float:left/right
+		clear:left/right/both 清除页面周围浮动元素可能带来的影响
+
+	list-style-type:none/circle/disc/square/number

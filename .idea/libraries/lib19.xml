@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/velocity-dep.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/xwork.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/webwork-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/oscore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/cos-multipart.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/pell-multipart.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
