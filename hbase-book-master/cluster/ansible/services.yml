@@ -1,0 +1,170 @@
+---
+# Sub playbook to restart all services on the relevant machines
+#
+# Notes:
+# - Use the "start" tag to start only, or "stop" to stop only
+# - Add "zookeeper", "hadoop", and "hbase" tags to target only named service
+#
+# Examples:
+# - Restart ZooKeeper only:
+#   $ ansible-playbook service.yml --tags "zookeeper"
+# - Stop only HBase
+#   $ ansible-playbook service.yml --tags "stop,hbase"
+
+# Step 1: Stop Services
+
+# HBase
+
+- hosts: workers
+  tags:
+    - hbase
+    - hbase-workers
+    - stop
+  tasks:
+    - name: Stop HBase regionserver
+      service: name=hbase state=stopped
+
+- hosts: masters
+  tags:
+    - hbase
+    - hbase-masters
+    - stop
+  tasks:
+    - name: Stop HBase masters
+      service: name=hbase state=stopped
+
+# Hadoop Core
+
+- hosts: hbase_master
+  tags:
+    - hadoop
+    - hadoop-masters
+    - stop
+  tasks:
+    - name: Stop HDFS namenode
+      service: name=namenode state=stopped
+
+    - name: Stop YARN resourcemanager
+      service: name=resourcemanager state=stopped
+
+- hosts: workers
+  tags:
+    - hadoop
+    - hadoop-workers
+    - stop
+  tasks:
+    - name: Stop HDFS datanodes
+      service: name=datanode state=stopped
+
+    - name: Stop YARN nodemanagers
+      service: name=nodemanager state=stopped
+
+# Zookeeper
+
+- hosts: zookeepers
+  tags:
+    - zookeeper
+    - stop
+  tasks:
+    - name: Stop ZooKeeper
+      service: name=zookeeper state=stopped
+
+# Step 2: Start all services
+
+# ZooKeeper
+
+- hosts: zookeepers
+  tags:
+    - zookeeper
+    - start
+  tasks:
+    - name: Start ZooKeeper
+      service: name=zookeeper state=started
+
+# Hadoop Core
+
+# TODO: Create `/user`, `/user/hbasebook` (owner: `hbasebook`), and `tmp` (777)
+
+- hosts: master-1
+  tags:
+    - hadoop
+    - hadoop-masters
+    - start
+  tasks:
+    - name: Start HDFS namenode
+      service: name=namenode state=started
+
+    - name: Start YARN resourcemanager
+      service: name=resourcemanager state=started
+
+- hosts: workers
+  tags:
+    - hadoop
+    - hadoop-workers
+    - start
+  tasks:
+    - name: Start HDFS datanodes
+      service: name=datanode state=started
+
+    - name: Start YARN nodemanagers
+      service: name=nodemanager state=started
+
+# HBase
+
+# Purpose: Create HBase root path in HDFS as privileged user
+#
+# Notes:
+#   - Executed on single master server only.
+#   - Needs a `hdfs` principal ticket.
+- hosts: hbase_master
+  tags:
+    - hbase
+    - hbase-masters
+    - create-hbase-root
+    - start
+  tasks:
+    - name: Use kinit to get `hdfs` ticket
+      shell: kinit -kt /etc/security/keytabs/hdfs.keytab hdfs/master-1.hbase.book@HBASE.BOOK
+      when:
+        - SECURITY_ENABLED == true
+
+    - name: Determine pre-existing HBase root directory
+      shell: "{{ HADOOP_HOME }}/bin/hdfs dfs -ls /"
+      register: hdfs_list_root
+      changed_when: false
+      when:
+        - SECURITY_ENABLED == true
+
+    - debug: var=hdfs_list_root.stdout_lines
+      when:
+        - SECURITY_ENABLED == true
+
+    - name: Create HBase root directory
+      shell: "{{ HADOOP_HOME }}/bin/hdfs dfs -mkdir {{ HBASE_ROOT_DIR }}"
+      when:
+        - hdfs_list_root.stdout.find('{{ HBASE_ROOT_DIR }}') == -1
+        - SECURITY_ENABLED == true
+
+    - name: Set HBase root directory access
+      shell: "{{ HADOOP_HOME }}/bin/hdfs dfs -chown hbase:hadoop {{ HBASE_ROOT_DIR }}"
+      when:
+        - hdfs_list_root.stdout.find('{{ HBASE_ROOT_DIR }}') == -1
+        - SECURITY_ENABLED == true
+
+- hosts: workers
+  tags:
+    - hbase
+    - hbase-workers
+    - start
+  tasks:
+    - name: Start HBase region servers
+      service: name=hbase state=started
+
+- hosts: masters
+  tags:
+    - hbase
+    - hbase-masters
+    - start
+  tasks:
+    - name: Start HBase masters
+      service: name=hbase state=started

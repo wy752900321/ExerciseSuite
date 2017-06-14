@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/kettle-core-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-dbdialog-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-engine-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-ui-swt-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/kettle5-log4j-plugin-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/metastore-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/pentaho-metadata-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="libswt/commands.jar"/>
+	<classpathentry kind="lib" path="libswt/common.jar"/>
+	<classpathentry kind="lib" path="libswt/jface.jar"/>
+	<classpathentry kind="lib" path="libswt/runtime.jar"/>
+	<classpathentry kind="lib" path="libswt/win64/org.eclipse.jface.nl1_3.2.1.v200609270227.jar"/>
+	<classpathentry kind="lib" path="libswt/win64/org.eclipse.jface.text.nl1_3.2.1.v200609270227.jar"/>
+	<classpathentry kind="lib" path="libswt/win64/org.eclipse.swt.nl1_3.2.1.v200609270227.jar"/>
+	<classpathentry kind="lib" path="libswt/win64/swt.jar"/>
+	<classpathentry kind="lib" path="lib/commons-vfs-20100924-pentaho.jar"/>
+	<classpathentry kind="lib" path="lib/pentaho-vfs-browser-5.0.1-stable.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jsonpath-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

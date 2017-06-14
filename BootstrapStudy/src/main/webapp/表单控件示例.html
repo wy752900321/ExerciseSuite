@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap的HTML标准模板</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--你自己的样式文件 -->
+        <link href="css/your-style.css" rel="stylesheet">        
+        <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	<!-- form-horizontal水平表单，还有内联表单form-inline -->
+	<form class="form-horizontal" role="form">
+	    <h1>登录，大小输入框，验证状态，提示信息</h1>
+	    <!-- form-group相当于网格系统中的row -->
+	    <!-- has-error错误状态（红色），还有has-warning与has-success -->
+	    <!-- has-feedback为不同状态表单设置icon -->
+	    <div class="form-group has-error has-feedback">
+	        <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+	        <!-- col-sm-4利用网格系统控制表单宽度 -->
+	        <div class="col-sm-4">
+	            <!-- form-control控件表单风格样式不出错 -->
+	            <!-- input-lg大控件，还有input-sm -->
+	            <!-- glyphicon glyphicon-remove删除图标 -->
+	            <input type="email" class="form-control input-lg" id="inputEmail3" placeholder="请输入您的邮箱地址"> <span
+	                class="glyphicon glyphicon-remove form-control-feedback input-lg"></span>
+	        </div>
+	    </div>
+	    <div class="form-group has-warning">
+	        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+	        <div class="col-sm-10">
+	            <div class="row">
+	                <div class="col-xs-6">
+	                    <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="请输入您的邮箱密码">
+	                </div>
+	                <!-- help-block表单提示信息，显示在控件底部，此处使用网格系统使之与password在同一行 -->
+	                <span class="col-xs-6 help-block">你输入的信息是正确的</span>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="form-group">
+	        <div class="col-sm-offset-2 col-sm-10">
+	            <!-- 复选框，如果需要水平排列，只需要在label标签上添加类名.checkbox-inline -->
+	            <div class="checkbox">
+	                <label> <input type="checkbox"> 记住密码
+	                </label>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="form-group">
+	        <div class="col-sm-offset-2 col-sm-10">
+	            <button type="submit" class="btn btn-primary">进入邮箱</button>
+	        </div>
+	    </div>
+	
+	    <h1>下拉框，禁用下拉第一框</h1>
+	    <div class="form-group">
+	        <select class="form-control">
+	            <option disabled>1</option>
+	            <option>2</option>
+	        </select>
+	    </div>
+	
+	    <h1>水平单选</h1>
+	    <div class="form-group">
+	        <label class="radio-inline"> <input type="radio" name="gender" value="male">男性</input>
+	        </label> <label class="radio-inline"> <input type="radio" name="gender" value="female">女性</input>
+	        </label>
+	    </div>
+	</form>
+</body>
+</html>

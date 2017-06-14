@@ -1,0 +1,112 @@
+package cn.vbill.cdc.dataservice.protocol;
+
+option java_package = "cn.vbill.cdc.dataservice.protocol";
+option java_outer_classname = "DataServiceProtocol";
+option optimize_for = SPEED;
+
+enum MsgType {
+    HANDSHAKE = 1;
+    CLIENTAUTHENTICATION = 2;
+    GET = 3;
+    LISTFILES = 4;
+    ACK = 5;
+    ROLLBACK=6;
+    ERROR = 7;
+    GETBATCHMSG = 8;
+    SUB = 9;
+    UNSUB = 10;
+    ACKMSG = 11;
+    ROLLBACKMSG = 12;
+    LISTSUBSCRIBERINFO = 13;
+
+}
+message ListSubInfo {
+   required string extractId = 1;
+   optional string clientId = 2;
+}
+
+
+message GetBatchMsg {
+  required string extractId = 1;
+  required int32 batchSize = 2;
+}
+
+message UnSub {
+   required string extractId = 1;
+}
+
+message AckMsg {
+   required string extractId = 1;
+   required string batchId = 2;
+}
+
+message MsgData {
+   required string tableName = 1;
+   required string operType = 2;
+   repeated ColumnData columnValues = 3;
+
+}
+message ColumnData {
+  optional string type = 1;
+  optional string value = 2;
+  optional bool isNull = 3;
+}
+
+
+message Request {
+    required MsgType type = 1;
+    optional bytes body = 3;
+}
+
+message Response {
+    required MsgType type = 1;
+    optional bytes body = 3;
+}
+
+message Messages {
+	required string batchId = 1;
+    repeated bytes messages = 2;
+}
+
+message Handshake {
+    optional string communication_encoding = 1 [default = "utf8"];
+    optional bytes seeds = 2;
+}
+
+// client authentication
+message ClientAuth {
+    required string username = 1;
+    required string password = 2;
+    optional string clientId = 3;
+}
+
+message ErrorMsg {
+    optional int32 error_code = 1 [default = 0];
+    optional string error_message = 2; // if something like compression is not supported, erorr_message will tell about it.
+}
+
+message Ack {
+    required string extractId = 1;
+    required string filename = 2;
+}
+
+message Rollback {
+    optional string extractId = 1;
+}
+
+
+message Get {
+    required string extractId = 1;
+}
+
+message ListFiles {
+    optional string extractId = 1;
+}
+
+message Filenames {
+    repeated string filenames = 1;
+}
+
+message Filename {
+    optional string filename = 1;
+}
