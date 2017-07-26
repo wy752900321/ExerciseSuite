@@ -3,11 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicJavase/BasicJavase.iml" filepath="$PROJECT_DIR$/BasicJavase/BasicJavase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BootstrapStudy/BootstrapStudy.iml" filepath="$PROJECT_DIR$/BootstrapStudy/BootstrapStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CDCDataTest/CDCDataTest.iml" filepath="$PROJECT_DIR$/CDCDataTest/CDCDataTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBStudy/DBStudy.iml" filepath="$PROJECT_DIR$/DBStudy/DBStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExerciseSuite.iml" filepath="$PROJECT_DIR$/ExerciseSuite.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstDang/FirstDang.iml" filepath="$PROJECT_DIR$/FirstDang/FirstDang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreeMarkerStudy/FreeMarkerStudy.iml" filepath="$PROJECT_DIR$/FreeMarkerStudy/FreeMarkerStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDBC_01/JDBC_01.iml" filepath="$PROJECT_DIR$/JDBC_01/JDBC_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDBC_02/JDBC_02.iml" filepath="$PROJECT_DIR$/JDBC_02/JDBC_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSqlParserStudy/JSqlParserStudy.iml" filepath="$PROJECT_DIR$/JSqlParserStudy/JSqlParserStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" filepath="$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/T-ELTS0.2/T-ELTS0.2.iml" filepath="$PROJECT_DIR$/T-ELTS0.2/T-ELTS0.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/T-ELTS0.3/T-ELTS0.3.iml" filepath="$PROJECT_DIR$/T-ELTS0.3/T-ELTS0.3.iml" />
@@ -22,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/ajax01/ajax01.iml" filepath="$PROJECT_DIR$/ajax01/ajax01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ajax02/ajax02.iml" filepath="$PROJECT_DIR$/ajax02/ajax02.iml" />
       <module fileurl="file://$PROJECT_DIR$/book717/book717.iml" filepath="$PROJECT_DIR$/book717/book717.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book717store/book717store.iml" filepath="$PROJECT_DIR$/book717store/book717store.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/src/com/cenrise/cenrise.iml" filepath="$PROJECT_DIR$/DesignPatterns/src/com/cenrise/cenrise.iml" />
       <module fileurl="file://$PROJECT_DIR$/dang_t_gwap/dang_t_gwap.iml" filepath="$PROJECT_DIR$/dang_t_gwap/dang_t_gwap.iml" />
       <module fileurl="file://$PROJECT_DIR$/dangdangREF/dangdangREF.iml" filepath="$PROJECT_DIR$/dangdangREF/dangdangREF.iml" />
@@ -30,7 +34,6 @@
       <module fileurl="file://$PROJECT_DIR$/dangke/dangke.iml" filepath="$PROJECT_DIR$/dangke/dangke.iml" />
       <module fileurl="file://$PROJECT_DIR$/day16_el/day16_el.iml" filepath="$PROJECT_DIR$/day16_el/day16_el.iml" />
       <module fileurl="file://$PROJECT_DIR$/day16_i18n/day16_i18n.iml" filepath="$PROJECT_DIR$/day16_i18n/day16_i18n.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_pay/day16_pay.iml" filepath="$PROJECT_DIR$/day16_pay/day16_pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/file/file.iml" filepath="$PROJECT_DIR$/file/file.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter01/filter01.iml" filepath="$PROJECT_DIR$/filter01/filter01.iml" />
       <module fileurl="file://$PROJECT_DIR$/friend01/friend01.iml" filepath="$PROJECT_DIR$/friend01/friend01.iml" />
@@ -68,4 +71,3 @@
     </modules>
   </component>
 </project>
-

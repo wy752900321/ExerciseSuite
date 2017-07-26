@@ -10,6 +10,11 @@
           <root url="file://$MODULE_DIR$/WebRoot" relative="/" />
         </webroots>
       </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -29,4 +34,3 @@
     <orderEntry type="library" name="lib1" level="project" />
   </component>
 </module>
-
