@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>table tr上下移动实现（jquery）</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--你自己的样式文件 -->
+    <link href="css/your-style.css" rel="stylesheet">
+    <script src="../resources/jquery-3.2.1.js"></script>
+    <script src="pageupdown.js"></script>
+</head>
+<body>
+<form class="Form" method="get" autocomplete="off">
+    <table class="table table-bordered comTable table1">
+        <tr>
+            <td colspan="3">
+                北京市
+                <input type="text" name="city[]" value="11001" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                江西呀
+                <input type="text" name="city[]" value="11002" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                河南拉
+                <input type="text" name="city[]" value="11003" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                天津拉
+                <input type="text" name="city[]" value="11003" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                沈阳拉
+                <input type="text" name="city[]" value="11003" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                大连拉
+                <input type="text" name="city[]" value="11003" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                无锡拉
+                <input type="text" name="city[]" value="11003" hidden>
+            </td>
+            <td colspan="1">
+                <input type="button" value="置顶" name="savedBtn" class="btn btn-primary upBtn top"/>
+                <input type="button" value="置底" name="savedBtn" class="btn btn-primary upBtn stick"/>
+                <input type="button" value="上移" name="savedBtn" class="btn btn-primary upBtn up"/>
+                <input type="button" value="下移" name="savedBtn" class="btn btn-primary upBtn down"/>
+            </td>
+        </tr>
+
+    </table>
+
+    <table class="table table-bordered comTable table2">
+        <tr>
+            <td align="center" colspan="4">
+                <input type="button" value="保存" name="savedBtn" class="btn btn-danger upBtn J_save"/>
+                <a id="backBtn" class="btn btn-info upBtn" href=''/>返回</a>
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
