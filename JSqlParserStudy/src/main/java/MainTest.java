@@ -231,7 +231,7 @@ public class MainTest {
             Statement sqlparsStrStatment = CCJSqlParserUtil.parse(sqlparsStr);
 
             Class clz = sqlparsStrStatment.getClass();  //获取实际类型  即new谁获取谁的类型
-            System.out.println(clz.getCanonicalName());
+            System.out.println(clz.getSimpleName());
 
         } catch (Exception e) {
             System.out.println(e);
