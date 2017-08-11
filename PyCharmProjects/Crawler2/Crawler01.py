@@ -7,24 +7,20 @@ from imp import reload
 import urllib2
 import lxml
 from bs4 import BeautifulSoup
+
+
 def getMobileLoc(p_mobile_seg):
     try:
         v_mobile_seg = "1375827"
         # v_mobile_seg = p_mobile_seg
         search_url = "http://www.ip138.com:8080/search.asp?mobile=" + v_mobile_seg + "&action=mobile"
         print search_url
-        # response = urllib2.urlopen(search_url)
-
-
         header = {
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36.'}
         req = urllib2.Request(url='http://www.ip138.com:8080/search.asp?mobile=15120038022&action=mobile',
                               headers=header)
-
         response = urllib2.urlopen(req)
         html = response.read()
-        # html = response.readlines()
-        # print html
         soup = BeautifulSoup(html, "lxml", from_encoding="GB2312")
         # print soup.prettify('utf-8')
         allTdSoup = soup.find_all("td", class_="tdc2")
