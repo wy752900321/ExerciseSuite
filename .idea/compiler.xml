@@ -19,6 +19,7 @@
         <module name="BootstrapStudy" />
         <module name="CalciteStudy" />
         <module name="CDCDataTest" />
+        <module name="CrawlerJsoupStudy" />
         <module name="DBStudy" />
         <module name="DruidStudyForDB" />
         <module name="FreeMarkerStudy" />
@@ -29,6 +30,7 @@
       <module name="BootstrapStudy" target="1.5" />
       <module name="CalciteStudy" target="1.5" />
       <module name="CDCDataTest" target="1.6" />
+      <module name="CrawlerJsoupStudy" target="1.5" />
       <module name="DBStudy" target="1.5" />
       <module name="DruidStudyForDB" target="1.5" />
       <module name="FreeMarkerStudy" target="1.5" />

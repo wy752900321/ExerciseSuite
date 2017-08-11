@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/CalciteStudy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CrawlerJsoupStudy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DBStudy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DruidStudyForDB" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FreeMarkerStudy" charset="UTF-8" />

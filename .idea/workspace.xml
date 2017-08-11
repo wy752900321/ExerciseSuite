@@ -1,98 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed3b2cc1-7537-415f-8d1a-56b837fc104d" name="Default" comment="测试和删除一些例子。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/backupImage.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootstrapStudy/src/main/webapp/bootstrapTest3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalciteStudy/src/main/java/com/cenrise/JdbcExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalciteStudy/src/main/java/com/cenrise/Linq4jExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalciteStudy/src/test/java/com/cenrise/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DruidStudyForDB/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DruidStudyForDB/src/test/java/com/cenrise/DruidTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DruidStudyForDB/src/test/java/com/cenrise/DruidTest2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DruidStudyForDB/src/test/resources/db_server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/Crawler2/Crawler01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/Crawler2/Crawler02.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/DocTestExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/IfExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/ImportExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/LoopExamples.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/TKExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/cards.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/classExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/csvExample.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/csvExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/datetimeExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/debug_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/dynamicClassExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/exceptionsExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/functionThreadExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/generatorExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/heapqExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/history.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/inheritanceExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/lambdaExamples.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/reExamples.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/requestsExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/simpleButton.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/simpleEntry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/skeleton.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/threadExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/unittestCards.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/unittestExample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/CpuToInfluxdb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/ModifyFilename.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/biyingSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/countFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/countPm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/douban_book.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/douban_movie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/excelToDatabase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/lagouSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/login_zhihu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/readExcel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l1demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l2demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l3demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l4demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l5demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l6Demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l7Demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l8Demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/l9Demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 1 - Getting Started/script1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 1 - Getting Started/script2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 2 - Basic Notions/script3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 2 - Basic Notions/script4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 2 - Basic Notions/script5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 3 - Basic Data Collections/script10.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 3 - Basic Data Collections/script6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 3 - Basic Data Collections/script7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 3 - Basic Data Collections/script8.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 3 - Basic Data Collections/script9.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 4 - Basic Constructs (If, For, While)/script11.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 4 - Basic Constructs (If, For, While)/script12.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/custom_module.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script13.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script14.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script15.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script16.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script17.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script18.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script19.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script20.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script21.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 5 - Functions and Modules/script22.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/Lesson 6 - Exceptions/script23.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/other/Python判断变量为Json格式.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/other/__init__.py" />
+    <list default="true" id="ed3b2cc1-7537-415f-8d1a-56b837fc104d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/images/92298911489_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/images/92298911502_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/images/92298911625_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/images/92298911625_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/images/92298911625_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/Crawlerip138.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/TestGetAppVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example1Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example2Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example3Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example4Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example5Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example6Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example7Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example8Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample2/DomMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample2/ExtractAtrib.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample2/TravDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample3/JsoupTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample3/JsoupTestToy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample3/JsoupTestToyGetUrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample3/JsoupTestToyImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample3/JsoupTestToyImageZoom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/config/keywords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/config/keywords4img.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/config/keywordsUrl4img.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/config/url.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/toyurl.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/output/values.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrawlerJsoupStudy/src/test/java/com/cenrise/AppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -110,6 +53,7 @@
     <ignored path="$PROJECT_DIR$/JSqlParserStudy/target/" />
     <ignored path="$PROJECT_DIR$/DruidStudyForDB/target/" />
     <ignored path="$PROJECT_DIR$/CalciteStudy/target/" />
+    <ignored path="$PROJECT_DIR$/CrawlerJsoupStudy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,11 +74,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSqlParserStudy/src/main/java/MainTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3723">
-              <caret line="233" column="50" lean-forward="false" selection-start-line="233" selection-start-column="50" selection-end-line="233" selection-end-column="51" />
+            <state relative-caret-position="146">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -142,95 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalciteStudy/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidStudyForDB/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbPoolConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidStudyForDB/src/main/java/com/cenrise/simple/DbPoolConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_server.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidStudyForDB/src/main/resources/db_server.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crawler01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PyCharmProjects/Crawler2/Crawler01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Select.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1.jar!/net/sf/jsqlparser/statement/select/Select.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statement.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1.jar!/net/sf/jsqlparser/statement/Statement.class">
+      <file leaf-file-name="Example8Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example8Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Update.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1.jar!/net/sf/jsqlparser/statement/update/Update.class">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="442">
+              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -280,12 +160,15 @@
       <list>
         <option value="$PROJECT_DIR$/FreeMarkerStudy/pom.xml" />
         <option value="$PROJECT_DIR$/JSqlParserStudy/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/JSqlParserStudy/src/main/java/MainTest.java" />
         <option value="$PROJECT_DIR$/DruidStudyForDB/pom.xml" />
         <option value="$PROJECT_DIR$/DruidStudyForDB/src/main/java/com/cenrise/simple/DbPoolConnection.java" />
         <option value="$PROJECT_DIR$/DruidStudyForDB/src/main/java/com/cenrise/simple/DataSource.java" />
         <option value="$PROJECT_DIR$/CalciteStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/CrawlerJsoupStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/TestGetAppVersion.java" />
+        <option value="$PROJECT_DIR$/jsoup-examples-master/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -333,7 +216,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExerciseSuite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExerciseSuite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -350,53 +248,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ExerciseSuite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Crawler2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -438,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
@@ -451,6 +302,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="JSqlParserStudy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CrawlerJsoupStudy" />
       <envs />
       <method />
     </configuration>
@@ -794,12 +660,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -833,7 +701,10 @@
       <workItem from="1501817971326" duration="766000" />
       <workItem from="1501818888396" duration="1581000" />
       <workItem from="1502165460364" duration="1965000" />
-      <workItem from="1502272484102" duration="467000" />
+      <workItem from="1502272484102" duration="1775000" />
+      <workItem from="1502416972603" duration="681000" />
+      <workItem from="1502417784284" duration="715000" />
+      <workItem from="1502420271885" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="测试和删除一些例子。">
       <created>1501056795687</created>
@@ -856,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502165621350</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加Python联系项目">
+      <created>1502273017669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1502273017669</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16891000" />
+    <option name="totallyTimeSpent" value="19776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -871,20 +749,20 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28700906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30060422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -894,7 +772,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16524702" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -958,7 +836,9 @@
     <MESSAGE value="测试和删除一些例子。" />
     <MESSAGE value="Select或Update...." />
     <MESSAGE value="druid的测试例子 。" />
-    <option name="LAST_COMMIT_MESSAGE" value="druid的测试例子 。" />
+    <MESSAGE value="添加Python联系项目" />
+    <MESSAGE value="添加jsoup解析的java实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加jsoup解析的java实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,97 +851,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FreeMarkerStudy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http_css_xml/src/tts/xml/TestBookUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day01/FloatDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http_css_xml/src/tts/xml/TestBookUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day01/FloatDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day01/FloatDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicJavase/src/basic/day08/ArrayListDemoCard4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1238,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,9 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3723">
           <caret line="233" column="50" lean-forward="false" selection-start-line="233" selection-start-column="50" selection-end-line="233" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,9 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,25 +1085,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyCharmProjects/Crawler2/Crawler01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample2/DomMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/TestGetAppVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/sample1/Example8Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/movie-crawler/src/main/java/com/gosmarter/webcrawler/Result.java" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/movie-crawler/src/main/java/com/gosmarter/webcrawler/htmlunit/WebCrawlerManager.java" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/movie-crawler/src/main/java/com/gosmarter/webcrawler/htmlunit/WebCrawlerMap.java" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/movie-crawler/src/main/java/com/gosmarter/webcrawler/htmlunit/WebCrawlerMapList.java" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/movie-crawler/src/main/java/net/gosmarter/factories/CannesFilmFestivalAwardFactory.java" />
+    <entry file="file://$PROJECT_DIR$/jsoup-examples-master/src/test/java/net/gosmarter/webcrawler/NetflixCrawlTest.java" />
+    <entry file="file://$PROJECT_DIR$/JsoupExamples-master/ecommerce/src/JsoupTest.java" />
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="442">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyCharmProjects/Crawler2/Crawler01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,7 +1208,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javamail2</last-edited>
+          <last-edited>ajax01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

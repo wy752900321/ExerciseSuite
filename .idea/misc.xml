@@ -15,13 +15,11 @@
         <option value="$PROJECT_DIR$/JSqlParserStudy/pom.xml" />
         <option value="$PROJECT_DIR$/DruidStudyForDB/pom.xml" />
         <option value="$PROJECT_DIR$/CalciteStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/CrawlerJsoupStudy/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\ThinkPad\AppData\Roaming\Subversion</configuration>
   </component>
 </project>
