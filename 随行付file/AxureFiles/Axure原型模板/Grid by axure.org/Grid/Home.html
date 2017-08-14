@@ -1,0 +1,579 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:20px; top:40px; width:861px; height:71px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:869px; height:79px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u0.png',sizingMethod='scale');
+"><img style="width:869px; height:79px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:20px; top:40px; width:861px; height:71px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:27px; width:856px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:20px; top:40px; width:860px; height:70px"  >
+
+<DIV id=ou2 style="position:absolute; left:20px; top:10px; width:861px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:869px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u2.png',sizingMethod='scale');
+"><img style="width:869px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u2container style="position:absolute; left:20px; top:10px; width:861px; height:31px;; overflow:visible;">
+
+<DIV id=u3 style="position:absolute; left:2px; top:7px; width:856px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:20px; top:10px; width:860px; height:30px"  >
+
+<DIV id=u4 style="position:absolute; left:50px; top:23px; width:315px; height:42px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><span style=" font-family:'Arial'; color:#FFFFFF; font-size:37px;">Web Grid Systems</span></DIV></DIV>
+<DIV id=u5 style="position:absolute; left:50px; top:65px; width:295px; height:35px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FFFFFF; font-size:27px;">网页栅格系统模板</span></DIV></DIV>
+<span style="position:absolute; left:386px; top:28px; width:9px; height:68px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u6.png',sizingMethod='scale');
+"><img style="width:9px; height:68px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u6.png" border="0" alt=""></span>
+
+<IMG id=u6 src="Resources/transparent.gif" style="position:absolute; left:385.5px; top:28px; width:6px; height:65px">
+
+<span style="position:absolute; left:697px; top:34px; width:158px; height:58px">
+<span id=ou7 style="position:absolute;left:0px;top:0px;width:158px;height:58px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u7.png',sizingMethod='scale');
+"><img style="width:158px; height:58px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u7.png" border="0" alt=""></span>
+</span>
+<IMG id=u7 src="Resources/transparent.gif" style="position:absolute; left:697px; top:34px; width:158px; height:58px"   >
+
+<DIV id=u8 style="position:absolute; left:413px; top:50px; width:137px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#CCCCCC; font-size:13px;">模板</span><span style=" font-family:'Arial'; color:#CCCCCC; font-size:13px;">For</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#CCCCCC; font-size:13px;"> </span><span style=" font-family:'Arial'; color:#CCCCCC; font-size:13px;">Axure</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#CCCCCC; font-size:13px;"> </span><span style=" font-family:'Arial'; color:#CCCCCC; font-size:13px;">RP</span></DIV></DIV>
+<DIV id=ou9 style="position:absolute; left:20px; top:115px; width:861px; height:1046px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:869px; height:1054px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u9.png',sizingMethod='scale');
+"><img style="width:869px; height:1054px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u9.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u9container style="position:absolute; left:20px; top:115px; width:861px; height:1046px;; overflow:visible;">
+
+<DIV id=u10 style="position:absolute; left:2px; top:514.5px; width:856px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u9 src="Resources/transparent.gif" style="position:absolute; left:20px; top:115px; width:860px; height:1045px"  >
+
+<DIV id=u11 style="position:absolute; left:50px; top:145px; width:525px; height:51px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u11_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">网页栅格系统是从平面栅格系统中发展而来。对于网页设计来说，栅格系统的使用，可以让网页的信息呈现更加美观易读，更具可用性。并且，对于前端开发来说，网页将更加的灵活与规范。</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">（摘自</span><span style=" font-family:'Arial'; color:#666666; font-size:13px;">TaobaoUED</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#666666; font-size:13px;">）</span></DIV></DIV>
+<span style="position:absolute; left:592px; top:140px; width:5px; height:963px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u12.png',sizingMethod='scale');
+"><img style="width:5px; height:963px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u12.png" border="0" alt=""></span>
+
+<IMG id=u12 src="Resources/transparent.gif" style="position:absolute; left:591.5px; top:140px; width:2px; height:960px">
+
+<DIV id=u13 style="position:absolute; left:50px; top:219px; width:150px; height:27px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:21px;"><b>原理</b></span></DIV></DIV>
+<span style="position:absolute; left:50px; top:265px; width:338px; height:391px">
+<span id=ou14 style="position:absolute;left:0px;top:0px;width:338px;height:391px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u14.png',sizingMethod='scale');
+"><img style="width:338px; height:391px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u14.png" border="0" alt=""></span>
+</span>
+<IMG id=u14 src="Resources/transparent.gif" style="position:absolute; left:50px; top:265px; width:338px; height:391px"   >
+
+<DIV id=u15 style="position:absolute; left:400px; top:265px; width:170px; height:289px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u15_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">在网页设计中，我们把宽度为&ldquo;W&rdquo;的页面分割成n个网格单元&ldquo;a&rdquo;，每个单元与单元之间的间隙设为&ldquo;i&rdquo;,此时我们把&ldquo;a+i&rdquo;定义&ldquo;A&rdquo;。他们之间的关系如下：<br><br>W =（a×n）+（n-1）i<br><br>由于a+i=A，<br><br>可得：</span><b><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#990000; font-size:13px;">(A×n) - i = W</b></span><br><br><br><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">这个公式表述了网页的布局与网页&ldquo;背后&rdquo;的栅格系统之间的某种关系。</span></DIV></DIV>
+<DIV id=u16 style="position:absolute; left:50px; top:680px; width:150px; height:27px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:21px;"><b>实例</b></span></DIV></DIV>
+<DIV id=u17 style="position:absolute; left:50px; top:718px; width:405px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Yahoo</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">首页横向版式设计采用的栅格系统为：（40×n）- 10 = W</span></DIV></DIV>
+<span style="position:absolute; left:50px; top:755px; width:455px; height:357px">
+<span id=ou18 style="position:absolute;left:0px;top:0px;width:455px;height:357px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u18.png',sizingMethod='scale');
+"><img style="width:455px; height:357px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u18.png" border="0" alt=""></span>
+</span>
+<IMG id=u18 src="Resources/transparent.gif" style="position:absolute; left:50px; top:755px; width:455px; height:357px"   >
+
+<DIV id=u19 style="position:absolute; left:615px; top:145px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>模板使用与下载：</b></span></DIV></DIV>
+<DIV id=u20 style="position:absolute; left:615px; top:175px; width:235px; height:68px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">用</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Axure</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"> </span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">RP</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">制作产品原型时，只需要将模板源文件相应的栅格系统复制一份到自己的</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Axure</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">文件做背景。调整好位置，即可辅助你做出符合栅格系统的页面布局。</span></DIV></DIV>
+<span style="position:absolute; left:615px; top:255px; width:161px; height:51px">
+<span id=ou21 style="position:absolute;left:0px;top:0px;width:161px;height:51px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u21.png',sizingMethod='scale');
+"><img style="width:161px; height:51px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u21.png" border="0" alt=""></span>
+</span>
+<IMG id=u21 src="Resources/transparent.gif" style="position:absolute; left:615px; top:255px; width:161px; height:51px"   >
+
+<DIV id=u22 style="position:absolute; left:615px; top:264px; width:160px; height:33px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u22_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#003399; font-size:13px;">下载栅格模板</span><br><span style=" font-family:'Arial'; color:#003399; font-size:13px;">for Axure</span></div></DIV></DIV>
+<span style="position:absolute; left:615px; top:329px; width:243px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u23.png',sizingMethod='scale');
+"><img style="width:243px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u23.png" border="0" alt=""></span>
+
+<IMG id=u23 src="Resources/transparent.gif" style="position:absolute; left:615px; top:328.5px; width:240px; height:2px">
+
+<DIV id=u24 style="position:absolute; left:615px; top:348px; width:150px; height:27px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:21px;"><b>模板介绍</b></span></DIV></DIV>
+<DIV id=u25 style="position:absolute; left:615px; top:385px; width:235px; height:119px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">要采用栅格系统考虑网页布局时要先放下对整个网页宽度的界定，而首先考虑根据设计风格确定一下各区块之间的间距及选用栅格单元块的大小。这两项确定之后，让栅格从0-1000</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">px</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">铺开，在900</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">-1000</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">之间选择栅格的最后边界来确定最后的页面整体宽度。以下是一个区块间距的建议：</span></DIV></DIV>
+<DIV id=u26 style="position:absolute; left:615px; top:515px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>由矩形区块组成时：</b></span></DIV></DIV>
+<DIV id=ou27 style="position:absolute; left:615px; top:542px; width:141px; height:16px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:149px; height:24px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u27.png',sizingMethod='scale');
+"><img style="width:149px; height:24px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u27.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u27container style="position:absolute; left:615px; top:542px; width:141px; height:16px;; overflow:visible;">
+
+<DIV id=u28 style="position:absolute; left:2px; top:-0.5px; width:136px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u28_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u27 src="Resources/transparent.gif" style="position:absolute; left:615px; top:542px; width:140px; height:15px"  >
+
+<DIV id=ou29 style="position:absolute; left:615px; top:562px; width:26px; height:46px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:34px; height:54px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u29.png',sizingMethod='scale');
+"><img style="width:34px; height:54px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u29.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u29container style="position:absolute; left:615px; top:562px; width:26px; height:46px;; overflow:visible;">
+
+<DIV id=u30 style="position:absolute; left:2px; top:14.5px; width:21px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u29 src="Resources/transparent.gif" style="position:absolute; left:615px; top:562px; width:25px; height:45px"  >
+
+<DIV id=ou31 style="position:absolute; left:645px; top:562px; width:71px; height:61px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:79px; height:69px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u31.png',sizingMethod='scale');
+"><img style="width:79px; height:69px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u31.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u31container style="position:absolute; left:645px; top:562px; width:71px; height:61px;; overflow:visible;">
+
+<DIV id=u32 style="position:absolute; left:2px; top:22px; width:66px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u31 src="Resources/transparent.gif" style="position:absolute; left:645px; top:562px; width:70px; height:60px"  >
+
+<DIV id=ou33 style="position:absolute; left:720px; top:562px; width:36px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:44px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u33.png',sizingMethod='scale');
+"><img style="width:44px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u33.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u33container style="position:absolute; left:720px; top:562px; width:36px; height:21px;; overflow:visible;">
+
+<DIV id=u34 style="position:absolute; left:2px; top:2px; width:31px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u33 src="Resources/transparent.gif" style="position:absolute; left:720px; top:562px; width:35px; height:20px"  >
+
+<DIV id=ou35 style="position:absolute; left:720px; top:587px; width:36px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:44px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u33.png',sizingMethod='scale');
+"><img style="width:44px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u33.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u35container style="position:absolute; left:720px; top:587px; width:36px; height:21px;; overflow:visible;">
+
+<DIV id=u36 style="position:absolute; left:2px; top:2px; width:31px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u35 src="Resources/transparent.gif" style="position:absolute; left:720px; top:587px; width:35px; height:20px"  >
+
+<DIV id=u37 style="position:absolute; left:615px; top:632px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#990000; font-size:13px;">建议采用区块间距10</span><span style=" font-family:'Arial'; color:#990000; font-size:13px;">px</span></DIV></DIV>
+<DIV id=u38 style="position:absolute; left:615px; top:672px; width:250px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>由明线划分或内容自然形成的区块时：</b></span></DIV></DIV>
+<DIV id=ou39 style="position:absolute; left:615px; top:697px; width:141px; height:101px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:149px; height:109px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u39.png',sizingMethod='scale');
+"><img style="width:149px; height:109px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u39.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u39container style="position:absolute; left:615px; top:697px; width:141px; height:101px;; overflow:visible;">
+
+<DIV id=u40 style="position:absolute; left:2px; top:42px; width:136px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u39 src="Resources/transparent.gif" style="position:absolute; left:615px; top:697px; width:140px; height:100px"  >
+
+<DIV id=ou41 style="position:absolute; left:620px; top:702px; width:131px; height:11px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:139px; height:19px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u41.png',sizingMethod='scale');
+"><img style="width:139px; height:19px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u41.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u41container style="position:absolute; left:620px; top:702px; width:131px; height:11px;; overflow:visible;">
+
+<DIV id=u42 style="position:absolute; left:2px; top:-3px; width:126px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u41 src="Resources/transparent.gif" style="position:absolute; left:620px; top:702px; width:130px; height:10px"  >
+
+<DIV id=ou43 style="position:absolute; left:625px; top:719px; width:36px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:44px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u43.png',sizingMethod='scale');
+"><img style="width:44px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u43.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u43container style="position:absolute; left:625px; top:719px; width:36px; height:26px;; overflow:visible;">
+
+<DIV id=u44 style="position:absolute; left:2px; top:4.5px; width:31px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u43 src="Resources/transparent.gif" style="position:absolute; left:625px; top:719px; width:35px; height:25px"  >
+
+<DIV id=ou45 style="position:absolute; left:670px; top:719px; width:36px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:44px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u43.png',sizingMethod='scale');
+"><img style="width:44px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u43.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u45container style="position:absolute; left:670px; top:719px; width:36px; height:26px;; overflow:visible;">
+
+<DIV id=u46 style="position:absolute; left:2px; top:4.5px; width:31px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u45 src="Resources/transparent.gif" style="position:absolute; left:670px; top:719px; width:35px; height:25px"  >
+
+<span style="position:absolute; left:714px; top:719px; width:5px; height:71px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u47.png',sizingMethod='scale');
+"><img style="width:5px; height:71px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u47.png" border="0" alt=""></span>
+
+<IMG id=u47 src="Resources/transparent.gif" style="position:absolute; left:713.5px; top:719px; width:2px; height:68px">
+
+<span style="position:absolute; left:625px; top:751px; width:83px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u48.png',sizingMethod='scale');
+"><img style="width:83px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u48.png" border="0" alt=""></span>
+
+<IMG id=u48 src="Resources/transparent.gif" style="position:absolute; left:625px; top:750.5px; width:80px; height:2px">
+
+<DIV id=ou49 style="position:absolute; left:655px; top:757px; width:51px; height:36px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:59px; height:44px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u49.png',sizingMethod='scale');
+"><img style="width:59px; height:44px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u49.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u49container style="position:absolute; left:655px; top:757px; width:51px; height:36px;; overflow:visible;">
+
+<DIV id=u50 style="position:absolute; left:2px; top:9.5px; width:46px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u50_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u49 src="Resources/transparent.gif" style="position:absolute; left:655px; top:757px; width:50px; height:35px"  >
+
+<DIV id=ou51 style="position:absolute; left:625px; top:757px; width:21px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:29px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u51.png',sizingMethod='scale');
+"><img style="width:29px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u51.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u51container style="position:absolute; left:625px; top:757px; width:21px; height:21px;; overflow:visible;">
+
+<DIV id=u52 style="position:absolute; left:2px; top:2px; width:16px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u51 src="Resources/transparent.gif" style="position:absolute; left:625px; top:757px; width:20px; height:20px"  >
+
+<DIV id=ou53 style="position:absolute; left:723px; top:719px; width:28px; height:59px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:36px; height:67px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u53.png',sizingMethod='scale');
+"><img style="width:36px; height:67px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u53.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u53container style="position:absolute; left:723px; top:719px; width:28px; height:59px;; overflow:visible;">
+
+<DIV id=u54 style="position:absolute; left:2px; top:21px; width:23px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u53 src="Resources/transparent.gif" style="position:absolute; left:723px; top:719px; width:27px; height:58px"  >
+
+<DIV id=u55 style="position:absolute; left:615px; top:812px; width:205px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u55_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#990000; font-size:13px;">建议采用区块间距15</span><span style=" font-family:'Arial'; color:#990000; font-size:13px;">px</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#990000; font-size:13px;">或20</span><span style=" font-family:'Arial'; color:#990000; font-size:13px;">px</span></DIV></DIV>
+<DIV id=u56 style="position:absolute; left:615px; top:896px; width:240px; height:34px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">下面是由30、40、60单元块与块间距10、15、20分别组合成的栅格系统模板。</span></DIV></DIV>
+<DIV id=u57 style="position:absolute; left:615px; top:870px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u57_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>常用栅格模板预览：</b></span></DIV></DIV>
+<span style="position:absolute; left:615px; top:849px; width:243px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u58.png',sizingMethod='scale');
+"><img style="width:243px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u58.png" border="0" alt=""></span>
+
+<IMG id=u58 src="Resources/transparent.gif" style="position:absolute; left:615px; top:848.5px; width:240px; height:2px">
+
+<DIV id=ou59 style="position:absolute; left:615px; top:945px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u59container style="position:absolute; left:615px; top:945px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u60 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u60_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">30-10</span></div></DIV></DIV>
+</DIV>
+<IMG id=u59 src="Resources/transparent.gif" style="position:absolute; left:615px; top:945px; width:60px; height:25px"  >
+
+<DIV id=u59ann style="font-size:1px; position:absolute; left:666px; top:941px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou61 style="position:absolute; left:690px; top:945px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u61container style="position:absolute; left:690px; top:945px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u62 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">30-15</span></div></DIV></DIV>
+</DIV>
+<IMG id=u61 src="Resources/transparent.gif" style="position:absolute; left:690px; top:945px; width:60px; height:25px"  >
+
+<DIV id=u61ann style="font-size:1px; position:absolute; left:741px; top:941px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou63 style="position:absolute; left:765px; top:945px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u63container style="position:absolute; left:765px; top:945px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u64 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">30-20</span></div></DIV></DIV>
+</DIV>
+<IMG id=u63 src="Resources/transparent.gif" style="position:absolute; left:765px; top:945px; width:60px; height:25px"  >
+
+<DIV id=u63ann style="font-size:1px; position:absolute; left:816px; top:941px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou65 style="position:absolute; left:615px; top:985px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u65container style="position:absolute; left:615px; top:985px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u66 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u66_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">40-10</span></div></DIV></DIV>
+</DIV>
+<IMG id=u65 src="Resources/transparent.gif" style="position:absolute; left:615px; top:985px; width:60px; height:25px"  >
+
+<DIV id=u65ann style="font-size:1px; position:absolute; left:666px; top:981px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou67 style="position:absolute; left:690px; top:985px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u67container style="position:absolute; left:690px; top:985px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u68 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u68_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">40-15</span></div></DIV></DIV>
+</DIV>
+<IMG id=u67 src="Resources/transparent.gif" style="position:absolute; left:690px; top:985px; width:60px; height:25px"  >
+
+<DIV id=u67ann style="font-size:1px; position:absolute; left:741px; top:981px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou69 style="position:absolute; left:765px; top:985px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u69container style="position:absolute; left:765px; top:985px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u70 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">40-20</span></div></DIV></DIV>
+</DIV>
+<IMG id=u69 src="Resources/transparent.gif" style="position:absolute; left:765px; top:985px; width:60px; height:25px"  >
+
+<DIV id=u69ann style="font-size:1px; position:absolute; left:816px; top:981px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou71 style="position:absolute; left:615px; top:1025px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u71container style="position:absolute; left:615px; top:1025px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u72 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u72_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">60-10</span></div></DIV></DIV>
+</DIV>
+<IMG id=u71 src="Resources/transparent.gif" style="position:absolute; left:615px; top:1025px; width:60px; height:25px"  >
+
+<DIV id=u71ann style="font-size:1px; position:absolute; left:666px; top:1021px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou73 style="position:absolute; left:690px; top:1025px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u73container style="position:absolute; left:690px; top:1025px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u74 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u74_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">60-15</span></div></DIV></DIV>
+</DIV>
+<IMG id=u73 src="Resources/transparent.gif" style="position:absolute; left:690px; top:1025px; width:60px; height:25px"  >
+
+<DIV id=u73ann style="font-size:1px; position:absolute; left:741px; top:1021px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou75 style="position:absolute; left:765px; top:1025px; width:61px; height:26px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:69px; height:34px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u59.png',sizingMethod='scale');
+"><img style="width:69px; height:34px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u59.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u75container style="position:absolute; left:765px; top:1025px; width:61px; height:26px;; overflow:visible;">
+
+<DIV id=u76 style="position:absolute; left:2px; top:4.5px; width:56px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u76_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">60-20</span></div></DIV></DIV>
+</DIV>
+<IMG id=u75 src="Resources/transparent.gif" style="position:absolute; left:765px; top:1025px; width:60px; height:25px"  >
+
+<DIV id=u75ann style="font-size:1px; position:absolute; left:816px; top:1021px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u77 style="position:absolute; left:615px; top:1090px; width:55px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u77_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">制作：</span></DIV></DIV>
+<DIV id=u78 style="position:absolute; left:660px; top:1090px; width:45px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#006699; font-size:13px;">尹广磊</span></DIV></DIV>
+<DIV style="position:absolute; left:615px; top:255px; width:160px; height:50px; ; ; text-align: left ;">
+</DIV>
+<IMG id=u79 src="Resources/transparent.gif" style="position:absolute; left:615px; top:255px; width:160px; height:50px"  >
+
+<span style="position:absolute; left:440px; top:712px; width:120px; height:25px">
+<span id=ou80 style="position:absolute;left:0px;top:0px;width:120px;height:25px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u80.png',sizingMethod='scale');
+"><img style="width:120px; height:25px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u80.png" border="0" alt=""></span>
+</span>
+<IMG id=u80 src="Resources/transparent.gif" style="position:absolute; left:440px; top:712px; width:120px; height:25px"   >
+
+<DIV id=u81 style="position:absolute; left:440px; top:716px; width:120px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u81_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#003399; font-size:13px;">查看栅格效果图</span></div></DIV></DIV>
+<DIV style="position:absolute; left:440px; top:711px; width:120px; height:25px; ; ; text-align: left ;">
+</DIV>
+<IMG id=u82 src="Resources/transparent.gif" style="position:absolute; left:440px; top:711px; width:120px; height:25px"  >
+
+<DIV id=u83 style="visibility:hidden; position:absolute; left:25px; top:505px; width:561px; height:611px;; overflow:hidden">
+<DIV id=pd0u83 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou84 style="position:absolute; left:0px; top:0px; width:561px; height:611px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:569px; height:619px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u84.png',sizingMethod='scale');
+"><img style="width:569px; height:619px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u84.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u84container style="position:absolute; left:0px; top:0px; width:561px; height:611px;; overflow:visible;">
+
+<DIV id=u85 style="position:absolute; left:2px; top:297px; width:556px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u85_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u84 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:560px; height:610px"  >
+
+<DIV id=ou86 style="position:absolute; left:10px; top:10px; width:541px; height:591px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:549px; height:599px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Home_files/u86.png',sizingMethod='scale');
+"><img style="width:549px; height:599px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Home_files/u86.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u86container style="position:absolute; left:10px; top:10px; width:541px; height:591px;; overflow:visible;">
+
+<DIV id=u87 style="position:absolute; left:2px; top:287px; width:536px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u87_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u86 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:540px; height:590px"  >
+
+<INPUT id=u88  type=submit value="关闭层" style="position:absolute; left:220px; top:562px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<span style="position:absolute; left:30px; top:30px; width:500px; height:520px">
+<IMG id=ou89 src="Home_files/u89.jpg" style="position:absolute;left:0px;top:0px;width:500px;height:520px">
+</span>
+<IMG id=u89 src="Resources/transparent.gif" style="position:absolute; left:30px; top:30px; width:500px; height:520px"   >
+
+</DIV>
+</DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Home_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

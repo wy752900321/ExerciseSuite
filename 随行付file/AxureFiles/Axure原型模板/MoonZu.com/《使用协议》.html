@@ -1,0 +1,77 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:100px; top:10px; width:801px; height:51px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:809px; height:59px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='《使用协议》_files/u0.png',sizingMethod='scale');
+"><img style="width:809px; height:59px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="《使用协议》_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:100px; top:10px; width:801px; height:51px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:17px; width:796px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:100px; top:10px; width:800px; height:50px"  >
+
+<DIV id=ou2 style="position:absolute; left:110px; top:20px; width:176px; height:51px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:184px; height:59px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='《使用协议》_files/u2.png',sizingMethod='scale');
+"><img style="width:184px; height:59px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="《使用协议》_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u2container style="position:absolute; left:110px; top:20px; width:176px; height:51px;; overflow:visible;">
+
+<DIV id=u3 style="position:absolute; left:2px; top:4.5px; width:171px; height:41px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:19px;"><b>月光族</b></span><br><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>MOONZU</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:110px; top:20px; width:175px; height:50px"  >
+
+<DIV id=u4 style="position:absolute; left:825px; top:28px; width:55px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>返回首页</u></span></DIV></DIV>
+<DIV id=ou5 style="position:absolute; left:200px; top:80px; width:601px; height:851px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:609px; height:859px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='《使用协议》_files/u5.png',sizingMethod='scale');
+"><img style="width:609px; height:859px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="《使用协议》_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u5container style="position:absolute; left:200px; top:80px; width:601px; height:851px;; overflow:visible;">
+
+<DIV id=u6 style="position:absolute; left:2px; top:417px; width:596px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u5 src="Resources/transparent.gif" style="position:absolute; left:200px; top:80px; width:600px; height:850px"  >
+
+<DIV id=u7 style="position:absolute; left:245px; top:108px; width:60px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u7_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>使用协议</b></span></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:245px; top:135px; width:515px; height:781px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">如果你想注册成为月光族用户，请务必阅读本使用协议（以下简称&ldquo;本协议&rdquo;）并在注册过程中表明你同意接受本协议。<br><br>&nbsp;&nbsp; 1. 月光族 moonzu.com 用户指在本站注册并验证注册邮件地址的用户。用户可以使用个人空间、迷你博客、相册、群组和分享等基本功能。<br>&nbsp;&nbsp; 2. 一旦注册成为月光族用户，即代表你保证：（a）你提交的个人信息是真实、准确、完整的；（b）你会不断更新个人资料，以符合及时、详尽、准确的要求；（c）你在使用服务时不会违反任何适用的国家法律或法规；（d）你在使用服务时不会违反月光族一切有效的管理办法和规定。<br>&nbsp;&nbsp; 3. 用户的个人资料受到月光族的保护。月光族承诺不会在未获得用户许可的情况下擅自将用户的个人资料信息出租或出售给任何第三方，但以下情况除外：（a）用户同意让第三方共享资料；（b）用户同意公开其个人资料，享受相应的产品和服务；（c）月光族需要听从法庭传票、法律命令或遵循法律程序；（d）月光族发现用户违反了本站服务条款或本站其他使用规定。更多关于隐私保护的内容请查看月光族的隐私声明。<br>&nbsp;&nbsp; 4. 用户应随时根据实际情况更新个人资料。帐号相关信息不得影射党和国家领导人或者含有不雅含义，对违反者将予以删除帐号。<br>&nbsp;&nbsp; 5. 用户在月光族发文或使用任何服务时，以及在自己的个人资料中，均不能对他人进行骚扰或人身攻击、包含侮辱性言辞、引起不必要的纠纷、影射党和国家领导人或含有其他不恰当的内容。如果违犯上述情形，将视情况予以警告、封禁部分权限直至删除帐号。<br>&nbsp;&nbsp; 6. 用户不得使用本站的帐号从事非法商业行为或发表猥亵、色情、反党反政府言论或者其他不当言论。违者将封禁部分权限直至删除帐号。<br>&nbsp;&nbsp; 7. 用户不得利用本站帐号、个人资料、迷你博客、分享、照片、群组和私信等服务进行直接或者间接商业宣传，否则将视情节轻重给予警告、封禁部分权限直至删除帐号的处罚；对于蓄意为某一商业机构进行多个商业宣传的，将视情节轻重予以警告、封禁部分权限直至删除帐号的处罚。<br>&nbsp;&nbsp; 8. 用户必须保证拥有上传之照片和文字等作品的著作权或已获得合法授权，用户必须保证在本站的上传行为未侵犯任何第三方之合法权益。否则，将由用户本人承担由此带来的一切法律责任。<br>&nbsp;&nbsp; 9. 用户不得手动或者使用特殊程序对本站系统进行恶意冲击。对于恶意冲击系统并可能危及系统稳定运行的用户，直接删除帐号。<br>&nbsp; 10. 用户有权力和责任对站内出现的违反国家法律法规以及有关站规的事件进行举报。<br>&nbsp; 11. 月光族用户帐号代表用户个人，由于用户发布消息或者其他站上交流引起的法律上的或者经济上的责任，月光族不予负担其中任何形式的责任，用户的言论文责自负。<br>&nbsp; 12. 用户应保护好月光族帐号和密码安全，对任何人利用你的帐号和密码所进行的活动负全部责任。因月光族无法对非法或未经用户授权使用的帐号的行为作出甄别，因此月光族不承担任何责任。<br>&nbsp; 13. 用户帐号仅代表使用者个人，不得转借、售卖或共用帐号。违者将视情节受到警告、封禁部分权限直至删除帐号的处罚。对于有意泄露帐号密码者，视同共用帐号从重处理。<br>&nbsp; 14. 月光族 moonzu.com 有权随时修改本协议中的任何条款。任何修改自发布之时起生效。如果你在修改发布后继续使用月光族的服务，即表示你同意遵守对本协议所作出的修改。欢迎随时查看本协议，以确保了解所有相关的最新修改。如果你不同意相关修改，请你离开本站并立即停止使用本站服务。<br>&nbsp; 15. 本协议解释权归月光族 moonzu.com，有关事项与其他声明或协议互为补充。若有冲突，以月光族 moonzu.com 公布的最新协议为准。本协议自公布之日起施行。</span></DIV></DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="《使用协议》_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

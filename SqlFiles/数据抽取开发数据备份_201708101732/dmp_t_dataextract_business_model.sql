@@ -1,0 +1,1 @@
+INSERT INTO dmp.t_dataextract_business_model (name, `desc`, operating, operating_person, operating_time) VALUES ('TIF_STM_BNK', '终端结算分析', 'insert', '贾东坡', '2017-08-10 16:36:01');

@@ -1,0 +1,188 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:200px; top:80px; width:601px; height:651px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:609px; height:659px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u0.png',sizingMethod='scale');
+"><img style="width:609px; height:659px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:200px; top:80px; width:601px; height:651px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:317px; width:596px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:200px; top:80px; width:600px; height:650px"  >
+
+<DIV id=ou2 style="position:absolute; left:100px; top:10px; width:801px; height:51px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:809px; height:59px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u2.png',sizingMethod='scale');
+"><img style="width:809px; height:59px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u2container style="position:absolute; left:100px; top:10px; width:801px; height:51px;; overflow:visible;">
+
+<DIV id=u3 style="position:absolute; left:2px; top:17px; width:796px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:100px; top:10px; width:800px; height:50px"  >
+
+<DIV id=ou4 style="position:absolute; left:110px; top:20px; width:176px; height:51px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:184px; height:59px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u4.png',sizingMethod='scale');
+"><img style="width:184px; height:59px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u4container style="position:absolute; left:110px; top:20px; width:176px; height:51px;; overflow:visible;">
+
+<DIV id=u5 style="position:absolute; left:2px; top:4.5px; width:171px; height:41px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:19px;"><b>月光族</b></span><br><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><b>MOONZU</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u4 src="Resources/transparent.gif" style="position:absolute; left:110px; top:20px; width:175px; height:50px"  >
+
+<DIV id=u6 style="position:absolute; left:825px; top:28px; width:55px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>返回首页</u></span></DIV></DIV>
+<DIV id=u7 style="position:absolute; left:245px; top:123px; width:60px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u7_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><b>上传头像</b></span></DIV></DIV>
+<INPUT id=u8  type=text value="" style="position:absolute; left:245px; top:205px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=ou9 style="position:absolute; left:375px; top:120px; width:251px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:259px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u9.png',sizingMethod='scale');
+"><img style="width:259px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u9.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u9container style="position:absolute; left:375px; top:120px; width:251px; height:31px;; overflow:visible;">
+
+<DIV id=u10 style="position:absolute; left:2px; top:6.5px; width:246px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">头像上传失败，请检查文件大小或格式！</span></div></DIV></DIV>
+</DIV>
+<IMG id=u9 src="Resources/transparent.gif" style="position:absolute; left:375px; top:120px; width:250px; height:30px"  >
+
+<DIV id=u9ann style="font-size:1px; position:absolute; left:616px; top:116px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u11 style="position:absolute; left:245px; top:174px; width:505px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u11_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">请选择自己的照片文件，文件需小于2.5</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">MB</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">。文件格式为</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">JPEG</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">、</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">BMP</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">、</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">PNG</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">、</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">GIF</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">。</span></DIV></DIV>
+<INPUT id=u12  type=submit value="浏览" style="position:absolute; left:425px; top:205px; width:50px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u13  type=submit value="上传头像" style="position:absolute; left:495px; top:205px; width:95px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u14  type=submit value="跳过，查看我的主页" style="position:absolute; left:245px; top:250px; width:170px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u15 style="visibility:hidden; position:absolute; left:235px; top:240px; width:511px; height:461px;; overflow:hidden">
+<DIV id=pd0u15 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou16 style="position:absolute; left:0px; top:0px; width:391px; height:441px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:399px; height:449px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u16.png',sizingMethod='scale');
+"><img style="width:399px; height:449px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u16.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u16container style="position:absolute; left:0px; top:0px; width:391px; height:441px;; overflow:visible;">
+
+<DIV id=u17 style="position:absolute; left:2px; top:212px; width:386px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u16 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:390px; height:440px"  >
+
+<DIV id=ou18 style="position:absolute; left:10px; top:5px; width:341px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:349px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u18.png',sizingMethod='scale');
+"><img style="width:349px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u18.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u18container style="position:absolute; left:10px; top:5px; width:341px; height:21px;; overflow:visible;">
+
+<DIV id=u19 style="position:absolute; left:2px; top:1.5px; width:336px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">状态等待条</span></div></DIV></DIV>
+</DIV>
+<IMG id=u18 src="Resources/transparent.gif" style="position:absolute; left:10px; top:5px; width:340px; height:20px"  >
+
+<span style="position:absolute; left:20px; top:74px; width:310px; height:311px">
+<span id=ou20 style="position:absolute;left:0px;top:0px;width:310px;height:311px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u20.png',sizingMethod='scale');
+"><img style="width:310px; height:311px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u20.png" border="0" alt=""></span>
+</span>
+<IMG id=u20 src="Resources/transparent.gif" style="position:absolute; left:20px; top:74px; width:310px; height:311px"   >
+
+<DIV id=u21 style="position:absolute; left:10px; top:45px; width:300px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">裁切头像照片，您可以拖动照片以裁剪满意的头像</span></DIV></DIV>
+<INPUT id=u22  type=submit value="剪切头像" style="position:absolute; left:25px; top:400px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u23  type=submit value="取消" style="position:absolute; left:155px; top:400px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+</DIV>
+<DIV id=pd1u15 style="position:absolute; left:0px; top:0px; width:1px; height:1px; visibility:hidden;">
+<DIV id=ou24 style="position:absolute; left:0px; top:0px; width:391px; height:441px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:399px; height:449px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u16.png',sizingMethod='scale');
+"><img style="width:399px; height:449px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u16.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u24container style="position:absolute; left:0px; top:0px; width:391px; height:441px;; overflow:visible;">
+
+<DIV id=u25 style="position:absolute; left:2px; top:212px; width:386px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u24 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:390px; height:440px"  >
+
+<DIV id=u26 style="position:absolute; left:25px; top:20px; width:300px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">预览头像</span></DIV></DIV>
+<INPUT id=u27  type=submit value="保存头像" style="position:absolute; left:45px; top:295px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u28  type=submit value="取消" style="position:absolute; left:175px; top:295px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=ou29 style="position:absolute; left:40px; top:60px; width:201px; height:201px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:209px; height:209px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='上传头像_files/u29.png',sizingMethod='scale');
+"><img style="width:209px; height:209px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="上传头像_files/u29.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u29container style="position:absolute; left:40px; top:60px; width:201px; height:201px;; overflow:visible;">
+
+<DIV id=u30 style="position:absolute; left:2px; top:92px; width:196px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u29 src="Resources/transparent.gif" style="position:absolute; left:40px; top:60px; width:200px; height:200px"  >
+
+</DIV>
+</DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="上传头像_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
