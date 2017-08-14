@@ -166,8 +166,8 @@
       <file leaf-file-name="DbUtil2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/DbUtil2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="276" column="22" lean-forward="false" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+            <state relative-caret-position="333">
+              <caret line="285" column="34" lean-forward="false" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -846,7 +846,7 @@
       <workItem from="1502420271885" duration="2257000" />
       <workItem from="1502422760261" duration="161000" />
       <workItem from="1502726791442" duration="905000" />
-      <workItem from="1502728363044" duration="181000" />
+      <workItem from="1502728363044" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="测试和删除一些例子。">
       <created>1501056795687</created>
@@ -897,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502727445420</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="删除遗留下的文件">
+      <created>1502728935423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502728935423</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23099000" />
+    <option name="totallyTimeSpent" value="23440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -917,7 +924,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1003,7 +1010,8 @@
     <MESSAGE value="添加jsoup解析的java实现" />
     <MESSAGE value="添加注释及数据库" />
     <MESSAGE value="C与Python的临时文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="C与Python的临时文件" />
+    <MESSAGE value="删除遗留下的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除遗留下的文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1317,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/DbUtil2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="276" column="22" lean-forward="false" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+        <state relative-caret-position="333">
+          <caret line="285" column="34" lean-forward="false" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
           <folding />
         </state>
       </provider>
