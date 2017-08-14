@@ -2,649 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3b2cc1-7537-415f-8d1a-56b837fc104d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/Debug/vc80.idb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/GbaseCDC.vcproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/test01.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid by axure.org.rp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u1250.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u1252.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/u968.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/u800.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/u800.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u580.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u58.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u84.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u89.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u65.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u67.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u69.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u104.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u123.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u126.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u129.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u131.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u132.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u133.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u135.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u137.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u139.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u141.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u155.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u157.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u158.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u160.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u52.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u54.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u65.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u79.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u81.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/u2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/不同搜索项输入框中的提示消失与显示.rp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/CloseButton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/flow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/resize.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/transparent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/wm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u62.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u66.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u69.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u74.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u78.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u210.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u216.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u220.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u224.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u226.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u230.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u246.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u248.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u250.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u252.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u281.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u283.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u285.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u287.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u289.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u291.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u293.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u295.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u297.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u299.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u301.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u303.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u305.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u307.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u309.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u313.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u317.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u335.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据分发任务管理/u337.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u53.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u55.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u59.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u61.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u63.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u67.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u69.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/数据预警管理/u9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/版本/u161.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/版本/u173.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/版本/u185.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/079_page_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/086_case_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/235_folderclosed_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/goldengate官方培训资料-讲解.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/V$LOGMNR_CONTENTS 的字段解释.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLionProjects/HelloWorld/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLionProjects/HelloWorld/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLionProjects/HelloWorld/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/Crawler2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/Crawler3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example1/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyCharmProjects/example3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/xxl_job_sql_20170707.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据中心常用.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_element.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_entity.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_model.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_datasource.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_element_mapping.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_entity_element.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_model_entity.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_relation.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_datasource.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/vbilltest1.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SqlFiles/生产数据常用.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/Debug/BuildLog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/snooptab_word.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/snooptab_word.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/test01.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VSProjects/GbaseCDC/GbaseCDC/test01.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_work/hello_world.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/_Notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/_SiteTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/学习事例_Start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Moonzu.com_Start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/_Notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/_SiteTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/1234_Start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/_Notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/_SiteTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Notes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/ann.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerp_pagescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerppage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerpprototype.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/SiteTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_Start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/axurerp_pagespecificscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/debug.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(10g)字段列表.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(11g)字段列表.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(9i)字段列表.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/开启LogMiner流程.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/清理Oracle归档数据.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u212.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u236.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/225_responsive_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/228_togglenotes_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/229_variables_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/231_event_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/232_search_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/233_hyperlink_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/236_folderopen_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/adaptivecheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/flow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/allow_access.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure-chrome-extension.crx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/extensions_menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/splitter.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/splitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/newwindow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/note.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/259_close_12rollover1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/260_collapse_12rollover1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/reset.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/reset_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/page_notes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/page_notes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/recordplay/recordplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/recordplay/styles/recordplay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/sitemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/flow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_closed.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_open.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/note.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/page.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/sitemap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/Other.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/chrome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/axure_rp_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/jquery-ui-themes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/expand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/close.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/close_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/expand.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/expand_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/reload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/annotation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/axQuery.std.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/doc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/geometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/tree.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExerciseSuite.iws" />
@@ -692,8 +166,8 @@
       <file leaf-file-name="DbUtil2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/DbUtil2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="269" column="25" lean-forward="false" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="276" column="22" lean-forward="false" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -849,6 +323,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExerciseSuite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExerciseSuite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -869,22 +359,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExerciseSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -894,7 +368,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiadongpo.github.io/HexoJiadongpo" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -1371,7 +845,8 @@
       <workItem from="1502417784284" duration="715000" />
       <workItem from="1502420271885" duration="2257000" />
       <workItem from="1502422760261" duration="161000" />
-      <workItem from="1502726791442" duration="110000" />
+      <workItem from="1502726791442" duration="905000" />
+      <workItem from="1502728363044" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="测试和删除一些例子。">
       <created>1501056795687</created>
@@ -1415,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502422529134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="C与Python的临时文件">
+      <created>1502727445420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502727445420</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22123000" />
+    <option name="totallyTimeSpent" value="23099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1435,7 +917,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30966768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1520,7 +1002,8 @@
     <MESSAGE value="添加Python联系项目" />
     <MESSAGE value="添加jsoup解析的java实现" />
     <MESSAGE value="添加注释及数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释及数据库" />
+    <MESSAGE value="C与Python的临时文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="C与Python的临时文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1775,15 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/db_datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,10 +1307,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/resources/db_datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CrawlerJsoupStudy/src/main/java/com/cenrise/DbUtil2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="269" column="25" lean-forward="false" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="276" column="22" lean-forward="false" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
           <folding />
         </state>
       </provider>
