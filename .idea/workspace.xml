@@ -2,123 +2,541 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3b2cc1-7537-415f-8d1a-56b837fc104d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u212.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u236.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/images/历史/u240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/225_responsive_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/228_togglenotes_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/229_variables_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/231_event_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/232_search_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/233_hyperlink_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/236_folderopen_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/adaptivecheck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/flow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_closed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/note.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/allow_access.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure-chrome-extension.crx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/axure_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/extensions_menu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/splitter.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/splitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/newwindow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/note.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/259_close_12rollover1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/260_collapse_12rollover1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/reset.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/reset_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/debug/styles/images/variables_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/page_notes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/back_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/footnotes_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/forward_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/images/notes_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/page_notes/styles/page_notes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/recordplay/recordplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/recordplay/styles/recordplay.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/sitemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/flow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_closed.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/folder_open.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/hotspots_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/note.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/page.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/share_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/sitemap_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/images/views_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/plugins/sitemap/styles/sitemap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/Other.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/chrome/chrome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/axure_rp_page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/images/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/jquery-ui-themes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/expand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/close_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/expand.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/expand_hover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/images/images.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/reload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/annotation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/axQuery.std.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/doc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/geometry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/legacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/随行付file/AxureFiles/html/resources/scripts/axure/tree.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Axure学习事例_files/u9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/reload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/_Notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/_SiteTree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Axure学习事例/学习事例_Start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid by axure.org.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u1250.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-10_files/u1252.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-15_files/u968.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/30-20_files/u800.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-10_files/u800.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-15_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/40-20_files/u580.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-10_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-15_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/60-20_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u84.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u89.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Home_files/u9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/reload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/Grid by axure.org/Grid/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Moonzu.com_Start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/_Notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/_SiteTree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/《使用协议》_files/u5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/上传头像_files/u9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完善资料_files/u8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/完成注册_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/当注册地址使用过后_files/u8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/忘记密码_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/我的主页_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/注册页_files/u5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/登录页_files/u8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/重置密码_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/首页_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/MoonZu.com/验证邮箱邮件_files/u8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Home_files/u8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/reload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/home-axure/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u123.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u126.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u129.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u131.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u132.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u133.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u135.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u137.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u139.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u141.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u155.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u157.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u158.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u160.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Home_files/u81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/myhome/card_files/u6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Home_files/u7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/reload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/shurutishi/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Home_files/u2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/reload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/sosuotishi/不同搜索项输入框中的提示消失与显示.rp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/1234_Start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Home_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/_Notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/_SiteTree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/tijiao/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/CloseButton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/Other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/ann.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerp_pagescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerppage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/axurerpprototype.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/flow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/leaf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/newwindow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/window_12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/Resources/wm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/SiteTree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_Start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/axurerp_pagespecificscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/AxureFiles/Axure原型模板/评论或反馈功能/评论或反馈功能_files/u80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/goldengate官方培训资料-讲解.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/V$LOGMNR_CONTENTS 的字段解释.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(10g)字段列表.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(11g)字段列表.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/v$logmnr_contents(9i)字段列表.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/开启LogMiner流程.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/随行付file/VBillCDC研究/预研/清理Oracle归档数据.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExerciseSuite.iws" />
@@ -368,7 +786,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiadongpo.github.io/HexoJiadongpo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GithubSpacesShangqiume/shangqiume.github.io/HexoShangqiume" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -846,7 +1264,7 @@
       <workItem from="1502420271885" duration="2257000" />
       <workItem from="1502422760261" duration="161000" />
       <workItem from="1502726791442" duration="905000" />
-      <workItem from="1502728363044" duration="522000" />
+      <workItem from="1502728363044" duration="3242000" />
     </task>
     <task id="LOCAL-00001" summary="测试和删除一些例子。">
       <created>1501056795687</created>
@@ -904,11 +1322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502728935423</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="删除遗留下的文件">
+      <created>1502728997148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502728997148</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23440000" />
+    <option name="totallyTimeSpent" value="26160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -924,7 +1349,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
