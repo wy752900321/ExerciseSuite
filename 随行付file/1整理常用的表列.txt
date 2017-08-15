@@ -1,0 +1,524 @@
+每天使用：
+
+1、BAP.T_BAP_MEC_IF BAP  （商户基本信息表）
+
+BAP.IN_MNO (内部商编，主要进行表关联)
+
+BAP.MNO AS 真实商编（收单机构自有商编、上送银行商编、签购单打印商编）,
+BAP.CPR_OPER_NM_CN AS 经营名称（商户对外名称）,
+BAP.CPR_REG_NM_CN AS 注册名称（营业执照名称）,
+BAP.BUS_OVERVIEW AS 经营概述（上送银联名称、43域）,
+BAP.CUP_CODE AS 地区代码（32域码）,（受理机构码是 '4386'|| bap.cup_code,）
+BAP.DT_CTE AS 商户建立日期（进件时间、入网时间）,
+BAP.TM_CTE AS 创建时间,
+case
+  when MEC_TYPE_FLAG = '00' then
+  '普通商户'
+  when MEC_TYPE_FLAG = '01' then
+  '连锁总店'
+  when MEC_TYPE_FLAG = '02' then
+  '连锁分店'
+  when MEC_TYPE_FLAG = '03' then
+  '1+N总店'
+  when MEC_TYPE_FLAG = '04' then
+  '1+N分店'
+end as 商户类型,总分店标识,是否连锁
+CASE
+  WHEN BAP.MEC_STS = '01' THEN
+   '正常'
+  WHEN BAP.MEC_STS = '02' THEN
+   '注销'
+  WHEN BAP.MEC_STS = '03' THEN
+  '冻结'
+  WHEN BAP.MEC_STS = '00' THEN
+  '异常'
+  ELSE
+  ''
+END AS 商户状态,
+CASE
+  WHEN BAP.IS_XW = '1' THEN
+  '小微商户'
+ ELSE
+  ''
+END AS 是否小微,
+case 
+  when bap.is_teyou = '0' then
+  '否'
+  when bap.is_teyou = '1' then
+  '是'
+  else
+ ''
+end as 是否特惠,
+BAP.MEC_DIS_NM AS 签购单名称,
+BAP.AGRNO AS 档案编号（协议编号）
+BAP.MEC_FEE_TYP AS 银联商户费率类型,
+case
+  when bap.MEC_FEE_TYP = '01' then
+  '县乡'
+  when bap.MEC_FEE_TYP = '02' then
+  '普通'
+  when bap.MEC_FEE_TYP = '03' then
+  '三农'
+  else
+  ''
+End AS 是否县乡,
+case
+  when BAP.ZFT_FLG = '00' then
+  '未开通'
+  when BAP.ZFT_FLG = '01' then
+  '普通朝付通'
+  else
+  'VIP朝付通'
+End AS 是否开通朝付通,
+
+
+
+2、BAP.T_BAP_MEC_IF_DETAIL MINF  （商户基本信息详细表）
+ 
+MINF.IN_MNO (表关联)
+
+MINF.CONT_NM_CN AS 联系人姓名,
+MINF.CONT_TEL_NO AS 联系人电话,
+MINF.BUS_ADDR AS 营业地址（布放地址）,
+MINF.POS_INSTALL_ADDR AS 装机地址,
+MINF.CPR_REG_ADDR AS 注册地址,
+MINF.CPR_REG_CAPITAL AS 注册资金,
+MINF.OPER_SCOPE AS（经营范围）,
+MINF.LEG_PER_NM AS 法人,
+MINF.LEG_PER_CRD_NO AS 法人证件号码,
+MINF.LEG_CRD_EFF_STT - LEG_CRD_EFF_EDT AS 证件有效时间范围,
+MINF.MEC_ADMIN_TEL AS 联系电话,
+MINF.OPER_LIC_NO AS 营业执照号,
+MINF.TAX_REG_NO AS 税务登记号,
+MINF.SIGN_DT AS 协议时间（签订时间）,
+
+
+
+3、BAP.T_BAP_MEC_RATE E  (商户交易费率表)
+
+E.IN_MNO (表关联)
+该表关联是需要限定的条件： E.MERC_TYP_RATE = '01'（手刷的为06）
+                           AND E.EXP_DT >= TO_CHAR(SYSDATE, 'YYYYMMDD')
+                           AND E.EFF_DT <= TO_CHAR(SYSDATE, 'YYYYMMDD')
+                           AND E.ATV_FLG = '00'
+                           
+E.MCC_CD AS MCC（商户类别码、上送银联商户类别码）,
+E.RAT1 AS 费率（商户手续费）,
+E.MAX_FEE_AMT AS 封顶额,
+E.FEE_CAP_FLG AS 是否为封顶商户,
+CASE
+  WHEN E.FEE_CAP_FLG = '01' THEN
+  '封顶'
+  WHEN E.FEE_CAP_FLG = '00' THEN
+  '非封顶'
+END AS 是否封顶,
+
+
+
+4、BAP.T_BAP_CDE_MCC T  (MCC基础信息表)
+
+T.IDT_NM AS 行业类别、行业大类,
+T.SUB_IDT_NM AS 行业细类,
+
+
+
+5、BAP.T_BAP_MEC_ITN_ATTR_IF ATTR1 （商户内部归属信息表）
+
+ATTR1.IN_MNO (表关联)
+
+ATTR1.DEV_OFFICER_NM AS 商户拓展员名称,
+ATTR1.DEV_OFFICER_NO AS 商户拓展员编号,
+ATTR1.EMP_NM AS 业务人员,
+ATTR1.EMP_NO AS 业务人员编号,
+ATTR1.MEC_DEV_TYP AS 商户拓展员类型,
+
+
+
+6、UAP.T_UAP_ORG ATTR  （机构分公司表）
+
+ATTR.ORG_UUID 与表 (BAP.T_BAP_MEC_ITN_ATTR_IF) ATTR1的 ATTR1.ORG_NO 关联
+ ATTR.ORG_UUID AS 直属机构编号,
+ ATTR.ORG_NM AS 直属机构名称,
+ ATTR.CITY_NM AS 归属城市,
+ CASE
+  WHEN ATTR.ORG_PROP = 1 THEN
+  '直营'
+  WHEN ATTR.ORG_PROP = 2 THEN
+  '代理商'
+  WHEN ATTR.ORG_PROP = 3 THEN
+  '合作伙伴'
+END AS 拓展类型
+
+ORG.ORG_UUID 与表（UAP.T_UAP_ORG ）ATTR的 ATTR.BRANCH_ATTRIBUTION 关联
+ ORG.ORG_NM AS 分公司名称,
+
+
+
+7.SMSA.T_SMSA_MEC_AGENT AG (一代信息表)
+
+AG.MEC_UUID 与表 （BAP.T_BAP_MEC_IF）BAP的BAP.UUID 关联
+AG.TOP_AGENT_ORG_NO 与表 (UAP.T_UAP_ORG) AG1 的AG1.ORG_UUID 关联
+AG1.ORG_UUID AS 一代编号,
+AG1.ORG_NM AS 一代名称,
+
+AG.BPANCH_ORG_NO 与表 （UAP.T_UAP_ORG）AG2 的AG2.ORG_UUID 关联
+AG2.ORG_NM AS 分公司,
+
+AG.AGENT_ORG_NO 与表（UAP.T_UAP_ORG）AG3的AG3.ORG_UUID 关联
+AG3.ORG_UUID AS 直属机构编号,
+AG3.ORG_NM AS 直属机构名称,
+
+
+
+8、PTS.T_PTS_TIF_IF POS (终端基本信息表)
+
+POS.IN_MNO (表关联)
+
+POS.TRM_NO AS 终端号,
+POS.TRM_SN AS 序列号,
+Decode(POS.trm_sts, 'D', '暂停', 'Y', '正常', 'N', '注销') As POS状态,
+POS.DT_CTE AS 创建日期,（填写了pos机信息，但是不一定开通pos机）
+***POS.DT_INS AS 装机日期,
+***版本号,
+***型号名称,
+***型号编号,
+case when POS.CMMU_MOD = '0' then
+  'MODEM'
+  when POS.CMMU_MOD = '1' then
+  'GPRS'
+  when POS.CMMU_MOD = '2' then
+  'TCP/IP'
+  when POS.CMMU_MOD = '3' then
+  'APN'
+  when POS.CMMU_MOD = '4' then
+  'CDMA'
+  when POS.CMMU_MOD = '5' then
+  'CDMA2000'
+  when POS.CMMU_MOD = '6' then
+  'WCDMA'
+  when POS.CMMU_MOD = '7' then
+  'TD_CDMA'
+  when POS.CMMU_MOD = '8' then
+  'WIFI'
+end as 通讯方式,
+CASE 
+  WHEN P.CMMU_MOD IN ('0','2') THEN '固定'
+  WHEN  P.CMMU_MOD IN ('1','4','6') THEN '移动'
+  END AS 终端类型,
+  
+  
+  
+11、PTS.T_PTS_TRANDATA A渠道(交易)流水表
+
+IN_MNO (表关联)
+TRM_NO AS 终端号 (表关联,求终端交易使用)
+
+(case
+   when A.TRAN_FLG  = 'N' THEN
+   '正常'
+   when A.TRAN_FLG = 'D' THEN
+   '被撤销'
+   when A.TRAN_FLG = 'C' THEN
+   '被冲正'
+   when A.TRAN_FLG = 'E' THEN
+    '被拒付'      
+   ELSE
+    ''
+END) AS 交易标识,
+(case
+   when A.tran_sts = 'S' THEN
+   '成功'
+   when A.tran_sts = 'F' THEN
+   '失败'
+   when A.tran_sts = 'U' THEN
+   '预记状态'
+   when A.tran_sts = 'C' THEN
+   '被冲正'
+   when A.tran_sts = 'X' THEN
+   '发送失败'
+   when A.tran_sts = 'T' THEN
+   '发送超时'
+   ELSE
+   ''
+END) AS 交易状态,
+A.TRAN_DT AS 交易日期,
+A.tran_tm as 交易时间,
+A.TRAN_CD AS 交易编码
+(case
+   when A.tran_cd = '10110006' then
+   'POS预授权完成撤销'
+   when A.tran_cd = '10110009' then
+   'POS余额查询'
+   when A.tran_cd = '10110003' then
+   'POS预授权'
+   when A.tran_cd = '10110012' then
+   '预付费卡余额查询'
+   when A.tran_cd = '10110005' then
+   'POS预授权完成'
+   when A.tran_cd = '10110004' then
+   'POS预授权撤销'
+   when A.tran_cd = '10110015' then
+   '订单查询'
+   when A.tran_cd = '10110016' then
+   '订单结果通知'
+   when A.tran_cd = '10110008' then
+   'POS退货'
+   when A.tran_cd = '10110010' then
+   '预付费卡消费'
+   when A.tran_cd = '2010003' then
+   '脚本结果通知'
+   when A.tran_cd = '10110002' then
+   'POS消费撤销'
+   when A.tran_cd = '10110001' then
+   'POS消费'
+   when A.tran_cd = '2010130' then
+   '会员现金消费'
+   when A.tran_cd = '2010160' then
+   '非会员现金消费'
+   when A.tran_cd = '2010140' then
+   '会员纯优惠券消费'
+   when A.tran_cd = '10110011' then
+   '预付费卡消费撤销'
+   when A.tran_cd = '10110004' then
+   'POS预授权撤销'
+   when A.tran_cd = '2010180' then
+   '消费后外部机构会员业务关联原始交易'
+    when A.tran_cd = '10110007' then
+   '冲正' else ''
+   end) as 交易码,交易类型
+POS.TRAN_AMT AS 交易金额,  
+
+12、BAP.T_BAP_MEC_FUN_SW SW  （开关表）
+
+IN_MNO (表关联),
+CASE
+  WHEN SUBSTR(SW.BUS_STS, 4, 1) = '1' THEN
+  '交易暂停'
+  ELSE
+  '正常'
+END AS POS交易关停状态,
+case
+  when (SUBSTR(sw.WDC_FLG, 16, 1) = '1') then
+  '开通'
+  else
+  '未开通'
+end as 是否开通非工作日结算,
+CASE
+  WHEN sw.MAINT_CHAR_FLG = '01' then
+  '是'
+  ELSE
+  '否'
+END AS 是否开通维护通,
+
+--每周
+
+1、BAP.T_BAP_USR_STM_BNK_IF BNK (商户结算银行卡信息表)
+
+BNK.USR_ID 与表（BAP.T_BAP_MEC_IF）BAP.USR_ID 关联
+该表关联需要限定的条件：BNK.DEL_FLG = '00' (是否逻辑删除(00:不是,01:是))(00不删除)
+
+BNK.ACT_NO AS 账号,
+BNK.ACT_NM AS 账户名称（银行卡账户名、结算人姓名）,
+BNK.LBNK_DESC AS 开户行信息,
+CASE
+  WHEN BNK.ACT_TYP = '00' THEN
+  '对公'
+  ELSE
+  '对私'
+END AS 银行卡账户类型,
+BNK.ID_CARD_NO AS 结算人身份证号,
+BNK.STM_MET_NO = '01' (默认结算账号)
+
+
+
+2、SES.T_SES_SET_ORD_INF INF (结算单信息表)
+
+IN_MNO (表关联)
+
+INF.ARG_PAY_DT AS 结算时间,
+INF.SET_AMT AS 结算金额,
+INF.SET_FEE_AMT AS 手续费,
+INF.PAY_TYP AS 付款类型,{付款类型（01：T+N结算，02：T+0结算，03：非工作日结算，04：商户付款，05：普通朝付通，06：VIP朝付通)}
+INF.TO_TYP AS T+0结算类型{00:初始化，01：结算失败，02：待付款，03：已撤销，04：延迟付款，05：扣款失败，06：付款中，07：付款失败，08：付款成功，09：审批撤销失败}
+INF.SET_STS AS 结算状态,
+
+
+
+
+3、BAP.T_BAP_MEC_TZERO_STL T(商户T+O信息表)
+
+IN_MNO (表关联)
+
+(case
+   when t.stl_TYPE = '01' AND t.stl_sts = '01' THEN 
+   '开通'
+   ELSE
+   '未开通'
+END) AS 是否开通随意,
+(case
+   when t.stl_TYPE = '02' AND t.stl_sts = '01' THEN
+   '开通'
+   ELSE
+   '未开通'
+END) AS 是否开通即日付,
+(case
+   when t.stl_sts = '00' THEN
+   '关闭'
+   when t.stl_sts = '01'then
+   '开通'
+   ELSE
+   '暂停'
+END) AS T+0状态,
+***随意通结算额度,
+
+
+
+4、BAP.T_BAP_MEC_TZERO_OPT_HIS  HIS (商户T0操作流水表)(随意通、即日付开通记录表)
+
+IN_MNO (表关联)
+
+
+
+5、BAP.T_BAP_MEC_BUS_OPT_HIS DHIS (商户D1状态操作流水表)(朝付通、假日付开通记录表)
+
+IN_MNO (表关联)
+
+BUS_TYP AS 状态,
+
+
+
+6、MSS.T_MSS_WECHAT_WERC_BIND B (微信表)
+
+MERC_ID 商编 (表关联)
+
+***微信号,
+***是否启用,
+***是否默认,
+
+
+7、OMS.T_GM_DEVICE DEVICE (运营表)
+
+MERC_ID (表关联)
+GOODS_ID AS 商品编号(表关联)
+MOD_ID AS 型号编号 (表关联)
+FACT_ID AS *** (表关联)
+FACT_SN AS 序列号,
+POS_NUM AS 终端号,
+case
+  when ice.STATUS = '0' then
+  '订货'
+  when ice.STATUS = '1' then
+  '在库'
+  when ice.STATUS = '2' then
+  '领用'
+  when ice.STATUS = '3' then
+  '安装'
+  when ice.STATUS = '4' then
+  '报修'
+  when ice.STATUS = '5' then
+  '处理中'
+  when ice.STATUS = '6' then
+  '已退货'
+  when ice.STATUS = '-1' then
+  '报废'
+  when ice.STATUS = '-2' then
+  '损失'
+  else
+  ''
+end POS终端库存状态
+
+
+
+8、OMS.T_BASE_GOODS (商品表)
+
+GOODS_ID 商品编号 与表(OMS.T_GM_DEVICE) DEVICE 的GOODS_ID 关联
+
+
+
+9、OMS.T_BASE_MODEL (***)
+
+MOD_ID 与表(OMS.T_GM_DEVICE) DEVICE表 的MOD_ID 关联
+MOD_ID 与表(PTS.T_PTS_TIF_IF )POS表的POS_TYPE 关联
+MOD_NAME AS 型号名称
+
+
+10、OMS.T_BASE_FACTORY (厂商表)
+
+FACT_ID 与表(OMS.T_GM_DEVICE)DEVICE表 的FACT_ID关联
+
+
+11、PTS.T_PTS_SIGNDATA (POS签到流水表)
+
+
+
+
+
+
+不常用表：
+1、PTS.T_TRS_TD_IDE_IF (冒名商户信息表)
+IN_MNO (表关联)
+TD_MNO AS 前置商编
+case
+  when td.mno is not null and td.use_sts = '01' then
+  '是'
+  else
+  '否'
+end as 是否差错,
+2、PTS.T_TRS_IDE_IF (身份表)
+32域和43域关联
+IDE_NO AS 身份商编
+3、PTS.CMMTAREA_20150817 (地区信息表)
+4、PTS.T_PTS_CUP_Z_TRANDATA (银联交易流水表)
+UUID 与表(PTS.T_PTS_TRANDATA)A的UUID 关联
+5、PTS.T_PTS_BIN 卡BIN表(可提取刷卡银行名称)
+FIT_NO 与表(PTS.T_PTS_TRANDATA) A 表的BIN_ID 关联
+CRD_NM AS 卡种,
+BNK_NM AS 银行
+
+
+
+基本不用：
+1、PTS.T_PTS_PSMCKCUPZ (银总联对账流水表)
+2、PTS.T_PTS_ERR_CD (错误信息对照表)
+RP_CD (返回码) 与表 (PTS.T_PTS_TRANDATA) A 的 RP_CD 关联
+RP_INF AS 返回描述信息,
+3、BAP.T_BAP_MEC_RISK_INFO (商户风险信息表)
+LON
+LAT (经纬度)
+4、BAP.T_BAP_ORG_TZERO_STL (合作商T0信息表)
+本金比率,
+收益比率,
+出资金额,
+5、PTS.T_TRS_COIF_IF (上游清算机构表)
+6、BAP.T_BAP_STMBNK_LOG (结算账号变更日志表)
+7、AMS.T_AMS_AC_IF (查余额)(最少留存金额)
+CST_ID 与表(BAP.T_BAP_MEC_IF)BAP的USR_ID 关联
+8、BAP.T_BAP_USR_STM_IF 
+MIN_STM_AMT AS 结算起点,
+MIN_RTN_AMT AS 留存金额,
+9、RCS.T_RRC_MERCAMTLIMIT (商户交易限额表)
+10、MSS.T_MSS_AD_CLICK_STATISTICS (VBLL广告点击量)
+11、BAP.T_USA_MEC_DETAIL
+INS_TIME AS 短信下发时间（验证时间）
+INS_DATE AS 短信下发日期（验证日期）
+12、BAP.T_USA_MEC_IF  商户认证等级表
+MEC_IDE_AUTH	商户真实性认证，00：未认证 01：认证 02：有资格
+13、SES.T_SES_PAY_ORD_INF (付款单信息表)
+lbnk_no as 联行行号（收款行别),
+pay_amt as 代付款给商户的金额,
+lbnk_nm as 支行名称,联行名称（收款银行）
+arg_pay_dt as 协议付款日期,
+14、PTS.T_PTS_ESIGNATURE   电子签名关联流水
+UUID 与表(PTS.T_PTS_TIF_IF)POS 表的UUID 关联
+(case
+   when dzqm.uuid = 'null' THEN
+   '否'
+   ELSE
+   '是'
+END) AS 是否有电子签名,
+15、BAP.T_BAP_MEC_TRM_IF (商户终端信息表)
+16、PTS.T_TRS_IDE_MEC_REL (商户身份信息表关联表)
+17、RCS.T_RCS_POS_MOVING_MONITOR (移机可疑事件表)
+18、MSS.T_MSS_POS_SIGN_ADDR (签到详细地址)
+提交易额表：
+rptadm.t_bb_hgsum_month

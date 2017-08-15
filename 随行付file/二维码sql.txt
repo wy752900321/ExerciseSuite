@@ -1,0 +1,110 @@
+select A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME as 大区,dp.flag,
+       sum(bigpos_count) as 大POS活跃商户数,sum(mpos_count) as MPOS活跃商户数,
+       sum(bigpos_amt) as 大pos交易金额,sum(mpos_amt) as mpos交易金额,
+       sum(bigpos_fee_amt) as 大pos商户手续费,sum(mpos_fee_amt) as mpos商户手续费,
+       sum(bigpos_bank_fee) as 大pos银行手续费,sum(mpos_bank_fee) as mpos银行手续费
+      from
+(
+select /*+parallel(8)*/a.in_mno,
+       count(distinct case when a.tran_dt BETWEEN '20161101' and '20161130' and a.in_mno like '800%' and a.tran_amt > 0 then a.in_mno end) as bigpos_count,
+       count(distinct case when a.tran_dt BETWEEN '20161101' and '20161130' and bap.mobile_source = '02' and a.tran_amt > 0 then a.in_mno end) as mpos_count,
+       sum(case when a.tran_dt BETWEEN '20161101' and '20161130' and a.in_mno like '800%'  then a.tran_amt else 0 end) as bigpos_amt,
+       sum(case when a.tran_dt BETWEEN '20161101' and '20161130' and bap.mobile_source = '02' then a.tran_amt else 0 end) as mpos_amt,
+       
+       sum(case when a.tran_dt BETWEEN '20161101' and '20161130' and a.in_mno like '800%' then a.rec_fee_amt else 0 end) as bigpos_fee_amt,
+       sum(case when a.tran_dt BETWEEN '20161101' and '20161130' and bap.mobile_source = '02' then a.rec_fee_amt else 0 end) as mpos_fee_amt,
+       
+       sum(case when  a.in_mno like '800%' then nvl(b.fee_amt,0)+nvl(c.fee_amt,0)+nvl(d.fee_amt,0)+nvl(e.fee_amt,0)+nvl(f.fee_amt,0) else 0 end) as bigpos_bank_fee,
+       sum(case when  bap.mobile_source = '02' then  nvl(b.fee_amt,0)+nvl(c.fee_amt,0)+nvl(d.fee_amt,0)+nvl(e.fee_amt,0)+nvl(f.fee_amt,0) else 0  end) as mpos_bank_fee
+from T_PTS_TRANDATA a
+left join t_bap_mec_if bap on bap.in_mno = a.in_mno
+left join  T_PTS_WECHAT_TRANDATA  b on b.uuid = a.uuid and b.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_XYDDBC_TRANDATA  c on c.uuid = a.uuid and c.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_CMBCXM_TRANDATA  d on d.uuid = a.uuid and d.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_CITIC_QR_TRANDATA  e on e.uuid = a.uuid and e.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_SPDB_QR_TRANDATA  f on f.uuid = a.uuid and f.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+where a.tran_dt between to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND '20161130'
+and a.tran_sts = 'S' 
+and a.tran_flg = 'N'
+and a.tran_flg <> 'L'
+AND A.TRAN_CD = '10110025'
+group by a.in_mno
+) a 
+left join (
+select in_mno,flag,ROOT_AGENT_ORG_NO from BAP_BNK_TRANDATA11_VV_MPOS 
+union all
+select in_mno,flag,ROOT_AGENT_ORG_NO from BAP_BNK_TRANDATA11_DAPOS
+) dp on dp.in_mno = a.in_mno
+left join DISTRICT_REGION A1 ON a1.MECNUMBERS = dp.ROOT_AGENT_ORG_NO
+group by A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME ,dp.flag
+
+
+-----------------------------
+
+
+select A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME as 大区,dp.flag,count(distinct a.in_mno) as VV活跃商户数,
+       sum(tran_amt) as VV交易金额,sum(FEE_AMT) as VV商户手续费,sum(bank_fee) as VV银行手续费
+      from
+(SELECT /*+parallel(8)*/p.in_mno,
+ SUM(P.TRAN_AMT) AS tran_amt, 
+ SUM(P.REC_FEE_AMT) AS FEE_AMT,
+ sum(nvl(b.fee_amt,0)+nvl(c.fee_amt,0)+nvl(d.fee_amt,0)+nvl(e.fee_amt,0)+nvl(f.fee_amt,0)) as bank_fee
+  FROM T_PTS_TRANDATA P
+  LEFT JOIN T_PTS_TRANDATA_EXTEND e
+    ON e.uuid = p.uuid
+   AND e.tran_dt = p.tran_dt
+  LEFT JOIN T_BAP_MEC_IF B
+    ON B.IN_MNO = P.IN_MNO
+left join  T_PTS_WECHAT_TRANDATA  b on b.uuid = p.uuid and b.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND to_char(to_date('20161131','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_XYDDBC_TRANDATA  c on c.uuid = p.uuid and c.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND to_char(to_date('20161131','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_CMBCXM_TRANDATA  d on d.uuid = p.uuid and d.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND to_char(to_date('20161131','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_CITIC_QR_TRANDATA  e on e.uuid = p.uuid and e.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND to_char(to_date('20161131','yyyymmdd')+1,'yyyymmdd')
+left join  T_PTS_SPDB_QR_TRANDATA  f on f.uuid = p.uuid and f.CHK_DT BETWEEN to_char(to_date('20161101','yyyymmdd')-1,'yyyymmdd') AND to_char(to_date('20161131','yyyymmdd')+1,'yyyymmdd')
+ WHERE P.TRAN_STS = 'S'
+   AND P.TRAN_DT BETWEEN '20161029' AND '20161131'
+   AND e.finish_dt BETWEEN '20161101' AND '20161131'
+   AND P.TRAN_FLG = 'N'
+   AND p.tran_flg <> 'L'
+   AND P.TRAN_CD IN ('10110028', '20110001')
+   AND P.TRAN_AMT > 0
+   AND P.CORG_TRAN_STS = 'S'
+   AND B.MEC_TYP = '04'
+   group by p.in_mno) a
+left join (
+select in_mno,flag,ROOT_AGENT_ORG_NO from BAP_BNK_TRANDATA11_VV_MPOS 
+) dp on dp.in_mno = a.in_mno
+left join DISTRICT_REGION A1 ON a1.MECNUMBERS = dp.ROOT_AGENT_ORG_NO
+group by A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME ,dp.flag
+   
+---------------------------
+
+select A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME as 大区,dp.flag,count(distinct a.in_mno) as VV钱包活跃商户数,
+       sum(tran_amt) as VV交易金额,sum(FEE_AMT) as VV商户手续费,sum(bank_fee) as VV银行手续费
+      from
+(select p.in_mno,
+       sum(case when P.TRAN_DT BETWEEN '20161101' AND '20161130' then p.tran_amt else 0 end) as tran_amt,
+       SUM(case when P.TRAN_DT BETWEEN '20161101' AND '20161130' then P.REC_FEE_AMT else 0 end) AS FEE_AMT,
+       sum(z.fee_amt + z.cps_fee) as bank_fee
+  FROM T_PTS_TRANDATA P
+  LEFT JOIN T_BAP_MEC_IF B
+    ON B.IN_MNO = P.IN_MNO
+  LEFT JOIN T_PTS_CUP_Z_TRANDATA z ON Z.UUID = p.UUID and z.chk_dt BETWEEN to_char(to_date('20161101','yyyymmdd')+1,'yyyymmdd') AND to_char(to_date('20161130','yyyymmdd')+1,'yyyymmdd')
+ where p.tran_cd = '20110001'
+   AND P.TRAN_DT BETWEEN '20161031' AND '20161130'
+   and P.TRAN_STS = 'S'
+   AND P.TRAN_FLG = 'N'
+   AND p.tran_flg <> 'L'
+   AND P.TRAN_AMT > 0
+   AND P.CORG_TRAN_STS = 'S'
+   AND B.MEC_TYP = '04'
+   group by p.in_mno) a
+left join (
+select in_mno,flag,ROOT_AGENT_ORG_NO from BAP_BNK_TRANDATA11_VV_MPOS 
+) dp on dp.in_mno = a.in_mno
+left join DISTRICT_REGION A1 ON a1.MECNUMBERS = dp.ROOT_AGENT_ORG_NO
+group by A1.REGION||A1.ADMINISTRATIVE||A1.GROUPNAME ,dp.flag
+   
+
+
+
+

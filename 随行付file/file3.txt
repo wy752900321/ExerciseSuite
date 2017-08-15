@@ -1,0 +1,64 @@
+我一直相信大自然，只要大自然里面发生的就是科学的，而不是现在能被科学证明的才是科学的。
+
+古传三式
+一、奇门、太乙、六壬是古传三式，共同点是用阴阳五行占卜吉凶的术数门类。
+二、不同处：六壬以人事为主(人道)，太乙以国事天灾为主(天道)，奇门以地方为主(地道)。
+1、奇门：“奇门遁甲”的含义是由“奇”“门”“遁甲”三个概念组成。“奇”就是乙、 丙、　　丁三奇；“门”就是休、生、伤、杜、景、死、惊、开八门；“遁”即隐藏，“甲”指六　　　甲，即甲子、甲戌、甲申、甲午、甲辰、甲寅。
+2、太乙：又称太乙数，是术数的一种，为三式之首，是古代高层次预测学，相传太乙式产生于黄　　帝战蚩尤时。
+3、六壬：又称六壬神课，是用阴阳五行占卜吉凶的一种古老的术数门类，与奇门遁甲、太乙神数　　合称三式。相传为九天玄女授之轩辕黄帝，以灭蚩尤，至今已有五千余年。
+
+按照天地人三才的说法，太乙为天，奇门为地，六壬为人
+太乙不是很清楚，不过也是注重九宫的，可以占国运
+六壬是地支学，预测主要看地支，天地阴阳盘，四课三传，因此尤其擅长占日常百事。
+奇门在古代是用来打仗的，可以利用时空和方位的组合来帮助制订策略，和平时期一般也用来占日常百事，同时作为一门运筹学来达到趋吉避凶的效果。
+三式，精通其中一项就很了不得了，如果三式全都精通的话，用古人的说法就是达到神的境界了!
+
+ei,v,ou,eng,ie,uai,iu,ang,ia,ui,uo,ai
+
+D:\Workspaces\GithubSpacesJiadongpo\xxl-job\xxl-job-admin\src\main\webapp\WEB-INF\template\common\common.macro.ftl菜单
+
+
+
+mvn install:install-file -Dfile={Path/to/your/ojdbc.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.4.0 -Dpackaging=jar -Dfile=F:/JAR Pack/ojdbc14.jar
+
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=11.2.0.3 -Dpackaging=jar -Dfile=F:/repository/com/oracle/ojdbc16/11.2.0.3/ojdbc16-11.2.0.3.jar
+mvn install:install-file -Dfile=ojdbc14-10.2.0.4.0.jar -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.4.0 -Dpackaging=jar
+
+
+DBConnectionPool
+
+Freemarker
+
+
+((TriggerParam) args[0]).executorHandler.equals("sqlJobHandler")
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {"task_name":"每月初_分公司数据分发","sqlParamData":"SELECT        cc_lists,       recipient_lists,        name 分公司名称,       date_format(date_sub(now(),interval 1 month),'%Y%m01') 开始时间,       date_format(date_sub(date_sub(date_format(now(),'%y-%m-%d'),interval extract(      day from now()) day),interval 0 month),'%Y%m%d') 结束时间 FROM dmp.t_sub_data_config","paramList":"${开始时间},${结束时间},${分公司名称}","datasource_name":"querydb_132","recipient_lists":"wu_ch@suixingpay.com","cc_lists":"wu_ch@suixingpay.com","subtasks":[{"subtask_name":"交易汇总","sql":"SELECT * from dual;"}]}
+ 
+ 
+ /data/applogs/xxl-job/jobhandler/gluesource/63_1501037400000.sh
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

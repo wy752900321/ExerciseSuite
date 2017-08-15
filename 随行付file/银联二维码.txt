@@ -1,0 +1,162 @@
+----交易汇总
+SELECT BAP.MNO           商编,
+       BAP.CPR_REG_NM_CN 商户名称,
+       ORG.ORG_NM        归属分公司,
+       RG.ORG_UUID       一代编号,
+       RG.ORG_NM         一代名称,
+       ZL.直连正交易金额 AS 直连正交易金额,
+       ZL.直连正交易笔数 AS 直连正交易笔数,
+       ZL.直连反交易金额 AS 直连反交易金额,
+       ZL.直连反交易笔数 AS 直连反交易笔数,
+       JL.间连正交易金额 AS 间连正交易金额,
+       JL.间连正交易笔数 AS 间连正交易笔数,
+       JL.间连反交易金额 AS 间连反交易金额,
+       JL.间连反交易笔数 AS 间连反交易笔数
+  FROM BAP.T_BAP_MEC_IF BAP
+  LEFT JOIN UAP.T_UAP_ORG ORG
+    ON BAP.AGENT_BRANCH_ORG_UUID = ORG.ORG_UUID
+  LEFT JOIN UAP.T_UAP_ORG RG
+    ON BAP.ROOT_AGENT_ORG_NO = RG.ORG_UUID
+  LEFT JOIN (SELECT XW.IN_MNO,
+                    SUM(CASE
+                          WHEN XW.COP_BUS_TYP = '00' THEN
+                           XW.TRAN_AMT
+                        END) AS 直连正交易金额,
+                    COUNT(CASE
+                            WHEN XW.COP_BUS_TYP = '00' THEN
+                             XW.TRAN_AMT
+                          END) AS 直连正交易笔数,
+                    SUM(CASE
+                          WHEN XW.COP_BUS_TYP = '06' THEN
+                           XW.TRAN_AMT
+                        END) AS 直连反交易金额,
+                    COUNT(CASE
+                            WHEN XW.COP_BUS_TYP = '06' THEN
+                             XW.TRAN_AMT
+                          END) AS 直连反交易笔数
+               FROM PTS.T_PTS_CALLBACK_XW_TRANDATA XW
+              WHERE XW.TRAN_DT BETWEEN REPLACE('${开始时间}', '-', '') AND REPLACE('${结束时间}', '-', '')
+                AND XW.RP_CD = '00'
+                AND XW.TXN_TYPE = '01'
+              GROUP BY XW.IN_MNO) ZL
+    ON ZL.IN_MNO = BAP.IN_MNO
+  LEFT JOIN (SELECT TRAN.IN_MNO,
+                    SUM(case
+                          when TRAN.tran_cd IN ('10110025', '10110028') then
+                           TRAN.TRAN_AMT
+                        END) AS 间连正交易金额,
+                    COUNT(case
+                            when TRAN.tran_cd IN ('10110025', '10110028') then
+                             TRAN.TRAN_AMT
+                          END) AS 间连正交易笔数,
+                    SUM(case
+                          when TRAN.tran_cd IN ('10120025', '10130025') then
+                           TRAN.TRAN_AMT
+                        END) AS 间连反交易金额,
+                    COUNT(case
+                            when TRAN.tran_cd IN ('10120025', '10130025') then
+                             TRAN.TRAN_AMT
+                          END) AS 间连反交易笔数
+               FROM PTS.T_PTS_TRANDATA TRAN
+              WHERE SUBSTR(TRAN.IN_MOD, 0, 2) = 'Q6'
+                AND TRAN.TRAN_STS = 'S'
+                AND TRAN.TRAN_DT BETWEEN REPLACE('${开始时间}', '-', '') AND REPLACE('${结束时间}', '-', '')
+              GROUP BY TRAN.IN_MNO) JL
+    ON JL.IN_MNO = BAP.IN_MNO
+WHERE (ZL.直连正交易笔数 > 0 OR ZL.直连反交易笔数 > 0 OR JL.间连正交易笔数 > 0 OR JL.间连反交易笔数 > 0) 
+ ${if(len(分公司名称) == 0," "," and ORG.ORG_NM >='" + replace(分公司名称,'-','') + "'")}
+ORDER BY ORG.ORG_NM,RG.ORG_UUID,BAP.MNO
+
+
+---直连交易明细
+SELECT A.RECON_KEY AS 流水号,
+       CASE
+         WHEN A.RP_CD = '00' THEN
+          '成功'
+       END AS 交易状态,
+       A.MCHNT_CD AS 银联商编,
+       A.IN_MNO AS 内部商编,
+       A.MCHNT_NM AS 商户名称,
+       A.SETTLE_DT AS 清算日期,
+       A.TRAN_DT AS 交易日期,
+       A.TRAN_TM AS 交易时间,
+       A.PAY_DT AS 支付完成日期,
+       A.ACC_NO AS 账户号,
+       A.CARD_ATTR AS 卡属性,
+       A.TRAN_AMT AS 交易金额,
+       CASE
+         WHEN A.CCY = '156' THEN
+          '人民币'
+         ELSE
+          A.CCY
+       END AS 币种,
+       CASE
+         WHEN A.COP_BUS_TYP = '00' THEN
+          '正交易'
+         WHEN A.COP_BUS_TYP = '06' THEN
+          '退货'
+       END AS 交易类型
+  FROM PTS.T_PTS_CALLBACK_XW_TRANDATA A
+  LEFT JOIN BAP.T_BAP_MEC_IF BAP
+  ON BAP.IN_MNO = A.IN_MNO
+    LEFT JOIN UAP.T_UAP_ORG ORG
+    ON BAP.AGENT_BRANCH_ORG_UUID = ORG.ORG_UUID
+ WHERE A.RP_CD = '00'
+   AND A.TXN_TYPE = '01'
+   AND A.PAY_DT BETWEEN REPLACE('${开始时间}', '-', '') AND REPLACE('${结束时间}', '-', '')
+ ${if(len(分公司名称) == 0," "," and ORG.ORG_NM >='" + replace(分公司名称,'-','') + "'")}
+ 
+ ---间连交易明细
+ --  支付方式    支付来源  
+SELECT BAP.MNO AS 商户编号,
+       BAP.CPR_REG_NM_CN AS 商户名称,
+       (case
+         when TRAN.tran_sts = 'S' THEN
+          '成功'
+         when TRAN.tran_sts = 'F' THEN
+          '失败'
+         when TRAN.tran_sts = 'U' THEN
+          '预记状态'
+         when TRAN.tran_sts = 'C' THEN
+          '被冲正'
+         when TRAN.tran_sts = 'X' THEN
+          '发送失败'
+         when TRAN.tran_sts = 'T' THEN
+          '发送超时'
+         ELSE
+          ''
+       END) AS 交易状态,       
+       (case
+         when TRAN.tran_cd = '10110025' then
+          '二维码交易'
+                   when TRAN.tran_cd = '10120025' then
+          '二维码撤销'
+                   when TRAN.tran_cd = '10130025' then
+          '二维码退货'
+         when TRAN.tran_cd = '10110028' then
+          'VV二维码交易'
+         else
+          TRAN.tran_cd
+       end) as 交易类型,
+       TRAN.tran_dt as 交易日期,
+       TRAN.tran_tm as 交易时间,
+       TRAN.tran_amt 交易金额,
+       pos_seq_no as 流水号,
+       TRAN.trm_no as 终端号,
+       TRAN.BAT_NO AS 批次号,
+       CASE
+         WHEN SUBSTR(TRAN.IN_MOD, 0, 2) = 'Q6' THEN
+          '银联二维码'
+       END AS 支付渠道,
+       CASE WHEN SUBSTR(TRAN.IN_MOD, 0, 3) = 'Q61' THEN '主扫'
+         WHEN SUBSTR(TRAN.IN_MOD, 0, 3) = 'Q62' THEN '被扫'
+           END AS 支付方式
+  FROM PTS.T_PTS_TRANDATA TRAN
+  LEFT JOIN BAP.T_BAP_MEC_IF BAP
+    ON BAP.IN_MNO = TRAN.IN_MNO
+      LEFT JOIN UAP.T_UAP_ORG ORG
+    ON BAP.AGENT_BRANCH_ORG_UUID = ORG.ORG_UUID
+ WHERE SUBSTR(TRAN.IN_MOD, 0, 2) = 'Q6'
+AND TRAN.TRAN_DT BETWEEN REPLACE('${开始时间}', '-', '') AND REPLACE('${结束时间}', '-', '')
+ ${if(len(分公司名称) == 0," "," and ORG.ORG_NM >='" + replace(分公司名称,'-','') + "'")}
+

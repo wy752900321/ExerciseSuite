@@ -1,0 +1,114 @@
+
+修改主机名称
+Ubuntu：/etc/hostname
+Centos： /etc/sysconfig/network
+添加用户组与用户
+groupadd hadoop
+useradd -d /home/hadoop -g hadoop hadoop
+在Master节点上执行以下命令
+ssh-keygen –t rsa –P ''
+查看是否有.ssh文件
+ls -a /home/hadoop
+生成密钥
+[hadoop@slave1 ~]$ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+把id_dsa.pub(公钥)追加到授权的key里面去:
+cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+这段命令是把公钥加到用于认证的公钥文件中，这里的authorized_keys是用于认证的公钥文件。
+至此元密码合建本机已经设置完毕。
+验证
+ssh localhost
+rpm –qa | grep openssh
+rpm –qa | grep rsync
+否则联网通过yum install ssh和yum install rsync安装并启动：
+service sshd start
+创建用户及设置密码
+将jdk-7u4-linux-i586.rpm 移动到合适的安装目录上，安装软件不要在/home路径下，这样很容易涉及到不同用户的访问权限，这样对程序的维护，是相当不利的。这里将把安装包移动到/opt目录
+mv jdk-7u4-linux-i586.rpm /opt   ;把安装包移动到/opt目录 
+cd /opt 
+给安装包赋予运行权限
+chmod 755 jdk-7u4-linux-i586.rpm
+安装该rpm安装包
+rpm -i jdk-7u4-linux-i586.rpm
+update-alternatives --config java
+Hadoop: 2.6 - 2.7
+Hive: 0.13 - 1.2.1
+HBase: 0.98 - 0.99, 1.x
+JDK: 1.7+
+export JAVA_HOME=/usr/java/jdk1.8.0_121
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+export HADOOP_HOME=/opt/hadoop-2.7.3
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+export HADOOP_MAPARED_HOME=${HADOOP_HOME}
+export HADOOP_COMMON_HOME=${HADOOP_HOME}
+export HADOOP_HDFS_HOME=${HADOOP_HOME}
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_YARN_HOME=$HADOOP_HOME
+export HADOOP_CMD=$HADOOP_HOME/bin/hadoop
+export HADOOP_STREAMING=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.3.jar
+export YARN_HOME=${HADOOP_HOME}
+export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+export HDFS_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+export YARN_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+export JAVA_LIBRARY_PATH=$HADOOP_HOME/lib/native
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
+
+
+
+
+CREATE DATABASE IF NOT EXISTS xxl_job default charset utf8 COLLATE utf8_general_ci;
+create database yourdb DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;
+CREATE DATABASE IF NOT EXISTS xxl-job default charset utf8 COLLATE utf8_general_ci;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"task_name":"完成数据分发","datasource_name":"mysql_101","recipient_lists ":"jiadp@cenrise.com,zahngwe@qq.com,qiyi@qq.com","cc_lists":"jiadp@cenrise.com,zahngwe@qq.com,qiyi@qq.com","subtasks":[{"subtask_name":"32jjjj","sql":"select * from dual;"},{"subtask_name":"32fdsadafda","sql":"select * from dual;"}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

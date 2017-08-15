@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.suixingpay.reporting.orm.dcm.mapper.PosAndVvFenRunMonthlyMapper">
+	<resultMap id="posAndVvFenRunMonthly" type="java.util.Map">
+		<result property="mno" column="MNO"/>
+		<result property="merchName" column="MERCHNM"/>
+		<result property="rateOf38TranAmt" column="RATE38_AMT"/>
+		<result property="rateOf38FeeAmt" column="RATE38_FEEAMT"/>
+		<result property="rateOf5TranAmt" column="RATE5_AMT"/>
+		<result property="rateOf5FeeAmt" column="RATE5_FEEAMT"/>
+		<result property="branch" column="BRANCH"/>
+		<result property="empNo" column="EMPNO"/>
+		<result property="empName" column="EMPNM"/>
+		<result property="org1No" column="ORG1NO"/>
+		<result property="org1Name" column="ORG1NM"/>
+		<result property="org2No" column="ORG2NO"/>
+		<result property="org2Name" column="ORG2NM"/>
+		<result property="org3No" column="ORG3NO"/>
+		<result property="org3Name" column="ORG3NM"/>
+		<result property="org4No" column="ORG4NO"/>
+		<result property="org4Name" column="ORG4NM"/>
+		<result property="org5No" column="ORG5NO"/>
+		<result property="org5Name" column="ORG5NM"/>
+		<result property="org6No" column="ORG6NO"/>
+		<result property="org6Name" column="ORG6NM"/>
+		<result property="createDate" column="CREATEDATE"/>
+		<result property="smallMicroTranAmt" column="SMALL_AMT"/>
+		<result property="smallMicroFeeAmt" column="SMALL_FEEAMT"/>
+		<result property="merchTranAmt" column="MERCH_AMT"/>
+		<result property="merchFeeAmt" column="MERCH_FEEAMT"/>
+		<result property="otherTranAmt" column="OTHER_AMT"/>
+		<result property="otherFeeAmt" column="OTHER_FEEAMT"/>
+		<result property="vvWalletTranAmt" column="VV_W_TRANAMT"/>
+		<result property="vvWalletTranFeeAmt" column="VV_W_FEEAMT"/>
+		
+	</resultMap>
+	<!-- pos二维码分润 -->
+	<select id="findReportDataList" parameterType="com.suixingpay.reporting.orm.dcm.domain.BaseReportData" resultMap="posAndVvFenRunMonthly">
+	   <![CDATA[SELECT BAP.MNO            AS MNO, --商编,
+		               BAP.CPR_OPER_NM_CN AS MERCHNM,--商户名称,
+		               A.POS38_AMT        AS RATE38_AMT,--费率38交易金额,
+		               A.POS38_FEE_AMT    AS RATE38_FEEAMT,--费率38交易手续费,
+		               A.POS5_AMT         AS RATE5_AMT,--费率5交易金额,
+		               A.POS5_FEE_AMT     AS RATE5_FEEAMT,--费率5交易手续费,
+		               BRANCH.ORG_NM      AS BRANCH,--分公司,
+		               MEC.EMP_NO         AS EMPNO,--业务员编号,
+		               MEC.EMP_NM         AS EMPNM,--业务员名称,
+		               ORG1.ORG_UUID      AS ORG1NO,--一代编号,
+		               ORG1.ORG_NM        AS ORG1NM,--一代名称,
+		               ORG2.ED_NO         AS ORG2NO,--二代编号,
+		               ORG2.ED_NM         AS ORG2NM,--二代名称,
+		               ORG3.ED_NO         AS ORG3NO,--三代编号,
+		               ORG3.ED_NM         AS ORG3NM,--三代名称,
+		               ORG4.ED_NO         AS ORG4NO,--四代编号,
+		               ORG4.ED_NM         AS ORG4NM,--四代名称,
+		               ORG5.ED_NO         AS ORG5NO,--五代编号,
+		               ORG5.ED_NM         AS ORG5NM,--五代名称,
+		               ORG6.ED_NO         AS ORG6NO,--六代编号,
+		               ORG6.ED_NM         AS ORG6NM--六代名称
+		          FROM (SELECT in_a.in_mno,
+		                       SUM(in_a.pos38_amt) AS pos38_amt,
+		                       SUM(in_a.pos38_FEE_AMT) AS pos38_FEE_AMT,
+		                       SUM(in_a.pos5_FEE_AMT) AS pos5_FEE_AMT,
+		                       SUM(in_a.pos5_amt) AS pos5_amt
+		          FROM (
+		          SELECT PTS.IN_MNO,
+		                 CASE WHEN ext.mec_fee_rate = '0.38' THEN SUM(pts.tran_amt) ELSE 0 END AS pos38_amt,
+		                 CASE WHEN ext.mec_fee_rate = '0.38' THEN SUM(pts.REC_FEE_AMT) ELSE 0 END AS pos38_FEE_AMT,
+		                 CASE WHEN ext.mec_fee_rate = '0.5' THEN SUM(pts.REC_FEE_AMT) ELSE 0 END AS pos5_FEE_AMT,
+		                 CASE WHEN ext.mec_fee_rate = '0.5' THEN SUM(pts.tran_amt) ELSE 0 END AS pos5_amt
+		            FROM T_PTS_TRANDATA PTS
+		            LEFT JOIN T_PTS_TRANDATA_EXTEND EXT
+		              ON EXT.UUID = PTS.UUID
+		             AND EXT.TRAN_DT = PTS.TRAN_DT
+		           WHERE PTS.TRAN_STS = 'S'
+		             AND PTS.TRAN_FLG = 'N'
+		             AND PTS.TRAN_FLG <> 'L'
+		             AND PTS.TRAN_DT BETWEEN TO_CHAR(TRUNC(ADD_MONTHS(LAST_DAY(TO_DATE(#{reportDate}, 'yyyyMMdd')),-1) + 1)-2,'yyyymmdd') AND #{reportDate}
+		             AND EXT.FINISH_DT BETWEEN TO_CHAR(TRUNC(ADD_MONTHS(LAST_DAY(TO_DATE(#{reportDate}, 'yyyyMMdd')),-1) + 1),'yyyymmdd') AND #{reportDate}
+		           GROUP BY PTS.IN_MNO, EXT.MEC_FEE_RATE
+		          )in_a
+		          GROUP BY in_a.in_mno
+		          ) A
+		          LEFT JOIN T_BAP_MEC_IF BAP
+		            ON BAP.IN_MNO = A.IN_MNO
+		          LEFT JOIN T_UAP_ORG BRANCH
+		            ON BRANCH.ORG_UUID = BAP.AGENT_BRANCH_ORG_UUID
+		          LEFT JOIN T_BAP_MEC_ITN_ATTR_IF MEC
+		            ON MEC.IN_MNO = BAP.IN_MNO
+		          LEFT JOIN T_UAP_ORG ORG1
+		            ON BAP.ROOT_AGENT_ORG_NO = ORG1.ORG_UUID
+		          LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+		                            ORG.ORG_UUID AS ED_NO,
+		                            ORG.ORG_NM   AS ED_NM
+		                       FROM T_SMS_ORG_MAPPING A
+		                      INNER JOIN T_UAP_ORG ORG
+		                         ON ORG.ORG_UUID = A.SUPER_ORG
+		                      WHERE A.LEVER_NO = '2') ORG2 --二代 
+		            ON ORG2.ORG_UUID = BAP.AGENT_ORG_NO
+		          LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+		                            ORG.ORG_UUID AS ED_NO,
+		                            ORG.ORG_NM   AS ED_NM
+		                       FROM T_SMS_ORG_MAPPING A
+		                      INNER JOIN T_UAP_ORG ORG
+		                         ON ORG.ORG_UUID = A.SUPER_ORG
+		                      WHERE A.LEVER_NO = '3') ORG3 --三代 
+		            ON ORG3.ORG_UUID = BAP.AGENT_ORG_NO
+		          LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+		                            ORG.ORG_UUID AS ED_NO,
+		                            ORG.ORG_NM   AS ED_NM
+		                       FROM T_SMS_ORG_MAPPING A
+		                      INNER JOIN T_UAP_ORG ORG
+		                         ON ORG.ORG_UUID = A.SUPER_ORG
+		                      WHERE A.LEVER_NO = '4') ORG4 --四代 
+		            ON ORG4.ORG_UUID = BAP.AGENT_ORG_NO
+		          LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+		                            ORG.ORG_UUID AS ED_NO,
+		                            ORG.ORG_NM   AS ED_NM
+		                       FROM T_SMS_ORG_MAPPING A
+		                      INNER JOIN T_UAP_ORG ORG
+		                         ON ORG.ORG_UUID = A.SUPER_ORG
+		                      WHERE A.LEVER_NO = '5') ORG5 --五代 
+		            ON ORG5.ORG_UUID = BAP.AGENT_ORG_NO
+		          LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+		                            ORG.ORG_UUID AS ED_NO,
+		                            ORG.ORG_NM   AS ED_NM
+		                       FROM T_SMS_ORG_MAPPING A
+		                      INNER JOIN T_UAP_ORG ORG
+		                         ON ORG.ORG_UUID = A.SUPER_ORG
+		                      WHERE A.LEVER_NO = '6') ORG6 --六代 
+		            ON ORG6.ORG_UUID = BAP.AGENT_ORG_NO
+		         WHERE bap.mec_typ <> '04'
+		         ORDER BY BRANCH.ORG_NM
+		]]>
+	</select>
+	<!-- vv分润 -->
+	<select id="findReportDataForSheetTwo" parameterType="com.suixingpay.reporting.orm.dcm.domain.BaseReportData" resultMap="posAndVvFenRunMonthly">
+		     <![CDATA[SELECT BAP.MNO            AS MNO,--商编,
+			                 BAP.CPR_OPER_NM_CN AS MERCHNM,--商户名称,
+			                 BAP.DT_CTE         AS CREATEDATE,--开通日期,
+			                 BRANCH.ORG_NM      AS BRANCH,--分公司,
+			                 A.XIAOWEI_AMT      AS SMALL_AMT,--小微交易金额,
+			                 A.XIAOWEI_FEE_AMT  AS SMALL_FEEAMT,--小微手续费,
+			                 A.SHANGHU_AMT      AS MERCH_AMT,--商户交易金额,
+			                 A.SHANGHU_FEE_AMT  AS MERCH_FEEAMT,--商户交易手续费,
+			                 A.OTHER_AMT        AS OTHER_AMT,--其它版交易金额,
+			                 A.OTHER_FEE_AMT    AS OTHER_FEEAMT,--其它版交易手续费,
+			                 A.VV_W_TRANAMT     AS VV_W_TRANAMT,
+			                 A.VV_W_FEEAMT      AS VV_W_FEEAMT,
+			                 ORG1.ORG_UUID      AS ORG1NO,--一代编号,
+			                 ORG1.ORG_NM        AS ORG1NM,--一代名称,
+			                 ORG2.ED_NO         AS ORG2NO,--二代编号,
+			                 ORG2.ED_NM         AS ORG2NM,--二代名称,
+			                 ORG3.ED_NO         AS ORG3NO,--三代编号,
+			                 ORG3.ED_NM         AS ORG3NM,--三代名称,
+			                 ORG4.ED_NO         AS ORG4NO,--四代编号,
+			                 ORG4.ED_NM         AS ORG4NM,--四代名称,
+			                 ORG5.ED_NO         AS ORG5NO,--五代编号,
+			                 ORG5.ED_NM         AS ORG5NM,--五代名称,
+			                 ORG6.ED_NO         AS ORG6NO,--六代编号,
+			                 ORG6.ED_NM         AS ORG6NM--六代名称
+			            FROM (SELECT sum(in_a.xiaowei_amt) AS xiaowei_amt,
+			                         SUM(in_a.xiaowei_FEE_AMT) AS xiaowei_FEE_AMT,
+			                         SUM(in_a.shanghu_FEE_AMT) AS shanghu_FEE_AMT,
+			                         SUM(in_a.shanghu_amt) AS shanghu_amt,
+			                         SUM(in_a.other_amt) AS other_amt,
+			                         SUM(in_a.other_fee_amt) AS other_fee_amt,
+			                         SUM(in_a.VV_W_TRANAMT) AS VV_W_TRANAMT,
+			                         SUM(in_a.VV_W_FEEAMT) AS VV_W_FEEAMT,
+			                         in_A.in_mno
+			                 FROM (
+			                  SELECT PTS.IN_MNO,
+			                         CASE WHEN ext.mec_fee_rate IN ('0.35','0.5','0.6') THEN SUM(pts.tran_amt) ELSE 0 END AS xiaowei_amt,
+			                         CASE WHEN ext.mec_fee_rate IN ('0.35','0.5','0.6') THEN SUM(pts.REC_FEE_AMT) ELSE 0 END AS xiaowei_FEE_AMT,
+			                         CASE WHEN ext.mec_fee_rate IN ('0.3','0.38') THEN SUM(pts.REC_FEE_AMT) ELSE 0 END AS shanghu_FEE_AMT,
+			                         CASE WHEN ext.mec_fee_rate IN ('0.3','0.38') THEN SUM(pts.tran_amt) ELSE 0 END AS shanghu_amt,
+			                         CASE WHEN ext.mec_fee_rate NOT IN ('0.35','0.5','0.6','0.3','0.38')  THEN SUM(pts.tran_amt) ELSE 0 END AS other_amt,
+			                         CASE WHEN ext.mec_fee_rate NOT IN ('0.35','0.5','0.6','0.3','0.38')  THEN SUM(pts.REC_FEE_AMT) ELSE 0 END AS other_fee_amt,
+			                        0 AS VV_W_TRANAMT,
+			                        0 AS VV_W_FEEAMT
+			                    FROM T_PTS_TRANDATA PTS
+			                    LEFT JOIN T_PTS_TRANDATA_EXTEND EXT
+			                      ON EXT.UUID = PTS.UUID
+			                     AND EXT.TRAN_DT = PTS.TRAN_DT
+			                   WHERE PTS.TRAN_STS = 'S'
+			                     AND PTS.TRAN_FLG = 'N'
+			                     AND PTS.TRAN_FLG <> 'L'
+			                     AND PTS.TRAN_DT BETWEEN TO_CHAR(TRUNC(ADD_MONTHS(LAST_DAY(TO_DATE(#{reportDate}, 'yyyyMMdd')),-1) + 1)-2,'yyyymmdd') AND #{reportDate}
+			                     AND EXT.FINISH_DT BETWEEN TO_CHAR(TRUNC(ADD_MONTHS(LAST_DAY(TO_DATE(#{reportDate}, 'yyyyMMdd')),-1) + 1),'yyyymmdd') AND #{reportDate}
+			                   GROUP BY PTS.IN_MNO, EXT.MEC_FEE_RATE
+			                   UNION ALL 
+			                       SELECT O.IN_MNO 内部商编,
+         							0 AS XIAOWEI_AMT,
+         							0 AS XIAOWEI_FEE_AMT,
+         							0 AS SHANGHU_FEE_AMT,
+         							0 AS SHANGHU_AMT,
+         							0 AS OTHER_AMT,
+         							0 AS OTHER_FEE_AMT,
+         							sum(O.PAY_AMOUNT) VV_W_TRANAMT,
+         							sum(O.PAY_AMOUNT * 0.006) as VV_W_FEEAMT
+    								from dcm_owner.T_QRC_CW_ORDER O
+   									WHERE TO_CHAR(O.PAY_TIME, 'YYYYMMDD') between TO_CHAR(TRUNC(ADD_MONTHS(LAST_DAY(TO_DATE(#{reportDate}, 'yyyyMMdd')),-1) + 1),'yyyymmdd') AND #{reportDate}
+     									and O.PAY_STATUS = '1'
+   										group by O.IN_MNO
+			                )In_A
+			                GROUP BY in_a.in_mno
+			            ) A
+			            LEFT JOIN T_BAP_MEC_IF BAP
+			              ON BAP.IN_MNO = A.IN_MNO
+			            LEFT JOIN T_UAP_ORG BRANCH
+			              ON BRANCH.ORG_UUID = BAP.AGENT_BRANCH_ORG_UUID
+			            LEFT JOIN T_UAP_ORG ORG1
+			              ON BAP.ROOT_AGENT_ORG_NO = ORG1.ORG_UUID
+			            LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+			                              ORG.ORG_UUID AS ED_NO,
+			                              ORG.ORG_NM   AS ED_NM
+			                         FROM T_SMS_ORG_MAPPING A
+			                        INNER JOIN T_UAP_ORG ORG
+			                           ON ORG.ORG_UUID = A.SUPER_ORG
+			                        WHERE A.LEVER_NO = '2') ORG2 --二代 
+			              ON ORG2.ORG_UUID = BAP.AGENT_ORG_NO
+			            LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+			                              ORG.ORG_UUID AS ED_NO,
+			                              ORG.ORG_NM   AS ED_NM
+			                         FROM T_SMS_ORG_MAPPING A
+			                        INNER JOIN T_UAP_ORG ORG
+			                           ON ORG.ORG_UUID = A.SUPER_ORG
+			                        WHERE A.LEVER_NO = '3') ORG3 --三代 
+			              ON ORG3.ORG_UUID = BAP.AGENT_ORG_NO
+			            LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+			                              ORG.ORG_UUID AS ED_NO,
+			                              ORG.ORG_NM   AS ED_NM
+			                         FROM T_SMS_ORG_MAPPING A
+			                        INNER JOIN T_UAP_ORG ORG
+			                           ON ORG.ORG_UUID = A.SUPER_ORG
+			                        WHERE A.LEVER_NO = '4') ORG4 --四代 
+			              ON ORG4.ORG_UUID = BAP.AGENT_ORG_NO
+			            LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+			                              ORG.ORG_UUID AS ED_NO,
+			                              ORG.ORG_NM   AS ED_NM
+			                         FROM T_SMS_ORG_MAPPING A
+			                        INNER JOIN T_UAP_ORG ORG
+			                           ON ORG.ORG_UUID = A.SUPER_ORG
+			                        WHERE A.LEVER_NO = '5') ORG5 --五代 
+			              ON ORG5.ORG_UUID = BAP.AGENT_ORG_NO
+			            LEFT JOIN (SELECT A.ORG_UUID   AS ORG_UUID,
+			                              ORG.ORG_UUID AS ED_NO,
+			                              ORG.ORG_NM   AS ED_NM
+			                         FROM T_SMS_ORG_MAPPING A
+			                        INNER JOIN T_UAP_ORG ORG
+			                           ON ORG.ORG_UUID = A.SUPER_ORG
+			                        WHERE A.LEVER_NO = '6') ORG6 --六代 
+			              ON ORG6.ORG_UUID = BAP.AGENT_ORG_NO
+			           WHERE BAP.MEC_TYP = '04'
+			           ORDER BY BRANCH.ORG_NM
+			
+			
+			]]>
+	</select>
+	
+</mapper>

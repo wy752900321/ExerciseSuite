@@ -1,0 +1,77 @@
+-- Create table
+create table BD.TABLE_BASE_SUMDATA
+(
+  root_agent_org_no VARCHAR2(32),
+  chk_dt            VARCHAR2(8 CHAR),
+  corg_nm           VARCHAR2(10 CHAR),
+  mec_type          CHAR(2),
+  active_mno        NUMBER(13),
+  tran_cot          NUMBER(13),
+  amount            NUMBER(15,2),
+  poundage          NUMBER(15,2),
+  cupz_poundage     NUMBER(15,2),
+  brand_amount      NUMBER(15,2),
+  tax               NUMBER(15,2),
+  protocol_flag     CHAR(2)
+)
+tablespace BD_DATA
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column BD.TABLE_BASE_SUMDATA.root_agent_org_no
+  is '一代编号';
+comment on column BD.TABLE_BASE_SUMDATA.chk_dt
+  is '对账月份 like ''201703''';
+comment on column BD.TABLE_BASE_SUMDATA.corg_nm
+  is '机构通道名称';
+comment on column BD.TABLE_BASE_SUMDATA.mec_type
+  is '商户类别（01：大POS 02：MPOS 03：手刷 04：VV钱包 05：VV二维码 06：MPOS二维码 07：大POS二维码）';
+comment on column BD.TABLE_BASE_SUMDATA.active_mno
+  is '活跃商户数';
+comment on column BD.TABLE_BASE_SUMDATA.tran_cot
+  is '交易笔数';
+comment on column BD.TABLE_BASE_SUMDATA.amount
+  is '交易额';
+comment on column BD.TABLE_BASE_SUMDATA.poundage
+  is '商户手续费';
+comment on column BD.TABLE_BASE_SUMDATA.cupz_poundage
+  is '银行成本';
+comment on column BD.TABLE_BASE_SUMDATA.brand_amount
+  is '品牌服务费';
+comment on column BD.TABLE_BASE_SUMDATA.tax
+  is '税金';
+comment on column BD.TABLE_BASE_SUMDATA.protocol_flag
+  is '02-两方,03-三方';
+-- Create/Recreate indexes 
+create index BD.INDEX_CHK_DT on BD.TABLE_BASE_SUMDATA (CHK_DT)
+  tablespace BD_DATA
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+create index BD.INDEX_MEC_TYPE on BD.TABLE_BASE_SUMDATA (MEC_TYPE)
+  tablespace BD_DATA
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
