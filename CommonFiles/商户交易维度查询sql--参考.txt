@@ -1,0 +1,276 @@
+/*--增加新列
+
+ALTER TABLE RPTADM.T_RPTADM_TRANS_SC_M ADD
+ 
+DEBITCARD_AMT(VARCHAR(20)),
+DEBITCARD_COT(VARCHAR(20)),
+DEBITCARD_FEE_AMT(VARCHAR(20)),
+--贷记卡
+
+CREDITCARD_AMT(VARCHAR2(20)),
+CREDITCARD_COT(VARCHAR2(20)),
+CREDITCARD_FEE_AMT(VARCHAR2(20)),
+--借记卡
+
+VVQB_AMT(VARCHAR2(20)),
+VVQB_COT(VARCHAR2(20)),
+VVQB_FEE_AMT(VARCHAR2(20)),
+--VV钱包
+
+IC_AMT(VARCHAR2(20)),
+IC_COT(VARCHAR2(20)),
+IC_FEE_AMT(VARCHAR2(20)),
+--IC卡
+
+F_IC_AMT(VARCHAR2(20)),
+F_IC_COT(VARCHAR2(20)),
+F_IC_FEE_AMT(VARCHAR2(20));
+--非IC卡
+
+ZFB_AMT (VARCHAR2(20)),
+ZFB_COT (VARCHAR2(20)),
+ZFB_FEE_AMT (VARCHAR2(20)),
+--支付宝
+
+
+WEIXIN_AMT (VARCHAR2(20)),
+WEIXIN_COT (VARCHAR2(20)),
+WEIXIN_FEE_AMT (VARCHAR2(20)),
+--微信
+
+QQ_AMT (VARCHAR2(20)),
+QQ_COT (VARCHAR2(20)),
+QQ_FEE_AMT (VARCHAR2(20))
+--QQ
+
+
+*/
+
+SELECT IN_MNO,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('01', '02') THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('01', '02') THEN
+                         A.TRAN_AMT
+                        ELSE
+                         0
+                      END) AS DEBITCARD_AMT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('01', '02') THEN
+              1
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('01', '02') THEN
+                         1
+                        ELSE
+                         0
+                      END) AS DEBITCARD_COT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('01', '02') THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('01', '02') THEN
+                         A.REC_FEE_AMT
+                        ELSE
+                         0
+                      END) AS DEBITCARD_FEE_AMT, --贷记卡信息
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('00', '03') THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('00', '03') THEN
+                         A.TRAN_AMT
+                        ELSE
+                         0
+                      END) AS CREDITCARD_AMT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('00', '03') THEN
+              1
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('00', '03') THEN
+                         1
+                        ELSE
+                         0
+                      END) AS CREDITCARD_COT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND
+                  A.CRD_TYP IN ('00', '03') THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.CRD_TYP IN ('00', '03') THEN
+                         A.REC_FEE_AMT
+                        ELSE
+                         0
+                      END) AS CREDITCARD_FEE_AMT, --借记卡信息
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG = '1' THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG = '1' THEN
+                         A.TRAN_AMT
+                        ELSE
+                         0
+                      END) AS IC_AMT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG = '1' THEN
+              1
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG = '1' THEN
+                         1
+                        ELSE
+                         0
+                      END) AS IC_COT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG = '1' THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG = '1' THEN
+                         A.REC_FEE_AMT
+                        ELSE
+                         0
+                      END) AS IC_FEE_AMT, --IC卡信息
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG != '1' THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG != '1' THEN
+                         A.TRAN_AMT
+                        ELSE
+                         0
+                      END) AS F_IC_AMT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG != '1' THEN
+              1
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG != '1' THEN
+                         1
+                        ELSE
+                         0
+                      END) AS F_IC_COT,
+       SUM(CASE
+             WHEN A.TRAN_CD IN ('10110001', '10110005') AND A.IC_CRD_FLG != '1' THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) - SUM(CASE
+                        WHEN A.TRAN_CD IN ('10110002', '10110006', '10110008', '10110007') AND
+                             A.IC_CRD_FLG != '1' THEN
+                         A.REC_FEE_AMT
+                        ELSE
+                         0
+                      END) AS F_IC_FEE_AMT, --非IC卡信息
+       SUM(CASE
+             WHEN A.TRAN_CD = '20110001' THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) AS VVQB_AMT,
+       SUM(CASE
+             WHEN A.TRAN_CD = '20110001' THEN
+              1
+             ELSE
+              0
+           END) AS VVQB_COT,
+       SUM(CASE
+             WHEN A.TRAN_CD = '20110001' THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) AS VVQB_FEE_AMT, --VV钱包
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q01', 'Q02') THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) AS ZFB_AMT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q01', 'Q02') THEN
+              1
+             ELSE
+              0
+           END) AS ZFB_COT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q01', 'Q02') THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) AS ZFB_FEE_AMT, --支付宝
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q11', 'Q12') THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) AS WEIXIN_AMT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q11', 'Q12') THEN
+              1
+             ELSE
+              0
+           END) AS WEIXIN_COT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q11', 'Q12') THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) AS WEIXIN_FEE_AMT, --微信
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q31', 'Q32') THEN
+              A.TRAN_AMT
+             ELSE
+              0
+           END) AS QQ_AMT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q31', 'Q32') THEN
+              1
+             ELSE
+              0
+           END) AS QQ_COT,
+       SUM(CASE
+             WHEN A.IN_MOD IN ('Q31', 'Q32') THEN
+              A.REC_FEE_AMT
+             ELSE
+              0
+           END) AS QQ_FEE_AMT --QQ
+
+  FROM PTS.T_PTS_TRANDATA A
+ WHERE A.TRAN_STS = 'S'
+   AND A.TRAN_DT = '20160725'
+ GROUP BY IN_MNO

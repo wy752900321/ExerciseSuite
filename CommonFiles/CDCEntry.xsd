@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Entry" type="Entry"/>
+	<xs:complexType name="Entry">
+		<xs:sequence>
+			<xs:element name="header" type="Header" nillable="true"/>
+			<xs:element name="rowChange" type="RowChange" nillable="true"/>
+			<xs:element name="transactionBegin" type="TransactionBegin" nillable="true"/>
+			<xs:element name="transactionEnd" type="TransactionEnd" nillable="true"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Header">
+		<xs:sequence>
+			<xs:element name="serverId" type="xs:string" nillable="true"/>
+			<xs:element name="extractId" type="xs:string" nillable="true"/>
+			<xs:element name="position" type="xs:string" nillable="true"/>
+			<xs:element name="enCoding" type="xs:string" nillable="true"/>
+			<xs:element name="extractTime" type="xs:long" nillable="true"/>
+			<xs:element name="executeTime" type="xs:long" nillable="true"/>
+			<xs:element name="sourceType" type="xs:string" default="ORACLE" nillable="true"/>
+			<xs:element name="schemaName" type="xs:string" nillable="true"/>
+			<xs:element name="transactionId" type="xs:string" nillable="true"/>
+			<xs:element name="seuqence" type="xs:int" nillable="true"/>
+			<xs:element name="entryType" type="EntryType" nillable="true"/>
+			<xs:element name="rowCount" type="xs:int" nillable="true"/>
+			<xs:element name="props" type="Pair" nillable="true"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Column">
+		<xs:sequence>
+			<xs:element name="index" type="xs:int" nillable="true"/>
+			<xs:element name="sqlType" type="xs:int" nillable="true"/>
+			<xs:element name="name" type="xs:string" nillable="true"/>
+			<xs:element name="isKey" type="xs:boolean" nillable="true"/>
+			<xs:element name="updated" type="xs:boolean" nillable="true"/>
+			<xs:element name="isNull" type="xs:boolean" nillable="true"/>
+			<xs:element name="value" type="xs:int" nillable="true"/>
+			<xs:element name="length" type="xs:long" nillable="true"/>
+			<xs:element name="mysqlType" type="xs:int" nillable="true"/>
+			<xs:element name="props" type="Pair" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RowData">
+		<xs:sequence>
+			<xs:element name="tableName" type="xs:string" nillable="true"/>
+			<xs:element name="eventType" type="EventType" nillable="true"/>
+			<xs:element name="beforeColumns" type="Column" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="afterColumns" type="Column" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="props" type="Pair" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RowChange">
+		<xs:sequence>
+			<xs:element name="isDdl" type="xs:boolean" default="false" minOccurs="0"/>
+			<xs:element name="sql" type="xs:string" minOccurs="0"/>
+			<xs:element name="rowDatas" type="RowData" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="props" type="Pair" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TransactionBegin">
+		<xs:annotation>
+			<xs:documentation>事务开始的数据结构</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="props" type="Pair" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TransactionEnd">
+		<xs:annotation>
+			<xs:documentation>事务结束的数据结构</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="props" type="Pair" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Pair">
+		<xs:annotation>
+			<xs:documentation>扩展结构</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="key" type="xs:string" nillable="true"/>
+			<xs:element name="value" type="xs:string" nillable="true"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="EntryType">
+		<xs:annotation>
+			<xs:documentation>Entry类型枚举</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TRANSACTIONBEGIN"/>
+			<xs:enumeration value="ROWDATA"/>
+			<xs:enumeration value="TRANSACTIONEND"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DBType">
+		<xs:annotation>
+			<xs:documentation>数据库类型枚举</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ORACLE"/>
+			<xs:enumeration value="MYSQL"/>
+			<xs:enumeration value="SQLSERVER"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EventType">
+		<xs:annotation>
+			<xs:documentation>事件类型枚举</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="INSERT"/>
+			<xs:enumeration value="UPDATE"/>
+			<xs:enumeration value="DELETE"/>
+			<xs:enumeration value="CREATE"/>
+			<xs:enumeration value="ALTER"/>
+			<xs:enumeration value="ERASE"/>
+			<xs:enumeration value="QUERY"/>
+			<xs:enumeration value="TRUNCATE"/>
+			<xs:enumeration value="RENAME"/>
+			<xs:enumeration value="CINDEX"/>
+			<xs:enumeration value="DINDEX"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
