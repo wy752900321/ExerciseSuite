@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset='utf-8'>
+<link rel="shortcut icon" href="favicon.ico">
+<link href='../static/dragula/stylesheets/dragula.css' rel='stylesheet' type='text/css' />
+<link href='../static/dragula/stylesheets/example.css' rel='stylesheet' type='text/css' />
+<title>dragula</title>
+
+<div class='examples'>
+  <div class='parent'>
+    <label><strong>Click or Drag!</strong> Fires a click when the mouse button is released before a <code>mousemove</code> event, otherwise a drag event is fired. No extra configuration is necessary.</label>
+    <div class='wrapper'>
+      <div id='sortable' class='container'>
+        <div>Clicking on these elements triggers a regular <code>click</code> event you can listen to.</div>
+        <div>Try dragging or clicking on this element.</div>
+        <div>Note how you can click normally?</div>
+        <div>Drags don't trigger click events.</div>
+        <div>Clicks don't end up in a drag, either.</div>
+        <div>This is useful if you have elements that can be both clicked or dragged.</div>
+      </div>
+    </div>
+    <pre>
+      <code>
+        dragula([document.getElementById(container)]);
+      </code>
+    </pre>
+  </div>
+ </div>
+
+<script src='../static/dragula/javascripts/dragula.js'></script>
+<script src='../static/dragula/javascripts/example.min.js'></script>

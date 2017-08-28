@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>界面效果</title>
+    <script src="static/javascripts/jquery.min.js" type="text/javascript"></script>
+    <script src="static/javascripts/jquery.gridly.js" type="text/javascript"></script>
+    <link href="static/stylesheets/jquery.gridly.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .gridly {
+            position: relative;
+            width: 960px;
+        }
+        .brick.small {
+            width: 140px;
+            height: 140px;
+        }
+        .brick.large {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+
+    <script>
+        $('.gridly').gridly({
+            base: 60, // px
+            gutter: 20, // px
+            columns: 12
+        });
+    </script>
+
+</head>
+<body>
+<div class="gridly">
+    <div class="brick small"></div>
+    <div class="brick small"></div>
+    <div class="brick large"></div>
+    <div class="brick small"></div>
+    <div class="brick small"></div>
+    <div class="brick large"></div>
+</div>
+<!--<div class="gridly">
+    <div class="brick small">brick small</div>
+    <div class="brick small">brick small</div>
+    <div class="brick large">brick large</div>
+    <div class="brick small">brick small</div>
+    <div class="brick small">brick small</div>
+    <div class="brick large">brick large</div>
+</div>-->
+</body>
+</html>

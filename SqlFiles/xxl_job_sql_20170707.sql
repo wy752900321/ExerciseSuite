@@ -127,3 +127,5 @@ select * from DMP.T_DATASOURCE where connectionName="mysql_JIADP";
 select * from T_SQL_TASK_LIST;
 select * from T_DATASOURCE where connectionName='querydb_132';
 
+
+SELECT * from T_DATASOURCE;
