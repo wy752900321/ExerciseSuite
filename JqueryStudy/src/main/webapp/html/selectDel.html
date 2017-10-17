@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script language="JavaScript">
+        //删除选择项
+
+        function deleteSelected() {
+            var s = document.getElementById("categoryList");
+            var length = s.length;
+            //从最后一个开始循环
+            for (var i = length - 1; i > -1; i--) {
+                var o = s.options[i];
+                if (o.selected == true) {
+                    s.remove(i)
+                }
+            }
+        }
+
+        $(document).ready(function () {
+            //绑定下拉框change事件，当下来框改变时调用 SelectChange()方法
+            $("#selectID").change(function () {
+                SelectChange();
+            });
+        })
+
+        function SelectChange() {
+            //获取下拉框选中项的text属性值
+            var selectText = $("#selectID").find("option:selected").text();
+            alert(selectText);
+            //获取下拉框选中项的value属性值
+            var selectValue = $("#selectID").val();
+            alert(selectValue);
+            //获取下拉框选中项的index属性值
+            var selectIndex = $("#selectID").get(0).selectedIndex;
+            alert(selectIndex);
+            ////获取下拉框最大的index属性值
+            var selectMaxIndex = $("#selectID option:last").attr("index");
+            alert(selectMaxIndex);
+        }
+
+        function aa() {
+            //设置下拉框index属性为5的选项 选中
+            $("#selectID").get(0).selectedIndex = 5;
+        }
+
+        function bb() {
+            //设置下拉框value属性为4的选项 选中
+            $("#selectID").val(4);
+        }
+
+        function cc() {
+            //设置下拉框text属性为5的选项 选中
+            $("#selectID option[text=5]").attr("selected", "selected");
+            $("#yyt option:contains('5')").attr("selected", true);
+        }
+
+        function dd() {
+            //在下拉框最后添加一个选项
+            $("#selectID").append("<option value='7'>7</option>");
+        }
+
+        function ee() {
+            //在下拉框最前添加一个选项
+            $("#selectID").prepend("<option value='0'>0</option>")
+        }
+
+        function ff() {
+            //移除下拉框最后一个选项
+            $("#selectID option:last").remove();
+        }
+
+        function gg() {
+            //移除下拉框 index属性为1的选项
+            $("#selectID option[index=1]").remove();
+        }
+
+        function hh() {
+            //移除下拉框 value属性为4的选项
+            $("#selectID option[value=4]").remove();
+        }
+
+        function ii() {
+            //移除下拉框 text属性为5的选项
+            $("#selectID option[text=5]").remove();
+        }
+    </script>
+
+</head>
+<body>
+
+<select id="categoryList">
+    <option value="1">放弃</option>
+    <option value="2" disabled="disabled">不放弃</option>
+    <option value="3">都行</option>
+</select>
+
+<input type="button" value="删除" onclick="deleteSelected()">
+
+<br/>
+<select id="selectID">
+    <option value="1">成长</option>
+    <option value="2">文艺</option>
+    <option value="3">风趣</option>
+    <option value="4">时尚</option>
+    <option value="5">天真</option>
+    <option value="6">无邪</option>
+</select>
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+    getJson();
+
+    function getJson() {
+        var jsonObj = [{"LBNK_DESC":"中国银行股份有限公司深圳公明支行","ACT_TYP":"01","LBNK_NM":"中国银行股份有限公司深圳公明支行","ACT_NM":"李锋","ACT_NO":"6013822000578654918"},{"LBNK_DESC":"深圳发展银行深圳市西丽支行","ACT_TYP":"00","LBNK_NM":"深圳发展银行深圳市西丽支行","ACT_NM":"南山区家家乐商店","ACT_NO":"11007370804701"},{"LBNK_DESC":"交通银行股份有限公司广州上渡路支行","ACT_TYP":"01","LBNK_NM":"交通银行股份有限公司广州上渡路支行","ACT_NM":"冷霞","ACT_NO":"6222600710012747277"},{"LBNK_DESC":"兴业银行股份有限公司长沙江滨支行","ACT_TYP":"01","LBNK_NM":"兴业银行股份有限公司长沙江滨支行","ACT_NM":"谭晖","ACT_NO":"622909363492627315"},{"LBNK_DESC":"招商银行深圳向西支行","ACT_TYP":"01","LBNK_NM":"招商银行深圳向西支行","ACT_NM":"吴依靖","ACT_NO":"6226096551225066"},{"LBNK_DESC":"交通银行广州前进支行","ACT_TYP":"01","LBNK_NM":"交通银行广州前进支行","ACT_NM":"余香妹","ACT_NO":"6222600710009710502"},{"LBNK_DESC":"长沙银行股份有限公司汇丰支行","ACT_TYP":"01","LBNK_NM":"长沙银行股份有限公司汇丰支行","ACT_NM":"刘爱","ACT_NO":"6223687310849878630"},{"LBNK_DESC":"中国农业银行股份有限公司广州番禺碧桂园支行","ACT_TYP":"01","LBNK_NM":"中国农业银行股份有限公司广州番禺碧桂园支行","ACT_NM":"许英明","ACT_NO":"6228480084235430612"},{"LBNK_DESC":"中国工商银行上海分行淮海路第一支行","ACT_TYP":"01","LBNK_NM":"中国工商银行上海分行淮海路第一支行","ACT_NM":"谢明华","ACT_NO":"6222081001007770948"}];
+        for (var item in jsonObj) {
+            for(var itemValue in jsonObj[item]){
+                alert(itemValue.indexOf());
+//                alert(jsonObj[item]['' + itemValue + '']);
+//                alert(jsonObj[item]['' + itemValue + ''])
+//                if (itemValue == 'LBNK_DESC') {  //item 表示Json串中的属性，如'name'
+//                var jValue = jsonObj[item][itemValue];//key所对应的value
+//                alert(jValue);
+//            }
+            }
+        }
+    }
+    /*function getJson(key) {
+        var jsonObj = {"name": "傅红雪", "age": "24", "profession": "刺客"};
+        //1、使用eval方法
+//        var eValue = eval('jsonObj.' + key);
+//        alert(eValue);
+        //2、遍历Json串获取其属性
+        for (var item in jsonObj) {
+            alert(item);
+            if (item == 'age') {  //item 表示Json串中的属性，如'name'
+                var jValue = jsonObj[item];//key所对应的value
+//                alert(jValue);
+            }
+        }
+        //3、直接获取
+        alert(jsonObj['' + key + '']);
+    }*/
+</script>
+<!--
+<script type="text/javascript">
+    getJson('age');
+
+    function getJson(key){
+        var jsonObj={"name":"傅红雪","age":"24","profession":"刺客"};
+        //1、使用eval方法
+        var eValue=eval('jsonObj.'+key);
+        alert(eValue);
+        //2、遍历Json串获取其属性
+        for(var item in jsonObj){
+            if(item==key){  //item 表示Json串中的属性，如'name'
+                var jValue=jsonObj[item];//key所对应的value
+                alert(jValue);
+            }
+        }
+        //3、直接获取
+        alert(jsonObj[''+key+'']);
+    }
+</script>-->
+<body>
+Test
+</body>
+</html>

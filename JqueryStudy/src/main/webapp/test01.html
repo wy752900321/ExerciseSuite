@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+        <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>无标题文档</title>
+            <style type="text/css">
+                html, body, div, span, h1, h2, h3, h4, p, a, em, img,dl, dt, dd, ol, ul, li,form, label{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+                body {line-height:1.5; font-size:12px; background:#fff;}
+                .search{  height:35px; margin-bottom:5px; padding:0 10px; background:url(../images/nav.gif) repeat-x;}
+                .search .select{ position:relative; z-index:555; float:left; width:90px; height:20px; line-height:20px; margin-right:5px; margin-top:4px; border:1px solid #cf39bc; background:#fff;}
+                .search .select h2{ height:20px; padding-left:5px; font-size:12px; font-weight:normal; background:url(../images/nav.gif)  #fff right -60px no-repeat; cursor:pointer;}
+                .search .option{ display:none; visibility:hidden; position:absolute; top:20px; left:-1px; width:400px; height:100px; padding:10px; border:1px solid #d037bd; background:#fff;}
+
+                .search .select.hover h2{ position:relative; z-index:666; height:21px;}
+                .search .select.hover .option{ display:block; visibility:visible;}
+
+                .s-menu{ padding-left:10px; padding-bottom:22px; border-bottom:1px solid #f47fe6;}
+                .s-menu li{ float:left; height:22px; line-height:22px; margin-right:-1px; padding:0 10px; border:1px solid #ccc; border-bottom:none; cursor:pointer;}
+                .s-menu li.current{ background:#f581e7; color:#fff;}
+                .search .option .cnt{ clear:both; padding:5px 0 0; line-height:22px; overflow:hidden; zoom:1;}
+                .search .option .cnt a{ padding:1px 5px 0 0; white-space:nowrap;}
+                .search .option .cnt a.b{ color:#F60;}
+
+                .search .input{ padding-top:4px;}
+                .search .input .text{ float:left; width:150px; height:14px; line-height:14px; border:1px solid #ee91e2;}
+                .search .input .botton{ float:left; height:22px; line-height:22px; text-align:center; font-size:12px; color:#FFF; cursor:pointer; border:none; background:url(../images/searc-btn.gif);}
+            </style>
+        </head>
+
+<body>
+<div id="Search" class="search">
+    <div class="select">
+        <h2>请选择城市</h2>
+        <div class="option">
+            <div class="s-menu">
+                <ul>
+                    <li id="one1" onclick="setTab('one',1,5)" class="current">热门城市</li>
+                    <li id="one2" onclick="setTab('one',2,5)">ABCDEF</li>
+                    <li id="one3" onclick="setTab('one',3,5)">GHJKLM</li>
+                    <li id="one4" onclick="setTab('one',4,5)">NOPQRS</li>
+                    <li id="one5" onclick="setTab('one',5,5)">TVWXYZ</li>
+                </ul>
+            </div>
+            <div id="con_one_1" class="cnt">
+                <a class="b" href="http://spion.blog.163.com/blog/#">全国</a> <!--如果有链接则把 comme.js 第78行的 return false 删除-->
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">深圳</a>
+                <a href="http://spion.blog.163.com/blog/#">广州</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+            <div id="con_one_2" class="cnt" style="display:none">
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+            <div id="con_one_3" class="cnt" style="display:none">
+                <a href="http://spion.blog.163.com/blog/#">广州</a>
+                <a href="http://spion.blog.163.com/blog/#">重庆</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+            <div id="con_one_4" class="cnt" style="display:none">
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">深圳</a>
+                <a href="http://spion.blog.163.com/blog/#">广州</a>
+                <a href="http://spion.blog.163.com/blog/#">重庆</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+            <div id="con_one_5" class="cnt" style="display:none">
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+        </div>
+    </div>
+    <div class="select">
+        <h2>请选择区域</h2>
+        <div class="option">
+            <div class="cnt">
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">深圳</a>
+                <a href="http://spion.blog.163.com/blog/#">广州</a>
+                <a href="http://spion.blog.163.com/blog/#">重庆</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+        </div>
+    </div>
+    <div class="select">
+        <h2>请选择分类</h2>
+        <div class="option" style="width:300px;">
+            <div class="cnt">
+                <a href="http://spion.blog.163.com/blog/#">全国</a>
+                <a href="http://spion.blog.163.com/blog/#">北京</a>
+                <a href="http://spion.blog.163.com/blog/#">天律</a>
+                <a href="http://spion.blog.163.com/blog/#">大连</a>
+                <a href="http://spion.blog.163.com/blog/#">上海</a>
+                <a href="http://spion.blog.163.com/blog/#">深圳</a>
+                <a href="http://spion.blog.163.com/blog/#">广州</a>
+                <a href="http://spion.blog.163.com/blog/#">重庆</a>
+                <a href="http://spion.blog.163.com/blog/#">杭州</a>
+                <a href="http://spion.blog.163.com/blog/#">苏州</a>
+                <a href="http://spion.blog.163.com/blog/#">南京</a>
+                <a href="http://spion.blog.163.com/blog/#">长沙</a>
+                <a href="http://spion.blog.163.com/blog/#">武汉</a>
+                <a href="http://spion.blog.163.com/blog/#">成都</a>
+                <a href="http://spion.blog.163.com/blog/#">宁波</a>
+            </div>
+        </div>
+    </div>
+    <div class="input">
+        <input type="text" class="text" />
+        <input type="button" class="botton" value="搜索商家" />
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+    var sear=getObj("Search");
+    var oselect=sear.childNodes;
+    for(var i=0;i<oselect.length;i++){
+        var option=oselect[i].childNodes;
+        for(var j=0;j<option.length;j++){
+            if(option[j].className=="option"){
+                toggle(option[j]);
+            }
+        }
+    }
+    var sum=1;
+    function toggle(value){
+        var parent=value.parentNode;
+        var h2=getFirstChild(parent);
+
+        if(h2.addEventListener){
+            h2.addEventListener("click",h2Event,false);
+        }else{
+            h2.attachEvent('onclick', h2Event);
+        }
+
+        function h2Event(event){
+            clearClass();
+            var oevent=(event) ? event : ((window.event) ? window.event : "");
+            oevent.cancelBubble = true;
+            var h2class=h2.parentNode;
+            if(h2class.className=="select"){
+                sum=0;
+                h2class.className="select hover";
+            }else{
+                sum=1;
+            }
+            var alink=value.getElementsByTagName("a");
+            for(var i=0;i<alink.length;i++){
+                alink[i].onclick=function(){
+                    clearClass();
+                    sum=0;
+                    h2.innerHTML=this.firstChild.nodeValue;
+                    return false;
+                }
+            }
+        }
+        function getFirstChild(n){
+            var x=n.firstChild;
+            while (x.nodeType!=1)
+            {
+                x=x.nextSibling;
+            }
+            return x;
+        }
+        value.onclick=function(){
+            sum=1;
+        }
+        value.onmouseout=function(){
+            sum=0;
+        }
+    }
+    document.body.onclick=function(){
+        if(sum==0){
+            clearClass();
+            sum=1;
+        }
+    }
+    function clearClass(){
+        for(var i=0;i<oselect.length;i++){
+            if(oselect[i].className=="select hover"){
+                oselect[i].className="select";
+            }
+        }
+    }
+    function getObj(value){
+        if(document.getElementById(value)){
+            return document.getElementById(value);
+        }
+    }
+    function setTab(name,cursel,n){
+        for(var i=1;i<=n;i++){
+            var tit=document.getElementById(name+i);
+            var cnt=document.getElementById("con_"+name+"_"+i);
+            tit.className=i==cursel?"current":"";
+            cnt.style.display=i==cursel?"":"none";
+        }
+    }
+</script>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

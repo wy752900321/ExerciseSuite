@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery css多级下拉菜单-一级横着
+    </title>
+    <script>
+        $(document).ready(function () {
+            $("#elementlist li").hover(
+                function () {
+                    $(this).children('ul').hide();
+                    $(this).children('ul').slideDown('fast');
+                },
+                function () {
+                    $('ul', this).slideUp('fast');
+                });
+
+            $('.elementlist').on('click', '>li', function () {
+                //your code   在后面不要写父元素选择器
+                alert("点击");
+            });
+
+        });
+
+
+
+    </script>
+    <style>
+        /* elementlistigation style */
+        #elementlist {
+            height: 39px;
+            /*font: 12px Geneva, Arial, Helvetica, sans-serif;*/
+            /*background: #2D2D2D;*/; /*背影黑色*/
+            /*添加边框*/
+            /*border: 1px solid #323232;*/
+            border-radius: 3px;
+            /*min-width: 500px;*/
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+
+        #elementlist li {
+            list-style: none;
+            /*display: block;*/
+            /*float: left;*/
+            /*height: 40px;*/
+            position: relative;
+            border-right: 1px solid #323232;
+        }
+
+        #elementlist li a {
+            padding: 0px 10px 0px 30px;
+            margin: 0px 0;
+            line-height: 40px;
+            text-decoration: none;
+            border-right: 1px solid #636161;
+            height: 40px;
+            /*color: #FFF;*/
+            text-shadow: 1px 1px 1px #66696B;
+        }
+
+        #elementlist ul {
+            background: #f2f5f6;
+            padding: 0px;
+            border-bottom: 1px solid #DDDDDD;
+            border-right: 1px solid #DDDDDD;
+            border-left: 1px solid #DDDDDD;
+            border-radius: 0px 0px 3px 3px;
+            box-shadow: 2px 2px 3px #ECECEC;
+            -webkit-box-shadow: 2px 2px 3px #ECECEC;
+            -moz-box-shadow: 2px 2px 3px #ECECEC;
+            width: 170px;
+        }
+
+        #elementlist .site-name, #elementlist .site-name:hover {
+            padding-left: 10px;
+            padding-right: 10px;
+            /*color: #FFF;*/
+            color: #000000;
+            /*background: url(images/logo.png) no-repeat 10px 5px;*/
+            /*width: 160px;*/
+        }
+
+        #elementlist .site-name a {
+            width: 129px;
+            overflow: hidden;
+        }
+
+        #elementlist li a {
+            display: block;
+        }
+
+        #elementlist ul li {
+            border-right: none;
+            border-bottom: 1px solid #DDDDDD;
+            width: 170px;
+            height: 39px;
+        }
+
+        #elementlist ul li a {
+            border-right: none;
+            color: #6791AD;
+            text-shadow: 1px 1px 1px #FFF;
+            border-bottom: 1px solid #FFFFFF;
+        }
+
+        #elementlist ul li:hover {
+            background: #DFEEF0;
+        }
+
+        #elementlist ul li:last-child {
+            border-bottom: none;
+        }
+
+        #elementlist ul li:last-child a {
+            border-bottom: none;
+        }
+
+        /* Sub menus */
+        #elementlist ul {
+            display: none;
+            visibility: hidden;
+            position: absolute;
+            top: 40px;
+        }
+
+        /* Third-level menus */
+        #elementlist ul ul {
+            top: 0px;
+            left: 170px;
+            display: none;
+            visibility: hidden;
+            border: 1px solid #DDDDDD;
+        }
+
+        /* Fourth-level menus */
+        #elementlist ul ul ul {
+            top: 0px;
+            left: 170px;
+            display: none;
+            visibility: hidden;
+            border: 1px solid #DDDDDD;
+        }
+
+        #elementlist ul li {
+            display: block;
+            visibility: visible;
+        }
+
+        #elementlist li:hover > ul {
+            display: block;
+            visibility: visible;
+        }
+    </style>
+    <!--[if IE 7]>
+    <style>
+        #elementlist {
+            margin-left: 0px
+        }
+
+        #elementlist ul {
+            left: -40px;
+        }
+
+        #elementlist ul ul {
+            left: 130px;
+        }
+
+        #elementlist ul ul ul {
+            left: 130px;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body>
+<div id="fdsafdsafdsafda">
+    <ul id="elementlist">
+        <li><a href="#">全部</a>
+            <ul>
+                <li><a href="#">外编</a></li>
+                <li><a href="#">终端号</a></li>
+                <li><a href="#">序列号</a></li>
+                <li><a href="#">版本号</a></li>
+                <li><a href="#">终端状态</a>
+                    <ul>
+                        <li><a href="#">sum</a></li>
+                        <li><a href="#">avg</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">三级分类 »</a>
+                            <ul>
+                                <li><a href="#">导航菜单4</a></li>
+                                <li><a href="#">1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <li><a href="#">终端类型</a></li>
+                <li><a href="#">厂商</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
