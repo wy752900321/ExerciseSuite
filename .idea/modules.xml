@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BasicJavase/BasicJavase.iml" filepath="$PROJECT_DIR$/BasicJavase/BasicJavase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BootstrapStudy/BootstrapStudy.iml" filepath="$PROJECT_DIR$/BootstrapStudy/BootstrapStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CDCDataTest/CDCDataTest.iml" filepath="$PROJECT_DIR$/CDCDataTest/CDCDataTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CalciteStudy/CalciteStudy.iml" filepath="$PROJECT_DIR$/CalciteStudy/CalciteStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CrawlerJsoupStudy/CrawlerJsoupStudy.iml" filepath="$PROJECT_DIR$/CrawlerJsoupStudy/CrawlerJsoupStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DBStudy/DBStudy.iml" filepath="$PROJECT_DIR$/DBStudy/DBStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DruidStudyForDB/DruidStudyForDB.iml" filepath="$PROJECT_DIR$/DruidStudyForDB/DruidStudyForDB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ExerciseSuite.iml" filepath="$PROJECT_DIR$/ExerciseSuite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FirstDang/FirstDang.iml" filepath="$PROJECT_DIR$/FirstDang/FirstDang.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FreeMarkerStudy/FreeMarkerStudy.iml" filepath="$PROJECT_DIR$/FreeMarkerStudy/FreeMarkerStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JDBC_01/JDBC_01.iml" filepath="$PROJECT_DIR$/JDBC_01/JDBC_01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JDBC_02/JDBC_02.iml" filepath="$PROJECT_DIR$/JDBC_02/JDBC_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JSqlParserStudy/JSqlParserStudy.iml" filepath="$PROJECT_DIR$/JSqlParserStudy/JSqlParserStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" filepath="$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.2/T-ELTS0.2.iml" filepath="$PROJECT_DIR$/T-ELTS0.2/T-ELTS0.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.3/T-ELTS0.3.iml" filepath="$PROJECT_DIR$/T-ELTS0.3/T-ELTS0.3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.4/T-ELTS0.4.iml" filepath="$PROJECT_DIR$/T-ELTS0.4/T-ELTS0.4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.4-documents/T-ELTS0.4-documents.iml" filepath="$PROJECT_DIR$/T-ELTS0.4-documents/T-ELTS0.4-documents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.5/T-ELTS0.5.iml" filepath="$PROJECT_DIR$/T-ELTS0.5/T-ELTS0.5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/T-ELTS0.6-database/T-ELTS0.6-database.iml" filepath="$PROJECT_DIR$/T-ELTS0.6-database/T-ELTS0.6-database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/WebRoot/WebRoot.iml" filepath="$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/WebRoot/WebRoot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dangdangme2/WebRoot/WebRoot1.iml" filepath="$PROJECT_DIR$/dangdangme2/WebRoot/WebRoot1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/Zdangdangme2BEST_struts2_0612.iml" filepath="$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/Zdangdangme2BEST_struts2_0612.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Zdangdangme2Trouble/Zdangdangme2Trouble.iml" filepath="$PROJECT_DIR$/Zdangdangme2Trouble/Zdangdangme2Trouble.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ajax01/ajax01.iml" filepath="$PROJECT_DIR$/ajax01/ajax01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ajax02/ajax02.iml" filepath="$PROJECT_DIR$/ajax02/ajax02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book717/book717.iml" filepath="$PROJECT_DIR$/book717/book717.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/src/com/cenrise/cenrise.iml" filepath="$PROJECT_DIR$/DesignPatterns/src/com/cenrise/cenrise.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dang_t_gwap/dang_t_gwap.iml" filepath="$PROJECT_DIR$/dang_t_gwap/dang_t_gwap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dangdangREF/dangdangREF.iml" filepath="$PROJECT_DIR$/dangdangREF/dangdangREF.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dangdangme2/dangdangme2.iml" filepath="$PROJECT_DIR$/dangdangme2/dangdangme2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dangke/dangke.iml" filepath="$PROJECT_DIR$/dangke/dangke.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_el/day16_el.iml" filepath="$PROJECT_DIR$/day16_el/day16_el.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_i18n/day16_i18n.iml" filepath="$PROJECT_DIR$/day16_i18n/day16_i18n.iml" />
-      <module fileurl="file://$PROJECT_DIR$/file/file.iml" filepath="$PROJECT_DIR$/file/file.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filter01/filter01.iml" filepath="$PROJECT_DIR$/filter01/filter01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/friend01/friend01.iml" filepath="$PROJECT_DIR$/friend01/friend01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/friendSystemManger/friendSystemManger.iml" filepath="$PROJECT_DIR$/friendSystemManger/friendSystemManger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.1/hibernate0.1.iml" filepath="$PROJECT_DIR$/hibernate0.1/hibernate0.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.2/hibernate0.2.iml" filepath="$PROJECT_DIR$/hibernate0.2/hibernate0.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.3/hibernate0.3.iml" filepath="$PROJECT_DIR$/hibernate0.3/hibernate0.3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.4/hibernate0.4.iml" filepath="$PROJECT_DIR$/hibernate0.4/hibernate0.4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.4.2/hibernate0.4.2.iml" filepath="$PROJECT_DIR$/hibernate0.4.2/hibernate0.4.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.5.2/hibernate0.5.2.iml" filepath="$PROJECT_DIR$/hibernate0.5.2/hibernate0.5.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate0.6/hibernate0.6.iml" filepath="$PROJECT_DIR$/hibernate0.6/hibernate0.6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate_lesson1.2/hibernate_lesson1.2.iml" filepath="$PROJECT_DIR$/hibernate_lesson1.2/hibernate_lesson1.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javamail2/javamail2.iml" filepath="$PROJECT_DIR$/javamail2/javamail2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javamail3/javamail3.iml" filepath="$PROJECT_DIR$/javamail3/javamail3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/main.iml" filepath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main1.iml" filepath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nettystudy/src/main/main2.iml" filepath="$PROJECT_DIR$/nettystudy/src/main/main2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/main3.iml" filepath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/src/main/main4.iml" filepath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/src/main/main4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main5.iml" filepath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shoppingcar02/shoppingcar02.iml" filepath="$PROJECT_DIR$/shoppingcar02/shoppingcar02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring0.2/spring0.2.iml" filepath="$PROJECT_DIR$/spring0.2/spring0.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring0.3/spring0.3.iml" filepath="$PROJECT_DIR$/spring0.3/spring0.3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring0.5/spring0.5.iml" filepath="$PROJECT_DIR$/spring0.5/spring0.5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring0.6/spring0.6.iml" filepath="$PROJECT_DIR$/spring0.6/spring0.6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ssh0.1/ssh0.1.iml" filepath="$PROJECT_DIR$/ssh0.1/ssh0.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/struts03/struts03.iml" filepath="$PROJECT_DIR$/struts03/struts03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/struts2_lesson6.2_upload/struts2_lesson6.2_upload.iml" filepath="$PROJECT_DIR$/struts2_lesson6.2_upload/struts2_lesson6.2_upload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nettystudy/src/test/test.iml" filepath="$PROJECT_DIR$/nettystudy/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testjsp/testjsp.iml" filepath="$PROJECT_DIR$/testjsp/testjsp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/token_uuid/token_uuid.iml" filepath="$PROJECT_DIR$/token_uuid/token_uuid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tts_test/tts_test.iml" filepath="$PROJECT_DIR$/tts_test/tts_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webworktest/webworktest.iml" filepath="$PROJECT_DIR$/webworktest/webworktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ExerciseSuite.iml" filepath="$PROJECT_DIR$/.idea/ExerciseSuite.iml" />
     </modules>
   </component>
 </project>

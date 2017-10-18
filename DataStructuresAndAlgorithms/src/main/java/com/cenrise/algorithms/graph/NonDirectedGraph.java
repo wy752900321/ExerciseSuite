@@ -76,7 +76,7 @@ public class NonDirectedGraph {
     * 需要一个队列来保存图中的顶点,初始时,源点入队列,然后以广度的形式向外扩散求解其他顶点的最短路径
     */
     private void unweightedShortestPath(Vertex s) {
-//初始化
+        //初始化
         Queue<Vertex> queue = new LinkedList<Vertex>();
         s.dist = 0;
         queue.offer(s);//将源点dist设置为0并入队列
