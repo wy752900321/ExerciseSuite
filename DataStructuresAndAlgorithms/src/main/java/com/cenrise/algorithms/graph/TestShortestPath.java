@@ -1,5 +1,7 @@
 package com.cenrise.algorithms.graph;
 
+import com.cenrise.algorithms.graph2.FileUtil;
+
 public class TestShortestPath {
 
     public static void main(String[] args) {
