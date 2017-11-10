@@ -1,0 +1,6 @@
+Logger--> INFO{App.java:16}-Hello World!
+Logger--> INFO{App.java:16}-Hello World!
+08 十一月 2017 17:32:43,782 INFO  [main] (com.cenrise.App.main:16)  - Hello World!
+08 十一月 2017 17:32:53,486 INFO  [main] (com.cenrise.App.main:16)  - Hello World!
+08 十一月 2017 17:33:48,190 INFO  [main] (com.cenrise.App.main:16)  - Hello World!
+08 十一月 2017 17:34:13,229 INFO  [main] (com.cenrise.App.main:16)  - Hello World!
