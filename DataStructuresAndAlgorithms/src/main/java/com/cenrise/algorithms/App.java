@@ -1,4 +1,4 @@
-package com.cenrise;
+package com.cenrise.algorithms;
 
 /**
  * Hello world!
