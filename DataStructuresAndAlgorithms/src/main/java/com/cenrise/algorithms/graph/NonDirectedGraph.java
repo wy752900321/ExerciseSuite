@@ -176,7 +176,7 @@ public class NonDirectedGraph {
                 System.out.print(tmpPreNode.vertexLabel + "<--");
                 tmpPreNode = tmpPreNode.preNode;
             }
-            System.out.println("distance=" + vertex.dist);
+            System.out.println("     distance=" + vertex.dist);
         }
     }
 
