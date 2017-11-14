@@ -8,7 +8,6 @@
  */
 package com.cenrise.algorithms.graph;
 
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -30,7 +29,7 @@ import java.util.Queue;
 /*
  * 求解无向图的单源最短路径
  */
-public class NonDirectedGraph {
+public class NonDirectedGraphStr {
     //顶点
     private class Vertex {
         public String vertexLabel;// 顶点标识
@@ -59,7 +58,7 @@ public class NonDirectedGraph {
     private Vertex startVertex;// 图的起始顶点
     private Vertex endVertex;// 图的结束顶点
 
-    public NonDirectedGraph(String graphContent) {
+    public NonDirectedGraphStr(String graphContent) {
         nonDirectedGraph = new LinkedHashMap<String, Vertex>();
         buildGraph(graphContent);
     }
@@ -181,16 +180,19 @@ public class NonDirectedGraph {
     }
 
     public static void main(String[] args) {
-        ClassLoader classLoader = NonDirectedGraph.class.getClassLoader();
+       /* ClassLoader classLoader = NonDirectedGraphStr.class.getClassLoader();
         URL resource = classLoader.getResource("Graph2NonDirectedGraph2.txt");
         String graphFilePath = resource.getPath();
         System.out.println(graphFilePath);
 
-        String graphContent = FileUtil.read(graphFilePath, 10000);
-        NonDirectedGraph graph = new NonDirectedGraph(graphContent);
-        graph.unweightedShortestPath();
-        //graph.showDistance();
-        //System.out.println();
+        String graphContent = FileUtil.read(graphFilePath, 10000);*/
+        String graphContent = "0,0,1,4\n1,0,2,7\n2,0,3,3\n3,1,2,3\n4,1,4,2\n5,3,4,3\n6,2,5,2\n7,4,5,2";
+
+        NonDirectedGraphStr graph = new NonDirectedGraphStr(graphContent);
+
+        /*graph.unweightedShortestPath();
+        graph.showDistance();
+        System.out.println();*/
 
         //序号，起点，终点，权重
         List<Integer> path = graph.getShortestPath(0, 4);
