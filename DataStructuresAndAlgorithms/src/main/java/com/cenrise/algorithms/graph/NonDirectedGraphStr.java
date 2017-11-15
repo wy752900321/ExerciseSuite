@@ -186,7 +186,8 @@ public class NonDirectedGraphStr {
         System.out.println(graphFilePath);
 
         String graphContent = FileUtil.read(graphFilePath, 10000);*/
-        String graphContent = "0,0,1,4\n1,0,2,7\n2,0,3,3\n3,1,2,3\n4,1,4,2\n5,3,4,3\n6,2,5,2\n7,4,5,2";
+        //String graphContent = "0,0,1,4\n1,0,2,7\n2,0,3,3\n3,1,2,3\n4,1,4,2\n5,3,4,3\n6,2,5,2\n7,4,5,2";
+        String graphContent = "0,0,2,1\n1,0,3,1\n2,0,1,1\n3,0,4,1";
 
         NonDirectedGraphStr graph = new NonDirectedGraphStr(graphContent);
 
@@ -195,7 +196,8 @@ public class NonDirectedGraphStr {
         System.out.println();*/
 
         //序号，起点，终点，权重
-        List<Integer> path = graph.getShortestPath(0, 4);
+        //List<Integer> path = graph.getShortestPath(0, 4);
+        List<Integer> path = graph.getShortestPath(0, 2);
         for (Integer tmp : path) {
             System.out.println(tmp);
         }

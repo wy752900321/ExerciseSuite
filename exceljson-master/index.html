@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="content-language" content="en">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <meta name="description" content="Convert csv, tsv, XML to JSON. You can also view the JSON as bar charts and line charts.">
+    <meta name="keywords" content="csv, tsv, xls, excel, json, charts, bar chart, line chart, graphs">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+    <link rel="canonical" href="http://exceljson.com/">
+    <link rel="publisher" href="http://palerdot.in">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>ExcelJSON - Convert CSV, TSV to JSON; JSON to CSV, TSV. </title>
+
+    <meta name="title" content="ExcelJSON">
+    <meta name="description" content="Convert CSV, TSV to JSON &amp; JSON to CSV, TSV easily.">
+    <meta name="keywords" content="CSV, TSV, JSON, preview, converted, file, excel">
+
+    <meta property="og:site_name" content="ExcelJSON">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://exceljson.com/">
+    <meta property="og:title" content="ExcelJSON - Convert CSV, TSV to JSON; JSON to CSV, TSV.">
+    <meta property="og:description" content="Convert CSV, TSV to JSON &amp; JSON to CSV, TSV easily.">
+    <meta property="og:image" content="http://exceljson.com/images/exceljson.png">
+
+    <meta name="twitter:site" content="@palerdot">
+    <meta name="twitter:domain" content="exceljson.com">
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:url" content="http://exceljson.com/">
+    <meta name="twitter:title" content="ExcelJSON">
+    <meta name="twitter:description" content="Convert CSV, TSV to JSON &amp; JSON to CSV, TSV easily.">
+    <meta name="twitter:image" content="http://exceljson.com/images/exceljson.png">
+
+
+    <link rel="alternate" hreflang="en" href="http://exceljson.com/" />
+    <link rel="alternate" hreflang="x-default" href="http://exceljson.com/" />
+
+    <link rel="stylesheet" href="css/material-icon.css" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http://exceljson.com/",
+        "name": "ExcelJSON",
+        "image": "http://exceljson.com/images/exceljson.png",
+        "description": "Convert CSV, TSV to JSON & JSON to CSV, TSV easily.",
+        "sameAs": [],
+        "inLanguage": [
+            "en"
+        ],
+        "copyrightYear": "2016",
+        "copyrightHolder": [{
+            "@type": "Organization",
+            "url": "http://palerdot.in/",
+            "name": "palerdot",
+            "logo": "",
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "url": "http://palerdot.in/",
+                "email": "palerdot@gmail.com",
+                "contactType": "customer service"
+            }]
+        }]
+    }
+    </script>
+</head>
+
+<body class="">
+    <nav class="" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">
+                <img src="images/logo.png" /> excelJSON
+            </a>
+            <ul class="right hide hide-on-med-and-down">
+                <li>
+                    <a href="#">
+                        Navbar Link
+                    </a>
+                </li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav hide">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse hide"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="welcome-banner">
+        <div class="container">
+            <div class="row center">
+                <h4>
+                    Convert CSV, TSV to JSON. JSON to CSV, TSV.
+                </h4>
+            </div>
+        </div>
+    </div>
+    <!-- START: Upload Pane -->
+    <div id="upload-pane" class="section no-pad-bot">
+        <div class="container center">
+            <div class="row">
+                <div class="col s12">
+                    <div id="drag-zone" class="card brown lighten-5 dotted-border">
+                        <div class="card-content">
+                            <span class="card-title">
+                                Upload Files
+                            </span>
+                            <p>
+                                Drag and drop files in this rectangle, or click the button below to upload files.
+                                <div class="light">
+                                    (You can upload <strong>csv</strong> &amp; <strong>tsv</strong> files to convert to JSON.)
+                                </div>
+                            </p>
+                            <div class="container">
+                                <div class="row no-bottom-margin">
+                                    <div class="col s12">
+                                        <div class="card-panel brown lighten-4">
+                                            <!-- START: File Details -->
+                                            <div v-if="isFileEmpty()">
+                                                <strong>No File Uploaded</strong>
+                                            </div>
+                                            <div v-else>
+                                                <strong>File: </strong> {{file.name}}
+                                            </div>
+                                            <!-- END: File Details -->
+                                            <!-- START: Progress -->
+                                            <div v-if="progress">
+                                                <div class="progress">
+                                                    <div class="determinate" v-bind:style="{ width: progressPercent }"></div>
+                                                </div>
+                                            </div>
+                                            <!-- END: Progress -->
+                                            <div v-if="invalidFile" class="card-panel red white-text">
+                                                Invalid File. Please upload only csv, tsv files.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <div>
+                                <button id="upload-file" type="button" class="waves-effect waves-light btn btn-large brown darken-1" v-on:click="initUploadFile">
+                                    <i class="material-icons left">file_upload</i> Click to upload files
+                                </button>
+                            </div>
+                            <div>
+                                <form ref="input-file-form" class="hide">
+                                    <input type="file" id="file-input" name="file-input" class="hide">
+                                </form>
+                            </div>
+                            <div class="center">
+                                <form id="json-conversion-options" action="#">
+                                    <p>
+                                        <input class="with-gap" name="json-options" type="radio" id="with-columns" v-bind:value="true" v-model="isColumnHeader" v-on:change="handleColumnHeaderChange" />
+                                        <label for="with-columns">
+                                            First row contains Column Names.
+                                            <span class="light">(column names will become JSON attributes)</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <input class="with-gap" name="json-options" type="radio" id="without-columns" v-bind:value="false" v-model="isColumnHeader" v-on:change="handleColumnHeaderChange" />
+                                        <label for="without-columns">
+                                            First row does not contain Column Names.
+                                            <span class="light">(will result in an array of arrays)</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Upload Pane -->
+
+    <!-- START: JSON Pane -->
+    <div id="json-pane" class="section no-pad-bot">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card brown lighten-5">
+                        <div class="card-content">
+                            <div class="card-title center">
+                                JSON
+                            </div>
+                            <div class="nav-wrapper col s12 brown darken-1">
+                                <div class="col s8">
+                                    <ul class="tabs tabs-transparent left">
+                                        <li class="tab" class="active">
+                                            <a href="#edit-window">Edit</a>
+                                        </li>
+                                        <li class="hide">
+                                            <a class="active" href="#preview-window">Preview</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col s4" v-if="validJSON">
+                                    <button id="copy-json" type="button" class="right waves-effect waves-light btn btn-small brown lighten-4 brown-text" v-on:click="copyJSON">
+                                        <i class="material-icons right">input</i> Copy
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row no-bottom-margin">
+                                <div id="edit-window" class="col s12">
+                                    <textarea class="json-window" v-on:change="handleJSONChange($event)" v-on:keyup="handleJSONChange($event)" v-model="JSONString"></textarea>
+                                </div>
+                                <div id="preview-window" class="col s12 hide">
+                                    <div class="json-window" v-html=""></div>
+                                </div>
+                            </div>
+                            <div class="row no-bottom-margin">
+                                <div class="col s12 center">
+                                    <div v-if="validJSON === true" class="card-panel green white-text">
+                                        Valid JSON
+                                    </div>
+                                    <div v-else-if="validJSON === false" class="card-panel red white-text">
+                                        InValid JSON
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-if="validJSON" class="card-action center">
+                            <div class="row valign-wrapper">
+                                <div class="col m2 s12 bold valign">
+                                    <strong>File Name:</strong>
+                                </div>
+                                <div class="col m10 s12 bold">
+                                    <input placeholder="Placeholder" id="download-name" type="text" class="validate" v-model="downloadFileName" />
+                                </div>
+                            </div>
+                            <div class="light">
+                                You can enter your own valid JSON in edit window and download as csv, tsv.
+                            </div>
+                            <button v-on:click="downloadCSV" id="download-csv" type="button" class="waves-effect waves-light btn brown darken-1">
+                                <i class="material-icons left">file_download</i> Download as CSV
+                            </button>
+                            <button v-on:click="downloadTSV" id="download-tsv" type="button" class="waves-effect waves-light btn brown darken-1">
+                                <i class="material-icons left">file_download</i> Download as TSV
+                            </button>
+                            <div class="center">
+                                <form id="json-download-options" action="#">
+                                    <p>
+                                        <input class="with-gap" name="download-options" type="radio" id="download-with-columns" v-bind:value="true" v-model="isColumnHeader" v-on:change="handleColumnHeaderChange" />
+                                        <label for="download-with-columns">
+                                            Make JSON Object keys as Column Names.
+                                            <span class="light">(valid option only if JSON is array of objects)</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <input class="with-gap" name="download-options" type="radio" id="download-without-columns" v-bind:value="false" v-model="isColumnHeader" v-on:change="handleColumnHeaderChange" />
+                                        <label for="download-without-columns">
+                                            Convert all the array as rows
+                                            <span class="light">(valid option if JSON is array of arrays)</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hide-on-small-only a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_reddit"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_google_plus"></a>
+            <a class="a2a_button_pinterest"></a>
+        </div>
+    </div>
+    <!-- END: JSON Pane -->
+
+    <!-- START: Feedback Section -->
+    <div class="section no-pad-bot" id="feedback-section">
+        <div class="container">
+            <div class="row center">
+                <h3>
+                    Feedback
+                </h3>
+            </div>
+            <div class="row center">
+                Please give your valuable feedback/suggestions through <a href="https://twitter.com/excel_json" target="_blank">Twitter (@excel_json)</a>, or you can mail at <span class="chip">exceljson.app@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <!-- END: Feedback Section -->
+
+    <!-- START: Footer Pane -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l8 s12">
+                    <div class="col s12 thin-bottom-border">
+                        <h5 class="">About</h5>
+                        <p class="text-lighten-4">
+                            ExcelJSON is an utility tool to convert CSV, TSV to JSON, and JSON back to CSV, TSV. This tool is mobile friendly and uses browser's modern File API to read and process uploaded files, which is both fast and secure.
+                        </p>    
+                    </div>
+                    <div class="col s12">
+                        <h6 class="">Created By</h6>
+                        <h4 class="text-lighten-4">
+                            <a class="red-text text-lighten-4" href="http://palerdot.in" target="_blank">palerdot</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="col s12">
+                        <h5 class="">Contact</h5>
+                        <ul>
+                            <li><a class="" href="https://twitter.com/excel_json">Twitter</a></li>
+                            <li><a class="" href="mailto:exceljson.app@gmail.com">Email</a></li>
+                        </ul>    
+                    </div>
+                    <div class="col s12">
+                        <h5 class="">Partner Sites</h5>
+                        <ul>
+                            <li><a class="" href="http://hotcoldtyping.com">Hotcold Typing</a></li>
+                            <li><a class="" href="http://remindoro.com">Remindoro</a></li>
+                        </ul>    
+                    </div>
+                    <div class="col s12">
+                        <h5 class="">Share</h5>
+                        <!-- AddToAny BEGIN -->
+                        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                            <a class="a2a_button_facebook"></a>
+                            <a class="a2a_button_twitter"></a>    
+                            <a class="a2a_button_google_plus"></a>
+                            <a class="a2a_button_pinterest"></a>
+                            <a class="a2a_button_reddit"></a>
+                            <a class="a2a_button_linkedin"></a>
+                            <a class="a2a_button_wordpress"></a>
+                            <a class="a2a_button_whatsapp"></a>
+                        </div>
+                        <!-- AddToAny END -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made with 
+                    <a class="red-text text-lighten-3" href="https://vuejs.org/" target="_blank">VueJS</a>, 
+                    <a class="red-text text-lighten-3" href="https://d3js.org/" target="_blank">D3JS</a>,
+                    <a class="red-text text-lighten-3" href="http://materializecss.com" target="_blank">MaterializeCSS</a>. 
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer Pane -->
+
+    <!--  Scripts-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/filereader.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <!-- 
+    <script src="js/lodash.min.js"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/vue.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+    <script src="dist/exceljson.js"></script>
+
+    <script src="dist/google-analytics.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+</body>
+
+</html>
