@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
+    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="数据抽取错误文档更新">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/java/com/cenrise/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/resources/Js-xlsx_test02_chu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/resources/Js-xlsx_test02_ru.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/resources/Js-xlsx_test03_chu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/src/main/resources/Js-xlsx_test03_ru2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/html2canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/jquery.base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/jspdf/jspdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/jspdf/libs/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/jspdf/libs/sprintf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport-master/tableExport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/html2canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jquery.base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/jspdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/libs/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/tableExport.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/tableExport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tableExport.jquery.plugin-master/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/随行付设计文档.graffle" afterPath="$PROJECT_DIR$/CommonFiles/随行付设计文档.graffle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/pom.xml" afterPath="$PROJECT_DIR$/Test/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsontocsv/index.html" afterPath="$PROJECT_DIR$/jsontocsv/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,8 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +357,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="" />
@@ -345,7 +375,8 @@
       <workItem from="1510539577661" duration="171000" />
       <workItem from="1510629701653" duration="94000" />
       <workItem from="1510732232281" duration="131000" />
-      <workItem from="1510735147130" duration="24000" />
+      <workItem from="1510735147130" duration="100000" />
+      <workItem from="1512092416862" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -389,28 +420,35 @@
       <option name="project" value="LOCAL" />
       <updated>1510732345411</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jsontocsv">
+      <created>1510735204388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510735204388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1390000" />
+    <option name="totallyTimeSpent" value="2104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="957" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777116" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277311" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2741148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -438,13 +476,35 @@
     <MESSAGE value="最短路径" />
     <MESSAGE value="数据抽取部分的设计更新" />
     <MESSAGE value="excel,json转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel,json转换" />
+    <MESSAGE value="jsontocsv" />
+    <MESSAGE value="数据抽取错误文档更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据抽取错误文档更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
