@@ -34,7 +34,7 @@ import org.pentaho.di.core.exception.KettlePluginException;
 import org.pentaho.di.core.exception.KettleValueException;
 import org.pentaho.di.core.row.value.ValueMetaBase;
 import org.pentaho.di.core.row.value.ValueMetaFactory;
-import org.pentaho.di.i18n.BaseMessages;
+//import org.pentaho.di.i18n.BaseMessages;
 import org.w3c.dom.Node;
 
 /**
@@ -64,11 +64,11 @@ public class ValueMeta extends ValueMetaBase {
   /**
    * The trim description
    */
-  public static final String[] trimTypeDesc = {
-    BaseMessages.getString( PKG, "ValueMeta.TrimType.None" ),
-    BaseMessages.getString( PKG, "ValueMeta.TrimType.Left" ),
-    BaseMessages.getString( PKG, "ValueMeta.TrimType.Right" ),
-    BaseMessages.getString( PKG, "ValueMeta.TrimType.Both" ) };
+//  public static final String[] trimTypeDesc = {
+//    BaseMessages.getString( PKG, "ValueMeta.TrimType.None" ),
+//    BaseMessages.getString( PKG, "ValueMeta.TrimType.Left" ),
+//    BaseMessages.getString( PKG, "ValueMeta.TrimType.Right" ),
+//    BaseMessages.getString( PKG, "ValueMeta.TrimType.Both" ) };
 
   public static final String[] SINGLE_BYTE_ENCODINGS = new String[] {
     "ISO8859_1", "Cp1252", "ASCII", "Cp037", "Cp273", "Cp277", "Cp278", "Cp280", "Cp284", "Cp285", "Cp297",
