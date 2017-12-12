@@ -1,31 +1,13 @@
 package com.cenrise.source;
 
-import com.cenrise.database.meta.RowMetaInterface;
-import com.cenrise.database.meta.ValueMetaInterface;
-import com.cenrise.database.protocol.CDCEntry;
-import com.cenrise.exception.DGFValueException;
-import com.cenrise.source.variables.Variables;
-import com.cenrise.source.vfs.KettleVFS;
-import com.cenrise.util.Const;
-import com.tongtech.dgf.Context;
-import com.tongtech.dgf.DgfException;
-import com.tongtech.dgf.Event;
-import com.tongtech.dgf.EventDeliveryException;
-import com.tongtech.dgf.conf.Configurables;
-import com.tongtech.dgf.database.meta.RowDataUtil;
+import com.cenrise.RowDataUtil;
 import com.cenrise.database.meta.RowMeta;
 import com.cenrise.database.meta.RowMetaInterface;
 import com.cenrise.database.meta.ValueMeta;
 import com.cenrise.database.meta.ValueMetaInterface;
-import com.cenrise.database.protocol.CDCEntry.Column;
-import com.cenrise.database.protocol.CDCEntry.Entry;
-import com.cenrise.database.protocol.CDCEntry.EntryType;
-import com.cenrise.database.protocol.CDCEntry.Header;
-import com.cenrise.database.protocol.CDCEntry.RowChange;
-import com.cenrise.database.protocol.CDCEntry.RowData;
-import com.tongtech.dgf.database.util.SqlUtils;
-import com.tongtech.dgf.event.EventBuilder;
+import com.cenrise.database.protocol.CDCEntry;
 import com.cenrise.exception.DGFValueException;
+import com.cenrise.exception.DgfException;
 import com.cenrise.source.variables.Variables;
 import com.cenrise.source.vfs.KettleVFS;
 import com.cenrise.util.Const;
@@ -74,8 +56,7 @@ public class XMLSource {
     private CDCEntry.RowData.Builder rowDataBuilder = null;
     private CDCEntry.Column.Builder afterColumnBuilder = null;
 
-    @Override
-    protected Status doSchedule() throws EventDeliveryException {
+    protected void doSchedule()  {
         if (first && !meta.isInFields()) {// 第 一次处理，并且文件名称不是来自于字段
             first = false;
             data.files = meta.getFiles(new Variables());// 获取字段信息
@@ -120,7 +101,6 @@ public class XMLSource {
                 readover = false;
             }
         }
-        return Status.SUCCESS;
     }
 
     /**
@@ -152,10 +132,10 @@ public class XMLSource {
         rowChangBuilder = CDCEntry.RowChange.newBuilder();// 结果
 
         /** 构建RowData.Builder */
-		/* RowData.Builder */
+        /* RowData.Builder */
         rowDataBuilder = CDCEntry.RowData.newBuilder();
         rowDataBuilder.setTableName("XMLSource");// 抽取的表名称
-        rowDataBuilder.setEventType(SqlUtils.getEventTypeFromType("insert"));// 'delete'
+//        rowDataBuilder.setEventType(SqlUtils.getEventTypeFromType("insert"));// 'delete'
 
         while (va.hasNext()) {// 字段级处理
             i++;// 数据记录器，记录处理到哪个字段啦。
@@ -187,11 +167,11 @@ public class XMLSource {
 
         byte[] dataByte = entry.toByteArray();
         Map<String, String> header = new HashMap<String, String>();
-        header.put("batchId", getBatchId());
-        header.put("subBatchId", String.valueOf(getSubBatchId()));
-        Event e = EventBuilder.withBody(dataByte, header);
-        getChannelProcessor().processEvent(e);// 之后出现错误导致msg不能删除，此处已经sink处理掉，再次添加会出错.
-        rowChangBuilder = CDCEntry.RowChange.newBuilder();// 初始化rowchange
+//        header.put("batchId", getBatchId());
+//        header.put("subBatchId", String.valueOf(getSubBatchId()));
+//        Event e = EventBuilder.withBody(dataByte, header);
+//        getChannelProcessor().processEvent(e);// 之后出现错误导致msg不能删除，此处已经sink处理掉，再次添加会出错.
+//        rowChangBuilder = CDCEntry.RowChange.newBuilder();// 初始化rowchange
         /** 查询结束 */
 
     }
@@ -408,7 +388,6 @@ public class XMLSource {
         return RowDataUtil.allocateRowData(data.outputRowMeta.size());
     }
 
-    @Override
     protected void doStart() throws DgfException {
         // 启动前的准备
         try {
@@ -435,123 +414,6 @@ public class XMLSource {
 
     }
 
-    @Override
-    protected void doStop() throws DgfException {
-        logger.info("stop XMLSource.....");
-        stop = false;
-    }
-
-    // 常量
-    private static final String DOT = ".";
-    private static final String FILE = "file";
-    private static final String FIELD = "field";
-
-    public static final String XML_SOURCE_ENCODING = "encoding";
-    public static final String XML_SOURCE_LOOPXPATH = "loopXpath";
-    public static final String XML_SOURCE_FILENAME = "name";
-    public static final String XML_SOURCE_FILEMASK = "filemask";// 连接源的文件名称,如：mysql.ds
-    public static final String XML_SOURCE_EXCLUDEFILEMASK = "excludeFilemask";
-    public static final String XML_SOURCE_FILEREQUIRED = "fileRequired";
-    public static final String XML_SOURCE_INCLUDESUBFOLDERS = "includeSubfolders";
-
-    public static final String XML_SOURCE_FIELDNAME = "name";// 数据库中的类型
-    public static final String XML_SOURCE_XPATH = "xpath";// java.sql.Types
-    public static final String XML_SOURCE_ELEMENTTYPE = "elementType";
-    public static final String XML_SOURCE_RESULTTYPE = "resultType";// 字段数据库中的字段类型名字
-    public static final String XML_SOURCE_TYPE = "type";
-    public static final String XML_SOURCE_FORMAT = "format";
-    public static final String XML_SOURCE_LENGTH = "length";
-    public static final String XML_SOURCE_PRECISION = "precision";
-    public static final String XML_SOURCE_CURRENCYSYMBOL = "currencySymbol";
-    public static final String XML_SOURCE_DECIMALPOINTSYMBOL = "decimalPointSymbol";
-    public static final String XML_SOURCE_THOUSANDSEPARATOR = "thousandSeparator";
-    public static final String XML_SOURCE_TRIMTYPE = "trimType";
-
-    @Override
-    protected void doConfigure(Context context) throws DgfException {
-        // 数据配置
-        Configurables.ensureRequiredNonNull(context, XML_SOURCE_ENCODING);
-        String encoding = context.getString(XML_SOURCE_ENCODING);
-
-        Configurables.ensureRequiredNonNull(context, XML_SOURCE_LOOPXPATH);
-        String loopxpath = context.getString(XML_SOURCE_LOOPXPATH);
-
-        meta.setEncoding(encoding);
-        meta.setLoopXPath(loopxpath);
-
-        List<String> files = context.getNumberedKeys(FILE);
-        String fileNames[] = new String[files.size()];
-        String fileMask[] = new String[files.size()];
-        String excludeFileMask[] = new String[files.size()];
-        String fileRequired[] = new String[files.size()];
-        String includeSubFolders[] = new String[files.size()];
-        for (int i = 0; i < files.size(); i++) {
-            String file = files.get(i);
-            String name = file + DOT + XML_SOURCE_FILENAME;
-            String regexp = file + DOT + XML_SOURCE_FILEMASK;
-            String excluderegexp = file + DOT + XML_SOURCE_EXCLUDEFILEMASK;
-            String required = file + DOT + XML_SOURCE_FILEREQUIRED;
-            String includesubfolders = file + DOT
-                    + XML_SOURCE_INCLUDESUBFOLDERS;
-
-            fileNames[i] = context.getString(name);
-            fileMask[i] = context.getString(regexp);
-            excludeFileMask[i] = context.getString(excluderegexp);
-            fileRequired[i] = context.getString(required);
-            includeSubFolders[i] = context.getString(includesubfolders);
-        }
-
-        meta.setFileName(fileNames);
-        meta.setFileMask(fileMask);
-        meta.setExcludeFileMask(excludeFileMask);
-        meta.setFileRequired(fileRequired);
-        meta.setIncludeSubFolders(includeSubFolders);
-
-        List<String> fields = context.getNumberedKeys(FIELD);
-        XMLSourceField[] inputFields = new XMLSourceField[fields.size()];// 初始化XMLSourceField
-        for (int i = 0; i < fields.size(); i++) {
-            XMLSourceField field = new XMLSourceField();
-            String fieldStr = fields.get(i);
-            String fieldname = fieldStr + DOT + XML_SOURCE_FIELDNAME;
-            String xpath = fieldStr + DOT + XML_SOURCE_XPATH;
-            String elementtype = fieldStr + DOT + XML_SOURCE_ELEMENTTYPE;
-            String resulttype = fieldStr + DOT + XML_SOURCE_RESULTTYPE;
-            String type = fieldStr + DOT + XML_SOURCE_TYPE;
-            String format = fieldStr + DOT + XML_SOURCE_FORMAT;
-            String length = fieldStr + DOT + XML_SOURCE_LENGTH;
-
-            String precision = fieldStr + DOT + XML_SOURCE_PRECISION;
-            String currencysymbol = fieldStr + DOT + XML_SOURCE_CURRENCYSYMBOL;
-            String decimalpointsymbol = fieldStr + DOT
-                    + XML_SOURCE_DECIMALPOINTSYMBOL;
-            String thousandseparator = fieldStr + DOT
-                    + XML_SOURCE_THOUSANDSEPARATOR;
-            String trimtype = fieldStr + DOT + XML_SOURCE_TRIMTYPE;
-
-            field.setName(context.getString(fieldname));
-            field.setXpath(context.getString(xpath));
-            field.setElementtype(context.getInteger(elementtype));
-            field.setResultType(context.getInteger(resulttype));
-            field.setType(context.getInteger(type));
-            field.setFormat(context.getString(format));
-
-            field.setLength(context.getInteger(length) == null ? 0 : context
-                    .getInteger(length));
-            field.setPrecision(context.getInteger(precision) == null ? 0
-                    : context.getInteger(precision));
-            field.setCurrencySymbol(context.getString(currencysymbol) == null ? ""
-                    : context.getString(currencysymbol));
-            field.setDecimalPointSymbol(context.getString(decimalpointsymbol) == null ? ""
-                    : context.getString(decimalpointsymbol));
-            field.setThousandSeparator(context.getString(thousandseparator) == null ? ""
-                    : context.getString(thousandseparator));
-            field.setTrimtype(context.getInteger(trimtype) == null ? 0
-                    : context.getInteger(trimtype));
-            inputFields[i] = field;
-        }
-        meta.setInputFields(inputFields);
-
-    }
 
     private String[] Xpaths;
     //	private String filename = "D:\\test\\demo.xml";

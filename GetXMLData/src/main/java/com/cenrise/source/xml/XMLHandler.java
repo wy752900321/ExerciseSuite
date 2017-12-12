@@ -35,6 +35,7 @@ import java.util.zip.GZIPOutputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import com.cenrise.exception.DgfException;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.vfs.FileObject;
 import org.apache.commons.vfs.FileSystemException;
@@ -46,7 +47,6 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 
-import com.tongtech.dgf.DgfException;
 import com.cenrise.database.meta.ValueMeta;
 import com.cenrise.exception.DGFXMLException;
 import com.cenrise.source.vfs.KettleVFS;

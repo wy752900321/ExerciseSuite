@@ -11,8 +11,8 @@
  
 package com.cenrise.source.xml;
 
-import com.tongtech.dgf.DgfException;
 
+import com.cenrise.exception.DgfException;
 
 /**
  * Implementing classes of this interface know how to express themselves using XML
