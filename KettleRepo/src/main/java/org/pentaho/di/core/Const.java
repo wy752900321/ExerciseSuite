@@ -2882,7 +2882,7 @@ public class Const {
    *
    * @return
    */
-  public static String[] getDateFormats() {
+  /*public static String[] getDateFormats() {
     if ( dateFormats == null ) {
       int dateFormatsCount = toInt( BaseMessages.getString( PKG, "Const.DateFormat.Count" ), 0 );
       dateFormats = new String[dateFormatsCount];
@@ -2891,14 +2891,14 @@ public class Const {
       }
     }
     return dateFormats;
-  }
+  }*/
 
   /**
    * Returning the localized number conversion formats. They get created once on first request.
    *
    * @return
    */
-  public static String[] getNumberFormats() {
+  /*public static String[] getNumberFormats() {
     if ( numberFormats == null ) {
       int numberFormatsCount = toInt( BaseMessages.getString( PKG, "Const.NumberFormat.Count" ), 0 );
       numberFormats = new String[numberFormatsCount + 1];
@@ -2908,7 +2908,7 @@ public class Const {
       }
     }
     return numberFormats;
-  }
+  }*/
 
   /**
    * @return An array of all default conversion formats, to be used in dialogs etc.
@@ -2928,7 +2928,7 @@ public class Const {
     return formats;
   }
 
-  public static String[] getTransformationAndJobFilterNames() {
+  /*public static String[] getTransformationAndJobFilterNames() {
     if ( STRING_TRANS_AND_JOB_FILTER_NAMES == null ) {
       STRING_TRANS_AND_JOB_FILTER_NAMES =
         new String[] {
@@ -2961,7 +2961,7 @@ public class Const {
           BaseMessages.getString( PKG, "Const.FileFilter.All" ) };
     }
     return STRING_JOB_FILTER_NAMES;
-  }
+  }*/
 
   /**
    * Return the current time as nano-seconds.
@@ -3349,7 +3349,7 @@ public class Const {
     return FontName;
   }
 
-  public static String getKettlePropertiesFileHeader() {
+  /*public static String getKettlePropertiesFileHeader() {
     StringBuilder out = new StringBuilder();
 
     out.append( BaseMessages.getString( PKG, "Props.Kettle.Properties.Sample.Line01", BuildVersion
@@ -3366,7 +3366,7 @@ public class Const {
     out.append( BaseMessages.getString( PKG, "Props.Kettle.Properties.Sample.Line10" ) + CR );
 
     return out.toString();
-  }
+  }*/
 
   /**
    * Mask XML content. i.e. protect with CDATA;
@@ -3521,7 +3521,7 @@ public class Const {
     return clazz.equals( superClass ) || classIsOrExtends( clazz.getSuperclass(), superClass );
   }
 
-  public static String getDeprecatedPrefix() {
-    return " " + BaseMessages.getString( PKG, "Const.Deprecated" );
-  }
+//  public static String getDeprecatedPrefix() {
+//    return " " + BaseMessages.getString( PKG, "Const.Deprecated" );
+//  }
 }
