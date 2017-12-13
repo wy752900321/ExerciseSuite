@@ -12,15 +12,7 @@
 */
 package com.cenrise.source.vfs;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.util.Comparator;
-
+import com.cenrise.exception.DGFFileException;
 import com.cenrise.source.variables.VariableSpace;
 import com.cenrise.source.variables.Variables;
 import com.cenrise.util.Const;
@@ -36,10 +28,14 @@ import org.apache.commons.vfs.impl.DefaultFileSystemManager;
 import org.apache.commons.vfs.impl.StandardFileSystemManager;
 import org.apache.commons.vfs.provider.local.LocalFile;
 
-import com.cenrise.exception.DGFFileException;
-import com.cenrise.source.variables.VariableSpace;
-import com.cenrise.source.variables.Variables;
-import com.cenrise.util.Const;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.util.Comparator;
 
 //import org.pentaho.di.core.EngineMetaInterface;
 

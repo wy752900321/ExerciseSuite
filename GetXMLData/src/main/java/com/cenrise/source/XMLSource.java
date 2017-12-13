@@ -2,10 +2,8 @@ package com.cenrise.source;
 
 import com.cenrise.RowDataUtil;
 import com.cenrise.database.meta.RowMeta;
-import com.cenrise.database.meta.RowMetaInterface;
 import com.cenrise.database.meta.ValueMeta;
 import com.cenrise.database.meta.ValueMetaInterface;
-import com.cenrise.database.protocol.CDCEntry;
 import com.cenrise.exception.DGFValueException;
 import com.cenrise.exception.DgfException;
 import com.cenrise.source.variables.Variables;
@@ -30,8 +28,6 @@ import java.io.StringReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -50,13 +46,8 @@ public class XMLSource {
     boolean stop = false;
     boolean readover = false;// 未读完或者刚开始读
 
-    private CDCEntry.Entry.Builder entryBuilder = null;
-    private CDCEntry.Header.Builder headerBuilder = null;
-    private CDCEntry.RowChange.Builder rowChangBuilder = null;
-    private CDCEntry.RowData.Builder rowDataBuilder = null;
-    private CDCEntry.Column.Builder afterColumnBuilder = null;
 
-    protected void doSchedule()  {
+    protected void doSchedule() {
         if (first && !meta.isInFields()) {// 第 一次处理，并且文件名称不是来自于字段
             first = false;
             data.files = meta.getFiles(new Variables());// 获取字段信息
@@ -88,7 +79,7 @@ public class XMLSource {
                     // putRow(data.outputRowMeta, outputRowData);
                     // incrementLinesInput();
 
-                    putDataToChannel(outputRowData);// 放入Channel中
+//                    putDataToChannel(outputRowData);// 放入Channel中
 
                     data.previousRow = data.outputRowMeta
                             .cloneRow(outputRowData);
@@ -103,78 +94,6 @@ public class XMLSource {
         }
     }
 
-    /**
-     * 数据处理，放入Channel中
-     */
-    private void putDataToChannel(Object[] outputRowData) {
-        // TODO Auto-generated method stub
-        RowMetaInterface rowMetaInterface = data.outputRowMeta;// 数据类型
-        Object[] rowMetaData = outputRowData;// 数据
-        List<ValueMetaInterface> valueMeta = rowMetaInterface
-                .getValueMetaList();
-        Iterator<ValueMetaInterface> va = valueMeta.iterator();
-        int i = 0;
-
-        /** Entry实体构建类 */
-        /* Entry.Builder */
-        entryBuilder = CDCEntry.Entry.newBuilder();
-        /* Header.Builder */
-        headerBuilder = CDCEntry.Header.newBuilder();// 头
-        // 头开始
-        headerBuilder.setEnCoding("utf-8");
-        headerBuilder.setEntryType(CDCEntry.EntryType.ROWDATA);
-        entryBuilder.setHeader(headerBuilder.build());
-        // 头结束
-
-        /** 构建RowChange.Builder */
-        // rowchange开始
-        /* RowChange.Builder */
-        rowChangBuilder = CDCEntry.RowChange.newBuilder();// 结果
-
-        /** 构建RowData.Builder */
-        /* RowData.Builder */
-        rowDataBuilder = CDCEntry.RowData.newBuilder();
-        rowDataBuilder.setTableName("XMLSource");// 抽取的表名称
-//        rowDataBuilder.setEventType(SqlUtils.getEventTypeFromType("insert"));// 'delete'
-
-        while (va.hasNext()) {// 字段级处理
-            i++;// 数据记录器，记录处理到哪个字段啦。
-            ValueMetaInterface valueMetaInterface = va.next();
-            String columnName = valueMetaInterface.getName();// 字段名
-            int sqlTypes = valueMetaInterface.getType();// java.sql.Types
-
-			/* Column.Builder */
-            afterColumnBuilder = CDCEntry.Column.newBuilder();
-            afterColumnBuilder.setName(columnName);
-            afterColumnBuilder.setSqlType(sqlTypes);
-            afterColumnBuilder.setUpdated(true);
-            afterColumnBuilder.setIsNull(true);
-            afterColumnBuilder.setIsKey(false);
-            /** 根据类型填充数据开始 */
-            afterColumnBuilder.setValue(String
-                    .valueOf(rowMetaData[i] == null ? "" : rowMetaData[i]));
-            /** 根据类型填充数据结束 */
-
-            // 添加构建好的AfterColumn内容到rowDataBuilder中
-            rowDataBuilder.addAfterColumns(afterColumnBuilder.build());
-        }
-        rowChangBuilder.addRowDatas(rowDataBuilder.build());
-
-        // 添加到集合
-        entryBuilder.setRowChange(rowChangBuilder.build());
-        CDCEntry.Entry entry = entryBuilder.build();
-        logger.debug("Entry信息：" + entry);
-
-        byte[] dataByte = entry.toByteArray();
-        Map<String, String> header = new HashMap<String, String>();
-//        header.put("batchId", getBatchId());
-//        header.put("subBatchId", String.valueOf(getSubBatchId()));
-//        Event e = EventBuilder.withBody(dataByte, header);
-//        getChannelProcessor().processEvent(e);// 之后出现错误导致msg不能删除，此处已经sink处理掉，再次添加会出错.
-//        rowChangBuilder = CDCEntry.RowChange.newBuilder();// 初始化rowchange
-        /** 查询结束 */
-
-    }
 
     /**
      * 标识是否还有数据需要处理
@@ -234,8 +153,6 @@ public class XMLSource {
             InputSource source = new InputSource(r);
             data.saxParser.parse(source, data.xmlHandler);
             data.rowList = data.xmlHandler.getList();
-            // AddAdditionalFields(data.file);// 是否添加附加字段
-            // addFileToResultFilesname(data.file);// 是否添加到结果文件名列表
         } catch (Exception e) {
             // TODO
             logger.error("" + e);
