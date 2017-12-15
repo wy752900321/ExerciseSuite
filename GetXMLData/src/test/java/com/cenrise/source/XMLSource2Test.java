@@ -7,7 +7,6 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.Namespace;
 import org.dom4j.Node;
-import org.dom4j.XPath;
 import org.dom4j.io.SAXReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -49,14 +48,9 @@ public class XMLSource2Test {
     public static void main(String[] args) {
 
         try {
-            String url = "/Users/jiadongpo/Downloads/SychAddData.xml";
-            String url2 = "/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb";
-
-            InputStream inputStream = KettleVFS.getInputStream(url);
-
 
             XMLSource2Test xmlSourceTest = new XMLSource2Test();
-            xmlSourceTest.execute();
+            xmlSourceTest.execute2();
 
             String[] loopPathList = xmlSourceTest.getLoopPathList("/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb");
             System.out.println(loopPathList.length);
@@ -68,6 +62,35 @@ public class XMLSource2Test {
             e.printStackTrace();
         }
 
+    }
+
+    public void execute2() {
+        String url = "/Users/jiadongpo/Downloads/SychAddData.xml";
+        //String url2 = "/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb";
+
+        SAXReader reader = new SAXReader();
+        Document document = null;
+        try {
+
+            if (!Const.isEmpty(url)) {
+                InputStream is = KettleVFS.getInputStream(url);
+                document = reader.read(is, encoding);
+            } else {
+                if (!Const.isEmpty(xml)) {
+                    document = reader.read(new StringReader(xml));
+                } else {
+                    document = reader.read(new URL(url));
+                }
+            }
+        } catch (Exception e) {
+
+        }
+//        SAXReader saxReader = new SAXReader();
+//        Document document = saxReader.read(inputStream);
+//        List<Node> nodes = document.selectNodes(document.getRootElement().getName());
+        List<Node> nodes = document.selectNodes("job/entries/entry");
+
+        parse(nodes);
     }
 
     public void execute() throws IOException, SAXException, DocumentException {
@@ -84,39 +107,44 @@ public class XMLSource2Test {
         List<String> attNames = null;
         xmlHandler = new XMLSourceHandler(loopxpath, tagNames,
                 attNames);
+    }
 
 
-        String url = "/Users/jiadongpo/Downloads/SychAddData.xml";
-        String url2 = "/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb";
+    public void parse(List<Node> nodes) {
+        for (Node node : nodes) {
+            if (node.getNodeType() == Node.ANY_NODE) {
+                System.out.println("====ANY====");
 
-//        InputStream inputStream = KettleVFS.getInputStream(url);
-//        InputStreamReader inputStreamReader2 = new InputStreamReader(inputStream,
-//                "UTF-8");
-//
-        SAXReader reader = new SAXReader();
-        InputStream is = null;
-        Document document = null;
-        try {
-
-            if (!Const.isEmpty(url)) {
-                is = KettleVFS.getInputStream(url);
-                document = reader.read(is, encoding);
-            } else {
-                if (!Const.isEmpty(xml)) {
-                    document = reader.read(new StringReader(xml));
-                } else {
-                    document = reader.read(new URL(url));
+            } else if (node.getNodeType() == Node.ELEMENT_NODE) {
+                List<Node> nodesNOne = node.selectNodes("name");
+                if (nodesNOne != null && nodesNOne.size() > 0) {
+                    parse(nodesNOne);
                 }
+
+                System.out.println("====元素====");
+            } else if (node.getNodeType() == Node.ATTRIBUTE_NODE) {
+                System.out.println("====属性====");
+            } else if (node.getNodeType() == Node.TEXT_NODE) {
+                System.out.println("====元素或属性中的文本内容====");
+
+            } else if (node.getNodeType() == Node.CDATA_SECTION_NODE) {
+                System.out.println("====文档中的 CDATA 部分====");
+
+
+            } else if (node.getNodeType() == Node.ENTITY_REFERENCE_NODE) {
+                System.out.println("====实体引用====");
+
             }
-        } catch (Exception e) {
-
         }
-//        SAXReader saxReader = new SAXReader();
-//        Document document = saxReader.read(inputStream);
-        prepareNSMap(document.getRootElement());
-        System.out.println(NAMESPACE.size());
-        System.out.println(NSPath.size());
+    }
 
+    /**
+     * 测试一上xmlHandler
+     *
+     * @throws IOException
+     * @throws SAXException
+     */
+    public void testHan() throws IOException, SAXException {
         FileInputStream inputStream = new FileInputStream("/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb");
         PushbackReader r = new PushbackReader(new InputStreamReader(inputStream,
                 "UTF-8"));
@@ -130,7 +158,6 @@ public class XMLSource2Test {
         saxParser.parse(source, xmlHandler);
         List<Map<String, String>> rowList = xmlHandler.getList();
     }
-
 
     public Map<String, String> NAMESPACE = new HashMap<String, String>();
     public List<String> NSPath = new ArrayList<String>();

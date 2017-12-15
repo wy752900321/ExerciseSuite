@@ -35,7 +35,7 @@ public class XMLSourceHandler extends DefaultHandler {
         this.attNames = attNames;
     }
 
-    public XMLSourceHandler(String nodeName) {
+    public XMLSourceHandler() {
         this.nodeName = nodeName;
     }
 
