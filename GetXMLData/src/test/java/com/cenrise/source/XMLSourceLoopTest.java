@@ -14,6 +14,7 @@ import java.io.InputStream;
 import java.io.StringReader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -29,18 +30,36 @@ public class XMLSourceLoopTest {
     private static final Logger logger = LoggerFactory.getLogger(XMLSourceLoopTest.class);
 
 
+    public XMLSourceLoopTest(String filename) {
+        this.filename = filename;
+    }
+
     public static void main(String[] args) throws Exception {
-        XMLSourceLoopTest xmlSource3Test = new XMLSourceLoopTest();
-        xmlSource3Test.open();
+        XMLSourceLoopTest xmlSource3Test = new XMLSourceLoopTest("/Users/jiadongpo/Downloads/SychAddData.xml");
+        List<String> strings = xmlSource3Test.queryXpath("/job/entries/entry");
+        System.out.println(strings.size());
     }
 
     private String[] Xpaths;
-    private String filename = "/Users/jiadongpo/Downloads/SychAddData.xml";
+    private String filename;
     private String xml;
     private String url;
     private String encoding = "UTF-8";
     private ArrayList<String> listpath = new ArrayList<String>();
     private int nr;
+
+    /**
+     * 查指定前缀的xpath
+     *
+     * @param xpath
+     * @return
+     */
+    public List<String> queryXpath(String xpath) {
+        String[] xpathArray = open();
+        List<String> stringList = Arrays.asList(xpathArray);
+        return getNumberedKeys2(stringList, xpath);
+
+    }
 
     public String[] open() {
         try {
@@ -165,6 +184,45 @@ public class XMLSourceLoopTest {
                 }
             }
         }
+    }
+
+    /**
+     * 根据给定的前缀，获得该前缀的带序号的key
+     *
+     * @param prefix
+     * @return
+     */
+    public List<String> getNumberedKeys(List<String> parameters, String prefix) {
+        List<String> numberedKeys = new ArrayList<String>();
+        if (parameters != null) {
+            for (String pkey : parameters) {
+                if (pkey.startsWith(prefix)) {
+                    numberedKeys.add(pkey);
+                }
+            }
+        }
+        return numberedKeys;
+    }
+
+    /**
+     * 根据给定的前缀，获得该前缀的带序号的key
+     *
+     * @param prefix
+     * @return
+     */
+    public List<String> getNumberedKeys2(List<String> parameters, String prefix) {
+        List<String> numberedKeys = new ArrayList<String>();
+        if (parameters != null) {
+            for (String pkey : parameters) {
+                if (pkey.startsWith(prefix)) {
+                    if (prefix.equals(pkey)) {
+                        continue;
+                    }
+                    numberedKeys.add(pkey.replace(prefix + "/", ""));
+                }
+            }
+        }
+        return numberedKeys;
     }
 
     IProgressMonitor monitor = new IProgressMonitor() {

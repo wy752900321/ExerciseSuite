@@ -50,7 +50,7 @@ public class XMLSource2Test {
         try {
 
             XMLSource2Test xmlSourceTest = new XMLSource2Test();
-            xmlSourceTest.execute2();
+            xmlSourceTest.execute();
 
             String[] loopPathList = xmlSourceTest.getLoopPathList("/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb");
             System.out.println(loopPathList.length);
@@ -64,33 +64,31 @@ public class XMLSource2Test {
 
     }
 
-    public void execute2() {
-        String url = "/Users/jiadongpo/Downloads/SychAddData.xml";
-        //String url2 = "/Users/jiadongpo/Documents/VbillRepo/increment/T_SES_PAY_ORD_OPT_HIS/SychAddData.kjb";
-
+    /**
+     * 读取xml
+     *
+     * @param filename
+     * @return
+     */
+    public Document queryDocument(String filename) {
         SAXReader reader = new SAXReader();
         Document document = null;
         try {
 
-            if (!Const.isEmpty(url)) {
-                InputStream is = KettleVFS.getInputStream(url);
+            if (!Const.isEmpty(filename)) {
+                InputStream is = KettleVFS.getInputStream(filename);
                 document = reader.read(is, encoding);
             } else {
                 if (!Const.isEmpty(xml)) {
                     document = reader.read(new StringReader(xml));
                 } else {
-                    document = reader.read(new URL(url));
+                    document = reader.read(new URL(filename));
                 }
             }
         } catch (Exception e) {
 
         }
-//        SAXReader saxReader = new SAXReader();
-//        Document document = saxReader.read(inputStream);
-//        List<Node> nodes = document.selectNodes(document.getRootElement().getName());
-        List<Node> nodes = document.selectNodes("job/entries/entry");
-
-        parse(nodes);
+        return document;
     }
 
     public void execute() throws IOException, SAXException, DocumentException {

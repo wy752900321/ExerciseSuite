@@ -55,9 +55,9 @@ public class XMLSource3Test {
 
     public void execute() throws DocumentException {
         SAXReader reader = XMLParserFactoryProducer.getSAXReader(null);
-        // Ignore DTD declarations
+        // 跳过DTD
         reader.setEntityResolver(new IgnoreDTDEntityResolver());
-        // Ignore comments?
+        // 跳过注释
         reader.setIgnoreComments(true);
         reader.addHandler(PathValue, new ElementHandler() {
             public void onStart(ElementPath path) {
@@ -184,4 +184,5 @@ public class XMLSource3Test {
             prepareNSMap(e);
         }
     }
+
 }
