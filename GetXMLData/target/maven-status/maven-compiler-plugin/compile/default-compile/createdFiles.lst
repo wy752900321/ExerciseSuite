@@ -27,6 +27,7 @@ com/cenrise/database/meta/RowMeta.class
 com/cenrise/exception/DGFDatabaseException.class
 com/cenrise/util/UnsafeStringWriter.class
 com/cenrise/source/xml/XMLCheck$XMLTreeHandler.class
+com/cenrise/util/Utils.class
 com/cenrise/RowDataUtil.class
 com/cenrise/source/xml/XMLHandlerCache.class
 com/cenrise/source/xml/XMLSourceHandler.class

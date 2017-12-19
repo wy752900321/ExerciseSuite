@@ -1,12 +1,12 @@
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/database/meta/ValueException.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/xml/XMLCheck.java
+/Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/util/Utils.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/vfs/KettleGenericFileSystemConfigBuilder.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/XMLSourceData.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/xml/XMLSourceHandler.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/vfs/IKettleFileSystemConfigBuilder.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/vfs/KettleSftpFileSystemConfigBuilder.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/exception/DGFDatabaseException.java
-/Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/database/protocol/CDCEntry.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/vfs/KettleFileSystemConfigBuilderFactory.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/source/xml/XMLSourceField.java
 /Users/jiadongpo/Workspaces/GithubJiadongpo/ExerciseSuite/GetXMLData/src/main/java/com/cenrise/util/Value.java
