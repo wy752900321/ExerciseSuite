@@ -2,332 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/f_sequenceFlow/sequenceFlow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/i_start/start.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/j_receiveTask/receiveTask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/m_groupUser/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/diagrams/helloworld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/diagrams/processVariables.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/f_sequenceFlow/sequenceFlow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/h_parallelGateWay/parallelGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/i_start/start.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/j_receiveTask/receiveTask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/m_groupUser/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/diagrams/helloworld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/diagrams/processVariables.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/addMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/b-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/button_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/del.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/dl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/openMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/pass.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/quit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/sj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tab_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/addMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/b-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/button_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/del.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/dl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/login_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_34_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/main_74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/openMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/pass.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/quit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/sj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/tab_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/images/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/a_helloworld/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/b_processDefinition/ProcessDefinitionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/c_processInstance/ProcessInstanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/d_processVariables/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/d_processVariables/ProcessVariablesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/e_historyQuery/HistoryQueryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/f_sequenceFlow/SequenceFlowTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/f_sequenceFlow/sequenceFlow.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/g_exclusiveGateWay/ExclusiveGateWayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/h_parallelGateWay/ParallelGateWayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/i_start/StartTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/i_start/start.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/j_receiveTask/ReceiveTaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/j_receiveTask/receiveTask.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask02/TaskListenerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask02/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/k_personalTask02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group02/TaskListenerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group02/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/l_group02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/m_groupUser/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/m_groupUser/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/diagrams/helloworld.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/diagrams/processVariables.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/src/test/java/junit/TestActiviti.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/activiti.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/f_sequenceFlow/sequenceFlow.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/i_start/start.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/j_receiveTask/receiveTask.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/m_groupUser/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/diagrams/helloworld.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/diagrams/processVariables.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/.jsdtscope" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.component" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/input.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/task.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskFormHis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/workflow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/commons.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/resource/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/IEmployeeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/ILeaveBillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IEmployeeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/ILeaveBillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IWorkflowService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/LoginInteceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/SessionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ValueContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LeaveBillAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/WorkflowAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/form/WorkflowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/.jsdtscope" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/org.eclipse.wst.common.component" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/class/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/leaveBill/input.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/leaveBill/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/workflow/task.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/workflow/taskForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/workflow/taskFormHis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/views/workflow/workflow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/js/commons.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/js/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/WebContent/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/dao/IEmployeeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/dao/ILeaveBillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/domain/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/domain/LeaveBill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/IEmployeeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/ILeaveBillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/IWorkflowService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/utils/LoginInteceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/utils/SessionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/utils/ValueContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/web/action/LeaveBillAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/web/action/WorkflowAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/src/cn/itcast/ssh/web/form/WorkflowBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/db.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -388,15 +64,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#339#340#0" expanded="false" />
-                <element signature="e#372#373#0" expanded="false" />
-                <element signature="e#473#474#0" expanded="false" />
-                <element signature="e#526#527#0" expanded="false" />
-                <element signature="e#601#602#0" expanded="false" />
-                <element signature="e#635#636#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -583,8 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -613,6 +279,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -1095,7 +763,8 @@
       <workItem from="1512928573434" duration="274000" />
       <workItem from="1513087676537" duration="108000" />
       <workItem from="1513088372292" duration="4000" />
-      <workItem from="1513870476562" duration="114000" />
+      <workItem from="1513870476562" duration="244000" />
+      <workItem from="1513873444031" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -1174,11 +843,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513087771955</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="activiti学习">
+      <created>1513870749706</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1513870749706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3575000" />
+    <option name="totallyTimeSpent" value="3730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1204,7 +880,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31089258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31543118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1235,7 +911,8 @@
     <MESSAGE value="azkaban设计" />
     <MESSAGE value="故障排查" />
     <MESSAGE value="解析xml初步" />
-    <option name="LAST_COMMIT_MESSAGE" value="解析xml初步" />
+    <MESSAGE value="activiti学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="activiti学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1258,15 +935,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,15 +951,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,15 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,15 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,15 +999,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,15 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,15 +1031,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,15 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,15 +1063,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,15 +1071,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,15 +1095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,15 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,15 +1127,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,15 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1594,15 +1159,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,15 +1175,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,15 +1191,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1666,15 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,15 +1223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1714,15 +1239,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,15 +1255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1768,15 +1277,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
