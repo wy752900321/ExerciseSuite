@@ -14,6 +14,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 读取ktr
+ */
 public class XMLSourceTest {
     public static final int RESULT_TYPE_VALUE_OF = 0;
     public static final int RESULT_TYPE_TYPE_SINGLE_NODE = 1;

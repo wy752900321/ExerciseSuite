@@ -2,7 +2,7 @@ package com.cenrise.azkaban;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.cenrise.utils.xml.sax.SaxService;
+import com.cenrise.source.XMLSourceTest;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 
@@ -14,7 +14,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
@@ -24,7 +23,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class AzkabanUtilLocal {
-    private Logger logger = Logger.getLogger(AzkabanUtilLocal.class);
+    private static Logger logger = Logger.getLogger(AzkabanUtilLocal.class);
     Connection conn = null;
     PreparedStatement pre = null;
     ResultSet rs = null;
@@ -41,6 +40,9 @@ public class AzkabanUtilLocal {
             for (Project project : projectsList) {
                 int projectId = project.getId();
                 int version = project.getVersion();
+
+                logger.info("项目id[" + project.getId() + "]，" + "项目名称[" + project.getName() + "]，" + "版本[" + project.getVersion() + "]");
+
                 //依赖关系
                 List<Flow> flowList = azkabanUtil.queryProjectFlows(projectId, version);
                 for (Flow flow : flowList) {
@@ -55,6 +57,8 @@ public class AzkabanUtilLocal {
                     for (Edge edge : edges) {
                         String sourceId = edge.getSourceId();
                         String targetId = edge.getTargetId();
+
+                        logger.info("源id[" + sourceId + "]，" + "目标id[" + targetId + "]");
 
                         Connection connectionDPPro = DBUtilDPPro.openConnection();
                         String sql = "INSERT INTO debug_azkaban_edge(id,source_name,target_name) VALUES (UUID(),'" + sourceId + "','" + targetId + "')";
@@ -72,8 +76,10 @@ public class AzkabanUtilLocal {
                 }
             }
         } catch (SQLException e) {
+            logger.error(e);
             e.printStackTrace();
         } catch (Exception e) {
+            logger.error(e);
             e.printStackTrace();
         }
 
@@ -113,8 +119,10 @@ public class AzkabanUtilLocal {
                 continue;
             }
 
+            logger.info("azkaban节点的命令[" + filePath + "]");
             //路径转换为本地
             filePath = transPath(filePath);
+            logger.info("azkaban节点的命令,本地[" + filePath + "]");
 
             File file = new File(filePath);
             processOneFile(file, azkabanUtil);
@@ -130,8 +138,11 @@ public class AzkabanUtilLocal {
      * @return
      */
     private String transPath(String filePath) {
-        String realSftpDirString = "/home/appgroup/kettle/pdi-ce-5.0.1.A-stable/data-integration/MyKtrs";
-        String realSftpDirStringLocal = "/Users/jiadongpo/Documents/VbillRepo";
+//        String realSftpDirString = "/home/appgroup/kettle/pdi-ce-5.0.1.A-stable/data-integration/MyKtrs";
+//        String realSftpDirStringLocal = "/Users/jiadongpo/Downloads/KettleMeta/VbillRepo";
+
+        String realSftpDirString = "/home/app/ETLdata/pdi-ce-7.1/data-integration/MyKtrs";
+        String realSftpDirStringLocal = "/Users/jiadongpo/Downloads/KettleMeta/VbillRepo_20171225";
         return filePath.replace(realSftpDirString, realSftpDirStringLocal);
     }
 
@@ -150,22 +161,31 @@ public class AzkabanUtilLocal {
         File fileEle = new File(parentPath + "/" + fileName);
 
         if (fileEle == null || !fileEle.exists()) {
+            logger.warn("未找到文件[" + fileEle.getAbsolutePath() + "]");
             return;
         }
 
-        System.out.println("当前正在处理的文件为：" + fileEle.getAbsolutePath());
+        logger.info("当前正在处理的文件为[" + fileEle.getAbsolutePath() + "]");
 
         //策略是只读sql执行器组件和存储过程，其它的只记录转换名
 
         //读取指定文件中的指定节点
-        ArrayList<Map<String, String>> entryList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "entry");
+        /*ArrayList<Map<String, String>> entryList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "entry");
         ArrayList<Map<String, String>> hopList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "hop");
-        ArrayList<Map<String, String>> stepList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "step");
+        ArrayList<Map<String, String>> stepList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "step");*/
+
+        XMLSourceTest xmlSource = new XMLSourceTest();
+        List<Map<String, String>> entryList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/entries/entry");
+        List<Map<String, String>> hopList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/hops/hop");
+        List<Map<String, String>> stepList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/steps/step");
 
         //kettle文件内部的顺序关系
         for (Map<String, String> hopMap : hopList) {
             String from = hopMap.get("from");
             String to = hopMap.get("to");
+
+            logger.info("from[" + from + "]，" + "to[" + to + "]");
+
             Map<String, String> entryMapFrom = azkabanUtil.queryEntry(entryList, from);
             Map<String, String> entryMapTo = azkabanUtil.queryEntry(entryList, to);
             //这里考虑到需要记录上下节点，且必须为转换时记录，所以采用记录上下节点的方式，如果上节点不为空，添加到下节点，然后插入数据后，清空节点。
@@ -174,7 +194,7 @@ public class AzkabanUtilLocal {
         }
 
         if (fileEle != null && fileEle.exists()) {
-            fileEle.delete();
+//            fileEle.delete();
         }
 
     }
@@ -207,7 +227,7 @@ public class AzkabanUtilLocal {
      * @param entryMap
      * @param stepList
      */
-    public void exeKettle(Map<String, String> entryMap, ArrayList<Map<String, String>> stepList, File fileEle, AzkabanUtilLocal azkabanUtil) throws Exception {
+    public void exeKettle(Map<String, String> entryMap, List<Map<String, String>> stepList, File fileEle, AzkabanUtilLocal azkabanUtil) throws Exception {
 
         //开始，转换类型
         String fileType = entryMap.get("type");
@@ -220,6 +240,7 @@ public class AzkabanUtilLocal {
             String name = entryMap.get("name");//用DB存储过程
             String connection = entryMap.get("connection");//163生产查询
             String procedure = entryMap.get("procedure");//proc_miantableName_PrevNext
+            logger.info("存储过程.........，名称[" + name + "]，连接[" + connection + "]，" + "存储过程[" + procedure + "]");
             JSONObject jsonObject = kettleNode(name, null, null, procedure, connection);
             placeNode(jsonObject);
 
@@ -229,6 +250,7 @@ public class AzkabanUtilLocal {
             //String type = entryMap.get("type");//ExecSQL
             String connection = entryMap.get("connection");//生产123
             String sql = entryMap.get("sql");//select * from dual
+            logger.info("执行SQL.........，名称[" + name + "]，连接[" + connection + "]，" + "sql[" + sql + "]");
             Set<String> setStr = new HashSet<String>();
             setStr.add(sql);
             JSONObject jsonObject = kettleNode(name, connection, setStr, null, null);
@@ -244,7 +266,7 @@ public class AzkabanUtilLocal {
             }
             String parent = fileEle.getParent();
             //转换一下
-            directory.replace("${Internal.Job.Filename.Directory}","");
+            directory.replace("${Internal.Job.Filename.Directory}", "");
             String dir = parent + "/" + directory;
 
             //根据文件名和路径获取文件
@@ -719,7 +741,7 @@ public class AzkabanUtilLocal {
     }
 
 
-    public Map<String, String> queryEntry(ArrayList<Map<String, String>> entryList, String entryName) {
+    public Map<String, String> queryEntry(List<Map<String, String>> entryList, String entryName) {
         for (Map<String, String> entryMap : entryList) {
             String name = entryMap.get("name");
             if (name.equals(entryName)) {
