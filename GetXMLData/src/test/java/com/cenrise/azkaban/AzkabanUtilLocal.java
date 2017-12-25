@@ -3,6 +3,7 @@ package com.cenrise.azkaban;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.cenrise.source.XMLSourceTest;
+import com.cenrise.utils.sqls.SqlParserUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 
@@ -167,31 +168,66 @@ public class AzkabanUtilLocal {
 
         logger.info("当前正在处理的文件为[" + fileEle.getAbsolutePath() + "]");
 
-        //策略是只读sql执行器组件和存储过程，其它的只记录转换名
-
-        //读取指定文件中的指定节点
-        /*ArrayList<Map<String, String>> entryList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "entry");
-        ArrayList<Map<String, String>> hopList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "hop");
-        ArrayList<Map<String, String>> stepList = (ArrayList<Map<String, String>>) SaxService.ReadXML(fileEle.getAbsolutePath(), "step");*/
-
         XMLSourceTest xmlSource = new XMLSourceTest();
-        List<Map<String, String>> entryList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/entries/entry");
-        List<Map<String, String>> hopList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/hops/hop");
-        List<Map<String, String>> stepList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/steps/step");
+        String fileType = fileName.substring(fileName.length() - 4, fileName.length());
+        if (fileType.equalsIgnoreCase(".ktr")) {
+            /* <name>执行SQL脚本</name>
+             <type>ExecSQL</type>
+             <connection>azkaban_10.1.11.53</connection>
+              <sql>SELECT project_id, version, flow_id, modified_time, encoding_type, json FROM project_flows WHERE project_id = 6 AND version = 3 AND flow_id = 'end';</sql>*/
+            List<Map<String, String>> entryList = xmlSource.readXML(fileEle.getAbsolutePath(), "/transformation/step");
+            for (Map<String, String> entryListMap : entryList) {
+                String name = entryListMap.get("name");
+                String type = entryListMap.get("type");
+                String connection = entryListMap.get("connection");
 
-        //kettle文件内部的顺序关系
-        for (Map<String, String> hopMap : hopList) {
-            String from = hopMap.get("from");
-            String to = hopMap.get("to");
+                //执行SQL脚本、
+                String sql = null;
+                if (type.equals("ExecSQL")) {
+                    sql = entryListMap.get("sql");
+                    SqlParserUtils sqlParserUtils = new SqlParserUtils();
+                    Map<String, String> sqlOperatorMap = sqlParserUtils.getManipulation(sql);
+                }
 
-            logger.info("from[" + from + "]，" + "to[" + to + "]");
+                //调用存储过程
+                String procedure = null;
+                if (type.equals("ExecSQL") || type.equals("DBProc")) {
+                    //<procedure>存储方程</procedure>
+                    procedure = entryListMap.get("procedure");
+                }
 
-            Map<String, String> entryMapFrom = azkabanUtil.queryEntry(entryList, from);
-            Map<String, String> entryMapTo = azkabanUtil.queryEntry(entryList, to);
-            //这里考虑到需要记录上下节点，且必须为转换时记录，所以采用记录上下节点的方式，如果上节点不为空，添加到下节点，然后插入数据后，清空节点。
-            azkabanUtil.exeKettle(entryMapFrom, stepList, fileEle, azkabanUtil);
-            azkabanUtil.exeKettle(entryMapTo, stepList, fileEle, azkabanUtil);
+                //TODO 根据接口，分析存储过程和sql中的表名出来
+
+                //转换，直接存储
+                JSONObject jsonObject = kettleNode(name, null, null, procedure, connection);
+                placeNode(jsonObject);
+
+            }
+
+
+        } else if (fileType.equalsIgnoreCase(".kjb")) {
+            //策略是只读sql执行器组件和存储过程，其它的只记录转换名
+
+            //读取指定文件中的指定节点
+            List<Map<String, String>> entryList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/entries/entry");
+            List<Map<String, String>> hopList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/hops/hop");
+            List<Map<String, String>> stepList = xmlSource.readXML(fileEle.getAbsolutePath(), "/job/steps/step");
+
+            //kettle文件内部的顺序关系
+            for (Map<String, String> hopMap : hopList) {
+                String from = hopMap.get("from");
+                String to = hopMap.get("to");
+
+                logger.info("from[" + from + "]，" + "to[" + to + "]");
+
+                Map<String, String> entryMapFrom = azkabanUtil.queryEntry(entryList, from);
+                Map<String, String> entryMapTo = azkabanUtil.queryEntry(entryList, to);
+                //这里考虑到需要记录上下节点，且必须为转换时记录，所以采用记录上下节点的方式，如果上节点不为空，添加到下节点，然后插入数据后，清空节点。
+                azkabanUtil.exeKettle(entryMapFrom, stepList, fileEle, azkabanUtil);
+                azkabanUtil.exeKettle(entryMapTo, stepList, fileEle, azkabanUtil);
+            }
         }
+
 
         if (fileEle != null && fileEle.exists()) {
 //            fileEle.delete();
@@ -259,18 +295,15 @@ public class AzkabanUtilLocal {
             //TODO 如果是转换，读取转换文件
             //<transname>存储过程执行</transname>
             //<directory>/执行顺序</directory>
-            String transname = entryMap.get("transname");
-            String directory = entryMap.get("directory");
-            if (transname == null || directory == null) {
-                return;
-            }
+            String filename = entryMap.get("filename");
+
             String parent = fileEle.getParent();
             //转换一下
-            directory.replace("${Internal.Job.Filename.Directory}", "");
-            String dir = parent + "/" + directory;
+            filename = filename.replace("${Internal.Job.Filename.Directory}", "");
+            String dirFile = parent + filename;
 
             //根据文件名和路径获取文件
-            File fileKtr = new File(dir + "/" + transname + ".ktr");
+            File fileKtr = new File(dirFile);
             processOneFile(fileKtr, azkabanUtil);
         } else if (fileType.equals("JOB")) {
             //TODO 如果是任务，读取job文件
