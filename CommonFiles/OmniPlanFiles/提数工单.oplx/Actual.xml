@@ -321,15 +321,21 @@
   </task>
   <task id="t71">
     <title>流程部署与删除</title>
-    <leveled-start>2017-12-27T00:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t72">
     <title>流程api</title>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
-    <effort>57600</effort>
-    <assignment idref="r1"/>
+    <type>group</type>
+    <child-task idref="t117"/>
+    <child-task idref="t113"/>
+    <child-task idref="t111"/>
+    <child-task idref="t112"/>
+    <child-task idref="t114"/>
+    <child-task idref="t115"/>
+    <child-task idref="t116"/>
+    <child-task idref="t118"/>
   </task>
   <task id="t73">
     <title>邮件审批工单</title>
@@ -445,6 +451,46 @@
   </task>
   <task id="t103">
     <title>待办实现、首页通知</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t111">
+    <title>获取当前流程状态</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t112">
+    <title>获取当前流程日志</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t113">
+    <title>启动流程</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t114">
+    <title>删除流程</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t115">
+    <title>流程日志列表</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t116">
+    <title>流程流转列表、处理人、处理时间点</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t117">
+    <title>布置流程</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t118">
+    <title>calk</title>
     <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
   </task>

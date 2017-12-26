@@ -78,4 +78,92 @@
       <change idref="t108" attribute="title" type="string" to="任务 1"/>
     </change>
   </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:44:54.342Z" timestamp="2017-12-26T06:44:54.342Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:45:44.803Z" timestamp="2017-12-26T06:45:44.803Z">
+    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t72" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t72" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t72" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t72" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t72" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t72" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t72" attribute="effort" type="real" from="57600" resolved="yes"/>
+    <change idref="t72" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t72" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t72" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t72" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
+    <change idref="t72" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t72" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t111" to="t72" to-position="0" resolved="yes">
+      <change idref="t111" attribute="" type="string" to=""/>
+      <change idref="t111" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t111" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t111" attribute="title" type="string" to="获取当前流程状态"/>
+    </change>
+    <change idref="t112" to="t72" to-position="1" resolved="yes">
+      <change idref="t112" attribute="" type="string" to=""/>
+      <change idref="t112" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t112" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t112" attribute="title" type="string" to="获取当前流程日志"/>
+    </change>
+    <change idref="t113" to="t72" to-position="2" resolved="yes">
+      <change idref="t113" attribute="" type="string" to=""/>
+      <change idref="t113" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t113" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t113" attribute="title" type="string" to="启动流程"/>
+    </change>
+    <change idref="t114" to="t72" to-position="3" resolved="yes">
+      <change idref="t114" attribute="" type="string" to=""/>
+      <change idref="t114" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t114" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t114" attribute="title" type="string" to="删除流程"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:46:54.733Z" timestamp="2017-12-26T06:46:54.733Z">
+    <change idref="t115" to="t72" to-position="4" resolved="yes">
+      <change idref="t115" attribute="" type="string" to=""/>
+      <change idref="t115" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t115" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t115" attribute="title" type="string" to="流程日志列表"/>
+    </change>
+    <change idref="t116" to="t72" to-position="5" resolved="yes">
+      <change idref="t116" attribute="" type="string" to=""/>
+      <change idref="t116" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t116" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t116" attribute="title" type="string" to="流程流转列表且包含每个节点的时间"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:47:13.420Z" timestamp="2017-12-26T06:47:13.420Z">
+    <change idref="t116" attribute="title" type="string" from="流程流转列表且包含每个节点的时间" to="流程流转列表、处理人、处理时间点" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:47:26.291Z" timestamp="2017-12-26T06:47:26.291Z">
+    <change idref="t117" to="t72" to-position="3" resolved="yes">
+      <change idref="t117" attribute="" type="string" to=""/>
+      <change idref="t117" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t117" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t117" attribute="title" type="string" to="布置流程"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:47:52.959Z" timestamp="2017-12-26T06:47:52.959Z">
+    <change idref="t117" from="t72" from-position="3" to="t72" to-position="0" resolved="yes"/>
+    <change idref="t113" from="t72" from-position="3" to="t72" to-position="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-26T06:48:28.485Z" timestamp="2017-12-26T06:48:28.485Z">
+    <change idref="t118" to="t72" to-position="7" resolved="yes">
+      <change idref="t118" attribute="" type="string" to=""/>
+      <change idref="t118" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t118" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t118" attribute="title" type="string" to="calk"/>
+    </change>
+  </task-change-set>
 </changelog>
