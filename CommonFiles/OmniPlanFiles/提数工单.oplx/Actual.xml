@@ -100,9 +100,7 @@
     <child-task idref="t101"/>
     <child-task idref="t69"/>
     <child-task idref="t73"/>
-    <child-task idref="t87"/>
     <child-task idref="t103"/>
-    <child-task idref="t106"/>
   </task>
   <task id="t14">
     <title>数据库设计</title>
@@ -282,14 +280,14 @@
   </task>
   <task id="t65">
     <title>工单流转状态实现</title>
-    <leveled-start>2017-12-27T00:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-26T00:00:00.000Z</leveled-start>
     <effort>57600</effort>
     <effort-done>14400</effort-done>
     <assignment idref="r2"/>
   </task>
   <task id="t66">
     <title>工单流转详情页实现</title>
-    <leveled-start>2017-12-28T00:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-27T00:00:00.000Z</leveled-start>
     <effort>57600</effort>
     <effort-done>3600</effort-done>
     <assignment idref="r2"/>
@@ -323,22 +321,22 @@
   </task>
   <task id="t71">
     <title>流程部署与删除</title>
-    <type>milestone</type>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-27T00:00:00.000Z</leveled-start>
+    <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t72">
     <title>流程api</title>
-    <type>milestone</type>
     <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>57600</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t73">
     <title>邮件审批工单</title>
-    <leveled-start>2017-12-26T09:00:00.000Z</leveled-start>
-    <effort>14400</effort>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>57600</effort>
     <effort-done>14400</effort-done>
-    <assignment idref="r4"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t77">
     <title>元素</title>
@@ -433,14 +431,6 @@
     <start-constraint-date>2017-12-19T00:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-12-19T00:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t87">
-    <title>数据字段表获取实现</title>
-    <leveled-start>2017-12-22T09:00:00.000Z</leveled-start>
-    <effort>28800</effort>
-    <effort-done>28800</effort-done>
-    <start-constraint-date>2017-12-22T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2017-12-22T00:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t98">
     <title>工单复制</title>
     <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
@@ -449,17 +439,12 @@
   </task>
   <task id="t101">
     <title>附件加密及附件的存储、获取api</title>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-28T00:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r2"/>
   </task>
   <task id="t103">
-    <title>待办实现、首页通知？</title>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
-    <effort>28800</effort>
-  </task>
-  <task id="t106">
-    <title>消息？</title>
+    <title>待办实现、首页通知</title>
     <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
   </task>

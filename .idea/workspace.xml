@@ -1,396 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="解析">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/bpmn/leaveBill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/bpmn/leaveBill2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/addMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/b-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/button_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/del.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/dl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/login_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_34_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/images/main_72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/bpmn/leaveBill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/bpmn/leaveBill2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/addMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/b-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/button_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/del.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/dl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/login_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_34_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/main_74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/openMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/pass.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/quit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/sj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/tab_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/images/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/addMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/b-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/button_ok.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/del.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/dl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/edit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_09.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/login_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_01.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_03.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_34_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/main_74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/openMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/pass.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/quit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/sj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/tab_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/images/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/openMenu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/pass.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/quit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/sj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/tab_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/images/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/f_sequenceFlow/sequenceFlow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/i_start/start.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/j_receiveTask/receiveTask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group02/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/m_groupUser/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/diagrams/helloworld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/diagrams/processVariables.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/bMAum5ApjTf.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/utils/sqls/DataSourceUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/utils/sqls/DatabaseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/utils/sqls/RsaUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/utils/sqls/SqlParserUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/resources/dbcp.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/src/test/resources/dbcp_dppro.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/target/test-classes/dbcp.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GetXMLData/target/test-classes/dbcp_dppro.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/dao/IEmployeeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/dao/ILeaveBillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/domain/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/domain/LeaveBill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/IEmployeeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/ILeaveBillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/IWorkflowService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/utils/LoginInteceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/utils/SessionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/utils/ValueContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/web/action/LeaveBillAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/web/action/WorkflowAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/leaveBill/input.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/leaveBill/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/workflow/task.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/workflow/taskForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/workflow/taskFormHis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/views/workflow/workflow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/bpmn/leaveBill.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/bpmn/leaveBill2.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/src/main/webapp/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/utils/LoginInteceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/utils/SessionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/utils/ValueContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/web/action/LeaveBillAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/web/action/WorkflowAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/leaveBill/input.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/leaveBill/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/workflow/task.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/workflow/taskForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/workflow/taskFormHis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/views/workflow/workflow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/bpmn/leaveBill.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/bpmn/leaveBill2.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/js/commons.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/js/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/src/main/webapp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/java/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/java/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/activiti-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/applicationContext-action.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/employee/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/leaveBill/input.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/leaveBill/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/workflow/image.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/workflow/task.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/workflow/taskForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/workflow/taskFormHis.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/views/workflow/workflow.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/js/commons.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/js/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/bin/src/main/webapp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/dao/IEmployeeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/dao/ILeaveBillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/domain/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/domain/LeaveBill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/IEmployeeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/ILeaveBillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/IWorkflowService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/utils/LoginInteceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/utils/SessionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/utils/ValueContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/web/action/LeaveBillAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/web/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/java/cn/itcast/ssh/web/action/WorkflowAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/js/commons.jspf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/js/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/src/main/webapp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master2/.bpmn/src/main/resources/deployments/simple.flow.bpmn2d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/a_helloworld/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/b_processDefinition/ProcessDefinitionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/c_processInstance/ProcessInstanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/d_processVariables/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/d_processVariables/ProcessVariablesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/e_historyQuery/HistoryQueryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/f_sequenceFlow/SequenceFlowTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/f_sequenceFlow/sequenceFlow.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/g_exclusiveGateWay/ExclusiveGateWayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/h_parallelGateWay/ParallelGateWayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/i_start/StartTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/i_start/start.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/j_receiveTask/ReceiveTaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/j_receiveTask/receiveTask.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask02/TaskListenerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask02/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/k_personalTask02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group02/TaskListenerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group02/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/l_group02/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/m_groupUser/TaskTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/java/cn/itcast/m_groupUser/task.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/activiti.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/diagrams/helloworld.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/diagrams/processVariables.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-study/src/test/java/junit/TestActiviti.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.ws.service.policy.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/bin/cn/itcast/ssh/domain/Employee.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcastActiviti_plan/bin/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
+    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/QuickLook/Preview.png" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/QuickLook/Preview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/随行付设计文档.graffle" afterPath="$PROJECT_DIR$/CommonFiles/随行付设计文档.graffle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GetXMLData/pom.xml" afterPath="$PROJECT_DIR$/GetXMLData/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/Actual.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/Actual.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__TOC.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__TOC.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__changelog.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__changelog.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -450,11 +67,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="240" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="959" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -574,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -587,6 +201,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -1061,7 +677,8 @@
       <workItem from="1514083603773" duration="770000" />
       <workItem from="1514124712437" duration="58000" />
       <workItem from="1514193642111" duration="96000" />
-      <workItem from="1514198362668" duration="18000" />
+      <workItem from="1514198362668" duration="50000" />
+      <workItem from="1514270544887" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -1168,19 +785,27 @@
       <option name="project" value="LOCAL" />
       <updated>1514193720952</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="解析完xml，存储">
+      <created>1514198401745</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1514198401745</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5051000" />
+    <option name="totallyTimeSpent" value="5097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="959" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
@@ -1188,9 +813,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33882785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34310135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1205,13 +831,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1270,7 +894,8 @@
     <MESSAGE value="activiti学习" />
     <MESSAGE value="activiti0711,初始-activiti-demo-itcast0711" />
     <MESSAGE value="解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="解析" />
+    <MESSAGE value="解析完xml，存储" />
+    <option name="LAST_COMMIT_MESSAGE" value="解析完xml，存储" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
