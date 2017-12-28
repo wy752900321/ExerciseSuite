@@ -166,4 +166,309 @@
       <change idref="t118" attribute="title" type="string" to="calk"/>
     </change>
   </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:09:53.982Z" timestamp="2017-12-27T08:09:53.982Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:10:14.306Z" timestamp="2017-12-27T08:10:14.306Z">
+    <change idref="t119" to="t8" to-position="9" resolved="yes">
+      <change idref="t119" attribute="" type="string" to=""/>
+      <change idref="t119" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t119" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t119" attribute="title" type="string" to="业务实体的管理"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:11:17.283Z" timestamp="2017-12-27T08:11:17.283Z">
+    <change idref="t67" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t67" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t67" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t67" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t67" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t67" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t67" attribute="effort" type="real" from="14400" resolved="yes"/>
+    <change idref="t67" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t67" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t67" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t67" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t67" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t67" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
+    <change idref="t120" to="t67" to-position="0" resolved="yes">
+      <change idref="t120" attribute="" type="string" to=""/>
+      <change idref="t120" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t120" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t120" attribute="title" type="string" to="元素的新增"/>
+    </change>
+    <change idref="t121" to="t67" to-position="1" resolved="yes">
+      <change idref="t121" attribute="" type="string" to=""/>
+      <change idref="t121" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t121" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t121" attribute="title" type="string" to="元素的删除"/>
+    </change>
+    <change idref="t122" to="t67" to-position="2" resolved="yes">
+      <change idref="t122" attribute="" type="string" to=""/>
+      <change idref="t122" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t122" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t122" attribute="title" type="string" to="元素和类型搜索"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:11:26.093Z" timestamp="2017-12-27T08:11:26.093Z">
+    <change idref="t123" to="t67" to-position="3" resolved="yes">
+      <change idref="t123" attribute="" type="string" to=""/>
+      <change idref="t123" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t123" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t123" attribute="title" type="string" to="元素的编辑"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:12:09.876Z" timestamp="2017-12-27T08:12:09.876Z">
+    <change idref="t119" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t119" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t119" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t119" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t119" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t119" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t119" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t119" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t119" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t119" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t119" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t119" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t119" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t125" to="t119" to-position="0" resolved="yes">
+      <change idref="t125" attribute="" type="string" to=""/>
+      <change idref="t125" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t125" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t125" attribute="title" type="string" to="实体的新增"/>
+    </change>
+    <change idref="t126" to="t119" to-position="1" resolved="yes">
+      <change idref="t126" attribute="" type="string" to=""/>
+      <change idref="t126" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t126" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t126" attribute="title" type="string" to="实体的删除"/>
+    </change>
+    <change idref="t127" to="t119" to-position="2" resolved="yes">
+      <change idref="t127" attribute="" type="string" to=""/>
+      <change idref="t127" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t127" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t127" attribute="title" type="string" to="实体的修改"/>
+    </change>
+    <change idref="t128" to="t119" to-position="3" resolved="yes">
+      <change idref="t128" attribute="" type="string" to=""/>
+      <change idref="t128" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t128" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t128" attribute="title" type="string" to="实体的搜索"/>
+    </change>
+    <change idref="t129" to="t119" to-position="4" resolved="yes">
+      <change idref="t129" attribute="" type="string" to=""/>
+      <change idref="t129" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t129" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t129" attribute="title" type="string" to="实体与元素的关联管理"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:13:38.767Z" timestamp="2017-12-27T08:13:38.767Z">
+    <change idref="t69" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t69" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t69" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t69" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t69" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t69" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t69" attribute="effort" type="real" from="14400" resolved="yes"/>
+    <change idref="t69" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t69" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t69" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t69" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t69" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t69" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
+    <change idref="t130" to="t69" to-position="0" resolved="yes">
+      <change idref="t130" attribute="" type="string" to=""/>
+      <change idref="t130" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t130" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t130" attribute="title" type="string" to="根据工单号和创建时间搜索"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:18:09.923Z" timestamp="2017-12-27T08:18:09.923Z">
+    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t66" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t73" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t73" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t73" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t73" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t73" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t73" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t73" attribute="effort" type="real" from="57600" resolved="yes"/>
+    <change idref="t73" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t73" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t73" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t73" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t73" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t73" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
+    <change idref="t131" to="t73" to-position="0" resolved="yes">
+      <change idref="t131" attribute="" type="string" to=""/>
+      <change idref="t131" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t131" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t131" attribute="title" type="string" to="待审批"/>
+    </change>
+    <change idref="t132" to="t73" to-position="1" resolved="yes">
+      <change idref="t132" attribute="" type="string" to=""/>
+      <change idref="t132" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t132" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t132" attribute="title" type="string" to="待处理"/>
+    </change>
+    <change idref="t133" to="t73" to-position="2" resolved="yes">
+      <change idref="t133" attribute="" type="string" to=""/>
+      <change idref="t133" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t133" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t133" attribute="title" type="string" to="审批未通过"/>
+    </change>
+    <change idref="t134" to="t73" to-position="3" resolved="yes">
+      <change idref="t134" attribute="" type="string" to=""/>
+      <change idref="t134" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t134" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t134" attribute="title" type="string" to="处理中"/>
+    </change>
+    <change idref="t135" to="t73" to-position="4" resolved="yes">
+      <change idref="t135" attribute="" type="string" to=""/>
+      <change idref="t135" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t135" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t135" attribute="title" type="string" to="待关闭"/>
+    </change>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:19:51.913Z" timestamp="2017-12-27T08:19:51.913Z">
+    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t66" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t66" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t66" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t66" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="effort" type="real" from="57600" resolved="yes"/>
+    <change idref="t66" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t66" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t66" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t66" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t66" attribute="internalEffortDone" type="real" from="3600" resolved="yes"/>
+    <change idref="t136" to="t66" to-position="0" resolved="yes">
+      <change idref="t136" attribute="" type="string" to=""/>
+      <change idref="t136" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t136" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t136" attribute="title" type="string" to="工单进度流转图"/>
+    </change>
+    <change idref="t137" to="t66" to-position="1" resolved="yes">
+      <change idref="t137" attribute="" type="string" to=""/>
+      <change idref="t137" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t137" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t137" attribute="title" type="string" to="元素列表说明"/>
+    </change>
+    <change idref="t138" to="t66" to-position="2" resolved="yes">
+      <change idref="t138" attribute="" type="string" to=""/>
+      <change idref="t138" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t138" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t138" attribute="title" type="string" to="日志列表"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:20:15.811Z" timestamp="2017-12-27T08:20:15.811Z">
+    <change idref="t137" attribute="title" type="string" from="元素列表说明" to="元素列表按顺序展示" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:22:20.392Z" timestamp="2017-12-27T08:22:20.392Z">
+    <change idref="t65" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t65" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t65" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t65" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="effort" type="real" from="57600" resolved="yes"/>
+    <change idref="t65" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t65" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
+    <change idref="t65" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t65" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
+    <change idref="t139" to="t65" to-position="0" resolved="yes">
+      <change idref="t139" attribute="" type="string" to=""/>
+      <change idref="t139" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t139" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t139" attribute="title" type="string" to="申请人流转(待提交、待审批、待处理、处理中，待关闭、已关闭)"/>
+    </change>
+    <change idref="t140" to="t65" to-position="1" resolved="yes">
+      <change idref="t140" attribute="" type="string" to=""/>
+      <change idref="t140" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t140" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t140" attribute="title" type="string" to="审批人流转信息(待审批、已审批)"/>
+    </change>
+    <change idref="t141" to="t65" to-position="2" resolved="yes">
+      <change idref="t141" attribute="" type="string" to=""/>
+      <change idref="t141" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t141" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t141" attribute="title" type="string" to="处理人流转信息(待处理、处理中、待关闭、已关闭)"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:23:23.332Z" timestamp="2017-12-27T08:23:23.332Z">
+    <change idref="t71" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t71" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t71" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t71" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t71" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t71" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t71" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t71" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t71" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t71" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
+    <change idref="t71" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t71" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t142" to="t71" to-position="0" resolved="yes">
+      <change idref="t142" attribute="" type="string" to=""/>
+      <change idref="t142" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t142" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t142" attribute="title" type="string" to="流转打包成zip"/>
+    </change>
+    <change idref="t143" to="t71" to-position="1" resolved="yes">
+      <change idref="t143" attribute="" type="string" to=""/>
+      <change idref="t143" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t143" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t143" attribute="title" type="string" to="流程包的上传"/>
+    </change>
+    <change idref="t144" to="t71" to-position="2" resolved="yes">
+      <change idref="t144" attribute="" type="string" to=""/>
+      <change idref="t144" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t144" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t144" attribute="title" type="string" to="流程包的展示界面"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:23:28.762Z" timestamp="2017-12-27T08:23:28.762Z">
+    <change idref="t142" attribute="title" type="string" from="流转打包成zip" to="流转打包" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:23:51.539Z" timestamp="2017-12-27T08:23:51.539Z">
+    <change idref="t70" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t70" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t70" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t70" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="effort" type="real" from="14400" resolved="yes"/>
+    <change idref="t70" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t70" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t70" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
+    <change idref="t70" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t70" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
+    <change idref="t145" to="t70" to-position="0" resolved="yes">
+      <change idref="t145" attribute="" type="string" to=""/>
+      <change idref="t145" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t145" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t145" attribute="title" type="string" to="画流程图并定义流转关系"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2017-12-27T08:27:47.411Z" timestamp="2017-12-27T08:27:47.411Z">
+    <change idref="t123" from="t67" from-position="3" to="t67" to-position="2" resolved="yes"/>
+    <change idref="t122" attribute="title" type="string" from="元素和类型搜索" to="元素的搜索(名称、描述、来源)" resolved="yes"/>
+  </task-change-set>
 </changelog>

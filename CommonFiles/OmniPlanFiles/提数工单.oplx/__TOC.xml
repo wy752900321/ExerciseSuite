@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="63" w="1680" h="948">
+  <window x="0" y="63" w="1680" h="964">
     <editing-scenario>jNyhdaYEQY7</editing-scenario>
     <comparison-scenario>bMAum5ApjTf</comparison-scenario>
     <view>task</view>
@@ -9,15 +9,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>397</split-view-divider-position>
-      <outline x="0" y="0" w="397" h="793">
+      <outline x="0" y="0" w="397" h="809">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="282"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t72 t8"/>
-        <selected-items-at-filter-time idrefs="t7 t77 t117 t8 t101 t113 t83 t59 t78 t14 t84 t20 t79 t118 t98 t114 t85 t110 t16 t86 t103 t60 t115 t111 t18 t61 t80 t116 t19 t112 t81 t82 t109"/>
+        <expanded-items idrefs="t8"/>
+        <selected-items-at-filter-time idrefs="t130 t80 t59 t138 t145 t81 t18 t117 t131 t124 t82 t103 t19 t139 t83 t125 t132 t118 t77 t111 t84 t133 t85 t140 t119 t78 t126 t112 t86 t79 t141 t127 t134 t7 t120 t113 t60 t8 t142 t135 t128 t61 t114 t121 t20 t143 t129 t136 t98 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
       </outline>
-      <gantt-view x="-1166" y="0" w="951" h="793">
+      <gantt-view x="-1166" y="0" w="951" h="809">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>119</next-task-id>
+    <next-task-id>146</next-task-id>
     <next-resource-id>5</next-resource-id>
     <scenario id="jNyhdaYEQY7" name="Actual" filename="Actual.xml"/>
     <scenario id="o9xJ2HRzu-e" name="基线 2017/12/19" filename="o9xJ2HRzu-e.xml"/>

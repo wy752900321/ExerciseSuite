@@ -96,6 +96,7 @@
     <child-task idref="t65"/>
     <child-task idref="t66"/>
     <child-task idref="t67"/>
+    <child-task idref="t119"/>
     <child-task idref="t68"/>
     <child-task idref="t101"/>
     <child-task idref="t69"/>
@@ -280,24 +281,25 @@
   </task>
   <task id="t65">
     <title>工单流转状态实现</title>
-    <leveled-start>2017-12-26T00:00:00.000Z</leveled-start>
-    <effort>57600</effort>
-    <effort-done>14400</effort-done>
-    <assignment idref="r2"/>
+    <type>group</type>
+    <child-task idref="t139"/>
+    <child-task idref="t140"/>
+    <child-task idref="t141"/>
   </task>
   <task id="t66">
     <title>工单流转详情页实现</title>
-    <leveled-start>2017-12-27T00:00:00.000Z</leveled-start>
-    <effort>57600</effort>
-    <effort-done>3600</effort-done>
-    <assignment idref="r2"/>
+    <type>group</type>
+    <child-task idref="t136"/>
+    <child-task idref="t137"/>
+    <child-task idref="t138"/>
   </task>
   <task id="t67">
     <title>业务元素管理</title>
-    <leveled-start>2017-12-26T09:00:00.000Z</leveled-start>
-    <effort>14400</effort>
-    <effort-done>14400</effort-done>
-    <assignment idref="r4"/>
+    <type>group</type>
+    <child-task idref="t120"/>
+    <child-task idref="t121"/>
+    <child-task idref="t123"/>
+    <child-task idref="t122"/>
   </task>
   <task id="t68">
     <title>工单文件的上传、下载</title>
@@ -307,23 +309,20 @@
   </task>
   <task id="t69">
     <title>查询工单</title>
-    <leveled-start>2017-12-26T09:00:00.000Z</leveled-start>
-    <effort>14400</effort>
-    <effort-done>14400</effort-done>
-    <assignment idref="r4"/>
+    <type>group</type>
+    <child-task idref="t130"/>
   </task>
   <task id="t70">
     <title>流程定义</title>
-    <leveled-start>2017-12-26T09:00:00.000Z</leveled-start>
-    <effort>14400</effort>
-    <effort-done>14400</effort-done>
-    <assignment idref="r1"/>
+    <type>group</type>
+    <child-task idref="t145"/>
   </task>
   <task id="t71">
     <title>流程部署与删除</title>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
-    <effort>28800</effort>
-    <assignment idref="r1"/>
+    <type>group</type>
+    <child-task idref="t142"/>
+    <child-task idref="t143"/>
+    <child-task idref="t144"/>
   </task>
   <task id="t72">
     <title>流程api</title>
@@ -339,10 +338,12 @@
   </task>
   <task id="t73">
     <title>邮件审批工单</title>
-    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
-    <effort>57600</effort>
-    <effort-done>14400</effort-done>
-    <assignment idref="r2"/>
+    <type>group</type>
+    <child-task idref="t131"/>
+    <child-task idref="t132"/>
+    <child-task idref="t133"/>
+    <child-task idref="t134"/>
+    <child-task idref="t135"/>
   </task>
   <task id="t77">
     <title>元素</title>
@@ -445,7 +446,7 @@
   </task>
   <task id="t101">
     <title>附件加密及附件的存储、获取api</title>
-    <leveled-start>2017-12-28T00:00:00.000Z</leveled-start>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r2"/>
   </task>
@@ -491,6 +492,140 @@
   </task>
   <task id="t118">
     <title>calk</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t119">
+    <title>业务实体的管理</title>
+    <type>group</type>
+    <child-task idref="t125"/>
+    <child-task idref="t126"/>
+    <child-task idref="t127"/>
+    <child-task idref="t128"/>
+    <child-task idref="t129"/>
+  </task>
+  <task id="t120">
+    <title>元素的新增</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t121">
+    <title>元素的删除</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t122">
+    <title>元素的搜索(名称、描述、来源)</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t123">
+    <title>元素的编辑</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t125">
+    <title>实体的新增</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t126">
+    <title>实体的删除</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t127">
+    <title>实体的修改</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t128">
+    <title>实体的搜索</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t129">
+    <title>实体与元素的关联管理</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t130">
+    <title>根据工单号和创建时间搜索</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t131">
+    <title>待审批</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t132">
+    <title>待处理</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t133">
+    <title>审批未通过</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t134">
+    <title>处理中</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t135">
+    <title>待关闭</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t136">
+    <title>工单进度流转图</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t137">
+    <title>元素列表按顺序展示</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t138">
+    <title>日志列表</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t139">
+    <title>申请人流转(待提交、待审批、待处理、处理中，待关闭、已关闭)</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t140">
+    <title>审批人流转信息(待审批、已审批)</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t141">
+    <title>处理人流转信息(待处理、处理中、待关闭、已关闭)</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t142">
+    <title>流转打包</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t143">
+    <title>流程包的上传</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t144">
+    <title>流程包的展示界面</title>
+    <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t145">
+    <title>画流程图并定义流转关系</title>
     <leveled-start>2017-12-28T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
   </task>
