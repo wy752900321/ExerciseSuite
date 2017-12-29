@@ -1,10 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.png" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.png" />
+    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="提数工单流程添加关闭，调整图错乱问题">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-helloworld/deployment/helloworld.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/DurationHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/TimerEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/ActivityCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/JumpCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/ListActivityCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/ProcessDefinitionDiagramCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/RollbackTaskCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/TaskCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/TaskDiagramCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/cmd/WithdrawTaskCmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/com/mossle/bpm/rs/BpmResource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter10/payment.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter10/purchase-callactivity.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter10/purchase-subprocess.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter10/payment.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter10/purchase-callactivity.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter10/purchase-subprocess.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter17/leave-jpa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter5/aaa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter6/dynamic-form/leave-dynamic-form-with-javascript.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter6/dynamic-form/leave-dynamic-form.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter6/leave-formkey/leave-formkey.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter7/leave.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter8/leave-mail-timeout.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter8/leave-mail.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter21-invade/src/main/resources/chapter9/leave-countersign.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter5/aaa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter6/dynamic-form/leave-dynamic-form-with-javascript.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter6/dynamic-form/leave-dynamic-form.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter6-oa-forms/src/main/resources/chapter6/leave-formkey/leave-formkey.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter5/aaa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter6/dynamic-form/leave-dynamic-form-with-javascript.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter6/dynamic-form/leave-dynamic-form.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter6/leave-formkey/leave-formkey.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter7/leave.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter8/leave-mail-timeout.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter8/leave-mail.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter9-multi-instance/src/main/resources/chapter9/leave-countersign.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/dao/IEmployeeDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/dao/ILeaveBillDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/IWorkflowService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/impl/EmployeeServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/impl/WorkflowServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/web/action/LeaveBillAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/web/action/LoginAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/web/action/WorkflowAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/web/form/WorkflowBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-bpmn-converter-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-bpmn-layout-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-bpmn-model-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-bpmn-model-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-camel-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-camel-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-cdi-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-cdi.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-common-rest-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-cxf-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-diagram-rest-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-engine-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-engine-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-explorer-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-json-converter-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-modeler-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-modeler-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-mule-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-mule-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-osgi-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-rest-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-rest-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-simple-workflow-5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/mybatis-3.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.test-3.0.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-master/webapp/WEB-INF/classes/struts.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.ws.service.policy.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0820Project/readme.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.png" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.png" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/Thumbs.db" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/add.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/add.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/addMenu.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/addMenu.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/b-info.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/b-info.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/button_ok.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/button_ok.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/del.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/del.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/dl.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/dl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/edit.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/edit.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_03.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_03.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_04.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_04.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_06.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_06.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_07.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_07.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_08.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_08.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_09.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_09.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_10.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_10.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_11.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/login_11.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_01.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_01.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_03.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_03.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_05.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_05.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_06.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_06.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_07.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_07.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_10.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_10.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_11.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_11.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_13.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_13.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_15.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_15.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_17.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_17.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_19.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_19.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_21.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_21.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_28.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_28.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_29.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_29.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_30.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_30.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_31.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_31.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_32.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_32.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34_1.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_34_1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_35.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_35.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_40.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_40.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_43.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_43.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_46.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_46.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_48.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_48.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_50.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_50.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_52.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_52.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_54.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_54.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_56.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_56.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_58.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_58.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_60.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_60.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_62.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_62.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_69.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_69.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_71.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_71.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_72.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_72.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_74.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/main_74.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/openMenu.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/openMenu.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/pass.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/pass.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/quit.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/quit.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/sj.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/sj.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tab_bg.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tab_bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tb.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/tb.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/user.gif" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/images/user.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.bpmn" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.bpmn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-LeaveProject/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProject/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/pom.xml" afterPath="$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-helloworld/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-helloworld/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-itcast0711/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-itcast0711/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-job/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-master/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-master2/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-master2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-study/.gitignore" afterPath="$PROJECT_DIR$/activiti-demo-study/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-in-action-codes-master/.gitignore" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.gitignore" afterPath="$PROJECT_DIR$/itcast0820Project/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/.jsdtscope" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/.jsdtscope" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.component" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="$PROJECT_DIR$/itcast0820Project/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/activiti-context.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/activiti-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-action.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/Employee.hbm.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/Employee.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/LeaveBill.hbm.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/employee/list.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/employee/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/input.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/input.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/list.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/leaveBill/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/left.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/left.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/top.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/top.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/welcome.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/image.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/image.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/task.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/task.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskForm.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskForm.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskFormHis.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/taskFormHis.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/workflow.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/views/workflow/workflow.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.bpmn" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill.bpmn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.bpmn" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/bpmn/leaveBill2.bpmn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/css/public.css" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/css/public.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/commons.jspf" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/commons.jspf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.blockUI.js" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.blockUI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.js" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/navbar.js" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/js/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/WebRoot/login.jsp" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/activiti-context.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/activiti-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-action.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-service.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/db.properties" afterPath="$PROJECT_DIR$/itcast0820Project/resource/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/log4j.properties" afterPath="$PROJECT_DIR$/itcast0820Project/resource/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/resource/struts.xml" afterPath="$PROJECT_DIR$/itcast0820Project/resource/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/IEmployeeDao.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/IEmployeeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/ILeaveBillDao.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/ILeaveBillDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.hbm.xml" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.hbm.xml" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/domain/LeaveBill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IEmployeeService.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IEmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/ILeaveBillService.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/ILeaveBillService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IWorkflowService.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/IWorkflowService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/LoginInteceptor.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/LoginInteceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ManagerTaskHandler.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/SessionContext.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/SessionContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ValueContext.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/utils/ValueContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LeaveBillAction.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LeaveBillAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LoginAction.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/WorkflowAction.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/action/WorkflowAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/form/WorkflowBean.java" afterPath="$PROJECT_DIR$/itcast0820Project/src/cn/itcast/ssh/web/form/WorkflowBean.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +256,108 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast0820Project/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast0711/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcastActiviti_plan/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KettleStudy/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KettleRepo/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Log4jTest/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pentaho Kettle Solutions/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zdangdangme2Trouble/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +365,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -67,7 +403,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="967" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -187,15 +523,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="Pentaho Kettle Solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="Zdangdangme2BEST_struts2_0612" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="Zdangdangme2Trouble" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +556,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -213,6 +564,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612" />
+      <recent name="$PROJECT_DIR$/Zdangdangme2Trouble" />
+      <recent name="$PROJECT_DIR$/Pentaho Kettle Solutions" />
+      <recent name="$PROJECT_DIR$/Log4jTest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -678,7 +1038,11 @@
       <workItem from="1514270544887" duration="14000" />
       <workItem from="1514427353965" duration="150000" />
       <workItem from="1514430604065" duration="48000" />
-      <workItem from="1514432436982" duration="19000" />
+      <workItem from="1514432436982" duration="46000" />
+      <workItem from="1514449777253" duration="140000" />
+      <workItem from="1514511874372" duration="63000" />
+      <workItem from="1514511946941" duration="341000" />
+      <workItem from="1514516742788" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -799,14 +1163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514430639836</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="提数工单流程添加关闭，调整图错乱问题">
+      <created>1514432471304</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1514432471304</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5330000" />
+    <option name="totallyTimeSpent" value="6174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="964" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -815,19 +1186,22 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32742316" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3254717" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35592186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37301588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -836,12 +1210,10 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -903,7 +1275,8 @@
     <MESSAGE value="解析" />
     <MESSAGE value="解析完xml，存储" />
     <MESSAGE value="提数工单流程添加关闭" />
-    <option name="LAST_COMMIT_MESSAGE" value="提数工单流程添加关闭" />
+    <MESSAGE value="提数工单流程添加关闭，调整图错乱问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提数工单流程添加关闭，调整图错乱问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,153 +1287,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="186" column="42" lean-forward="false" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1232,6 +1458,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-helloworld/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-itcast0711/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-itcastActiviti_plan/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-job/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-LeaveProject/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-LeaveProjectPVM/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-master2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-demo-study/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast0820Project/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast0711/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcastActiviti_plan/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KettleStudy/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KettleRepo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log4jTest/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pentaho Kettle Solutions/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zdangdangme2Trouble/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

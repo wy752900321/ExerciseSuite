@@ -1,12 +1,19 @@
-/target
-/*.project
-/*.classpath
-/*.buildpath
-/.settings
+# Created by .ignore support plugin (hsz.mobi)
 
-*.class
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.metadata
+# Eclipse project files
+.project
+.classpath
+.settings
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# others
+target
+bin
+release
+/.gitignore
+.DS_Store
