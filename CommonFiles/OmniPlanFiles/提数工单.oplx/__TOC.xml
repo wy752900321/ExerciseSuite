@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="63" w="1680" h="964">
+  <window x="0" y="67" w="1680" h="960">
     <editing-scenario>jNyhdaYEQY7</editing-scenario>
-    <comparison-scenario>bMAum5ApjTf</comparison-scenario>
+    <comparison-scenario>moZ4AQT8kjm</comparison-scenario>
     <view>task</view>
     <overview/>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>397</split-view-divider-position>
-      <outline x="0" y="0" w="397" h="809">
+      <outline x="0" y="0" w="397" h="827">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="282"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t8"/>
-        <selected-items-at-filter-time idrefs="t130 t80 t59 t138 t145 t81 t18 t117 t131 t124 t82 t103 t19 t139 t83 t125 t132 t118 t77 t111 t84 t133 t85 t140 t119 t78 t126 t112 t86 t79 t141 t127 t134 t7 t120 t113 t60 t8 t142 t135 t128 t61 t114 t121 t20 t143 t129 t136 t98 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
+        <selected-items-at-filter-time idrefs="t59 t80 t138 t152 t145 t81 t18 t117 t131 t82 t103 t146 t153 t19 t139 t83 t132 t125 t111 t147 t84 t77 t78 t119 t140 t133 t85 t126 t112 t155 t79 t86 t127 t134 t141 t7 t120 t156 t149 t60 t8 t113 t142 t128 t135 t61 t121 t114 t20 t150 t129 t136 t143 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
       </outline>
-      <gantt-view x="-1166" y="0" w="951" h="809">
+      <gantt-view x="950" y="0" w="951" h="827">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
@@ -65,14 +65,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="291" h="862">
+      <outline x="0" y="0" w="291" h="803">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r3"/>
       </outline>
-      <timeline x="0" y="0" w="1014" h="862">
+      <timeline x="0" y="0" w="1014" h="803">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -116,7 +116,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="804">
+      <outline x="0" y="0" w="275" h="779">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="160"/>
@@ -139,14 +139,14 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>146</next-task-id>
+    <next-task-id>162</next-task-id>
     <next-resource-id>5</next-resource-id>
     <scenario id="jNyhdaYEQY7" name="Actual" filename="Actual.xml"/>
     <scenario id="o9xJ2HRzu-e" name="基线 2017/12/19" filename="o9xJ2HRzu-e.xml"/>
     <scenario id="bMAum5ApjTf" name="基线 2017/12/22" filename="bMAum5ApjTf.xml"/>
+    <scenario id="moZ4AQT8kjm" name="基线 2017/12/20" filename="moZ4AQT8kjm.xml"/>
     <date-display dates="true" times="false" seconds="false"/>
     <numbering-style>wbs</numbering-style>
-    <auto-level/>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>¥1,234.56</currency-format>
     <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>

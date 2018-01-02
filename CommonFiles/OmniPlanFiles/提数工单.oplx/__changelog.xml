@@ -1,7 +1,148 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="jiadongpo" date="2017-12-26T02:01:24.331Z" timestamp="2017-12-26T02:01:24.331Z">
+  <task-change-set user="jiadongpo" date="2018-01-02T03:40:15.578Z" timestamp="2018-01-02T03:40:15.578Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T08:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T08:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:00:58.409Z" timestamp="2018-01-02T04:00:58.409Z">
+    <change idref="t101" attribute="internalAssignments" type="string" from="2" to="2; 3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:09:36.221Z" timestamp="2018-01-02T04:09:36.221Z">
+    <change idref="t63" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:09:49.180Z" timestamp="2018-01-02T04:09:49.180Z">
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="effort" type="real" from="14400" to="10800" resolved="yes"/>
+    <change idref="t64" attribute="internalEffortDone" type="real" from="14400" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:10:03.946Z" timestamp="2018-01-02T04:10:03.946Z">
+    <change idref="t63" attribute="effort" type="real" from="57600" to="86400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:10:53.466Z" timestamp="2018-01-02T04:10:53.466Z">
+    <change idref="t64" attribute="effort" type="real" from="10800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:10:55.917Z" timestamp="2018-01-02T04:10:55.917Z">
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2018-01-01T06:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:11:14.948Z" timestamp="2018-01-02T04:11:14.948Z">
+    <change idref="t98" attribute="effort" type="real" from="28800" to="5760" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:11:32.861Z" timestamp="2018-01-02T04:11:32.861Z">
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2018-01-01T00:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="effort" type="real" from="5760" to="3600" resolved="yes"/>
+    <change idref="t98" attribute="internalAssignments" type="string" from="4" to="" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:15:25.073Z" timestamp="2018-01-02T04:15:25.073Z">
+    <change idref="t136" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t137" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t138" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t139" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t140" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t141" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:16:37.033Z" timestamp="2018-01-02T04:16:37.033Z">
+    <change idref="t101" attribute="internalAssignments" type="string" from="2; 3" to="3" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:17:17.519Z" timestamp="2018-01-02T04:17:17.519Z">
+    <change idref="t146" to="t8" to-position="12" resolved="yes">
+      <change idref="t146" attribute="" type="string" to=""/>
+      <change idref="t146" attribute="resourceLeveledDate" type="date" to="2018-01-01T16:00:00.000Z"/>
+      <change idref="t146" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t146" attribute="title" type="string" to="短信验证码"/>
+    </change>
+    <change idref="t101" attribute="title" type="string" from="附件加密及附件的存储、获取api" to="附件加密及附件的存储、获取api、" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:17:19.749Z" timestamp="2018-01-02T04:17:19.749Z">
+    <change idref="t101" attribute="title" type="string" from="附件加密及附件的存储、获取api、" to="附件加密及附件的存储、获取api" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:17:27.082Z" timestamp="2018-01-02T04:17:27.082Z">
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:18:23.664Z" timestamp="2018-01-02T04:18:23.664Z">
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2018-01-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="internalAssignments" type="string" from="3" to="" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:19:03.034Z" timestamp="2018-01-02T04:19:03.034Z">
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t135" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T04:27:48.073Z" timestamp="2018-01-02T04:27:48.073Z">
+    <change idref="t147" to="t73" to-position="5" resolved="yes">
+      <change idref="t147" attribute="" type="string" to=""/>
+      <change idref="t147" attribute="resourceLeveledDate" type="date" to="2018-01-01T16:00:00.000Z"/>
+      <change idref="t147" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t147" attribute="title" type="string" to="返回的逻辑"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:01:11.421Z" timestamp="2018-01-02T06:01:11.421Z">
     <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
     color =     {
         b = &quot;0.5&quot;;
@@ -12,73 +153,597 @@
     root = &quot;-1&quot;;
 }" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:01:44.329Z" timestamp="2017-12-26T04:01:44.329Z">
-    <change idref="t73" attribute="internalAssignments" type="string" from="4" to="2" resolved="yes"/>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:03:30.759Z" timestamp="2018-01-02T06:03:30.759Z">
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2018-01-01T08:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2018-01-01T08:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2018-01-01T00:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2018-01-01T06:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2018-01-09T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2018-01-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2018-01-11T00:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2018-01-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2018-01-01T16:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:02:09.465Z" timestamp="2017-12-26T04:02:09.465Z">
-    <change idref="t106" from="t8" from-position="15" resolved="yes">
-      <change idref="t106" attribute="" type="string" to=""/>
-      <change idref="t106" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t106" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t106" attribute="title" type="string" to="消息？"/>
-    </change>
-    <change idref="t87" from="t8" from-position="13" resolved="yes">
-      <change idref="t87" attribute="" type="string" to=""/>
-      <change idref="t87" attribute="internalEffortDone" type="real" from="0" to="28800"/>
-      <change idref="t87" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-22T00:00:00.000Z"/>
-      <change idref="t87" attribute="resourceLeveledDate" type="date" to="2017-12-22T09:00:00.000Z"/>
-      <change idref="t87" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t87" attribute="title" type="string" to="数据字段表获取实现"/>
-    </change>
-    <change idref="t103" attribute="title" type="string" from="待办实现、首页通知？" to="待办实现、首页通知" resolved="yes"/>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:03:47.999Z" timestamp="2018-01-02T06:03:47.999Z">
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t51" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t53" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t55" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t56" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t58" attribute="resourceLeveledDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T07:00:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T07:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T07:00:00.000Z" resolved="yes"/>
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T05:00:00.000Z" resolved="yes"/>
+    <change idref="t68" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2017-12-27T01:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-25T02:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-22T02:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-22T02:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="resourceLeveledDate" type="date" from="2017-12-26T01:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2018-01-08T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2018-01-09T00:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2018-01-10T00:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2018-01-11T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2018-01-12T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" to="2018-01-01T09:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2018-01-03T09:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" to="2017-12-28T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" to="2017-12-29T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:02:17.343Z" timestamp="2017-12-26T04:02:17.343Z">
-    <change idref="t107" to="t8" to-position="13" resolved="yes">
-      <change idref="t107" attribute="" type="string" to=""/>
-      <change idref="t107" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t107" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t107" attribute="title" type="string" to="任务 1"/>
-    </change>
-    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
-    <change idref="t66" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
-    <change idref="t73" attribute="effort" type="real" from="14400" to="57600" resolved="yes"/>
-    <change idref="t73" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:06:29.146Z" timestamp="2018-01-02T06:06:29.146Z">
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-27T07:00:00.000Z" to="2017-12-27T08:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="internalEffortDone" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t60" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-28T07:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-28T07:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t83" attribute="internalEffortDone" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t84" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t84" attribute="internalEffortDone" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t85" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t85" attribute="internalEffortDone" type="real" from="7200" to="3600" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:02:21.229Z" timestamp="2017-12-26T04:02:21.229Z">
-    <change idref="t107" from="t8" from-position="13" resolved="yes">
-      <change idref="t107" attribute="" type="string" to=""/>
-      <change idref="t107" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t107" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t107" attribute="title" type="string" to="任务 1"/>
-    </change>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:07:00.335Z" timestamp="2018-01-02T06:07:00.335Z">
+    <change idref="t83" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-28T08:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:03:11.891Z" timestamp="2017-12-26T04:03:11.891Z">
-    <change idref="t108" to="t8" to-position="3" resolved="yes">
-      <change idref="t108" attribute="" type="string" to=""/>
-      <change idref="t108" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t108" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t108" attribute="title" type="string" to="任务 1"/>
-    </change>
-    <change idref="t71" attribute="isSplittableTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t71" attribute="taskType" type="real" from="1" to="0" resolved="yes"/>
-    <change idref="t71" attribute="percentCompleteForMilestone" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="effort" type="real" from="0" to="28800" resolved="yes"/>
-    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
-    <change idref="t72" attribute="isSplittableTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t72" attribute="taskType" type="real" from="1" to="0" resolved="yes"/>
-    <change idref="t72" attribute="percentCompleteForMilestone" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="effort" type="real" from="0" to="57600" resolved="yes"/>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:09:40.594Z" timestamp="2018-01-02T06:09:40.594Z">
+    <change idref="t14" attribute="noLaterThanConstraintDate" type="date" to="2017-12-19T16:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T04:03:16.644Z" timestamp="2017-12-26T04:03:16.644Z">
-    <change idref="t108" from="t8" from-position="3" resolved="yes">
-      <change idref="t108" attribute="" type="string" to=""/>
-      <change idref="t108" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t108" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t108" attribute="title" type="string" to="任务 1"/>
-    </change>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:10:07.271Z" timestamp="2018-01-02T06:10:07.271Z">
+    <change idref="t61" attribute="effort" type="real" from="3600" to="7200" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:44:54.342Z" timestamp="2017-12-26T06:44:54.342Z">
+  <task-change-set user="jiadongpo" date="2018-01-02T06:10:10.959Z" timestamp="2018-01-02T06:10:10.959Z">
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-19T07:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="effort" type="real" from="3600" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:10:30.777Z" timestamp="2018-01-02T06:10:30.777Z">
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-19T07:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:10:38.118Z" timestamp="2018-01-02T06:10:38.118Z">
+    <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-20T07:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:11:06.986Z" timestamp="2018-01-02T06:11:06.986Z">
+    <change idref="t18" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2017-12-21T08:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t49" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t50" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t51" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t52" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t53" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t54" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t55" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t56" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t57" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t58" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t59" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-27T08:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-19T07:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-19T07:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="scheduleType" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:12:38.285Z" timestamp="2018-01-02T06:12:38.285Z">
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2017-12-28T05:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2017-12-28T08:00:00.000Z" to="2017-12-22T08:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T09:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2018-01-01T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2018-01-02T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2018-01-03T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2017-12-28T05:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-22T09:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-29T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:14:55.763Z" timestamp="2018-01-02T06:14:55.763Z">
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t51" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t53" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t55" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t56" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t58" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2017-12-22T05:00:00.000Z" to="2017-12-25T05:00:00.000Z" resolved="yes"/>
+    <change idref="t68" attribute="resourceLeveledDate" type="date" from="2017-12-27T05:00:00.000Z" to="2017-12-28T05:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2017-12-22T08:00:00.000Z" to="2017-12-25T08:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-29T09:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2017-12-22T05:00:00.000Z" to="2017-12-25T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:15:15.888Z" timestamp="2018-01-02T06:15:15.888Z">
+    <change idref="t18" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t48" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t49" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t50" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t51" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t51" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t52" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t53" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t53" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t54" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t55" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t55" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t56" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t56" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t57" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t58" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t58" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-19T08:00:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-19T08:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-19T07:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t78" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t79" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t80" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t81" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-19T08:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-19T07:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-19T08:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t86" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:16:17.583Z" timestamp="2018-01-02T06:16:17.583Z">
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="resourceLeveledDate" type="date" from="2017-12-25T05:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2017-12-25T08:00:00.000Z" to="2017-12-22T08:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t103" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t118" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t130" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t131" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="resourceLeveledDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-22T09:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-29T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2017-12-25T05:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-22T09:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t143" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t147" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:17:43.956Z" timestamp="2018-01-02T06:17:43.956Z">
+    <change idref="t61" attribute="internalEffortDone" type="real" from="3600" to="7200" resolved="yes"/>
+    <change idref="t63" attribute="internalEffortDone" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t64" attribute="internalEffortDone" type="real" from="10800" to="14400" resolved="yes"/>
+    <change idref="t84" attribute="internalEffortDone" type="real" from="3600" to="7200" resolved="yes"/>
+    <change idref="t98" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+    <change idref="t101" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t103" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t111" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t112" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t113" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t114" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t115" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t116" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t117" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t118" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t120" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t121" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t122" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t123" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t125" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t126" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t127" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t128" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t129" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t130" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t131" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t132" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t133" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t133" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t134" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t134" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t135" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t135" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-28T05:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-29T05:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t139" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-22T09:00:00.000Z" to="2017-12-25T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-26T05:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t142" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t143" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t144" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t145" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t146" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t147" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:39:57.072Z" timestamp="2018-01-02T06:39:57.072Z">
+    <change idref="t48" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t48" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t49" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t49" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t50" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t50" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t51" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t51" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t53" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t53" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t54" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t54" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t55" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t55" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t56" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t56" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t57" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t57" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t58" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
+    <change idref="t58" attribute="internalEffortDone" type="real" from="14400" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:40:39.817Z" timestamp="2018-01-02T06:40:39.817Z">
+    <change idref="t18" attribute="effort" type="real" from="28800" to="34560" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:40:50.291Z" timestamp="2018-01-02T06:40:50.291Z">
+    <change idref="t18" attribute="effort" type="real" from="34560" to="36000" resolved="yes"/>
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-25T00:00:00.000Z" to="2017-12-21T07:24:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:40:59.275Z" timestamp="2018-01-02T06:40:59.275Z">
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-21T07:24:00.000Z" to="2017-12-21T07:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:41:35.737Z" timestamp="2018-01-02T06:41:35.737Z">
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T07:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:42:19.099Z" timestamp="2018-01-02T06:42:19.099Z">
+    <change idref="t14" attribute="noLaterThanConstraintDate" type="date" from="2017-12-19T16:00:00.000Z" to="2017-12-20T16:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="resourceLeveledDate" type="date" from="2017-12-19T08:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t59" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:42:50.893Z" timestamp="2018-01-02T06:42:50.893Z">
+    <change idref="t83" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" from="2017-12-19T08:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:43:01.116Z" timestamp="2018-01-02T06:43:01.116Z">
+    <change idref="t60" attribute="resourceLeveledDate" type="date" from="2017-12-19T08:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:43:07.135Z" timestamp="2018-01-02T06:43:07.135Z">
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2017-12-19T07:00:00.000Z" to="2017-12-20T07:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:43:12.519Z" timestamp="2018-01-02T06:43:12.519Z">
+    <change idref="t84" attribute="resourceLeveledDate" type="date" from="2017-12-19T07:00:00.000Z" to="2017-12-20T07:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:43:19.424Z" timestamp="2018-01-02T06:43:19.424Z">
+    <change idref="t85" attribute="resourceLeveledDate" type="date" from="2017-12-19T08:00:00.000Z" to="2017-12-20T08:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:44:05.266Z" timestamp="2018-01-02T06:44:05.266Z">
+    <change idref="t14" attribute="noLaterThanConstraintDate" type="date" from="2017-12-20T16:00:00.000Z" to="2017-12-19T16:00:00.000Z" resolved="yes"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T07:00:00.000Z" to="2017-12-20T07:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:47:29.803Z" timestamp="2018-01-02T06:47:29.803Z">
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:48:11.144Z" timestamp="2018-01-02T06:48:11.144Z">
+    <change idref="t19" attribute="noLaterThanConstraintDate" type="date" from="2017-12-20T10:00:00.000Z" to="2017-12-21T10:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="effort" type="real" from="3600" to="-0" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="internalEffortDone" type="real" from="3600" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:49:34.466Z" timestamp="2018-01-02T06:49:34.466Z">
+    <change idref="t77" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:49:48.054Z" timestamp="2018-01-02T06:49:48.054Z">
+    <change idref="t79" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:50:10.305Z" timestamp="2018-01-02T06:50:10.305Z">
+    <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:50:22.859Z" timestamp="2018-01-02T06:50:22.859Z">
+    <change idref="t86" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:50:50.190Z" timestamp="2018-01-02T06:50:50.190Z">
+    <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:50:59.861Z" timestamp="2018-01-02T06:50:59.861Z">
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2017-12-20T08:00:00.000Z" to="2017-12-21T08:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="noLaterThanConstraintDate" type="date" to="2017-12-21T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:51:03.054Z" timestamp="2018-01-02T06:51:03.054Z">
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-19T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:51:45.346Z" timestamp="2018-01-02T06:51:45.346Z">
+    <change idref="t18" attribute="effort" type="real" from="36000" to="7200" resolved="yes"/>
+    <change idref="t18" attribute="resourceLeveledDate" type="date" from="2017-12-21T07:00:00.000Z" to="2017-12-22T07:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="noLaterThanConstraintDate" type="date" to="2017-12-23T09:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="internalEffortDone" type="real" from="28800" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:52:45.745Z" timestamp="2018-01-02T06:52:45.745Z">
+    <change idref="t18" attribute="noLaterThanConstraintDate" type="date" from="2017-12-23T09:00:00.000Z" to="2017-12-22T09:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-21T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:52:56.176Z" timestamp="2018-01-02T06:52:56.176Z">
+    <change idref="t16" attribute="noLaterThanConstraintDate" type="date" to="2018-01-25T16:00:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-24T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:53:57.539Z" timestamp="2018-01-02T06:53:57.539Z">
+    <change idref="t14" attribute="noLaterThanConstraintDate" type="date" from="2017-12-19T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:54:36.537Z" timestamp="2018-01-02T06:54:36.537Z">
+    <change idref="t60" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-21T01:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-21T02:00:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t78" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t79" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t83" attribute="noLaterThanConstraintDate" type="date" from="2017-12-20T09:00:00.000Z" resolved="yes"/>
+    <change idref="t84" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T02:00:00.000Z" resolved="yes"/>
+    <change idref="t85" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T01:00:00.000Z" resolved="yes"/>
+    <change idref="t86" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-22T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:56:52.260Z" timestamp="2018-01-02T06:56:52.260Z">
+    <change idref="t16" attribute="noLaterThanConstraintDate" type="date" from="2018-01-25T16:00:00.000Z" to="2017-12-28T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T06:57:19.595Z" timestamp="2018-01-02T06:57:19.595Z">
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:03:51.271Z" timestamp="2018-01-02T07:03:51.271Z">
     <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
     color =     {
         b = &quot;0.5&quot;;
@@ -89,386 +754,459 @@
     root = &quot;-1&quot;;
 }" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:45:44.803Z" timestamp="2017-12-26T06:45:44.803Z">
-    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t72" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t72" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t72" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t72" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="effort" type="real" from="57600" resolved="yes"/>
-    <change idref="t72" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t72" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t72" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
-    <change idref="t72" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t72" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t111" to="t72" to-position="0" resolved="yes">
-      <change idref="t111" attribute="" type="string" to=""/>
-      <change idref="t111" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t111" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t111" attribute="title" type="string" to="获取当前流程状态"/>
-    </change>
-    <change idref="t112" to="t72" to-position="1" resolved="yes">
-      <change idref="t112" attribute="" type="string" to=""/>
-      <change idref="t112" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t112" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t112" attribute="title" type="string" to="获取当前流程日志"/>
-    </change>
-    <change idref="t113" to="t72" to-position="2" resolved="yes">
-      <change idref="t113" attribute="" type="string" to=""/>
-      <change idref="t113" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t113" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t113" attribute="title" type="string" to="启动流程"/>
-    </change>
-    <change idref="t114" to="t72" to-position="3" resolved="yes">
-      <change idref="t114" attribute="" type="string" to=""/>
-      <change idref="t114" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t114" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t114" attribute="title" type="string" to="删除流程"/>
-    </change>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:05:08.428Z" timestamp="2018-01-02T07:05:08.428Z">
+    <change idref="t8" attribute="noLaterThanConstraintDate" type="date" to="2018-01-11T16:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:46:54.733Z" timestamp="2017-12-26T06:46:54.733Z">
-    <change idref="t115" to="t72" to-position="4" resolved="yes">
-      <change idref="t115" attribute="" type="string" to=""/>
-      <change idref="t115" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t115" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t115" attribute="title" type="string" to="流程日志列表"/>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:05:37.473Z" timestamp="2018-01-02T07:05:37.473Z">
+    <change idref="t16" attribute="noLaterThanConstraintDate" type="date" from="2017-12-28T16:00:00.000Z" to="2017-12-27T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:13:27.513Z" timestamp="2018-01-02T07:13:27.513Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:14:07.514Z" timestamp="2018-01-02T07:14:07.514Z">
+    <change idref="t145" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-02T00:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="noLaterThanConstraintDate" type="date" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:14:20.825Z" timestamp="2018-01-02T07:14:20.825Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:15:45.172Z" timestamp="2018-01-02T07:15:45.172Z">
+    <change idref="t113" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t117" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t117" attribute="noLaterThanConstraintDate" type="date" to="2018-01-08T09:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-04T00:00:00.000Z" resolved="yes"/>
+    <change idref="t142" attribute="noLaterThanConstraintDate" type="date" to="2018-01-04T09:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t144" attribute="noLaterThanConstraintDate" type="date" to="2018-01-05T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:15:59.829Z" timestamp="2018-01-02T07:15:59.829Z">
+    <change idref="t111" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t111" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t113" attribute="resourceLeveledDate" type="date" from="2017-12-22T05:00:00.000Z" to="2018-01-09T05:00:00.000Z" resolved="yes"/>
+    <change idref="t113" attribute="noLaterThanConstraintDate" type="date" to="2018-01-09T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:16:05.287Z" timestamp="2018-01-02T07:16:05.287Z">
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-22T05:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:16:51.284Z" timestamp="2018-01-02T07:16:51.284Z">
+    <change idref="t111" attribute="resourceLeveledDate" type="date" from="2017-12-22T05:00:00.000Z" to="2018-01-09T05:00:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="noLaterThanConstraintDate" type="date" to="2018-01-09T09:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t112" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-10T05:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="noLaterThanConstraintDate" type="date" to="2018-01-10T09:00:00.000Z" resolved="yes"/>
+    <change idref="t112" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t114" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-10T05:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="noLaterThanConstraintDate" type="date" to="2018-01-10T09:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t115" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-11T00:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="noLaterThanConstraintDate" type="date" to="2018-01-11T09:00:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:16:51.971Z" timestamp="2018-01-02T07:16:51.971Z">
+    <change idref="t115" attribute="resourceLeveledDate" type="date" from="2018-01-11T00:00:00.000Z" to="2018-01-11T05:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:17:16.275Z" timestamp="2018-01-02T07:17:16.275Z">
+    <change idref="t116" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" to="2018-01-11T00:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="noLaterThanConstraintDate" type="date" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:17:16.939Z" timestamp="2018-01-02T07:17:16.939Z">
+    <change idref="t116" attribute="resourceLeveledDate" type="date" from="2018-01-11T00:00:00.000Z" to="2018-01-11T05:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:21:35.839Z" timestamp="2018-01-02T07:21:35.839Z">
+    <change idref="t63" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t63" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t63" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t63" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t63" attribute="title" type="string" from="创建与保存工单" to="工单信息" resolved="yes"/>
+    <change idref="t63" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t63" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t63" attribute="effort" type="real" from="86400" resolved="yes"/>
+    <change idref="t63" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t63" attribute="scheduleType" type="real" from="1" resolved="yes"/>
+    <change idref="t63" attribute="resourceLeveledDate" type="date" from="2017-12-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t63" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
+    <change idref="t63" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t63" attribute="internalEffortDone" type="real" from="86400" resolved="yes"/>
+    <change idref="t149" to="t63" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t149" attribute="" type="string" to=""/>
+      <change idref="t149" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t149" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t149" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t149" attribute="resourceLeveledDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t149" attribute="title" type="string" to="新建"/>
     </change>
-    <change idref="t116" to="t72" to-position="5" resolved="yes">
-      <change idref="t116" attribute="" type="string" to=""/>
-      <change idref="t116" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t116" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t116" attribute="title" type="string" to="流程流转列表且包含每个节点的时间"/>
+    <change idref="t150" to="t63" to-position="1" resurrection="yes" resolved="yes">
+      <change idref="t150" attribute="" type="string" to=""/>
+      <change idref="t150" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t150" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t150" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t150" attribute="resourceLeveledDate" type="date" to="2018-01-04T09:00:00.000Z"/>
+      <change idref="t150" attribute="title" type="string" to="修改"/>
     </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:47:13.420Z" timestamp="2017-12-26T06:47:13.420Z">
-    <change idref="t116" attribute="title" type="string" from="流程流转列表且包含每个节点的时间" to="流程流转列表、处理人、处理时间点" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:47:26.291Z" timestamp="2017-12-26T06:47:26.291Z">
-    <change idref="t117" to="t72" to-position="3" resolved="yes">
-      <change idref="t117" attribute="" type="string" to=""/>
-      <change idref="t117" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t117" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t117" attribute="title" type="string" to="布置流程"/>
+    <change idref="t152" to="t63" to-position="2" resolved="yes">
+      <change idref="t152" attribute="" type="string" to=""/>
+      <change idref="t152" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t152" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t152" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t152" attribute="resourceLeveledDate" type="date" to="2018-01-05T02:00:00.000Z"/>
+      <change idref="t152" attribute="title" type="string" to="清空"/>
     </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:47:52.959Z" timestamp="2017-12-26T06:47:52.959Z">
-    <change idref="t117" from="t72" from-position="3" to="t72" to-position="0" resolved="yes"/>
-    <change idref="t113" from="t72" from-position="3" to="t72" to-position="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-26T06:48:28.485Z" timestamp="2017-12-26T06:48:28.485Z">
-    <change idref="t118" to="t72" to-position="7" resolved="yes">
+    <change idref="t153" to="t63" to-position="3" resolved="yes">
+      <change idref="t153" attribute="" type="string" to=""/>
+      <change idref="t153" attribute="effort" type="real" from="28800" to="4320"/>
+      <change idref="t153" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t153" attribute="resourceLeveledDate" type="date" to="2018-01-08T01:36:00.000Z"/>
+      <change idref="t153" attribute="title" type="string" to="复制"/>
+    </change>
+    <change idref="t118" from="t72" from-position="7" resolved="yes">
       <change idref="t118" attribute="" type="string" to=""/>
-      <change idref="t118" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
+      <change idref="t118" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+      <change idref="t118" attribute="resourceLeveledDate" type="date" to="2017-12-22T00:00:00.000Z"/>
       <change idref="t118" attribute="scheduleType" type="real" from="0" to="1"/>
       <change idref="t118" attribute="title" type="string" to="calk"/>
     </change>
+    <change idref="t111" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t112" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t113" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t114" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t115" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t116" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t117" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t142" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t143" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t144" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t145" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:09:53.982Z" timestamp="2017-12-27T08:09:53.982Z">
-    <change idref="t-1" attribute="criticalPathProperties" type="dict" to="{
-    color =     {
-        b = &quot;0.5&quot;;
-        g = &quot;0.5&quot;;
-        r = 1;
-    };
-    enabled = 1;
-    root = &quot;-1&quot;;
+  <task-change-set user="jiadongpo" date="2018-01-02T07:21:40.830Z" timestamp="2018-01-02T07:21:40.830Z">
+    <change idref="t153" attribute="effort" type="real" from="4320" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:23:20.343Z" timestamp="2018-01-02T07:23:20.343Z">
+    <change idref="t98" from="t8" from-position="5" resolved="yes">
+      <change idref="t98" attribute="" type="string" to=""/>
+      <change idref="t98" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t98" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t98" attribute="resourceLeveledDate" type="date" to="2017-12-22T08:00:00.000Z"/>
+      <change idref="t98" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t98" attribute="title" type="string" to="工单复制"/>
+    </change>
+    <change idref="t64" from="t8" from-position="4" resolved="yes">
+      <change idref="t64" attribute="" type="string" to=""/>
+      <change idref="t64" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t64" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t64" attribute="internalEffortDone" type="real" from="0" to="14400"/>
+      <change idref="t64" attribute="resourceLeveledDate" type="date" to="2017-12-22T05:00:00.000Z"/>
+      <change idref="t64" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t64" attribute="title" type="string" to="工单修改与清空"/>
+    </change>
+    <change idref="t150" attribute="effort" type="real" from="7200" to="28800" resolved="yes"/>
+    <change idref="t150" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T00:00:00.000Z" to="2018-01-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t152" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T00:00:00.000Z" to="2018-01-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t152" attribute="resourceLeveledDate" type="date" from="2018-01-05T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:24:06.952Z" timestamp="2018-01-02T07:24:06.952Z">
+    <change idref="t150" attribute="effort" type="real" from="28800" to="5760" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:24:12.835Z" timestamp="2018-01-02T07:24:12.835Z">
+    <change idref="t150" attribute="effort" type="real" from="5760" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:24:43.080Z" timestamp="2018-01-02T07:24:43.080Z">
+    <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T00:00:00.000Z" to="2018-01-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t153" attribute="resourceLeveledDate" type="date" from="2018-01-08T01:36:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:25:03.030Z" timestamp="2018-01-02T07:25:03.030Z">
+    <change idref="t63" attribute="title" type="string" from="工单信息" to="工单信息维护" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:25:09.857Z" timestamp="2018-01-02T07:25:09.857Z">
+    <change idref="t65" attribute="title" type="string" from="工单流转状态实现" to="工单流转状态" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:26:46.850Z" timestamp="2018-01-02T07:26:46.850Z">
+    <change idref="t155" to="t8" to-position="4" resolved="yes">
+      <change idref="t155" attribute="" type="string" to=""/>
+      <change idref="t155" attribute="effort" type="real" from="28800" to="5760"/>
+      <change idref="t155" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t155" attribute="title" type="string" to="提供权限接口获取实体权限"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:26:51.647Z" timestamp="2018-01-02T07:26:51.647Z">
+    <change idref="t155" attribute="effort" type="real" from="5760" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:27:13.004Z" timestamp="2018-01-02T07:27:13.004Z">
+    <change idref="t155" attribute="title" type="string" from="提供权限接口获取实体权限" to="提供人员拥有实体权限接口" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:27:18.165Z" timestamp="2018-01-02T07:27:18.165Z">
+    <change idref="t155" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:27:50.129Z" timestamp="2018-01-02T07:27:50.129Z">
+    <change idref="t139" attribute="resourceLeveledDate" type="date" from="2017-12-22T05:00:00.000Z" resolved="yes"/>
+    <change idref="t139" attribute="noLaterThanConstraintDate" type="date" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:27:58.822Z" timestamp="2018-01-02T07:27:58.822Z">
+    <change idref="t140" attribute="resourceLeveledDate" type="date" from="2017-12-25T05:00:00.000Z" resolved="yes"/>
+    <change idref="t140" attribute="noLaterThanConstraintDate" type="date" to="2018-01-03T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:28:19.724Z" timestamp="2018-01-02T07:28:19.724Z">
+    <change idref="t155" attribute="effort" type="real" from="7200" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:28:38.502Z" timestamp="2018-01-02T07:28:38.502Z">
+    <change idref="t141" attribute="resourceLeveledDate" type="date" from="2017-12-26T05:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="noLaterThanConstraintDate" type="date" to="2018-01-03T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:29:25.979Z" timestamp="2018-01-02T07:29:25.979Z">
+    <change idref="t136" attribute="resourceLeveledDate" type="date" from="2017-12-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="noLaterThanConstraintDate" type="date" to="2018-01-04T09:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="resourceLeveledDate" type="date" from="2017-12-28T05:00:00.000Z" resolved="yes"/>
+    <change idref="t137" attribute="noLaterThanConstraintDate" type="date" to="2018-01-04T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:29:34.804Z" timestamp="2018-01-02T07:29:34.804Z">
+    <change idref="t138" attribute="resourceLeveledDate" type="date" from="2017-12-29T05:00:00.000Z" resolved="yes"/>
+    <change idref="t138" attribute="noLaterThanConstraintDate" type="date" to="2018-01-04T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:29:38.852Z" timestamp="2018-01-02T07:29:38.852Z">
+    <change idref="t138" attribute="noLaterThanConstraintDate" type="date" from="2018-01-04T09:00:00.000Z" to="2018-01-05T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:30:32.729Z" timestamp="2018-01-02T07:30:32.729Z">
+    <change idref="t120" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t121" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t122" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t123" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:31:14.478Z" timestamp="2018-01-02T07:31:14.478Z">
+    <change idref="t120" attribute="title" type="string" from="元素的新增" to="新增" resolved="yes"/>
+    <change idref="t120" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t120" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t121" attribute="title" type="string" from="元素的删除" to="修改" resolved="yes"/>
+    <change idref="t121" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t121" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t122" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t122" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t123" attribute="title" type="string" from="元素的编辑" to="删除" resolved="yes"/>
+    <change idref="t123" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t123" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:31:52.686Z" timestamp="2018-01-02T07:31:52.686Z">
+    <change idref="t120" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" to="2017-12-20T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:32:52.898Z" timestamp="2018-01-02T07:32:52.898Z">
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" from="2017-12-20T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="noLaterThanConstraintDate" type="date" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="noLaterThanConstraintDate" type="date" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noLaterThanConstraintDate" type="date" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:33:28.186Z" timestamp="2018-01-02T07:33:28.186Z">
+    <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T04:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T04:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T04:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T04:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:34:58.986Z" timestamp="2018-01-02T07:34:58.986Z">
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" from="2017-12-25T09:00:00.000Z" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="noLaterThanConstraintDate" type="date" from="2017-12-25T09:00:00.000Z" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noLaterThanConstraintDate" type="date" from="2017-12-26T09:00:00.000Z" to="2018-01-03T09:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t125" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t126" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t126" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t127" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t127" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t128" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t128" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t129" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t129" attribute="internalEffortDone" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:35:08.521Z" timestamp="2018-01-02T07:35:08.521Z">
+    <change idref="t122" attribute="noLaterThanConstraintDate" type="date" from="2017-12-26T09:00:00.000Z" to="2018-01-03T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:36:05.611Z" timestamp="2018-01-02T07:36:05.611Z">
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" from="2018-01-02T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="noLaterThanConstraintDate" type="date" from="2018-01-02T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="noLaterThanConstraintDate" type="date" from="2018-01-03T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noLaterThanConstraintDate" type="date" from="2018-01-03T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:36:46.676Z" timestamp="2018-01-02T07:36:46.676Z">
+    <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T04:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t121" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T04:00:00.000Z" to="2017-12-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T04:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:36:48.029Z" timestamp="2018-01-02T07:36:48.029Z">
+    <change idref="t122" attribute="noEarlierThanConstraintDate" type="date" from="2018-01-02T04:00:00.000Z" to="2017-12-26T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:36:54.559Z" timestamp="2018-01-02T07:36:54.559Z">
+    <change idref="t125" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t125" attribute="noLaterThanConstraintDate" type="date" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:37:05.436Z" timestamp="2018-01-02T07:37:05.436Z">
+    <change idref="t126" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="noLaterThanConstraintDate" type="date" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:37:20.554Z" timestamp="2018-01-02T07:37:20.554Z">
+    <change idref="t127" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="noLaterThanConstraintDate" type="date" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:37:41.014Z" timestamp="2018-01-02T07:37:41.014Z">
+    <change idref="t128" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="noLaterThanConstraintDate" type="date" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="effort" type="real" from="14400" to="28800" resolved="yes"/>
+    <change idref="t129" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="noLaterThanConstraintDate" type="date" to="2017-12-29T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:37:46.444Z" timestamp="2018-01-02T07:37:46.444Z">
+    <change idref="t129" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:38:26.369Z" timestamp="2018-01-02T07:38:26.369Z">
+    <change idref="t68" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t101" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t101" attribute="internalAssignments" type="string" from="3" to="" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:38:53.862Z" timestamp="2018-01-02T07:38:53.862Z">
+    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="noLaterThanConstraintDate" type="date" to="2018-01-05T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:39:15.539Z" timestamp="2018-01-02T07:39:15.539Z">
+    <change idref="t101" attribute="noLaterThanConstraintDate" type="date" from="2018-01-05T09:00:00.000Z" to="2018-01-04T09:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:39:57.769Z" timestamp="2018-01-02T07:39:57.769Z">
+    <change idref="t69" from="t8" from-position="12" resolved="yes">
+      <change idref="t69" attribute="" type="string" to=""/>
+      <change idref="t69" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t69" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t69" attribute="title" type="string" to="查询工单"/>
+    </change>
+    <change idref="t156" to="t65" to-position="3" resolved="yes">
+      <change idref="t156" attribute="" type="string" to=""/>
+      <change idref="t156" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t156" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-02T00:00:00.000Z"/>
+      <change idref="t156" attribute="title" type="string" to="搜索，根据工单号和时间段"/>
+    </change>
+    <change idref="t146" attribute="resourceLeveledDate" type="date" from="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="noLaterThanConstraintDate" type="date" to="2018-01-05T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:40:20.997Z" timestamp="2018-01-02T07:40:20.997Z">
+    <change idref="t132" attribute="effort" type="real" from="28800" to="5760" resolved="yes"/>
+    <change idref="t132" attribute="internalEffortDone" type="real" from="28800" to="5760" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:40:39.836Z" timestamp="2018-01-02T07:40:39.836Z">
+    <change idref="t131" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t132" attribute="effort" type="real" from="5760" to="7200" resolved="yes"/>
+    <change idref="t133" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t133" attribute="internalEffortDone" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t134" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t134" attribute="internalEffortDone" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t135" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t135" attribute="internalEffortDone" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t147" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+    <change idref="t147" attribute="internalEffortDone" type="real" from="28800" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:41:32.325Z" timestamp="2018-01-02T07:41:32.325Z">
+    <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-25T00:00:00.000Z" to="2018-01-02T04:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:44:14.058Z" timestamp="2018-01-02T07:44:14.058Z">
+    <change idref="t120" attribute="effort" type="real" from="14400" to="43200" resolved="yes"/>
+    <change idref="t121" attribute="effort" type="real" from="14400" to="28800" resolved="yes"/>
+    <change idref="t122" attribute="effort" type="real" from="14400" to="28800" resolved="yes"/>
+    <change idref="t123" attribute="effort" type="real" from="14400" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:44:36.390Z" timestamp="2018-01-02T07:44:36.390Z">
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:45:00.313Z" timestamp="2018-01-02T07:45:00.313Z">
+    <change idref="t121" attribute="noLaterThanConstraintDate" type="date" from="2017-12-25T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="noLaterThanConstraintDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-29T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noLaterThanConstraintDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:45:13.114Z" timestamp="2018-01-02T07:45:13.114Z">
+    <change idref="t120" attribute="effort" type="real" from="43200" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:45:26.237Z" timestamp="2018-01-02T07:45:26.237Z">
+    <change idref="t120" attribute="noLaterThanConstraintDate" type="date" from="2017-12-26T09:00:00.000Z" to="2017-12-25T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:45:36.956Z" timestamp="2018-01-02T07:45:36.956Z">
+    <change idref="t121" attribute="noLaterThanConstraintDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-26T09:00:00.000Z" resolved="yes"/>
+    <change idref="t123" attribute="noLaterThanConstraintDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:47:47.983Z" timestamp="2018-01-02T07:47:47.983Z">
+    <change idref="t122" attribute="noLaterThanConstraintDate" type="date" from="2017-12-29T09:00:00.000Z" to="2017-12-27T09:00:00.000Z" resolved="yes"/>
+    <change idref="t122" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t123" attribute="effort" type="real" from="28800" to="115200" resolved="yes"/>
+    <change idref="t125" attribute="noLaterThanConstraintDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t126" attribute="noLaterThanConstraintDate" type="date" from="2017-12-27T09:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
+    <change idref="t127" attribute="noLaterThanConstraintDate" type="date" from="2017-12-28T09:00:00.000Z" to="2017-12-29T09:00:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="noLaterThanConstraintDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+    <change idref="t129" attribute="noLaterThanConstraintDate" type="date" from="2017-12-29T09:00:00.000Z" to="2018-01-02T09:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-02T07:48:00.935Z" timestamp="2018-01-02T07:48:00.935Z">
+    <change idref="t123" attribute="effort" type="real" from="115200" to="14400" resolved="yes"/>
+  </task-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T06:03:30.757Z" timestamp="2018-01-02T06:03:30.757Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2017-12-28T09:00:00.000Z" to="2018-01-12T09:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T06:03:47.997Z" timestamp="2018-01-02T06:03:47.997Z">
+    <change idref="m1" attribute="hasFixedEndDate" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2018-01-12T09:00:00.000Z" to="2017-12-20T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T06:09:28.178Z" timestamp="2018-01-02T06:09:28.178Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+                {
+            name = &quot;\U57fa\U7ebf 2017/12/19&quot;;
+            uuid = &quot;o9xJ2HRzu-e&quot;;
+        },
+                {
+            name = &quot;\U57fa\U7ebf 2017/12/22&quot;;
+            uuid = bMAum5ApjTf;
+        }
+    );
+}" to="{
+    info =     (
+                {
+            name = &quot;\U57fa\U7ebf 2017/12/19&quot;;
+            uuid = &quot;o9xJ2HRzu-e&quot;;
+        },
+                {
+            name = &quot;\U57fa\U7ebf 2017/12/22&quot;;
+            uuid = bMAum5ApjTf;
+        },
+                {
+            name = &quot;\U57fa\U7ebf 2017/12/20&quot;;
+            uuid = moZ4AQT8kjm;
+        }
+    );
 }" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:10:14.306Z" timestamp="2017-12-27T08:10:14.306Z">
-    <change idref="t119" to="t8" to-position="9" resolved="yes">
-      <change idref="t119" attribute="" type="string" to=""/>
-      <change idref="t119" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t119" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t119" attribute="title" type="string" to="业务实体的管理"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:11:17.283Z" timestamp="2017-12-27T08:11:17.283Z">
-    <change idref="t67" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t67" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t67" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t67" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t67" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t67" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t67" attribute="effort" type="real" from="14400" resolved="yes"/>
-    <change idref="t67" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t67" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t67" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
-    <change idref="t67" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
-    <change idref="t67" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t67" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
-    <change idref="t120" to="t67" to-position="0" resolved="yes">
-      <change idref="t120" attribute="" type="string" to=""/>
-      <change idref="t120" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t120" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t120" attribute="title" type="string" to="元素的新增"/>
-    </change>
-    <change idref="t121" to="t67" to-position="1" resolved="yes">
-      <change idref="t121" attribute="" type="string" to=""/>
-      <change idref="t121" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t121" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t121" attribute="title" type="string" to="元素的删除"/>
-    </change>
-    <change idref="t122" to="t67" to-position="2" resolved="yes">
-      <change idref="t122" attribute="" type="string" to=""/>
-      <change idref="t122" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t122" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t122" attribute="title" type="string" to="元素和类型搜索"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:11:26.093Z" timestamp="2017-12-27T08:11:26.093Z">
-    <change idref="t123" to="t67" to-position="3" resolved="yes">
-      <change idref="t123" attribute="" type="string" to=""/>
-      <change idref="t123" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t123" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t123" attribute="title" type="string" to="元素的编辑"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:12:09.876Z" timestamp="2017-12-27T08:12:09.876Z">
-    <change idref="t119" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t119" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t119" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t119" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t119" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t119" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t119" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t119" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t119" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t119" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t119" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t119" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t119" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t125" to="t119" to-position="0" resolved="yes">
-      <change idref="t125" attribute="" type="string" to=""/>
-      <change idref="t125" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t125" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t125" attribute="title" type="string" to="实体的新增"/>
-    </change>
-    <change idref="t126" to="t119" to-position="1" resolved="yes">
-      <change idref="t126" attribute="" type="string" to=""/>
-      <change idref="t126" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t126" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t126" attribute="title" type="string" to="实体的删除"/>
-    </change>
-    <change idref="t127" to="t119" to-position="2" resolved="yes">
-      <change idref="t127" attribute="" type="string" to=""/>
-      <change idref="t127" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t127" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t127" attribute="title" type="string" to="实体的修改"/>
-    </change>
-    <change idref="t128" to="t119" to-position="3" resolved="yes">
-      <change idref="t128" attribute="" type="string" to=""/>
-      <change idref="t128" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t128" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t128" attribute="title" type="string" to="实体的搜索"/>
-    </change>
-    <change idref="t129" to="t119" to-position="4" resolved="yes">
-      <change idref="t129" attribute="" type="string" to=""/>
-      <change idref="t129" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t129" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t129" attribute="title" type="string" to="实体与元素的关联管理"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:13:38.767Z" timestamp="2017-12-27T08:13:38.767Z">
-    <change idref="t69" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t69" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t69" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t69" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t69" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t69" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t69" attribute="effort" type="real" from="14400" resolved="yes"/>
-    <change idref="t69" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t69" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t69" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
-    <change idref="t69" attribute="internalAssignments" type="string" from="4" resolved="yes"/>
-    <change idref="t69" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t69" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
-    <change idref="t130" to="t69" to-position="0" resolved="yes">
-      <change idref="t130" attribute="" type="string" to=""/>
-      <change idref="t130" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t130" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t130" attribute="title" type="string" to="根据工单号和创建时间搜索"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:18:09.923Z" timestamp="2017-12-27T08:18:09.923Z">
-    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-26T00:00:00.000Z" to="2017-12-27T00:00:00.000Z" resolved="yes"/>
-    <change idref="t66" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
-    <change idref="t73" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t73" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t73" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t73" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t73" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t73" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t73" attribute="effort" type="real" from="57600" resolved="yes"/>
-    <change idref="t73" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t73" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t73" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t73" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
-    <change idref="t73" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t73" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
-    <change idref="t131" to="t73" to-position="0" resolved="yes">
-      <change idref="t131" attribute="" type="string" to=""/>
-      <change idref="t131" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t131" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t131" attribute="title" type="string" to="待审批"/>
-    </change>
-    <change idref="t132" to="t73" to-position="1" resolved="yes">
-      <change idref="t132" attribute="" type="string" to=""/>
-      <change idref="t132" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t132" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t132" attribute="title" type="string" to="待处理"/>
-    </change>
-    <change idref="t133" to="t73" to-position="2" resolved="yes">
-      <change idref="t133" attribute="" type="string" to=""/>
-      <change idref="t133" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t133" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t133" attribute="title" type="string" to="审批未通过"/>
-    </change>
-    <change idref="t134" to="t73" to-position="3" resolved="yes">
-      <change idref="t134" attribute="" type="string" to=""/>
-      <change idref="t134" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t134" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t134" attribute="title" type="string" to="处理中"/>
-    </change>
-    <change idref="t135" to="t73" to-position="4" resolved="yes">
-      <change idref="t135" attribute="" type="string" to=""/>
-      <change idref="t135" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t135" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t135" attribute="title" type="string" to="待关闭"/>
-    </change>
-    <change idref="t101" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" to="2017-12-28T09:00:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:19:51.913Z" timestamp="2017-12-27T08:19:51.913Z">
-    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-27T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
-    <change idref="t66" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t66" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t66" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t66" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t66" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t66" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t66" attribute="effort" type="real" from="57600" resolved="yes"/>
-    <change idref="t66" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t66" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t66" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" resolved="yes"/>
-    <change idref="t66" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
-    <change idref="t66" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t66" attribute="internalEffortDone" type="real" from="3600" resolved="yes"/>
-    <change idref="t136" to="t66" to-position="0" resolved="yes">
-      <change idref="t136" attribute="" type="string" to=""/>
-      <change idref="t136" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t136" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t136" attribute="title" type="string" to="工单进度流转图"/>
-    </change>
-    <change idref="t137" to="t66" to-position="1" resolved="yes">
-      <change idref="t137" attribute="" type="string" to=""/>
-      <change idref="t137" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t137" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t137" attribute="title" type="string" to="元素列表说明"/>
-    </change>
-    <change idref="t138" to="t66" to-position="2" resolved="yes">
-      <change idref="t138" attribute="" type="string" to=""/>
-      <change idref="t138" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t138" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t138" attribute="title" type="string" to="日志列表"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:20:15.811Z" timestamp="2017-12-27T08:20:15.811Z">
-    <change idref="t137" attribute="title" type="string" from="元素列表说明" to="元素列表按顺序展示" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:22:20.392Z" timestamp="2017-12-27T08:22:20.392Z">
-    <change idref="t65" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t65" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t65" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t65" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t65" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t65" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t65" attribute="effort" type="real" from="57600" resolved="yes"/>
-    <change idref="t65" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t65" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t65" attribute="resourceLeveledDate" type="date" from="2017-12-28T00:00:00.000Z" resolved="yes"/>
-    <change idref="t65" attribute="internalAssignments" type="string" from="2" resolved="yes"/>
-    <change idref="t65" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t65" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
-    <change idref="t139" to="t65" to-position="0" resolved="yes">
-      <change idref="t139" attribute="" type="string" to=""/>
-      <change idref="t139" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t139" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t139" attribute="title" type="string" to="申请人流转(待提交、待审批、待处理、处理中，待关闭、已关闭)"/>
-    </change>
-    <change idref="t140" to="t65" to-position="1" resolved="yes">
-      <change idref="t140" attribute="" type="string" to=""/>
-      <change idref="t140" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t140" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t140" attribute="title" type="string" to="审批人流转信息(待审批、已审批)"/>
-    </change>
-    <change idref="t141" to="t65" to-position="2" resolved="yes">
-      <change idref="t141" attribute="" type="string" to=""/>
-      <change idref="t141" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t141" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t141" attribute="title" type="string" to="处理人流转信息(待处理、处理中、待关闭、已关闭)"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:23:23.332Z" timestamp="2017-12-27T08:23:23.332Z">
-    <change idref="t71" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t71" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t71" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t71" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t71" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2017-12-28T09:00:00.000Z" resolved="yes"/>
-    <change idref="t71" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
-    <change idref="t71" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t71" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t142" to="t71" to-position="0" resolved="yes">
-      <change idref="t142" attribute="" type="string" to=""/>
-      <change idref="t142" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t142" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t142" attribute="title" type="string" to="流转打包成zip"/>
-    </change>
-    <change idref="t143" to="t71" to-position="1" resolved="yes">
-      <change idref="t143" attribute="" type="string" to=""/>
-      <change idref="t143" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t143" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t143" attribute="title" type="string" to="流程包的上传"/>
-    </change>
-    <change idref="t144" to="t71" to-position="2" resolved="yes">
-      <change idref="t144" attribute="" type="string" to=""/>
-      <change idref="t144" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t144" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t144" attribute="title" type="string" to="流程包的展示界面"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:23:28.762Z" timestamp="2017-12-27T08:23:28.762Z">
-    <change idref="t142" attribute="title" type="string" from="流转打包成zip" to="流转打包" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:23:51.539Z" timestamp="2017-12-27T08:23:51.539Z">
-    <change idref="t70" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t70" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t70" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t70" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t70" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t70" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t70" attribute="effort" type="real" from="14400" resolved="yes"/>
-    <change idref="t70" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t70" attribute="scheduleType" type="real" from="1" resolved="yes"/>
-    <change idref="t70" attribute="resourceLeveledDate" type="date" from="2017-12-26T09:00:00.000Z" resolved="yes"/>
-    <change idref="t70" attribute="internalAssignments" type="string" from="1" resolved="yes"/>
-    <change idref="t70" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t70" attribute="internalEffortDone" type="real" from="14400" resolved="yes"/>
-    <change idref="t145" to="t70" to-position="0" resolved="yes">
-      <change idref="t145" attribute="" type="string" to=""/>
-      <change idref="t145" attribute="resourceLeveledDate" type="date" to="2017-12-28T09:00:00.000Z"/>
-      <change idref="t145" attribute="scheduleType" type="real" from="0" to="1"/>
-      <change idref="t145" attribute="title" type="string" to="画流程图并定义流转关系"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="jiadongpo" date="2017-12-27T08:27:47.411Z" timestamp="2017-12-27T08:27:47.411Z">
-    <change idref="t123" from="t67" from-position="3" to="t67" to-position="2" resolved="yes"/>
-    <change idref="t122" attribute="title" type="string" from="元素和类型搜索" to="元素的搜索(名称、描述、来源)" resolved="yes"/>
-  </task-change-set>
+  </metadata-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T06:14:55.761Z" timestamp="2018-01-02T06:14:55.761Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2017-12-20T00:00:00.000Z" to="2017-12-21T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T06:16:17.582Z" timestamp="2018-01-02T06:16:17.582Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2017-12-21T00:00:00.000Z" to="2017-12-19T16:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="jiadongpo" date="2018-01-02T07:21:35.837Z" timestamp="2018-01-02T07:21:35.837Z">
+    <change idref="m1" attribute="autoLevelResources" type="real" from="1" to="0" resolved="yes"/>
+  </metadata-change-set>
 </changelog>
