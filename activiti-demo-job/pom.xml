@@ -6,14 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
-        <!--<activiti.version>5.22.0</activiti.version>-->
-        <activiti.version>5.14</activiti.version>
-        <!--<activiti.version>6.0.0</activiti.version>-->
-        <!--<springframework-version>3.0.2.RELEASE</springframework-version>-->
+        <activiti.version>5.22.0</activiti.version>
+        <!--<activiti.version>5.14</activiti.version>-->
         <springframework-version>4.3.7.RELEASE</springframework-version>
-        <!--<springframework-version>5.0.2.RELEASE</springframework-version>-->
-        <hibernate.version>3.6.10.Final</hibernate.version>
-        <!--<hibernate.version>5.2.12.Final</hibernate.version>-->
+        <!--<hibernate.version>3.6.10.Final</hibernate.version>-->
+        <hibernate.version>5.2.12.Final</hibernate.version>
         <!--<slf4j.version>1.5.8</slf4j.version>-->
         <!--<slf4j.version>1.7.25</slf4j.version>-->
         <slf4j.version>1.7.19</slf4j.version>

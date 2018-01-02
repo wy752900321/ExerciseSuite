@@ -13,7 +13,7 @@ public class EmployeeDaoImpl extends HibernateDaoSupport implements IEmployeeDao
 	@Override
 	public Employee findEmployeeByName(String name) {
 		String hql = "from Employee o where o.name = ?";
-		List<Employee> list = this.getHibernateTemplate().find(hql, name);
+		List<Employee> list = (List<Employee>)this.getHibernateTemplate().find(hql, name);
 		Employee employee = null;
 		if(list!=null && list.size()>0){
 			employee = list.get(0);
