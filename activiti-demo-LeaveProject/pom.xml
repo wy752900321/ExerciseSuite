@@ -6,9 +6,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
-        <activiti.version>5.13</activiti.version>
-        <spring.version>3.0.2.RELEASE</spring.version>
-        <slf4j.version>1.5.8</slf4j.version>
+        <!--<activiti.version>5.22.0</activiti.version>-->
+        <activiti.version>5.14</activiti.version>
+        <!--<activiti.version>6.0.0</activiti.version>-->
+        <!--<springframework-version>3.0.2.RELEASE</springframework-version>-->
+        <springframework-version>4.3.7.RELEASE</springframework-version>
+        <!--<springframework-version>5.0.2.RELEASE</springframework-version>-->
+        <hibernate.version>3.6.10.Final</hibernate.version>
+        <!--<hibernate.version>5.2.12.Final</hibernate.version>-->
+        <!--<slf4j.version>1.5.8</slf4j.version>-->
+        <!--<slf4j.version>1.7.25</slf4j.version>-->
+        <slf4j.version>1.7.19</slf4j.version>
+        <struts2.version>2.3.3</struts2.version>
+        <!--<struts2.version>2.5.14.1</struts2.version>-->
     </properties>
     <dependencies>
         <!--activiti相关包-->
@@ -56,28 +66,18 @@
             <artifactId>activiti-cxf</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-diagram-rest</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-explorer</artifactId>
             <version>${activiti.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-json-converter</artifactId>
             <version>${activiti.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-modeler</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
         <!--<dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-mule</artifactId>
@@ -96,38 +96,49 @@
             <version>${activiti.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-simple-workflow</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-spring</artifactId>
             <version>${activiti.version}</version>
         </dependency>
-
+        <!--activiti 6.0.0去除的jar-->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-diagram-rest</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-modeler</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-simple-workflow</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
 
         <!--spring-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
+            <version>${springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
+            <version>${springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>${spring.version}</version>
+            <version>${springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>${spring.version}</version>
+            <version>${springframework-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -137,17 +148,17 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>3.6.10.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
-            <version>2.3.3</version>
+            <version>${struts2.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-spring-plugin</artifactId>
-            <version>2.3.3</version>
+            <version>${struts2.version}</version>
         </dependency>
 
         <!--日志-->
@@ -262,7 +273,7 @@
             <version>1.0.17</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.4</version>
@@ -273,16 +284,34 @@
             <artifactId>jsp-api</artifactId>
             <version>2.2</version>
             <scope>provided</scope>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>servlet-api</artifactId>
+            <!--<version>6.0.53</version>-->
+            <version>6.0.43</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>jsp-api</artifactId>
+            <!--<version>6.0.53</version>-->
+            <version>6.0.43</version>
         </dependency>
 
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.5.4</version>
+        </dependency>
 
     </dependencies>
 
     <repositories>
-        <repository>
+        <!--<repository>
             <id>alfresco</id>
             <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-        </repository>
+        </repository>-->
         <repository>
             <id>aliyunmaven</id>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
