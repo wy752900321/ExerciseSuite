@@ -62,7 +62,7 @@ public class AzkabanUtilLocal {
                         logger.info("源id[" + sourceId + "]，" + "目标id[" + targetId + "]");
 
                         Connection connectionDPPro = DBUtilDPPro.openConnection();
-                        String sql = "INSERT INTO debug_azkaban_edge(id,source_name,target_name) VALUES (UUID(),'" + sourceId + "','" + targetId + "')";
+                        String sql = "INSERT INTO t_etl_debug_azkaban(id,source_name,target_name) VALUES (UUID(),'" + sourceId + "','" + targetId + "')";
                         PreparedStatement preparedStatement = connectionDPPro.prepareStatement(sql);
                         preparedStatement.execute();
                         DBUtilDPPro.closeConnection();
@@ -465,7 +465,7 @@ public class AzkabanUtilLocal {
 
         if (sqlKey != null && sqlValue != null) {
             StringBuilder sql = new StringBuilder();
-            sql.append("INSERT INTO debug_kettle (");
+            sql.append("INSERT INTO t_etl_debug_kettle (");
             sql.append("id,");
             sql.append(sqlKey);
             sql.append(") VALUES (");

@@ -1,16 +1,596 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activiti-basic-master/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activiti-basic-master/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activiti-basic-master/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activiti-basic-master/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="maven 版的activiti可用。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.part.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/leaveBill2.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter10/payment.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter10/purchase-callactivity.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter10/purchase-subprocess.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter17/leave-jpa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter5/aaa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter6/dynamic-form/leave-dynamic-form-with-javascript.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter6/dynamic-form/leave-dynamic-form.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter6/leave-formkey/leave-formkey.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter7/leave.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter8/leave-mail-timeout.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter8/leave-mail.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/resources/chapter9/leave-countersign.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter5-oa-manager/src/main/resources/chapter5/aaa.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter5-oa-manager/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter5-oa-manager/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/OK.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/OK_mouseover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/already_dele_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bang.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bg_dot_long.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bg_dotted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bg_dotted2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bg_point1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bj_d_black.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bj_enter_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bj_enter_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_c_jianbian.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_c_jianbian02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_c_jianbian2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_jianbian01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no010.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no06.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no07.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no08.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no0_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no0_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no0_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_no9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_r_button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_r_button0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_r_button1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_r_button_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/book_r_jianbian3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bookbanner_fl.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/brow_t_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bug_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/butt_balance.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/butt_buy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_goumai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_goumai_click.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_goumai_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_zancun.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_zancun_click.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/buttom_zancun_over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/cheap1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/cheap2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/cheap3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/cheap4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/commend_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/d_introduce.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_chuangshang.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_chuangshang_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_gandong.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_gandong_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_kafeiguan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_kafeiguan_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_rmzz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_rmzz_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_sale.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_shanggan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_shanggan_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_shuzhuopang.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_shuzhuopang_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_xing.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dot_xing_gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/dqnew.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/fenlei_bg2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/five_star.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/heibai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_010.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_06.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_07.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_08.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_20_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_40_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_bang.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_book_mess.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_chuban2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_chuban_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_chuban_r2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_jcsp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_jiaqian.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_jiaqian_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_jiaqian_r2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_present.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_sanjiao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_sanjiao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_sanjiao_black.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_shijian2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_shijian_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_shijian_r2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_storer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_xiaoshou_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_zhekou.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_zhekou_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/icon_zhekou_r2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/jianbian_xsrm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/label3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/li_r_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/line1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/line_x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/login_bj1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/login_bj2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/login_success.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/more1_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/newRelease.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/next_mouseover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/page_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/page_down_gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/page_down_mouseover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/page_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/page_up_gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/pic_myshopping.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/point_gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/pucker_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/pucker_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_beijing01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_beijing03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_beijing05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_butt_g_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_butt_y_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_jianbian01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/second_rmzz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shuxian.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/star_gray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/star_red.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/star_red2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/title_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/validate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/window_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/wrong.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/xianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/xs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/xssj_banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/xuxian_x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/xuxian_y.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/productImages/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/IEmployeeService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/service/ILeaveBillService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-osgi-5.13-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/spring-mvc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/action/LoginController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/action/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/proxy/CglibProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/proxy/JdkProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/service/EmpService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/test/TestCglibProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/test/TestJdkProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/test/TestTaxUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/tarena/util/TaxUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/aopalliance.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/asm.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/aspectjrt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/aspectjweaver.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/cglib-2.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/commons-logging.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/jstl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/spring-webmvc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/spring.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/lib/standard.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/action/LoginController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/action/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/proxy/CglibProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/proxy/JdkProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/service/EmpService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/test/TestCglibProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/test/TestJdkProxyFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/test/TestTaxUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/tarena/util/TaxUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/aopalliance.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/asm.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/aspectjrt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/aspectjweaver.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/cglib-2.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/cglib-nodep-2.1_3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/commons-logging.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/jstl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/spring-webmvc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/spring.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/lib/standard.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/spring-mvc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/Test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.part.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue-upload-component.part.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/vue-upload-component/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/WEB-INF/views/workflow/workflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/META-INF/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/common/foot.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/common/foot1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/common/head.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/common/head1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/common/introduce.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/file/Struts_token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/file/dangdang.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/file/quan.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/file/ܽ.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/book_info.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/book_list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/category.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/hot.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/moreOtherBooks.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/new.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/main/recommend.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/order/address_form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/order/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/order/order_info.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/order/order_ok.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/user/login_form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/user/register_form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/user/register_ok.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/user/verify_form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/BaseAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/cart/CartAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/BookListAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/CategoryAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/HotAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/MoreOtherBooks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/Recommend.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/SelectOrderAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/ShowBookDiscription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/ImageValidAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/BookDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/CartDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/CategoryDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/MoreOtherBookDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/OrderDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/ProductDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/UserDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/BookDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/CartDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/CategoryDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/MoreOtherBooksDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/OrderDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/ProductDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/dao/impl/UserDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/test/Hello.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/test/TestCartCookie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/test/TestData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/CookieUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/DBUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/EmailUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/ImageUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/MD5Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/UUIDToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/util/VerifyCodeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/day06.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/action/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/action/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/proxy/CglibProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/proxy/JdkProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/service/EmpService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/test/TestCglibProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/test/TestJdkProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/test/TestTaxUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/java/tarena/util/TaxUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/resources/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/classes/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc-maven/src/main/webapp/ok.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/.mymetadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/classes/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/WebRoot/ok.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/day06.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/action/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/action/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/proxy/CglibProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/proxy/JdkProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/service/EmpService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/test/TestCglibProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/test/TestJdkProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/test/TestTaxUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springmvc/src/tarena/util/TaxUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/xxl_job_sql_20170707.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据中心常用.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_element.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_entity.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_business_model.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_datasource.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_element_mapping.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_entity_element.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_model_entity.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_dataextract_relation.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/dmp_t_datasource.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/数据抽取开发数据备份_201708101732/vbilltest1.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SqlFiles/生产数据常用.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book717/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book717/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book717/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book717/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/f_sequenceFlow/sequenceFlow.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/f_sequenceFlow/sequenceFlow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/g_exclusiveGateWay/exclusiveGateWay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/h_parallelGateWay/parallelGateWay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/i_start/start.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/i_start/start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/j_receiveTask/receiveTask.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/j_receiveTask/receiveTask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask/task.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask/task.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask02/task.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/k_personalTask02/task.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group/task.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group/task.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group02/task.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/l_group02/task.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/m_groupUser/task.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/itcast0711/target/classes/cn/itcast/m_groupUser/task.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.mymetadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/action/OrderListAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/dao/BaseDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/dao/OrderDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/dao/impl/HibernateOrderDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/entity/Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/entity/Order.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/entity/OrderListLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/entity/User.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/com/tarena/test/tes1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/ssh.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/WebRoot/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/action/OrderListAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/dao/BaseDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/dao/OrderDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/dao/impl/HibernateOrderDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/entity/Order.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/entity/Order.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/entity/OrderListLine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/entity/User.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/entity/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/com/tarena/test/tes1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/ssh.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/src/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssh0.1/ssh0.1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.mymetadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.settings/com.genuitec.eclipse.j2eedt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/add.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/action/LoginAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/action/PersonAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/action/ProjectAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/action/ProjectListAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/action/UploadAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/dao/ProjectDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/dao/impl/ProjectDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/entity/Option.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/entity/Project.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/interceptor/LoginInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/util/DBUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/com/tarena/util/ImageUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/struts-project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/project_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/update.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/view.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/ok.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/update.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/WebRoot/upload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/action/LoginAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/action/PersonAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/action/ProjectAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/action/ProjectListAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/action/UploadAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/dao/ProjectDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/dao/impl/ProjectDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/entity/Option.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/entity/Project.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/interceptor/LoginInterceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/util/DBUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/com/tarena/util/ImageUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/struts-project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/src/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/struts03.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts03/struts05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/.mymetadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/.settings/com.genuitec.eclipse.j2eedt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/classes/com/tarena/web/action/BaseAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/classes/com/tarena/web/action/FileUploadAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/jsp/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/jsp/upload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/commons-io-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/commons-logging.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/freemarker-2.3.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/junit-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/log4j-1.2.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.16-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/ognl-2.7.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/struts2-core-2.1.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/lib/xwork-core-2.1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/imagesUpload/mm2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/WebRoot/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/src/com/tarena/web/action/BaseAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/src/com/tarena/web/action/FileUploadAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/src/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/src/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/struts2_lesson6.2_upload/struts2_lesson6.2_upload.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testwebapp/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testwebapp/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testwebapp/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.mymetadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.settings/com.genuitec.eclipse.j2eedt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/Test1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/dao/impl/EmpDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/util/JdbcUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/util/UUIDToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/classes/cn/itcast/web/SaveEmpServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/emp.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/emp02.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/emp03.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/empyuanli.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/me.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/WebRoot/table.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/dao/impl/EmpDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/util/JdbcUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/util/UUIDToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/src/cn/itcast/web/SaveEmpServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token_uuid/token_uuid.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/QuickLook/Preview.png" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/QuickLook/Preview.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/Actual.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/Actual.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__TOC.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__TOC.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__changelog.xml" afterPath="$PROJECT_DIR$/CommonFiles/OmniPlanFiles/提数工单.oplx/__changelog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java" afterPath="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" afterPath="$PROJECT_DIR$/T-ELTS0.1/T-ELTS0.1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/pom.xml" afterPath="$PROJECT_DIR$/activiti-demo-job/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/IEmployeeDao.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/IEmployeeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/ILeaveBillDao.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/ILeaveBillDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/impl/EmployeeDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/dao/impl/LeaveBillDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/domain/Employee.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/domain/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/domain/LeaveBill.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/domain/LeaveBill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/IEmployeeService.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/IEmployeeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/ILeaveBillService.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/ILeaveBillService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/IWorkflowService.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/IWorkflowService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/EmployeeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/LeaveBillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/service/impl/WorkflowServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/LoginInteceptor.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/LoginInteceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/ManagerTaskHandler.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/ManagerTaskHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/SessionContext.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/SessionContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/ValueContext.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/utils/ValueContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/LeaveBillAction.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/LeaveBillAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/LoginAction.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/WorkflowAction.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/action/WorkflowAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file/file.iml" afterPath="$PROJECT_DIR$/file/file.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/pom.xml" afterPath="$PROJECT_DIR$/itcast0711/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/a_helloworld/HelloWorld.java" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/a_helloworld/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml" afterPath="$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/src/test/java/junit/TestActiviti.java" afterPath="$PROJECT_DIR$/itcast0711/src/test/java/junit/TestActiviti.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/target/classes/activiti.cfg.xml" afterPath="$PROJECT_DIR$/itcast0711/target/classes/activiti.cfg.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,7 +665,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activiti-demo-job-img/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -95,7 +675,56 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="applicationContext-test.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/test/resources/applicationContext-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitEngineeDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/java/me/kafeitu/activiti/chapter6/util/InitEngineeDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestActiviti.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast0711/src/test/java/junit/TestActiviti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activiti.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>activit</find>
+      <find>processEngineConfiguration</find>
+      <find>SpringProcessEngineConfiguration</find>
+      <find>databaseSchemaUpdate</find>
+      <find>DB_SCHEMA_UPDATE_FALSE</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +738,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml" />
       </list>
     </option>
   </component>
@@ -139,7 +769,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="37" />
+    <option name="x" value="570" />
+    <option name="y" value="120" />
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
@@ -261,15 +892,245 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti-in-action-codes-master" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19-identity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="kafeitu" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast0711" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -772,7 +1633,10 @@
       <workItem from="1514883900606" duration="136000" />
       <workItem from="1514899985186" duration="133000" />
       <workItem from="1514900484660" duration="1664000" />
-      <workItem from="1514905468932" duration="7000" />
+      <workItem from="1514905468932" duration="33000" />
+      <workItem from="1514944992269" duration="530000" />
+      <workItem from="1515045381760" duration="911000" />
+      <workItem from="1515424393557" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -928,35 +1792,43 @@
       <option name="project" value="LOCAL" />
       <updated>1514901429371</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="maven 版的activiti可用。">
+      <created>1514905490163</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1514905490163</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9281000" />
+    <option name="totallyTimeSpent" value="10762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="37" width="1680" height="948" extended-state="0" />
+    <frame x="570" y="120" width="1680" height="948" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448733" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32448733" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4059829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42063493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -965,14 +1837,13 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -983,34 +1854,36 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5060514" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27045178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.497558" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448733" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33055976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41575092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1049,34 +1922,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1300,6 +2145,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/test/resources/applicationContext-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter19-identity/src/main/java/me/kafeitu/activiti/chapter6/util/InitEngineeDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast0711/src/test/java/junit/TestActiviti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding />
         </state>
       </provider>

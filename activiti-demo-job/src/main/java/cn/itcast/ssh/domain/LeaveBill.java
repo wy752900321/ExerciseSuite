@@ -6,70 +6,70 @@ import java.util.Date;
  * 请假单
  */
 public class LeaveBill {
-	private Long id;//主键ID
-	private Integer days;// 请假天数
-	private String content;// 请假内容
-	private Date leaveDate = new Date();// 请假时间
-	private String remark;// 备注
-	private Employee user;// 请假人
-	
-	private Integer state=0;// 请假单状态 0初始录入,1.开始审批,2为审批完成
+    private Long id;//主键ID
+    private Integer days;// 请假天数
+    private String content;// 请假内容
+    private Date leaveDate = new Date();// 请假时间
+    private String remark;// 备注
+    private Employee user;// 请假人
 
-	public Long getId() {
-		return id;
-	}
+    private Integer state = 0;// 请假单状态 0初始录入,1.开始审批,2为审批完成
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public Integer getDays() {
-		return days;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setDays(Integer days) {
-		this.days = days;
-	}
+    public Integer getDays() {
+        return days;
+    }
 
-	public String getContent() {
-		return content;
-	}
+    public void setDays(Integer days) {
+        this.days = days;
+    }
 
-	public void setContent(String content) {
-		this.content = content;
-	}
+    public String getContent() {
+        return content;
+    }
 
-	public Date getLeaveDate() {
-		return leaveDate;
-	}
+    public void setContent(String content) {
+        this.content = content;
+    }
 
-	public void setLeaveDate(Date leaveDate) {
-		this.leaveDate = leaveDate;
-	}
+    public Date getLeaveDate() {
+        return leaveDate;
+    }
 
-	public String getRemark() {
-		return remark;
-	}
+    public void setLeaveDate(Date leaveDate) {
+        this.leaveDate = leaveDate;
+    }
 
-	public void setRemark(String remark) {
-		this.remark = remark;
-	}
+    public String getRemark() {
+        return remark;
+    }
 
-	public Employee getUser() {
-		return user;
-	}
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
 
-	public void setUser(Employee user) {
-		this.user = user;
-	}
+    public Employee getUser() {
+        return user;
+    }
 
-	public Integer getState() {
-		return state;
-	}
+    public void setUser(Employee user) {
+        this.user = user;
+    }
 
-	public void setState(Integer state) {
-		this.state = state;
-	}
-	
-	
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
+    }
+
+
 }

@@ -105,6 +105,7 @@
     <child-task idref="t146"/>
     <child-task idref="t73"/>
     <child-task idref="t103"/>
+    <child-task idref="t162"/>
     <start-no-earlier-than>2018-01-02T00:00:00.000Z</start-no-earlier-than>
     <end-no-later-than>2018-01-11T16:00:00.000Z</end-no-later-than>
   </task>
@@ -317,6 +318,7 @@
     <child-task idref="t150"/>
     <child-task idref="t152"/>
     <child-task idref="t153"/>
+    <child-task idref="t163"/>
   </task>
   <task id="t65">
     <title>工单流转状态</title>
@@ -804,7 +806,7 @@
     <end-no-later-than>2018-01-02T09:00:00.000Z</end-no-later-than>
   </task>
   <task id="t146">
-    <title>短信验证码</title>
+    <title>短信验证码(点击下载时自动下发给创建人一次)</title>
     <schedule-type>alap</schedule-type>
     <effort>28800</effort>
     <effort-done>28800</effort-done>
@@ -861,6 +863,18 @@
     <effort>14400</effort>
     <start-constraint-date>2018-01-02T00:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2018-01-02T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t162">
+    <title>工单审批人员表管理页面</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-01-03T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-01-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t163">
+    <title>查看</title>
+    <effort>28800</effort>
+    <start-constraint-date>2018-01-05T16:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2018-01-05T16:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="true" resources="true">
     <color r="1" g="0.5" b="0.5"/>

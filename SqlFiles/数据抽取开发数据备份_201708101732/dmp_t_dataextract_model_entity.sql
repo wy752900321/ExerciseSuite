@@ -1,2 +1,0 @@
-INSERT INTO dmp.t_dataextract_model_entity (model_id, entity_id, operating, operating_person, operating_time) VALUES (1, 1, 'insert', '贾东坡', '2017-08-10 16:39:54');
-INSERT INTO dmp.t_dataextract_model_entity (model_id, entity_id, operating, operating_person, operating_time) VALUES (1, 2, 'insert', '贾东坡', '2017-08-10 16:39:54');

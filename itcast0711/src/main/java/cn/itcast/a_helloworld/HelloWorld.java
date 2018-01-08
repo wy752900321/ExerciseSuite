@@ -10,7 +10,7 @@ import org.activiti.engine.task.Task;
 import org.junit.Test;
 
 public class HelloWorld {
-	
+	/**流程引擎（核心对象），默认加载类路径下命名为activiti.cfg.xml*/
 	ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 
 	/**部署流程定义*/

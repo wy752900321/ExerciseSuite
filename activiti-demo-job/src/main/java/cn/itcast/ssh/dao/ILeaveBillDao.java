@@ -1,22 +1,21 @@
 package cn.itcast.ssh.dao;
 
-import java.util.List;
-
 import cn.itcast.ssh.domain.LeaveBill;
 
+import java.util.List;
 
 
 public interface ILeaveBillDao {
 
-	List<LeaveBill> findLeaveBillList();
+    List<LeaveBill> findLeaveBillList();
 
-	void saveLeaveBill(LeaveBill leaveBill);
+    void saveLeaveBill(LeaveBill leaveBill);
 
-	LeaveBill findLeaveBillById(Long id);
+    LeaveBill findLeaveBillById(Long id);
 
-	void updateLeaveBill(LeaveBill leaveBill);
+    void updateLeaveBill(LeaveBill leaveBill);
 
-	void deleteLeaveBillById(Long id);
+    void deleteLeaveBillById(Long id);
 
 
 }

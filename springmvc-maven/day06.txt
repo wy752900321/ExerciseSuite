@@ -1,0 +1,76 @@
+1.Spring框架的整体结构
+   Spring框架主要由6大部分构成.具体如下
+   1)Core模块(IoC容器)
+     该模块是Spring基础,核心.提供了IoC控制反转实现和支持.
+   2)AOP模块
+     该模块提供了AOP面向方面编程的实现和支持.
+   3)DAO模块
+      该模块提供了对JDBC整合的支持,以及事务管理支持.
+   4)ORM模块
+      该模块提供了对ORM框架整合的支持,以及事务管理支持.
+      例如整合Hibernate,JPA等
+   5)Web模块
+      该模块提供了对Web框架整合的支持,例如整合Struts,WebWork等
+  6)JEE模块
+      该模块提供对JavaEE服务的一些支持,例如整合JMS,EJB,Email等
+      
+2.动态代理技术
+   在Spring中,采取两种动态代理技术实现.
+     a.采用JDK提供的API(Proxy)
+        当目标对象如果有接口,采用该方法生成一个代理类型
+        public class 代理类 implements 目标接口{}
+        接口类型 变量 = 代理对象;
+     b.采用Cglib工具包
+         当目标对象没有接口,采用该方法生成一个代理类型
+   		 public class 代理类 extends 目标类型{}
+   		 目标类型 变量 = 代理对象;
+  
+3.Spring的MVC框架    
+   1)Spring框架中主要的MVC实现
+     控制器(C): DispatcherServlet,HandlerMapping,Controller
+     模型(M): ModelAndView, Model,实体类,DAO,Service
+     视图(V): JSP, ViewResolver
+   
+   2)Spring MVC的工作流程
+      a.浏览器发送请求,请求到达DispatcherServlet主控制器
+      b.主控制器调用HandlerMapping(请求处理映射器),
+        根据请求和处理映射信息,找到Controller组件
+      c.主控制器调用Controller组件,执行约定的处理方法.
+         在该方法中可以调用Service,DAO等业务组件.
+      d.执行Controller组件约定的方法后,会返回一个ModelAndView对象
+         该对象包含了响应页面需要的Model数据,和响应页面的视图信息.
+      e.主控制器调用ViewResolver(视图解析器),根据ModelAndView
+         对象信息定位到JSP(视图)组件.并将Model数据传递.
+      f.服务器将JSP视图组件中的标签或表达式解析,生成响应界面
+      g.将响应界面给浏览器输出.
+      
+   3)Spring入门示例实现步骤
+     a.引入spring框架的ioc,aop,webmvc,jstl开发包
+     b.在src下添加spring配置文件applicationContext.xml
+     c.在web.xml中定义DispatcherServlet控制器配置
+     d.根据请求编写LoginController组件,需要实现Controller接口
+     e.在applicationContext.xml中配置LoginController组件
+     f.在applicationContext.xml中配置handlerMapping
+     	和viewResolver组件
+     g.测试
+     --------------采用实体类封装请求表单信息----------------
+     h.将LoginController继承SimpleFormController
+     i.重写的方法修改为onSubmit(req,res,command,errors)
+     j.在LoginController的<bean>定义部分,指定封装类型.
+      <bean id="loginController" class="">
+      	<property name="commandClass" value="tarena.action.User">
+      	</property>
+      </bean>
+4.当当网项目
+
+===========断点调试的使用=============
+1)设置和取消断点
+  a.在代码最左侧灰色条双击设置,再双击取消
+  b.可以点击run-->remove all breakpoints 取消所有断点
+2)采用debug as模式运行程序
+   如果web程序,需要将tomcat服务器设置成debug mode
+3)采用快捷键控制断点处程序的执行
+   F6 : 在当前界面中,执行一行代码.
+   F5 : 在当前行代码如果有方法调用,可以进入该方法.
+   F7:  跳出当前方法返回到上一级.与F5相反
+   F8:  放弃调试,自动执行后续代码

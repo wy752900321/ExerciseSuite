@@ -1,0 +1,43 @@
+技术难点：
+
+
+验证用的技术：插件walda，ajax请求，还有一些js的简单验证
+							ajax怎么发送：可以使用post,get,load,ajax发送
+							为什么用ajxt:局部刷新,只有少量数据用来更新时用ajax
+							有哪些事件：blur失去焦点，onchange是下拉框数值量改变时触发事件，
+													onmouser
+							 验证码是用流传的，在struts2里的配置是用string
+							 <!-- 图片验证码 -->
+								<action name="image" class="org.tarena.dang.action.user.ImageAction">
+									<result name="success" type="stream">
+										<param name="inputName">
+											imageStream
+													</param>
+									</result>
+								</action>
+								<!-- ajax方式验证码校验 -->
+								<action name="validImage" class="org.tarena.dang.action.user.ImageValidAction">
+									<result name="success" type="json">
+										<param name="root">se</param>
+									</result>
+								</action>
+		验证码绑定了用户ID，可以用正则验证是否有ID
+		注册完就不用登陆，在注册时绑定一个状态值，表己登陆。
+		排序方式：要求局部刷新   jQuery与ajax的孮合应用。
+					把里面的数据抽取出来一个jsp   
+					发ajax的load里加action－＞jsp
+					show() hide()显示，隐藏jQuery
+				分页技术：
+					要多少取多少
+					放Sesison里   缓存
+					把所有数据放jsp，要多少显示多少
+		点击购买，按钮应该隐藏几秒
+		购物车：难点Cookie   
+				变更用ajax做，建议用局部刷新   三个数据更新  数量  节省  总计
+	Token在xml中回写之前的action
+	
+	
+	Map session = ActionContext.getContext().getSession();
+	HttpSession session = ServletActionContext.getRequest().getSession(true);
+		
+					

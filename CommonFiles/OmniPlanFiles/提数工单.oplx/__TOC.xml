@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="67" w="1680" h="960">
+  <window x="0" y="70" w="1680" h="957">
     <editing-scenario>jNyhdaYEQY7</editing-scenario>
     <comparison-scenario>moZ4AQT8kjm</comparison-scenario>
     <view>task</view>
@@ -9,15 +9,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>397</split-view-divider-position>
-      <outline x="0" y="0" w="397" h="827">
+      <outline x="0" y="0" w="397" h="824">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="282"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t8"/>
-        <selected-items-at-filter-time idrefs="t59 t80 t138 t152 t145 t81 t18 t117 t131 t82 t103 t146 t153 t19 t139 t83 t132 t125 t111 t147 t84 t77 t78 t119 t140 t133 t85 t126 t112 t155 t79 t86 t127 t134 t141 t7 t120 t156 t149 t60 t8 t113 t142 t128 t135 t61 t121 t114 t20 t150 t129 t136 t143 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
+        <expanded-items idrefs="t63 t8"/>
+        <selected-items-at-filter-time idrefs="t80 t59 t138 t152 t145 t81 t18 t117 t131 t82 t103 t139 t153 t146 t19 t83 t125 t132 t77 t147 t111 t84 t119 t78 t133 t85 t140 t126 t112 t162 t155 t79 t86 t141 t127 t134 t7 t120 t149 t156 t113 t8 t60 t163 t142 t128 t135 t61 t121 t114 t20 t150 t136 t143 t129 t14 t115 t122 t101 t137 t144 t16 t123 t116"/>
       </outline>
-      <gantt-view x="950" y="0" w="951" h="827">
+      <gantt-view x="1312.5" y="0" w="951" h="824">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>162</next-task-id>
+    <next-task-id>164</next-task-id>
     <next-resource-id>5</next-resource-id>
     <scenario id="jNyhdaYEQY7" name="Actual" filename="Actual.xml"/>
     <scenario id="o9xJ2HRzu-e" name="基线 2017/12/19" filename="o9xJ2HRzu-e.xml"/>
