@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="jiadongpo" date="2018-01-06T12:06:08.440Z" timestamp="2018-01-06T12:06:08.440Z">
-    <change idref="t163" to="t63" to-position="4" resolved="yes">
-      <change idref="t163" attribute="" type="string" to=""/>
-      <change idref="t163" attribute="noEarlierThanConstraintDate" type="date" to="2018-01-05T16:00:00.000Z"/>
-      <change idref="t163" attribute="title" type="string" to="查看"/>
-    </change>
-  </task-change-set>
   <task-change-set user="jiadongpo" date="2018-01-08T02:54:34.392Z" timestamp="2018-01-08T02:54:34.392Z">
     <change idref="t146" attribute="title" type="string" from="短信验证码" to="短信验证码(点击下载时自动下发)" resolved="yes"/>
   </task-change-set>
   <task-change-set user="jiadongpo" date="2018-01-08T02:54:53.929Z" timestamp="2018-01-08T02:54:53.929Z">
     <change idref="t146" attribute="title" type="string" from="短信验证码(点击下载时自动下发)" to="短信验证码(点击下载时自动下发给创建人一次)" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="jiadongpo" date="2018-01-09T10:24:22.545Z" timestamp="2018-01-09T10:24:22.545Z">
+    <change idref="t162" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
   </task-change-set>
 </changelog>

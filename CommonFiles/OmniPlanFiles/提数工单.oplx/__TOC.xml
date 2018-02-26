@@ -9,15 +9,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>397</split-view-divider-position>
-      <outline x="0" y="0" w="397" h="824">
+      <outline x="0" y="0" w="397" h="839">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="282"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t63 t8"/>
-        <selected-items-at-filter-time idrefs="t80 t59 t138 t152 t145 t81 t18 t117 t131 t82 t103 t139 t153 t146 t19 t83 t125 t132 t77 t147 t111 t84 t119 t78 t133 t85 t140 t126 t112 t162 t155 t79 t86 t141 t127 t134 t7 t120 t149 t156 t113 t8 t60 t163 t142 t128 t135 t61 t121 t114 t20 t150 t136 t143 t129 t14 t115 t122 t101 t137 t144 t16 t123 t116"/>
+        <selected-items-at-filter-time idrefs="t80 t59 t145 t138 t152 t81 t18 t131 t117 t82 t103 t153 t19 t146 t139 t83 t125 t132 t77 t111 t84 t147 t133 t140 t78 t126 t119 t85 t112 t162 t86 t155 t79 t134 t141 t127 t7 t120 t149 t163 t113 t8 t156 t60 t128 t135 t142 t61 t121 t114 t20 t143 t136 t129 t150 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
       </outline>
-      <gantt-view x="1312.5" y="0" w="951" h="824">
+      <gantt-view x="1312.5" y="0" w="981" h="839">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
