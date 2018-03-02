@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传</title>
+    <style type="text/css">
+        @import url("//unpkg.com/iview/dist/styles/iview.css");
+
+        #app {
+            padding: 32px;
+        }
+    </style>
+    <!--<link href="main.css" rel="stylesheet" style="text/css"/>-->
+
+    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="//unpkg.com/iview/dist/iview.min.js"></script>
+    <script src="vue.js"></script>
+    <script>
+        var Main = {}
+
+        var Component = Vue.extend(Main)
+        new Component().$mount('#app')
+    </script>
+</head>
+<body>
+
+<div id="app">
+    <upload action="//jsonplaceholder.typicode.com/posts/">
+        <i-button type="ghost" icon="ios-cloud-upload-outline">Upload files</i-button>
+    </upload>
+</div>
+
+</body>
+</html>

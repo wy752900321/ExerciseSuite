@@ -9,6 +9,7 @@ import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.history.HistoricVariableInstance;
 import org.activiti.engine.repository.Deployment;
+import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.junit.Test;
 
@@ -141,5 +142,33 @@ ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 				System.out.println("###############################################");
 			}
 		}
+	}
+	// 查询流程定义
+	@Test
+	public void findProcessDifinitionList() {
+		List<ProcessDefinition> list = processEngine.getRepositoryService()
+				.createProcessDefinitionQuery()
+				// 查询条件
+//                .processDefinitionKey("DataExtractProcess")// 按照流程定义的key
+				.processDefinitionId("DataextractProcess:2:77504")//按照流程定义的ID
+				.orderByProcessDefinitionVersion().desc()// 排序
+				// 返回结果
+				// .singleResult()//返回惟一结果集
+				// .count()//返回结果集数量
+				// .listPage(firstResult, maxResults)
+				.list();// 多个结果集
+
+		if (list != null && list.size() > 0) {
+			for (ProcessDefinition pd : list) {
+				System.out.println("流程定义的ID：" + pd.getId());
+				System.out.println("流程定义的名称：" + pd.getName());
+				System.out.println("流程定义的Key：" + pd.getKey());
+				System.out.println("流程定义的部署ID：" + pd.getDeploymentId());
+				System.out.println("流程定义的资源名称：" + pd.getResourceName());
+				System.out.println("流程定义的版本：" + pd.getVersion());
+				System.out.println("########################################################");
+			}
+		}
+
 	}
 }

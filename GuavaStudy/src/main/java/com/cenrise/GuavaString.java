@@ -2,28 +2,29 @@ package com.cenrise;
 
 import com.google.common.base.CharMatcher;
 import com.google.common.base.Joiner;
+import com.google.common.base.Optional;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.junit.Test;
-//import org.springframework.util.StringUtils;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * Created by liushanping on 2017/5/31.
- */
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Strings.emptyToNull;
+
+//import org.springframework.util.StringUtils;
+
 public class GuavaString {
     public static void main(String[] args) {
         //Harry, null, Ron, Hermione
         List<String> strList = Lists.newArrayList("Harry", null, "Ron", "Hermione");
-        List<Student> studentList = Lists.newArrayList(new Student("lsp",3,34),new Student("",2,3));
-        Map<String,Object> map = Maps.newTreeMap();
+        List<Student> studentList = Lists.newArrayList(new Student("lsp", 3, 34), new Student("", 2, 3));
+        Map<String, Object> map = Maps.newTreeMap();
         Joiner joiner = Joiner.on(";").skipNulls();
         String str1 = joiner.join(strList);
         System.out.println(str1);
@@ -40,6 +41,8 @@ public class GuavaString {
 //        String str3 = joiner3.join(map);
 //        System.out.println(str3);
 //        System.out.println(map.toString());
+
+
 
     }
 
@@ -108,7 +111,7 @@ public class GuavaString {
 
         ExecutorService executorService = Executors.newCachedThreadPool();
 
-        for (int i = 0 ;i <10;i++) {
+        for (int i = 0; i < 10; i++) {
             executorService.execute(new Runnable() {
                 @Override
                 public void run() {

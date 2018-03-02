@@ -1,8 +1,5 @@
 package com.cenrise;
 
-/**
- * Created by liushanping on 2017/6/1.
- */
 public class Student {
     private String name;
     private int age;

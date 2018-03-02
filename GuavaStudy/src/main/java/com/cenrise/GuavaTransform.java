@@ -10,9 +10,6 @@ import java.util.List;
 
 import static com.google.common.collect.Lists.transform;
 
-/**
- * Created by liushanping on 2017/6/1.
- */
 public class GuavaTransform {
 
     @Test
@@ -60,8 +57,6 @@ public class GuavaTransform {
         List<Student> studentList1 = ordering.reverse().sortedCopy(studentList);
         System.out.println(studentList1);
     }
-
-
 
 
 }

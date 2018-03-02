@@ -17,3 +17,12 @@ bin
 release
 
 .DS_Store
+DataStructuresAndAlgorithms/src/main/java/com/cenrise/datastructures/
+DataStructuresAndAlgorithms/src/test/resources/
+GetXMLData/src/test/java/org/
+JqueryStudy/src/main/webapp/ulli/
+activiti-demo-LeaveProject/src/test/
+activiti-demo-job-img/src/main/java/
+activiti-demo-job-img/src/test/
+itcast0711/src/test/resources/
+springmvc/.myeclipse/
