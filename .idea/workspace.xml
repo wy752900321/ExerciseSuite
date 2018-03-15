@@ -1,878 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="流程相关操作">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter5/aaa.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter5/candidateUserInUserTask.bpmn-only-bpmn.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter5/userAndGroupInUserTask-with-bpmn-and-png.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter6/dynamic-form/leave-dynamic-form-with-javascript.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter6/dynamic-form/leave-dynamic-form.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter6/leave-formkey/leave-formkey.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter7/leave.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter8/leave-mail-timeout.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter8/leave-mail.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-in-action-codes-master/chapter14-management/src/main/resources/chapter9/leave-countersign.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/lib/commons-fileupload-1.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/lib/freemarker-2.3.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/lib/jsf-impl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/WEB-INF/lib/xwork-core-2.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/07dq/dq.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/Movie_channel/press_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/Movie_channel/press_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/b_3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/b_4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/bg_book.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/bg_grad.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/book_dangdang.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/book_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/button_s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/cha.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/dashed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/ddb_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/ddb_2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/h_b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/jianbian1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/n_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/n_point.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r1a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r2a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r3anew.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/r-r3new.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/s1_TOp.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/s_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/s_r.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/sanjiao.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/search_kuang.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/shang.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/t_t_first.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/t_t_first2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/t_t_jianbian.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/t_t_jianbian2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/xuxian.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/booksaleimg/xuxian_x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bottom/bj_blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bottom/bj_gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bottom/bj_red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/bottom/validate.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/ancz081216_button05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/book_banner_081203.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/button01_080527_book.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/button_wl090113_book.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/dqd_yf081226_e_2..jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/lax081212_46724_208x104.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/lax081229_49063_208x104(1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/lax090105_48634_500x130.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/lzh398.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/lzh404.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/ncz081223_button03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default/newimages/book/zh_090114ss_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/CART_BG1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/ddfyb_3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/ddfyb_4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/topsearchbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/default08temp/xuxian_x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/final_star/icon_star.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/final_star/line_x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/final_star/star_frame_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/final_star/star_t_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/homeimg/foot_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/homeimg/foot_line.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/homeimg/foot_point.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/music_channel/back_window.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/newimages/tjym/tm_default_04.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/promotion/icon_present.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/dang_r_bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/dang_r_bottom_gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/dang_r_top_c.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/dang_r_top_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/dang_r_top_r.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/right_h2_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/page_top_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/tag_bang1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/tag_bang2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/shoppingtop/tag_tj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activation-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-bpmn-converter-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-bpmn-layout-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-bpmn-model-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-common-rest-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-engine-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-json-converter-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-rest-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-simple-workflow-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/activiti-spring-5.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-dbcp-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-email-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-fileupload-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-io-2.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-lang-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/commons-pool-1.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/h2-1.3.170.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/jackson-core-asl-1.9.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/jackson-mapper-asl-1.9.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/javaGeom-0.11.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/jcl-over-slf4j-1.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/jgraphx-1.10.4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/joda-time-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/mail-1.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/mybatis-3.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/mysql-connector-java-5.1.10-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/org.restlet-2.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/org.restlet.ext.fileupload-2.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/org.restlet.ext.jackson-2.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/org.restlet.ext.servlet-2.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/slf4j-api-1.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/slf4j-log4j12-1.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-aop-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-asm-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-beans-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-context-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-core-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-expression-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-jdbc-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-orm-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0711/lib/spring-tx-3.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/Employee.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/domain/LeaveBill.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/utils/LoginInteceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/utils/ManagerTaskHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/utils/SessionContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/classes/cn/itcast/ssh/utils/ValueContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/activiti-spring-5.13-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/antlr-2.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/asm-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/asm-commons-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/asm-tree-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/backport-util-concurrent.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/cglib-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.javax.annotation-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.apache.commons.beanutils-1.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.5.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.aspectj.tools-1.6.6.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/com.springsource.org.junit-4.7.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-collections-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-io-2.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-lang-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-lang3-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/ehcache-1.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/freemarker-2.3.19.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/hibernate-annotations.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/hibernate3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/javassist-3.9.0.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/jcommon-1.0.16.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/jstl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/jta-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/ognl-3.0.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.aop-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.asm-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.aspects-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.beans-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.context-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.core-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.expression-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.jdbc-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.orm-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.transaction-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/org.springframework.web-3.0.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/slf4j-api-1.5.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/slf4j-log4j12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/standard.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/struts2-core-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast0820Project/WebRoot/WEB-INF/lib/xwork-core-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/Test01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/iview-upload/iview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/iview-upload/iview.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/iview-upload/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/iview-upload/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebstormProjects/Test/iview-upload/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-job/src/test/java/cn/itcast/test/ActProcessServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-job/src/test/java/cn/itcast/test/ActTaskServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activiti-demo-job/src/test/resources/activiti.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/css/research.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/WebRoot/images/research/js/research.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/main/NewProductAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/order/OrderAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/order/SubmitAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/order/token.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/ExitAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/ImageAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/RegisterAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/ValidEmailAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/ValidNickNameAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/action/user/VerifyEmailAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/entity/Category.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/entity/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/entity/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/interceptor/CheckUserLoginInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/interceptor/TransactionInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/service/CartItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/service/CartService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/service/impl/CartServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dangdangme2BEST_struts2_0612/src/org/tarena/dang/service/impl/UserServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/lib/ojdbc6-11.2.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/DBStudy/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/service/CheckAccount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/util/Context.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/util/DBUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/util/DBUtil132.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/java/com/cenrise/util/DBUtil164.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/resources/checkaccountlist.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/resources/dbcp.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/resources/dbcp132.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/resources/dbcp164.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/main/resources/dbcp2.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/src/test/java/com/cenrise/DBStudy/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/DBStudy-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/META-INF/maven/com.cenrise/DBStudy/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/META-INF/maven/com.cenrise/DBStudy/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/checkaccountlist.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/DBStudy/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/service/CheckAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/util/Context.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/util/DBUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/util/DBUtil132.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/com/cenrise/util/DBUtil164.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/dbcp.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/dbcp132.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/dbcp164.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/classes/dbcp2.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/surefire-reports/TEST-com.cenrise.DBStudy.AppTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/surefire-reports/com.cenrise.DBStudy.AppTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBStudy/target/test-classes/com/cenrise/DBStudy/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_14_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/JMS_2ed_ActiveMQStudy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/src/main/java/com/cenrise/action/Receiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/src/main/java/com/cenrise/action/Sender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_ActiveMQStudy/src/main/main4.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_14_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/JMS_2ed_ActiveMQStudy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch02/Chat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch04/MetaData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch04/QBorrower.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch04/QLender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch05/TBorrower.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch05/TLender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch07/JMSBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch07/JMSReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch07/JMSReceiverTransacted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch07/JMSSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch07/JMSSenderTransacted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch11/QBorrower.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch11/QLender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/java/ch11/QRouter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/main5.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/resources/jndi.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_non_spring/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_14_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/JMS_2ed_ActiveMQStudy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/client/JMSQueueBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/client/JMSSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/client/JMSSenderApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/client/JMSSenderConvert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/client/JMSSenderReply.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/common/CustData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/common/Trade2Data.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/common/TradeData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/BootstrapServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/JMSReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/JMSReceiverAsync1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/JMSReceiverAsync2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/JMSReceiverPOJO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/java/com/jms/server/JMSReceiverSync.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/resources/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/resources/jndi.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/resources/spring-aop-2.0.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_activemq/src/main/resources/spring-beans-2.0.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_14_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/ActiveMQStudy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/JMS_2ed_ActiveMQStudy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/client/JMSQueueBrowser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/client/JMSSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/client/JMSSenderApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/client/JMSSenderConvert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/client/JMSSenderReply.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/common/TradeData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/BootstrapServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/JMSReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/JMSReceiverAsync1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/JMSReceiverAsync2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/JMSReceiverPOJO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/java/com/jms/server/JMSReceiverSync.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/main3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/jndi.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/mule-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/spring-aop-2.0.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JMS_2ed_spring_wmq/src/main/resources/spring-beans-2.0.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/create_sakila_accounts.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/fetch_address.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_actor.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_customer.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_date.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_film.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_staff.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_dim_time.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_fact_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/load_rentals.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila-db.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila-db.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila-dwh.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila-dwh.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila-rental-star.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch04/sakila.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/CDC_Customers.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/CDC_Timestamp_End.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/CDC_Timestamp_Init.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/SAP Input Example.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/custfile1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/custfile2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch06/ch6files/sakila_custdiff.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/CalculatorReplace.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/DeDuplicate.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/FileAge.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/FileAgeFormula.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/FileAgeNoJS.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/GenderLookupConstant.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/GenderLookupMapping.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/LookupPostalCode.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/MatchCalculator.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/MozillaExamples.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/ReadCustomers.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/RegexSample.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/ReplaceInString.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/SimpleFormula.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/SimpleValidation.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/SwitchCase.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/TransformFailed.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/ValidateAndCleanse.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch07/ch7files/ValidateList.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/closure.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/create_sakila_snowflake_accounts.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/load_dim_location.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/load_dim_location_address.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/load_dim_location_city.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/load_dim_location_country.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/sakila-rental-address-snowflake.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/sakila-rental-snowflake.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/sakila_snowflake.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/sakila_snowflake_schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/snowflake_schema.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/test_sequence1.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/test_sequence2-1.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/test_sequence2-2.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch08/test_sequence2.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch09/ch9files/jb_late_arriving_custs.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch09/ch9files/late_arriving_cust_init.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch09/ch9files/late_arriving_facts.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch09/ch9files/late_arriving_unknow_custs.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/MSASOutput.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/MSAS_Example.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/Mondrian_Example.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/PaloCellsOutput.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/PaloInput.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch10/ch10files/prerow.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch11/ch11files/AnalyzerDemo.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch11/ch11files/GetMeta.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch11/ch11files/Mockup_MainJob.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch11/ch11files/SniffTest.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch11/ch11files/table_params.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch14/db-impact.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch14/extract-transformation-metadata.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/Load Hubs.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/Load Links.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/Load Satellites.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/Load date time.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/Load dimensions facts.kjb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/create_sakila_dv_account.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_actor.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_customer.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_date.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_film.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_film_actor_bridge.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_staff.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/dim_time.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/fact_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_actor.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_category.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_customer.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_film.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_inventory.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_payment.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_staff.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/hub_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_customer_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_film_actor.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_film_category.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_inventory.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_payment.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_payment_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_staff_worksin_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/link_store_manager.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sakila-data-vault.architect" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sakila_data_vault_schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_actor.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_customer.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_film.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_payment.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_rental.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_staff.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch19/ch19files/sat_store.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch20/imdb-laserdisc.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch20/imdb-movies.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch20/sakila-normalize-repeating-groups.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/GetCountryListHTTP.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/GetCountryListSOAP.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/RSS.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/RSSOutputStandard.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/export_xml_from_db.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/freebase-films.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/import_xml_into_db.ktr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/videos.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch21/videos.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/ChangeDatabaseInTrans.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/CsvFileReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/DynamicJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/ExecuteJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/ExecuteTrans.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/InjectDataIntoTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/ParameterTrans.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/PassDataToTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch22/src/example/ch22/ReadFromStep.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/database/mysql51db/MySQL51DatabaseMeta.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/database/mysql51db/mysql51_jndi.xul" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/database/mysql51db/mysql51_native.xul" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/jobentry/helloworld/HelloworldJobEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/jobentry/helloworld/HelloworldJobEntryDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/jobentry/helloworld/messages/messages_en_US.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/HourPartitioner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/HourPartitionerDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/messages/.directory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/messages/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/messages/.svn/props/messages_en_US.properties.svn-work" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/messages/.svn/text-base/messages_en_US.properties.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/partitioner/hour/messages/messages_en_US.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/HelloWorld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/HelloworldStep.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/HelloworldStepData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/HelloworldStepDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/HelloworldStepMeta.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/helloworld/messages/messages_en_US.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/jsoninput/JsonInput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/jsoninput/JsonInputData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/jsoninput/JsonInputDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/635179_code_ch23/src/org/kettlesolutions/plugin/step/jsoninput/JsonInputMeta.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pentaho Kettle Solutions/ISBN 978-0-470-63517-9 ReadMe.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/android-chrome-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/android-chrome-512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/css/material-icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/dist/exceljson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/dist/exceljson.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/dist/google-analytics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/material-fonts.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/images/exceljson.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/FileAPI.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/d3.v4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/filereader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/jquery-1.12.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/jquery-3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/js/vue.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/logo/exceljson.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/logo/exceljson.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/logo/icon-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/logo/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/safari-pinned-tab.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/styles.scss/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/styles.scss/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/styles.scss/_general.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/styles.scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exceljson-master/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/css/material-icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/dist/exceljson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/dist/exceljson.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsontocsv/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_work/hello_world.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/html2canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jquery.base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/jspdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/libs/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/jspdf/libs/sprintf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/tableExport.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/tableExport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableExport.jquery.plugin-master/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/entity/EntityContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/entity/ExamInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/entity/Question.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/entity/QuestionInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/service/ExamService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/service/ExamServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/service/IdOrPwdException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/ExamFrameTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/LoginFrameTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/MVCDemo$ExamServiceDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/MVCDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/test/MenuFrameTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ClientContext$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ClientContext$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ClientContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame$Option.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/ExamFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/LoginFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/LoginFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/LoginFrame$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/LoginFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/MenuFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/WelcomeWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/exam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/exam_title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/exit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/ui/welcome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/bin/com/tarena/elts/util/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/client.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/corejava.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/sql.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/entity/EntityContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/entity/ExamInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/entity/Question.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/entity/QuestionInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/entity/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/service/ExamService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/service/ExamServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/service/IdOrPwdException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/test/ExamFrameTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/test/LoginFrameTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/test/MVCDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/test/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/test/MenuFrameTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/ClientContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/ExamFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/LoginFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/MenuFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/WelcomeWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/exam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/exam_title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/exit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/ui/welcome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/src/com/tarena/elts/util/Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/tts_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tts_test/user.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.mymetadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/org.eclipse.wst.common.component" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/ActionSupport/RegisterActionSupport-validation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/ActionSupport/RegisterActionSupport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/HelloWorldAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/register/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/register/registerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/cn/com/webwork/registerModel/registerActionModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/validators.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/classes/xwork.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/commons-fileupload.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/commons-logging.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/cos-multipart.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/libraries.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/mail.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/ognl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/oscore.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/pell-multipart.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/velocity-dep.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/webwork-2.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/lib/xwork.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/geetings.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/register.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/registerSupport.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/register_result.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/register_resultmodel.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebContent/registermodel.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/WebRoot/WEB-INF/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/ActionSupport/RegisterActionSupport-validation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/ActionSupport/RegisterActionSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/HelloWorldAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/register/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/register/registerAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/cn/com/webwork/registerModel/registerActionModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/validators.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/src/xwork.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webworktest/webworktest.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonFiles/2018年计划.xmind" afterPath="$PROJECT_DIR$/CommonFiles/2018年计划.xmind" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill.png" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill2.png" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="64770eb1-c90c-4a61-a74d-7e233d2a34c1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/surefire-reports/TEST-com.cenrise.AppTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/surefire-reports/com.cenrise.AppTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/test-classes/dbcp.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GetXMLData/target/test-classes/dbcp_dppro.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaCollection.java" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaCollection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaString.java" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaTransform.java" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/GuavaTransform.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/Student.java" afterPath="$PROJECT_DIR$/GuavaStudy/src/main/java/com/cenrise/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/java/cn/itcast/ssh/web/form/WorkflowBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.bpmn" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/resources/diagrams/DataExtractProcess.bpmn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill.bpmn" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill.bpmn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill2.bpmn" afterPath="$PROJECT_DIR$/activiti-demo-job/src/main/webapp/bpmn/leaveBill2.bpmn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/d_processVariables/ProcessVariablesTest.java" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/d_processVariables/ProcessVariablesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" afterPath="$PROJECT_DIR$/itcast0711/src/main/java/cn/itcast/h_parallelGateWay/parallelGateWay.bpmn" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -897,115 +37,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BigtextFormType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter10/form/BigtextFormType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/dao/LeaveDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateTaskListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/listener/CreateTaskListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessDiagramCanvas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/org/activiti/engine/impl/bpmn/diagram/ProcessDiagramCanvas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activiti.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/test/resources/activiti.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivitiUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter8-mail/src/main/java/me/kafeitu/activiti/chapter5/util/ActivitiUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetMailInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter8-mail/src/main/java/me/kafeitu/activiti/chapter8/SetMailInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="289">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AzkabanUtilLocal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AzkabanUtilLocal.class" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GetXMLData/target/test-classes/com/cenrise/azkaban/AzkabanUtilLocal.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#28067#0" expanded="true" />
-                <marker date="1514253215853" expanded="true" signature="1549:1697" ph="SELECT id, n... projects" />
-                <marker date="1514253215853" expanded="true" signature="3584:3696" ph="INSERT INTO debug_azkaban_edge... " />
-                <marker date="1514253215853" expanded="true" signature="18137:18278" ph="SELECT id, n... projects" />
-                <marker date="1514253215853" expanded="true" signature="18906:19050" ph="SELECT proje... project_properties" />
-                <marker date="1514253215853" expanded="true" signature="20212:20395" ph="SELECT proje... project_properties" />
-                <marker date="1514253215853" expanded="true" signature="21423:21562" ph="SELECT proje... project_flows" />
-                <marker date="1514253215853" expanded="true" signature="22108:22292" ph="SELECT proje... project_flows" />
-                <marker date="1514253215853" expanded="true" signature="23771:23977" ph="SELECT proje... " />
-                <marker date="1514253215853" expanded="true" signature="25709:25867" ph="SELECT proje... project_versions" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1040,6 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/itcast0711/src/main/resources/activiti.cfg.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GetXMLData/target/test-classes/com/cenrise/azkaban/AzkabanUtilLocal.class" />
+        <option value="$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java" />
       </list>
     </option>
   </component>
@@ -1072,7 +111,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="955" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1192,6 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1199,18 +241,10 @@
               <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ExerciseSuite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExerciseSuite" type="462c0819:PsiDirectoryNode" />
-              <item name="GetXMLData" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1722,7 +756,11 @@
       <workItem from="1519639478888" duration="214000" />
       <workItem from="1519724181548" duration="68000" />
       <workItem from="1519899285419" duration="76000" />
-      <workItem from="1519981647889" duration="343000" />
+      <workItem from="1519981647889" duration="1048000" />
+      <workItem from="1519983421220" duration="858000" />
+      <workItem from="1520911331424" duration="609000" />
+      <workItem from="1520933445668" duration="1297000" />
+      <workItem from="1521082469480" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="最短路径">
       <created>1510303656942</created>
@@ -1906,14 +944,28 @@
       <option name="project" value="LOCAL" />
       <updated>1519639691386</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="流程相关操作">
+      <created>1519982092179</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1519982092188</updated>
+    </task>
+    <task id="LOCAL-00028" summary="添加思维导图内容">
+      <created>1521082545626</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1521082545626</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12475000" />
+    <option name="totallyTimeSpent" value="16107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="962" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="957" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1922,13 +974,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32265717" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42362767" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44688645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46886447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1980,21 +1032,31 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448733" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42362767" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41575092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46886447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2018,9 +1080,10 @@
     <MESSAGE value="调整工单工时" />
     <MESSAGE value="清空一个流程相关的信息" />
     <MESSAGE value="maven 版的activiti可用。" />
-    <MESSAGE value="流程相关操作" />
     <MESSAGE value="2018年计划" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年计划" />
+    <MESSAGE value="流程相关操作" />
+    <MESSAGE value="添加思维导图内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加思维导图内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2031,13 +1094,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/test/java/com/cenrise/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/src/main/java/com/cenrise/algorithms/graph/NonDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -2117,13 +1173,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pentaho Kettle Solutions/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pentaho Kettle Solutions/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Zdangdangme2Trouble/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Zdangdangme2BEST_struts2_0612/.gitignore" />
     <entry file="file://$PROJECT_DIR$/itcast0820Project/.gitignore">
@@ -2207,49 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter10/form/BigtextFormType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/dao/LeaveDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/listener/CreateTaskListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/org/activiti/engine/impl/bpmn/diagram/ProcessDiagramCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/test/resources/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2269,38 +1276,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GetXMLData/target/test-classes/com/cenrise/azkaban/AzkabanUtilLocal.class" />
     <entry file="file://$PROJECT_DIR$/GetXMLData/src/test/java/com/cenrise/azkaban/AzkabanUtilLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GetXMLData/target/test-classes/com/cenrise/azkaban/AzkabanUtilLocal.class">
+    <entry file="file://$PROJECT_DIR$/CommonFiles/SQL/emp_dept.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#28067#0" expanded="true" />
-            <marker date="1514253215853" expanded="true" signature="1549:1697" ph="SELECT id, n... projects" />
-            <marker date="1514253215853" expanded="true" signature="3584:3696" ph="INSERT INTO debug_azkaban_edge... " />
-            <marker date="1514253215853" expanded="true" signature="18137:18278" ph="SELECT id, n... projects" />
-            <marker date="1514253215853" expanded="true" signature="18906:19050" ph="SELECT proje... project_properties" />
-            <marker date="1514253215853" expanded="true" signature="20212:20395" ph="SELECT proje... project_properties" />
-            <marker date="1514253215853" expanded="true" signature="21423:21562" ph="SELECT proje... project_flows" />
-            <marker date="1514253215853" expanded="true" signature="22108:22292" ph="SELECT proje... project_flows" />
-            <marker date="1514253215853" expanded="true" signature="23771:23977" ph="SELECT proje... " />
-            <marker date="1514253215853" expanded="true" signature="25709:25867" ph="SELECT proje... project_versions" />
-          </folding>
+        <state relative-caret-position="2686">
+          <caret line="142" column="24" lean-forward="false" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/org/activiti/engine/impl/bpmn/diagram/ProcessDiagramCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/listener/CreateTaskListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter7/dao/LeaveDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/main/java/me/kafeitu/activiti/chapter10/form/BigtextFormType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activiti-in-action-codes-master/chapter12-task-attachment/src/test/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
