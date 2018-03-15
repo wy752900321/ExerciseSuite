@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个测试</title>
+</head>
+<body>
+<div id="app">
+    <button v-if="showBtn" v-on:click="handleClick">Click me</button>
+</div>
+</body>
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            showBtn: true
+        }, methods: {
+            handleClick: function () {
+                console.log("Clicked");
+            }
+        }
+    });
+
+</script>
+</html>
