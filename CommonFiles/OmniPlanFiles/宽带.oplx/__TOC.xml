@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="0" y="70" w="1680" h="957">
-    <editing-scenario>jNyhdaYEQY7</editing-scenario>
-    <comparison-scenario>moZ4AQT8kjm</comparison-scenario>
+    <editing-scenario>mRWy3C2mdcy</editing-scenario>
     <view>task</view>
-    <overview/>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>397</split-view-divider-position>
-      <outline x="0" y="0" w="397" h="840">
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="306" h="859">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="282"/>
+        <column name="Title" width="191"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t63 t8"/>
-        <selected-items-at-filter-time idrefs="t80 t59 t152 t138 t145 t81 t18 t131 t117 t82 t103 t139 t146 t153 t19 t83 t125 t132 t77 t84 t147 t111 t119 t78 t85 t126 t133 t140 t112 t155 t86 t162 t79 t134 t141 t127 t7 t120 t163 t113 t60 t8 t156 t149 t128 t142 t135 t61 t114 t121 t20 t143 t136 t150 t129 t14 t122 t115 t101 t144 t137 t16 t116 t123"/>
+        <expanded-items idrefs="t3 t2 t1"/>
+        <selected-items-at-filter-time idrefs="t18 t8 t4 t22 t16 t5 t19 t20 t14 t6 t23 t17 t2 t7 t21 t15 t3"/>
       </outline>
-      <gantt-view x="1476.5" y="0" w="981" h="840">
+      <gantt-view x="-29" y="0" w="1042" h="859">
         <view-mode>actual</view-mode>
-        <critical-path/>
         <dependency-lines/>
         <constraints/>
         <show-project-end/>
@@ -50,7 +47,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="492.18">
+        <scale scale-name="Automatic" full-day-width="300">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -65,14 +62,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="291" h="803">
+      <outline x="0" y="0" w="306" h="874">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="150"/>
+        <column name="Resource" width="157"/>
         <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r3"/>
+        <selected-items-at-filter-time idrefs="r3 r2"/>
       </outline>
-      <timeline x="0" y="0" w="1014" h="803">
+      <timeline x="-111" y="0" w="1044" h="874">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -116,10 +113,10 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="779">
+      <outline x="0" y="0" w="290" h="850">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="160"/>
+        <column name="Resource" width="175"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -139,16 +136,13 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>164</next-task-id>
-    <next-resource-id>5</next-resource-id>
-    <scenario id="jNyhdaYEQY7" name="Actual" filename="Actual.xml"/>
-    <scenario id="o9xJ2HRzu-e" name="基线 2017/12/19" filename="o9xJ2HRzu-e.xml"/>
-    <scenario id="bMAum5ApjTf" name="基线 2017/12/22" filename="bMAum5ApjTf.xml"/>
-    <scenario id="moZ4AQT8kjm" name="基线 2017/12/20" filename="moZ4AQT8kjm.xml"/>
-    <date-display dates="true" times="false" seconds="false"/>
+    <next-task-id>24</next-task-id>
+    <next-resource-id>4</next-resource-id>
+    <scenario id="mRWy3C2mdcy" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
-    <currency-format>¥1,234.56</currency-format>
+    <currency-format>CN¥1,234.56</currency-format>
     <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
     <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
     <base-style>
@@ -180,10 +174,7 @@ End:</group-table-style>
       <style/>
     </completed-task-style>
     <group-task-style>
-      <style>
-        <value key="font-name">HelveticaNeue-Medium</value>
-        <value key="font-weight">6</value>
-      </style>
+      <style/>
     </group-task-style>
     <milestone-task-style>
       <style/>
@@ -198,14 +189,7 @@ End:</group-table-style>
         </value>
       </style>
     </not-editable-style>
-    <task-user-data-keys>
-      <user-data>
-        <key/>
-        <null/>
-      </user-data>
-    </task-user-data-keys>
-    <publish-on-save/>
-    <subscribe-refresh>60</subscribe-refresh>
+    <subscribe-refresh>0</subscribe-refresh>
     <leveling>
       <constrains-completion-date/>
     </leveling>
