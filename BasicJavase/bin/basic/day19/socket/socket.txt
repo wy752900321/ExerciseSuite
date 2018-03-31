@@ -1,6 +1,0 @@
-DNS散列表，一次查出IP
-域名映射成IP
-端口号：socket poat，
-命令：telnet localhost 端口号   指连到这个端口的服务器
-	telnet 127.0.0.1 8000		 和上边一样
-	
